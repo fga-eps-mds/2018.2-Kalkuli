@@ -12,7 +12,13 @@ body { /* base */
   position: fixed;
   width: 200px;
   height: 100%;
-  background: #3f3f3f
+  background: #3f3f3f;
+  left: -200px;
+  transition: all .5s;
+}
+
+#sidebar.active {
+  left: 0;
 }
 
 #sidebar ul li {
