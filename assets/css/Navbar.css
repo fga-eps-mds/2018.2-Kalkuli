@@ -10,10 +10,10 @@ body { /* base */
 
 #sidebar {
   position: fixed;
-  width: 200px;
+  width: 300px;
   height: 100%;
-  background: #3f3f3f;
-  left: -200px;
+  background: #3f3f3fa1;
+  left: -300px;
   transition: all .5s;
 }
 
@@ -23,18 +23,23 @@ body { /* base */
 
 #sidebar ul li {
   list-style: none;
-  padding: 15px 10px;
+  padding: 15px 10px 10px 20px;
   border-bottom: 1px solid rgba(49, 49, 49, 0.418);
+}
+#sidebar ul li a:hover {
+  color: white;
 }
 
 #sidebar ul li a {
-  color: #eee;
+  font-size: 1.5rem;
+  color: #ccc;
   text-decoration: none;
 }
 
 #sidebar .toggle-btn {
   position: absolute;
-  left: 230px;
+  cursor: pointer;
+  left: 330px;
   top: 20px;
 }
 
