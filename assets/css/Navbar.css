@@ -1,14 +1,41 @@
 body { /* base */
   height: 150vh;
+  background-color: #CCC;
 }
 
-.u-positioning { /* utils */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar {
   position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #3f3f3f
 }
 
-.navbar {
-  width: 5rem;
-  height: 5rem;
-  background-color: rgb(131, 131, 131);
-  border-radius: 3rem;
+#sidebar ul li {
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(49, 49, 49, 0.418);
+}
+
+#sidebar ul li a {
+  color: #eee;
+  text-decoration: none;
+}
+
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 230px;
+  top: 20px;
+}
+
+#sidebar .toggle-btn span {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  margin: 5px 0px;
 }
