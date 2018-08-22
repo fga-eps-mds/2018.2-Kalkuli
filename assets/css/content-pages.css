@@ -1,3 +1,14 @@
 .button {
-    width: 5em;
+    width: 3em;
+    border: 1px solid black;
+}
+
+.button-content {
+    margin: auto;
+    text-align: center;
+}
+
+.button-name {
+    margin: 0;
+    padding: 0;
 }
