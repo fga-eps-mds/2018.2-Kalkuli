@@ -1,13 +1,3 @@
-body { /* base */
-  height: 150vh;
-  background-color: #CCC;
-}
-
-* { /* reset */
-  margin: 0;
-  padding: 0;
-}
-
 #sidebar {
   position: fixed;
   width: 300px;

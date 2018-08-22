@@ -1,0 +1,9 @@
+body { 
+  height: 100vh;
+  background-color: #CCC;
+}
+
+* { 
+  margin: 0;
+  padding: 0;
+}
