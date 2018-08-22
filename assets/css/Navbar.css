@@ -3,7 +3,7 @@ body { /* base */
   background-color: #CCC;
 }
 
-* {
+* { /* reset */
   margin: 0;
   padding: 0;
 }
