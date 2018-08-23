@@ -1,7 +1,7 @@
 function openContent(evt, docName) {
     var i, tabContent, tabLinks;
 
-    tabContent = document.getElementsByClassName("tabcontent");
+    tabContent = document.getElementsByClassName("tab-content");
     for (i = 0; i < tabContent.length; i++) {
         tabContent[i].style.display = "none";
     }
