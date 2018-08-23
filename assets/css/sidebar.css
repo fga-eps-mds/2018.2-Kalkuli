@@ -40,3 +40,10 @@
   background-color: white;
   margin: 5px 0px;
 }
+
+#background-shadow.active {
+  background-color: rgba(0, 0, 0, .4);
+  height: 100vh;
+  margin-left: 300px;
+  transition: all .5s;
+}
