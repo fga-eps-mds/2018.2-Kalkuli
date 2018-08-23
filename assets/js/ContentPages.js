@@ -14,3 +14,9 @@ function openContent(evt, docName) {
     document.getElementById(docName).style.display = "block";
     evt.currentTarget.className += "active";
 }
+
+var button = document.querySelector(".button");
+
+button.addEventListener("click", function(){
+    window.location = "#";
+})

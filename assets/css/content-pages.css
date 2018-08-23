@@ -1,5 +1,6 @@
 .button {
     width: 3em;
+    margin: 1em;
 }
 
 .button-content {
@@ -14,6 +15,10 @@
     font-size: 1.5em
 }
 
+.buttons-area {
+    display: flex;
+    justify-content: center;
+}
 .tabs {
     overflow: hidden;
     border: 1px solid #ccc;
@@ -62,4 +67,8 @@
     border: 1px solid #ccc;
     border-top: none;
     animation: fadeEffect 1s;
+}
+
+button:active {
+    background-color: yellow;
 }
