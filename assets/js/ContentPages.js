@@ -1,3 +1,8 @@
+var fullPath = window.location.pathname; 
+var whatPage = fullPath.split("/").pop();
+fileName = whatPage.split(".")[0];
+console.log(fileName);
+
 function openContent(evt, docName) {
     var i, tabContent, tabLinks;
 
@@ -15,13 +20,16 @@ function openContent(evt, docName) {
     evt.currentTarget.className += "active";
 }
 
-function changeColor(endereco, id){
-    id = '#'+id;
-    var button = document.querySelector(id);
+function changeRoute(endereco, id){
+    if( fileName != id){
+        id = '#'+id;
+        var button = document.querySelector(id);
 
-    button.classList.add("hoverclick", "click");
+        button.classList.add("hoverclick", "click");
 
-    setTimeout(function(){
-        window.location = endereco;
-    }, 100);
+        setTimeout(function(){
+            window.location = endereco;
+        }, 100);
+    }
 }
+

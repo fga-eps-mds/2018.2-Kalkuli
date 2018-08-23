@@ -12,7 +12,7 @@
 .button-name {
     margin: 0;
     padding: 0;
-    font-size: 1.5em
+    font-size: 1.5em    
 }
 
 .buttons-area {
@@ -62,7 +62,7 @@
   }
 
   .hoverclick:hover {
-      color: blue;
+    text-shadow: 0px 0px 30px rgb(173, 172, 172);
   }
 
 .tab-content {
@@ -74,7 +74,16 @@
 }
 
 .click {
+    text-shadow: 0px 0px 30px rgb(173, 172, 172);
     transition: 0.1s;
-    color: blue;
     transform: scale(1.1);
 }
+
+.mainButton {
+    transform: scale(1.1);
+    color: black;
+    width: 8em;
+    margin: 1em;
+    text-align: center;
+}
+
