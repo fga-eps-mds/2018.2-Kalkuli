@@ -1,12 +1,12 @@
 .button {
-    width: 3em;
+    width: 8em;
     margin: 1em;
+    text-align: center;
 }
 
 .button-content {
     margin: auto;
     text-align: center;
-    
 }
 
 .button-name {
