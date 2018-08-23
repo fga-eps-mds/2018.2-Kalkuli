@@ -1,3 +1,4 @@
+
 function openContent(evt, docName) {
     var i, tabContent, tabLinks;
 
@@ -15,8 +16,13 @@ function openContent(evt, docName) {
     evt.currentTarget.className += "active";
 }
 
-var button = document.querySelector(".button");
+function changeColor(endereco){
+    console.log(endereco);
+    var button = document.querySelector(".button");
 
-button.addEventListener("click", function(){
-    window.location = "#";
-})
+    button.classList.add("hoverclick", "click");
+
+    setTimeout(function(){
+        window.location = endereco;
+    }, 100);
+}
