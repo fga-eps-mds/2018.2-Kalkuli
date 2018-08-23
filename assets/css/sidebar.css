@@ -13,8 +13,10 @@
 
 #sidebar ul li {
   list-style: none;
-  padding: 15px 10px 10px 20px;
   border-bottom: 1px solid rgba(49, 49, 49, 0.418);
+  border-bottom: none;
+  position: relative;
+  overflow: hidden;
 }
 #sidebar ul li a:hover {
   color: white;
@@ -22,8 +24,10 @@
 
 #sidebar ul li a {
   font-size: 1.5rem;
+  padding: 15px 10px 10px 20px;
   color: #ccc;
   text-decoration: none;
+  display: block;
 }
 
 #sidebar .toggle-btn {
@@ -40,3 +44,62 @@
   background-color: white;
   margin: 5px 0px;
 }
+
+#sidebar ul li a:before,
+#sidebar ul li a:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: #ff7b00f6; /* onhover background color */
+  box-shadow:  inset 3px 3px 3px #000000;
+  z-index: -1;
+  transform: translate3D(0,-100%,0); /* move elements above button so they don't appear initially */
+  transition: all .7s;
+}
+
+#sidebar ul li a:after{
+  z-index: -1;
+  transform: translate3D(101%,0,0);
+}
+
+#sidebar ul li a:hover:after{
+  transform: translate3D(0,0,0);
+  transition: all .7s;
+}
+
+/* #sidebar ul li a:before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: absolute;
+  transition: all 0.5s ease;
+}
+
+#sidebar ul li a:before{
+  top: 0;
+  left: 300px;
+}
+
+#sidebar ul li a:hover:before{
+  left: 0;
+} */
+
+
+/* #sidebar ul li a::before{ */
+  /* -webkit-transition: 0.3s; */
+/* } */
+/*  */
+/* #sidebar ul li a::before { */
+  /* content: ""; */
+  /* position: absolute; */
+  /* left: 0; */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* background: #7986cb; */
+  /* -webkit-transform: translate3d(-100%, 0, 0); */
+  /* transform: translate3d(-100%, 0, 0); */
+/* } */
