@@ -2,7 +2,7 @@
   position: fixed;
   width: 300px;
   height: 100%;
-  background: #3f3f3fa1;
+  background: black;
   left: -300px;
   transition: all .5s;
 }
@@ -71,15 +71,24 @@
   left: 0;
   height: 100%;
   width: 3px;
-  background-color: purple;
+  background-color: rgb(255, 105, 130);
   transform: scaleY(0);
-  transition: transform .5s;
+  transition: transform .2s, 
+              width .4s cubic-bezier(1, 0, 0, 1) .2s,
+              background-color .4s;
 }
 
-.side-nav__item:hover::before {
+.side-nav__item:hover::before,
+.side-nav__item--active::before {
   transform: scaleY(1);
+  width: 100%;
+}
+
+.side-nav__item:active::before {
+  background-color: pink;
 }
 
 .side-nav__link {
-
-}
+  position: relative;
+  z-index: 10;
+} 
