@@ -18,8 +18,8 @@
 
 .card-foto img{
   position: relative;
-  max-width: 22em;
-  max-height: 22em;
+  max-width: 23em;
+  max-height: 23em;
   width: auto;
   height: auto;
   border-radius: .3em;
@@ -94,7 +94,15 @@
 
 .card-link-text{
   font-size: 3em;
-  margin-bottom: .5em;
+  margin-bottom: 1em;
+}
+
+.links:hover a{
+  -webkit-transform:scale(1.1);
+  -moz-transform:scale(1.1);
+  -ms-transform:scale(1.1);
+  -o-transform:scale(1.1);
+  transform:scale(1.1);
 }
 
 #growGit { 
