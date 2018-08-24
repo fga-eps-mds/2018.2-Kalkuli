@@ -11,35 +11,32 @@
 <body>
     <div class = "">
         <div class = "buttons-area" >
-            <div class = "mainButton" id = "sprints" onclick="changeRoute('./sprints.html', 'sprints')" >
+            <div class = "button growth-color" id = "sprints" onclick="changeRoute('./sprints.html', 'sprints')" >
                 <div class = "button-content">
                     <i class="material-icons " style = "font-size: 3em">view_week</i>
                     <p class = "button-name">Sprints</p>
                 </div>
             </div>
-            <div class = "button growth-color" id = "metodologia" onclick="changeRoute('./metodologia.html', 'metodologia')">
+            <div class = "mainButton" id = "metodologia" onclick="changeRoute('./metodologia.html', 'metodologia')">
                 <div class = "button-content">
                     <i class="material-icons " style = "font-size: 3em">receipt</i>
                     <p class = "button-name">Metodologia</p>
                 </div>
             </div>
         </div>
-        <div class = "tab">
-                <button class = "tab-links" onclick = "openSection(event, 'Sprint 0')">Sprint 0</button>
-                <button class = "tab-links" onclick = "openSection(event, 'Sprint 1')">Sprint 1</button>
-                <button class = "tab-links" onclick = "openSection(event, 'Sprint 2')">Sprint 2</button>
+        <div class = "tabs">
+                <button class = "tabs-links" onclick = "openContent(event, 'Sprint 0')">Sprint 0</button>
+                <button class = "tabs-links" onclick = "openContent(event, 'Sprint 1')">Sprint 1</button>
+                <button class = "tabs-links" onclick = "openContent(event, 'Sprint 2')">Sprint 2</button>
         </div>
         <div class = "tab-content">
             <h3>Sprint 0</h3>
-            
         </div>
         <div class = "tab-content">
             <h3>Sprint 1</h3>
-            <p>What is going on</p>
         </div>
         <div class = "tab-content">
             <h3>Sprint 2</h3>
-            <p>What is going on</p>
         </div>
 
     </div>

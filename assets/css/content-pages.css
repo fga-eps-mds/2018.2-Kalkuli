@@ -1,6 +1,7 @@
 .button {
-    width: 3em;
-    border: 1px solid black;
+    width: 8em;
+    margin: 1em;
+    text-align: center;
 }
 
 .button-content {
@@ -11,8 +12,13 @@
 .button-name {
     margin: 0;
     padding: 0;
+    font-size: 1.5em    
 }
 
+.buttons-area {
+    display: flex;
+    justify-content: center;
+}
 .tabs {
     overflow: hidden;
     border: 1px solid #ccc;
@@ -38,6 +44,28 @@
 
 }
 
+.growth-color {
+    -webkit-transition:all 0.2s ease-out;
+    -moz-transition:all 0.2s ease-out;
+    -ms-transition:all 0.2s ease-out;
+    -o-transition:all 0.2s ease-out;
+    transition:all 0.2s ease-out;
+    color: grey;
+  }
+  
+  .growth-color:hover {
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
+    color: black;
+  }
+
+  .hoverclick:hover {
+    text-shadow: 0px 0px 30px rgb(173, 172, 172);
+  }
+
 .tab-content {
     display: none;
     padding: 6px 12px;
@@ -45,3 +73,18 @@
     border-top: none;
     animation: fadeEffect 1s;
 }
+
+.click {
+    text-shadow: 0px 0px 30px rgb(173, 172, 172);
+    transition: 0.1s;
+    transform: scale(1.1);
+}
+
+.mainButton {
+    transform: scale(1.1);
+    color: black;
+    width: 8em;
+    margin: 1em;
+    text-align: center;
+}
+
