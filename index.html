@@ -9,31 +9,40 @@
 </head>
 
 <body>
-  <!-- SIDE MENU -->
-  <div id="background-shadow" onclick="closeSideMenu()">
-    <div id="sidebar">
-      <div class="toggle-btn" onclick="toggleSideMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <ul class="side-nav">
-        <li class="side-nav__item"> <!-- change the active in JS side-nav__item--active -->
-          <a href="#" class="side-nav__link">Link1</a>
-        </li>
-        <li class="side-nav__item">
-            <a href="#" class="side-nav__link">Link2</a>
-        </li>
-        <li class="side-nav__item">
-            <a href="#" class="side-nav__link">Link3</a>
-        </li>
-        <li class="side-nav__item">
-            <a href="#" class="side-nav__link">Link3</a>
-        </li>
-      </ul>
+  <div class="container">
+    <header>
+
+    </header>
+    
+    <div class="content">
+      <nav id="sidebar">
+        <div class="toggle-btn" onclick="toggleSideMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="side-nav">
+          <li class="side-nav__item"> <!-- change the active in JS side-nav__item--active -->
+            <a href="#" class="side-nav__link">Link1</a>
+          </li>
+          <li class="side-nav__item">
+              <a href="#" class="side-nav__link">Link2</a>
+          </li>
+          <li class="side-nav__item">
+              <a href="#" class="side-nav__link">Link3</a>
+          </li>
+          <li class="side-nav__item">
+              <a href="#" class="side-nav__link">Link3</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="background-shadow" onclick="toggleSideMenu()"></div>
+
+      <main>
+
+      </main>
     </div>
   </div>
-  <!-- SIDE MENU -->
 
   <main>
     <!-- Conteúdo principal da página inicial -->

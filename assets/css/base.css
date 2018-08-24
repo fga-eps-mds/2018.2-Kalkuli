@@ -1,9 +1,23 @@
 body { 
-  height: 100vh;
-  background-color: #CCC;
+  background-image: linear-gradient(to right bottom, rgb(255, 105, 130), rgb(255, 73, 103));
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 * { 
   margin: 0;
   padding: 0;
 }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
