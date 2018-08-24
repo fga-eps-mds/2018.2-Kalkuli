@@ -62,7 +62,7 @@
 
 #sidebar ul li a:after{
   z-index: -1;
-  transform: translate3D(101%,0,0);
+  transform: translate3D(-101%,0,0);
 }
 
 #sidebar ul li a:hover:after{
