@@ -1,8 +1,9 @@
 
-var fullPath = window.location.pathname; 
+var fullPath = window.location.pathname;
 var whatPage = fullPath.split("/").pop();
 fileName = whatPage.split(".")[0];
 console.log(fileName);
+
 function openSection(evt, docName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tab-content");
@@ -15,7 +16,7 @@ function openSection(evt, docName) {
     }
     document.getElementById(docName).style.display = "block";
 
-    evt.currentTarget.className += "active";
+    evt.currentTarget.className += " active";
 }
 
 function changeRoute(endereco, id){
