@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class = "">
+    <div class = "mainDiv">
         <div class = "buttons-area" >
             <div class = "button growth-color" id = "sprints" onclick="changeRoute('./sprints.html', 'sprints')" >
                 <div class = "button-content">
@@ -23,26 +23,33 @@
                     <p class = "button-name">Metodologia</p>
                 </div>
             </div>
+            <div class = "button growth-color" id = "conhecimentos" onclick="changeRoute('./conhecimentos.html', 'conhecimentos')">
+                <div class = "button-content">
+                    <i class="material-icons " style = "font-size: 3em">turned_in</i>
+                    <p class = "button-name">Metodologia</p>
+                </div>
+            </div>
         </div>
         <div class = "tab">
             <button class = "tab-links" onclick = "openSection(event, 'first-tab')" id = "defaultOpen">Sprint 0</button>
             <button class = "tab-links" onclick = "openSection(event, 'second-tab')">Sprint 1</button>
             <button class = "tab-links" onclick = "openSection(event, 'third-tab')">Sprint 2</button>
-    </div>
-    <div class = "tab-content" id = "first-tab">
-        <h3>Sprint 0</h3>
-    </div>
-    <div class = "tab-content" id = "second-tab">
-        <h3>Sprint 1</h3>
-        <p>What is going on</p>
-    </div>
-    <div class = "tab-content" id = "third-tab">
-        <h3>Sprint 2</h3>
-        <p>What is going on</p>
-    </div>
+        </div>
+        <div class = "tab-content" id = "first-tab">
+            <h1>Sprint 0</h1>
+        </div>
+        <div class = "tab-content" id = "second-tab">
+            <h1>Sprint 1</h1>
+            <p>What is going on</p>
+        </div>
+        <div class = "tab-content" id = "third-tab">
+            <h1>Sprint 2</h1>
+            <p>What is going on</p>
+        </div>
 
-</div>
+    </div>
 
     <script src = "./assets/js/ContentPages.js"></script>
+
 </body>
 </html>

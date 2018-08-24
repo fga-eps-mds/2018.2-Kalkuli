@@ -2,6 +2,7 @@
     width: 8em;
     margin: 1em;
     text-align: center;
+    cursor: pointer;
 }
 
 .button-content {
@@ -45,7 +46,7 @@
 }
 .tab-content {
     display: none;
-    padding: 6px 12px;
+    padding: 5em;
     border: 1px solid #ccc;
     border-top: none;
     animation: fadeEffect 1s;
@@ -90,4 +91,10 @@
     width: 8em;
     margin: 1em;
     text-align: center;
+    cursor: pointer;
+}
+
+.mainDiv {
+    margin: auto;
+    width: 80%;
 }
