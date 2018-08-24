@@ -26,6 +26,7 @@
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
+    border-radius: .3em;
 }
 .tab button:hover {
     background-color: #ddd;

@@ -1,16 +1,13 @@
-function openContent(evt, docName) {
-    var i, tabContent, tabLinks;
-
-    tabContent = document.getElementsByClassName("tab-content");
-    for (i = 0; i < tabContent.length; i++) {
-        tabContent[i].style.display = "none";
+function openSection(evt, docName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tab-content");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
     }
-
-    tabLinks = document.getElementsByClassName("tabs-links");
-    for (i = 0; i < tabContent.length; i++) {
-        tabLinks[i].className = tabLinks[i].className.replace(" active", "");
+    tablinks = document.getElementsByClassName("tab-links");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-
     document.getElementById(docName).style.display = "block";
-    evt.currentTarget.className += "active";
+    evt.currentTarget.className += " active";
 }
