@@ -3,6 +3,7 @@ var fullPath = window.location.pathname;
 var whatPage = fullPath.split("/").pop();
 fileName = whatPage.split(".")[0];
 console.log(fileName);
+document.getElementById("defaultOpen").click();
 
 function openSection(evt, docName) {
     var i, tabcontent, tablinks;

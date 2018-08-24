@@ -25,18 +25,18 @@
             </div>
         </div>
         <div class = "tab">
-            <button class = "tab-links" onclick = "openSection(event, 'Sprint 0')">Sprint 0</button>
-            <button class = "tab-links" onclick = "openSection(event, 'Sprint 1')">Sprint 1</button>
-            <button class = "tab-links" onclick = "openSection(event, 'Sprint 2')">Sprint 2</button>
+            <button class = "tab-links" onclick = "openSection(event, 'first-tab')" id = "defaultOpen">Sprint 0</button>
+            <button class = "tab-links" onclick = "openSection(event, 'second-tab')">Sprint 1</button>
+            <button class = "tab-links" onclick = "openSection(event, 'third-tab')">Sprint 2</button>
     </div>
-    <div class = "tab-content">
-        <h3>Sprint 0</h3>   
+    <div class = "tab-content" id = "first-tab">
+        <h3>Sprint 0</h3>
     </div>
-    <div class = "tab-content">
+    <div class = "tab-content" id = "second-tab">
         <h3>Sprint 1</h3>
         <p>What is going on</p>
     </div>
-    <div class = "tab-content">
+    <div class = "tab-content" id = "third-tab">
         <h3>Sprint 2</h3>
         <p>What is going on</p>
     </div>
