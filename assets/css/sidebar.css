@@ -49,30 +49,6 @@
   margin: 5px 0px;
 }
 
-#sidebar ul li a:before,
-#sidebar ul li a:after{
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  background: #ff7b00f6; /* onhover background color */
-  box-shadow:  inset 3px 3px 3px #000000;
-  z-index: -1;
-  transform: translate3D(0,-100%,0); /* move elements above button so they don't appear initially */
-  transition: all .7s;
-}
-
-#sidebar ul li a:after{
-  z-index: -1;
-  transform: translate3D(-101%,0,0);
-}
-
-#sidebar ul li a:hover:after{
-  transform: translate3D(0,0,0);
-  transition: all .7s;
-}
 
 #background-shadow.active {
   background-color: rgba(0, 0, 0, .4);
@@ -80,3 +56,4 @@
   margin-left: 300px;
   transition: all .5s;
 }
+
