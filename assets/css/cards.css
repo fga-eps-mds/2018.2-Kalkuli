@@ -1,8 +1,9 @@
-.card{
+.cards{
   padding-top: 1.5em;
   padding-left: 1.5em;
   padding-right: 1.5em;
   padding-bottom: .5em;
+  background-color: white;
 }
 
 .card-container{
@@ -63,7 +64,6 @@
   max-height: 15em;
   width: auto;
   height: auto;
-
 }
 
 .card-foto:hover .card-link {
@@ -90,8 +90,4 @@
 .card-link-text{
   font-size: 3em;
   margin-bottom: .5em;
-}
-
-.card{
-  background-color: white;
 }
