@@ -1,0 +1,101 @@
+.cards{
+  padding-top: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: .5em;
+  background-color: white;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.card-foto img{
+  position: relative;
+  max-width: 23em;
+  max-height: 23em;
+  width: auto;
+  height: auto;
+  border-radius: .3em;
+}
+
+.card-foto{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-foto-perfil{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.card-foto:hover .card-foto-perfil {
+  opacity: 0.5;
+  filter: drop-shadow(0px 0px 3px #000000);
+  -webkit-transform:scale(1.1);
+  -moz-transform:scale(1.1);
+  -ms-transform:scale(1.1);
+  -o-transform:scale(1.1);
+  transform:scale(1.1);
+}
+
+.card-foto-perfil{
+  margin-bottom: 1em;
+}
+
+.card-link{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  max-width: 15em;
+  max-height: 15em;
+  width: auto;
+  height: auto;
+}
+
+.card-foto:hover .card-link {
+  opacity: 1;
+}
+
+.card-links:hover{
+  -webkit-transform:scale(1.1);
+  -moz-transform:scale(1.1);
+  -ms-transform:scale(1.1);
+  -o-transform:scale(1.1);
+  transform:scale(1.1);
+}
+
+.links{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-link-segundo{
+  margin-left: 2em;
+}
+
+.card-link-text{
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.links:hover a{
+  -webkit-transform:scale(1.1);
+  -moz-transform:scale(1.1);
+  -ms-transform:scale(1.1);
+  -o-transform:scale(1.1);
+  transform:scale(1.1);
+}
