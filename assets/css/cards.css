@@ -15,8 +15,8 @@
 
 .card-foto img{
   position: relative;
-  max-width: 22em;
-  max-height: 22em;
+  max-width: 23em;
+  max-height: 23em;
   width: auto;
   height: auto;
   border-radius: .3em;
@@ -26,7 +26,6 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  margin: 1em;
 }
 
 .card-foto-perfil{
