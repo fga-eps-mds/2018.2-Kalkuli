@@ -12,6 +12,7 @@ class Layout extends React.Component{
       <Fragment>
         <SideNav
           show = { this.state.showSidedrawer }
+          toggle = { this.toggleSidedrawer }
           close = { this.sidedrawerCloseHandler }
         />
 
@@ -23,6 +24,7 @@ class Layout extends React.Component{
   }
 
   toggleSidedrawer = () => {
+    console.log("toggle")
     this.setState((prevState) => {
       return { showSidedrawer: !prevState.showSidedrawer}
     })

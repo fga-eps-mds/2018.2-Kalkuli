@@ -1,8 +1,7 @@
 import React from 'react'
-import "../../../assets/sass/main.scss"
 
 const HamburgerIcon = (props) => (
-  <div class="toggle-btn" onclick={props.toggle}>
+  <div className="toggleBtn" onClick={props.click}>
     <span></span>
     <span></span>
     <span></span>

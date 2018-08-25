@@ -1,4 +1,4 @@
-.toggle-btn {
+.toggleBtn {
   position: absolute;
   cursor: pointer;
   left: 330px;
@@ -6,10 +6,10 @@
   padding: 12px;
 }
 
-.toggle-btn span {
+.toggleBtn span {
   display: block;
   width: 30px;
   height: 4px;
-  background-color: white;
+  background-color: red;
   margin: 5px 0px;
 }
