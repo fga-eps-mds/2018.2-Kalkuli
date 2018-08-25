@@ -1,18 +1,50 @@
 import React from 'react'
+
 import Bernardo from '../../assets/img/Bernardo.jpeg'
-import Youssef from '../../assets/img/youssef.jpeg'
+import Clarissa from '../../assets/img/Clarissa.jpg'
+import Esio from '../../assets/img/Esio.jpg'
+import Felipe from '../../assets/img/Felipe.jpeg'
+import Jaco from '../../assets/img/Jaco.jpeg'
+import Lucas from '../../assets/img/Lucas.jpeg'
+import Mariana from '../../assets/img/Mariana.jpeg'
+import Pedro from '../../assets/img/Pedro.jpeg'
+import Saleh from '../../assets/img/Saleh.png'
+import Youssef from '../../assets/img/Youssef.jpeg'
+
 const Cards = (props) => {
 
   let photo, github, linkedin = null
   switch (props.name) {
-
+    case "Clarissa":
+      photo = Clarissa
+      break
+    case "Ésio":
+      photo = Esio
+      break
     case "Bernardo":
       photo = Bernardo
       break
+    case "Felipe":
+      photo = Felipe
+      break
+    case "Jacó":
+      photo = Jaco
+      break
+    case "Lucas":
+      photo = Lucas
+      break
+    case "Mariana":
+      photo = Mariana
+      break
+    case "Pedro":
+      photo = Pedro
+      break
+    case "Saleh":
+      photo = Saleh 
+      break   
     case "Youssef":
       photo = Youssef
       break
-  
     default:
       break
   }
