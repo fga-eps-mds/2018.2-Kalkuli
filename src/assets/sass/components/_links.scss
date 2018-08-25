@@ -1,0 +1,37 @@
+
+.side-nav__item {
+  position: relative;
+}
+
+.side-nav__item:not(:last-child) {
+  margin-bottom: .5rem;
+}
+
+.side-nav__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: rgb(255, 105, 130);
+  transform: scaleY(0);
+  transition: transform .2s, 
+              width .4s cubic-bezier(1, 0, 0, 1) .2s,
+              background-color .4s;
+}
+
+.side-nav__item:hover::before,
+.side-nav__item--active::before {
+  transform: scaleY(1);
+  width: 100%;
+}
+
+.side-nav__item:active::before {
+  background-color: pink;
+}
+
+.side-nav__link {
+  position: relative;
+  z-index: 10;
+} 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SideNav from './components/SideNav/SideNav'
 import './assets/sass/main.scss';
 
 class App extends Component {
@@ -16,7 +17,7 @@ class App extends Component {
       // <Header />
       // <Resume />
       <div>
-        
+        <SideNav />
       </div>
     )
   }
