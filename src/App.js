@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './assets/sass/main.scss';
 import Layout from './hoc/Layout/Layout'
 import Header from './components/Header/Header'
+import Cards from './components/Cards/Cards'
 
 class App extends Component {
 
@@ -20,6 +21,9 @@ class App extends Component {
       <div>
         <Layout>
           <Header />
+          
+          { this.state.members.map(member => <Cards name={member} />) }
+          
         </Layout>
       </div>
     )

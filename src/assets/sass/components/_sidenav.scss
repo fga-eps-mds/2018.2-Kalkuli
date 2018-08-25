@@ -3,7 +3,7 @@
   position: fixed;
   width: $side-nav-width;
   height: 100%;
-  background: black;
+  background-image: linear-gradient($color-primary-dark, $color-primary-light);
   left: -300px;
   transition: all .5s;
   
