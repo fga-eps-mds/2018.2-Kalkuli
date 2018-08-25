@@ -21,17 +21,15 @@ class App extends Component {
       <div>
         <Layout>
           <Header />
-          
-          { this.state.members.map(member => <Cards name={member} />) }
+          <div className="card-container">
+            { this.state.members.map(member => <Cards name={member} />) }
+          </div>
           
         </Layout>
       </div>
     )
   }
 
-  renderMembers = () => {
-    return 
-  }
 }
 
 export default App;
