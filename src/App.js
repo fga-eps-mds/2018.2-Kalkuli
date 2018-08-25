@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './assets/sass/main.scss';
 import Layout from './hoc/Layout/Layout'
+import Header from './components/Header/Header'
 
 class App extends Component {
 
@@ -18,7 +19,7 @@ class App extends Component {
       // <Resume />
       <div>
         <Layout>
-
+          <Header />
         </Layout>
       </div>
     )

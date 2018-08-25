@@ -1,5 +1,4 @@
 import React, {Fragment} from 'react'
-import "../../assets/sass/main.scss"
 
 const Links = () => (
   <ul className="side-nav">

@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import '../../assets/sass/main.scss'
 import HamburgerIcon from "../UI/HamburgerIcon/HamburgerIcon"
 import Links from "../Links/Links"
 import Backdrop from '../UI/Backdrop/Backdrop';
@@ -19,9 +18,6 @@ const SideNav = (props) => {
       </div>
     </Fragment>
   )
-  
 }
-
-
 
 export default SideNav
