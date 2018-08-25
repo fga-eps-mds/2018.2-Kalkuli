@@ -1,5 +1,6 @@
 import React from 'react'
-
+import github from '../../assets/img/git.png'
+import linkedin from '../../assets/img/link.png'
 import Bernardo from '../../assets/img/Bernardo.jpeg'
 import Clarissa from '../../assets/img/Clarissa.jpg'
 import Esio from '../../assets/img/Esio.jpg'
@@ -13,7 +14,7 @@ import Youssef from '../../assets/img/Youssef.jpeg'
 
 const Cards = (props) => {
 
-  let photo, github, linkedin = null
+  let photo, memberGithub, memberLinkedIn = null
   switch (props.name) {
     case "Clarissa":
       photo = Clarissa
@@ -56,17 +57,16 @@ const Cards = (props) => {
       <div className="card-link">
         <p className="card-link-text">{ props.name }</p>
         <div className="links">
-          <a href={ github } target="_blank">
-            <img src="assets/img/git.png" alt="GitHub"/>
+          <a href={ github } >
+            <img src={ github } alt="GitHub"/>
           </a>
-          <a href={ linkedin } target="_blank">
-            <img src="assets/img/link.png" alt="GitHub" className="card-link-segundo"/>
+          <a href={ linkedin } >
+            <img src={ linkedin } alt="LinkedIn"/>
           </a>
         </div>
       </div>
     </div>
   ) 
-
 }
 
 export default Cards
