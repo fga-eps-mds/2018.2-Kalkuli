@@ -1,5 +1,7 @@
+
 h1 {
-  color: green;
+  background-color: $color-primary;
+
   &:hover {
     color: red;
   }

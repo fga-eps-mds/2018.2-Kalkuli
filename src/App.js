@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './index.scss';
+import './assets/sass/main.scss';
 
 class App extends Component {
 
@@ -16,7 +16,7 @@ class App extends Component {
       // <Header />
       // <Resume />
       <div>
-        <h1 className="title">EAEA</h1>
+        
       </div>
     )
   }

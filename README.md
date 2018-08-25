@@ -11,6 +11,12 @@ $ npm start
 ```
 o script de start está linkado com o --watch do Sass
 
+## Buildando a aplicação:
+```
+$ npm run build
+```
+
+
 ## Sass(.scss)
 
 ### Variáveis:
