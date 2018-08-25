@@ -1,0 +1,11 @@
+
+$color-red: red;
+$color-black: black;
+
+.teste {
+  color: $color-red;
+
+  &:hover {
+    color: $color-black;
+  }
+}
