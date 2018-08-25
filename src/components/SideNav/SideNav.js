@@ -7,6 +7,7 @@ import Backdrop from '../UI/Backdrop/Backdrop';
 const SideNav = (props) => {
 
   let style = ["sidenav"]
+  if(props.show)
     style = ["sidenav", "sidenav--active"]
 
   return (

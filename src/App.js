@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import SideNav from './components/SideNav/SideNav'
 import './assets/sass/main.scss';
+import Layout from './hoc/Layout/Layout'
 
 class App extends Component {
 
@@ -17,7 +17,9 @@ class App extends Component {
       // <Header />
       // <Resume />
       <div>
-        <SideNav />
+        <Layout>
+
+        </Layout>
       </div>
     )
   }

@@ -1,7 +1,7 @@
 .sidenav {
   z-index: 100;
   position: fixed;
-  width: 300px;
+  width: $side-nav-width;
   height: 100%;
   background: black;
   left: -300px;

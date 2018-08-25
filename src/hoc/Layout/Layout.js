@@ -34,3 +34,5 @@ class Layout extends React.Component{
     this.setState({showSidedrawer: false})
   }
 }
+
+export default Layout
