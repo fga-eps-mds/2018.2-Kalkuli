@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 const Header = () => {
 
@@ -6,8 +6,8 @@ const Header = () => {
     <header class="header">
 			<div class="header__text-box">
 				<h1 class="heading-primary">
-					<span class="heading-primary--main">Outdoors</span>
-					<span class="heading-primary--sub">is where life happens</span>
+					<span class="heading-primary--main">pdf2</span>
+					<span class="heading-primary--sub">knowledge</span>
 				</h1> 
 			</div>
 		</header>

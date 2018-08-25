@@ -12,18 +12,19 @@
     left: 0;
     height: 100%;
     width: 3px;
-    background-color: rgb(255, 105, 130);
+    background-color: $color-primary;
     transform: scaleY(0);
-    transition: transform .2s, 
-                width .4s cubic-bezier(1, 0, 0, 1) .2s,
-                background-color .4s;
+    transition: transform .1s, 
+                width .1s cubic-bezier(1, 0, 0, 1) .2s,
+                background-color .2s;
   }
 }
 
 .side-nav__link {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   padding: 15px 10px 10px 20px;
-  color: #ccc;
+  color:$color-gray-dark;
+  font-weight: 700;
   text-decoration: none;
   display: block;
   position: relative;
@@ -42,7 +43,7 @@
 }
 
 .side-nav__item:active::before {
-  background-color: pink;
+  background-color: $color-primary-dark;
 }
 
 
