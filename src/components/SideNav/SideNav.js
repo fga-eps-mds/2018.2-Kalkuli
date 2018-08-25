@@ -13,7 +13,7 @@ const SideNav = (props) => {
     <Fragment>
       <Backdrop show={props.show} click={props.close}/>
       <div className={style.join(' ')}>
-        <HamburgerIcon click={props.toggle}/>
+        <HamburgerIcon show={props.show} click={props.toggle}/>
         <Links />
       </div>
     </Fragment>
