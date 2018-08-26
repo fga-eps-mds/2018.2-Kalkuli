@@ -15,6 +15,7 @@ const GridBlock = CompLibrary.GridBlock;
 
 const siteConfig = require(`${process.cwd()}/siteConfig.js`);
 
+
 function imgUrl(img) {
   return `${siteConfig.baseUrl}img/${img}`;
 }
@@ -42,6 +43,20 @@ class Button extends React.Component {
 Button.defaultProps = {
   target: '_self',
 };
+
+const Header = () => {
+
+  return(
+    <div className="header">
+			<div className="header__text-box">
+				<h1 className="heading-primary">
+					<span className="heading-primary--main">pdf2</span>
+					<span className="heading-primary--sub">knowledge</span>
+				</h1> 
+			</div>
+		</div>
+  )
+}
 
 const SplashContainer = props => (
   <div className="homeContainer">
@@ -77,6 +92,7 @@ class HomeSplash extends React.Component {
     const language = this.props.language || '';
     return (
       <SplashContainer>
+        <Header />
         <Logo img_src={imgUrl('docusaurus.svg')} />
         <div className="inner">
           <ProjectTitle />

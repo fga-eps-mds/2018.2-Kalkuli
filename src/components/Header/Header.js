@@ -3,11 +3,11 @@ import React from 'react'
 const Header = () => {
 
   return(
-    <header class="header">
-			<div class="header__text-box">
-				<h1 class="heading-primary">
-					<span class="heading-primary--main">pdf2</span>
-					<span class="heading-primary--sub">knowledge</span>
+    <header className="header">
+			<div className="header__text-box">
+				<h1 className="heading-primary">
+					<span className="heading-primary--main">pdf2</span>
+					<span className="heading-primary--sub">knowledge</span>
 				</h1> 
 			</div>
 		</header>
