@@ -8,9 +8,15 @@
 
 body{
   box-sizing: border-box;
-  background-color: #424242;
+  background-color: var(--color-gray-dark);
 }
 
 html {
   font-size: 62.5%;
 }
+
+p, h1, h2, h3, a {
+  color: white;
+  text-shadow: 0 2px 2px black;
+}
+

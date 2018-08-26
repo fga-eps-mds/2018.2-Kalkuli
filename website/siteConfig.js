@@ -11,7 +11,7 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: 'User1',
+    caption: 'PDF2Knowledge',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     image: '/img/docusaurus.svg',
@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'PDF2Knowledge', // Title for your website.
-  tagline: 'A website for testing',
+  tagline: 'A website for PDF2Knowledge',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -32,9 +32,6 @@ const siteConfig = {
   // Used for publishing and more
   projectName: 'PDF2Knowledge',
   organizationName: 'PDF2Knowledge',
-  // For top-level user or org sites, the organization is still the same.
-  // e.g., for the https://JoelMarcey.github.io site, it would be set like...
-  //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
@@ -48,14 +45,26 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: '',
-  footerIcon: '',
-  favicon: 'img/favicon.png',
+  headerIcon: 'img/knowledge.png',
+  footerIcon: 'img/knowledge.png',
+  favicon: 'img/knowledge.png',
+  githubIcon: 'img/members/git.png',
+  linkedinIcon: 'img/members/link.png',
+  Bernardo: 'img/members/Bernardo.jpeg',  
+  Clarissa: 'img/members/Clarissa.jpeg',
+  Esio: 'img/members/Esio.jpeg',
+  Felipe: 'img/members/Felipe.jpeg',
+  Jaco: 'img/members/Jaco.jpeg',
+  Lucas: 'img/members/Lucas.jpeg',
+  Mariana: 'img/members/Mariana.jpeg',
+  Pedro: 'img/members/Pedro.jpeg',
+  Saleh: 'img/members/Saleh.png',
+  Youssef: 'img/members/Youssef.jpeg',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#2E8555',
-    secondaryColor: '#205C3B',
+    primaryColor: '#424242',
+    secondaryColor: '#FFFFFF',
   },
 
   /* Custom fonts for website */
@@ -76,8 +85,8 @@ const siteConfig = {
   copyright: `Copyright © ${new Date().getFullYear()} PDF2Knowledge`,
 
   highlight: {
-    // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    // https://github.com/isagalaev/highlight.js/tree/master/src/styles
+    theme: 'rainbow',
   },
 
   // Add custom scripts here that would be placed in <script> tags.

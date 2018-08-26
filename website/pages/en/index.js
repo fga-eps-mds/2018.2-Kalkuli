@@ -6,15 +6,11 @@
  */
 
 const React = require('react');
-
 const CompLibrary = require('../../core/CompLibrary.js');
-
 const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
-
 const siteConfig = require(`${process.cwd()}/siteConfig.js`);
-
 
 function imgUrl(img) {
   return `${siteConfig.baseUrl}img/${img}`;
@@ -47,7 +43,6 @@ Button.defaultProps = {
 /* Custom components START*/
 
 const Header = () => {
-
   return(
     <div className="header">
 			<div className="header__text-box">
@@ -59,6 +54,61 @@ const Header = () => {
 		</div>
   )
 }
+
+const Cards = (props) => {
+  let photo, memberGithub, memberLinkedIn = null
+  switch (props.name) {
+    case "Clarissa":
+      photo = siteConfig.Clarissa
+      break
+    case "Ésio":
+      photo = siteConfig.Esio
+      break
+    case "Bernardo":
+      photo = siteConfig.Bernardo
+      break
+    case "Felipe":
+      photo = siteConfig.Felipe
+      break
+    case "Jacó":
+      photo = siteConfig.Jaco
+      break
+    case "Lucas":
+      photo = siteConfig.Lucas
+      break
+    case "Mariana":
+      photo = siteConfig.Mariana
+      break
+    case "Pedro":
+      photo = siteConfig.Pedro
+      break
+    case "Saleh":
+      photo = siteConfig.Saleh 
+      break   
+    case "Youssef":
+      photo = siteConfig.Youssef
+      break
+    default:
+      break
+  }
+  return(
+    <div className="card-foto">
+      <img src={ photo } alt={ props.name } className="card-foto-perfil"/>
+      <div className="card-link">
+        <p className="card-link-text">{ props.name }</p>
+        <div className="links">
+          <a href='google.com' >
+            <img src={siteConfig.githubIcon} alt="GitHub"/>
+          </a>
+          <a href='google.com' >
+            <img src={siteConfig.linkedinIcon} alt="LinkedIn"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  ) 
+}
+
 
 /* Custom components END*/
 
@@ -92,11 +142,22 @@ const PromoSection = props => (
 );
 
 class HomeSplash extends React.Component {
+
+  state = {
+    members: [
+      "Bernardo", "Clarissa", "Ésio", "Felipe",
+      "Jacó", "Lucas", "Mariana", "Pedro", "Saleh", "Youssef"
+    ],
+  }
+
   render() {
     const language = this.props.language || '';
     return (
       <div className="header">
         <Header />
+        
+        {this.state.members.map(member => <Cards name={ member } />)}
+
         <Logo img_src={imgUrl('docusaurus.svg')} />
         <div className="inner">
           <ProjectTitle />
@@ -192,6 +253,7 @@ class Index extends React.Component {
       <div>
         <HomeSplash language={language} />
         <div className="mainContainer">
+          <Cards nome="Youssef"/>
           <Features />
           <FeatureCallout />
           <LearnHow />

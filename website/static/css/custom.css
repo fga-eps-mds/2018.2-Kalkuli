@@ -1,5 +1,12 @@
 :root {
-  --primary-green: #80df70;
+  --color-primary: #80df70;
+  --color-primary-light: #4ffa88;
+  --color-primary-dark: #509744;
+  --color-shadow-light: #777;
+  --color-black: #000;
+  --color-gray-light-1: #f7f7f7;
+  --color-gray-dark: #424242;
+  --color-white: #fff;
 }
 
 
