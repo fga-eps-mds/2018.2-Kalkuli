@@ -1,3 +1,7 @@
+:root {
+  --primary-green: #80df70;
+}
+
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }

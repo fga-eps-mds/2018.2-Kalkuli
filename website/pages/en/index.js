@@ -44,6 +44,8 @@ Button.defaultProps = {
   target: '_self',
 };
 
+/* Custom components START*/
+
 const Header = () => {
 
   return(
@@ -57,6 +59,8 @@ const Header = () => {
 		</div>
   )
 }
+
+/* Custom components END*/
 
 const SplashContainer = props => (
   <div className="homeContainer">
@@ -91,7 +95,7 @@ class HomeSplash extends React.Component {
   render() {
     const language = this.props.language || '';
     return (
-      <SplashContainer>
+      <div className="header">
         <Header />
         <Logo img_src={imgUrl('docusaurus.svg')} />
         <div className="inner">
@@ -102,7 +106,7 @@ class HomeSplash extends React.Component {
             <Button href={docUrl('doc2.html', language)}>Example Link 2</Button>
           </PromoSection>
         </div>
-      </SplashContainer>
+      </div>
     );
   }
 }
@@ -121,13 +125,11 @@ const Features = () => (
     {[
       {
         content: 'This is the content of my feature',
-        image: imgUrl('docusaurus.svg'),
         imageAlign: 'top',
         title: 'Feature One',
       },
       {
         content: 'The content of my second feature',
-        image: imgUrl('docusaurus.svg'),
         imageAlign: 'top',
         title: 'Feature Two',
       },
@@ -149,7 +151,6 @@ const LearnHow = () => (
     {[
       {
         content: 'Talk about learning how to use this',
-        image: imgUrl('docusaurus.svg'),
         imageAlign: 'right',
         title: 'Learn How',
       },
@@ -175,7 +176,6 @@ const Description = () => (
     {[
       {
         content: 'This is another description of how this project is useful',
-        image: imgUrl('docusaurus.svg'),
         imageAlign: 'right',
         title: 'Description',
       },
@@ -183,30 +183,6 @@ const Description = () => (
   </Block>
 );
 
-const Showcase = props => {
-  if ((siteConfig.users || []).length === 0) {
-    return null;
-  }
-
-  const showcase = siteConfig.users.filter(user => user.pinned).map(user => (
-    <a href={user.infoLink} key={user.infoLink}>
-      <img src={user.image} alt={user.caption} title={user.caption} />
-    </a>
-  ));
-
-  return (
-    <div className="productShowcaseSection paddingBottom">
-      <h2>Who is Using This?</h2>
-      <p>This project is used by all these people</p>
-      <div className="logos">{showcase}</div>
-      <div className="more-users">
-        <a className="button" href={pageUrl('users.html', props.language)}>
-          More {siteConfig.title} Users
-        </a>
-      </div>
-    </div>
-  );
-};
 
 class Index extends React.Component {
   render() {
@@ -219,9 +195,7 @@ class Index extends React.Component {
           <Features />
           <FeatureCallout />
           <LearnHow />
-          <TryOut />
           <Description />
-          <Showcase language={language} />
         </div>
       </div>
     );

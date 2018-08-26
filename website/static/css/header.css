@@ -1,12 +1,12 @@
 
 .header {
-  min-height: 100vh;
-  background-color: red;
+  height: 95vh;
+  background-color: var(--primary-green);
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   position: relative;
-
+  width: 99vw;
 }
 
 .header__text-box {
