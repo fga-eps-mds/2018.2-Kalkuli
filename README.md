@@ -9,6 +9,6 @@ $ npm install
 
 Dentro da pasta website execute:
 ```
-$npm start
+$ npm start
 ```
 
