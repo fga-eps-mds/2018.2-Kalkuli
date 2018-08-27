@@ -1,19 +1,21 @@
 
-Para iniciar com o projeto, instale o nodeJS, não vamos codar nada de back-end, mas precisamos no NPM para instalar as dependências que utilizaremos, que no caso é o Sass.
-Com o npm instalado, execute:
 ```
 $ npm install
 ```
 Uma pasta chamada node_modules será criada contendo as dependências do projeto.
 
-## Servidor local para atualizar a página automaticamente:
+## Iniciando o servidor local:
+
 ```
-$ npm install -g live-server
+$ npm start
 ```
-e dentro da pasta raiz do projeto execute:
+o script de start está linkado com o --watch do Sass
+
+## Buildando a aplicação:
 ```
-$ live-server
+$ npm run build
 ```
+
 
 ## Sass(.scss)
 
