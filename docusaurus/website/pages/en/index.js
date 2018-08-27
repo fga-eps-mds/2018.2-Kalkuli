@@ -266,7 +266,7 @@ class Index extends React.Component {
     const language = this.props.language || '';
 
     return (
-      <div>
+      <div> 
         <Header />
         <div className="mainContainer">
           <div className="card-container">
