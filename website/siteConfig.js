@@ -45,14 +45,15 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
+
   headerIcon: 'img/knowledge.png',
   footerIcon: 'img/knowledge.png',
   favicon: 'img/knowledge.png',
   githubIcon: 'img/members/git.png',
   linkedinIcon: 'img/members/link.png',
   Bernardo: 'img/members/Bernardo.jpeg',  
-  Clarissa: 'img/members/Clarissa.jpeg',
-  Esio: 'img/members/Esio.jpeg',
+  Clarissa: 'img/members/Clarissa.jpg',
+  Esio: 'img/members/Esio.jpg',
   Felipe: 'img/members/Felipe.jpeg',
   Jaco: 'img/members/Jaco.jpeg',
   Lucas: 'img/members/Lucas.jpeg',
@@ -60,11 +61,16 @@ const siteConfig = {
   Pedro: 'img/members/Pedro.jpeg',
   Saleh: 'img/members/Saleh.png',
   Youssef: 'img/members/Youssef.jpeg',
+ 
+  members: [
+    "Bernardo", "Clarissa", "Ésio", "Felipe",
+    "Jacó", "Lucas", "Mariana", "Pedro", "Saleh", "Youssef"
+  ],
 
   /* Colors for website */
   colors: {
     primaryColor: '#424242',
-    secondaryColor: '#FFFFFF',
+    secondaryColor: '#80df70',
   },
 
   /* Custom fonts for website */
