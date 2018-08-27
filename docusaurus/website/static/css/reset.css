@@ -15,8 +15,18 @@ html {
   font-size: 62.5%;
 }
 
-p, h1, h2, h3, a {
+p,h1,h2,h3 {
   color: white;
   text-shadow: 0 2px 2px black;
 }
 
+
+a, .toc .toggleNav ul li.navListItemActive a, 
+.toc .toggleNav .navGroup .navGroupCategoryTitle,
+.toc .toggleNav ul li a:hover, .toc .toggleNav ul li a:focus {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
