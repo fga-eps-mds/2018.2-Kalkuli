@@ -1,0 +1,20 @@
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+    to right bottom, var(--color-primary-light), var(--color-primary-dark)
+  );
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  position: relative;
+  width: 99vw;
+}
+
+.header__text-box {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; 
+}
