@@ -1,10 +1,21 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Gerenciamento do Projeto": [
+      "comunicacao",
+      "contributing"
+    ],
+    "Visão de Produto": [],
+    "Engenharia de Requisitos": [],
+    "Arquitetura": []
   },
   "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "Sprint 0": [
+      "psprint0",
+      "rsprint0"
+    ],
+    "Sprint 1": [
+      "psprint1",
+      "rsprint1"
+    ]
   }
 }

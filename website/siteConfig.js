@@ -35,10 +35,10 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    { doc: 'comunicacao', label: 'Documentação' },
+    { doc: 'psprint0', label: 'Sprints' },
+    { page: 'help', label: 'Help' },
+    { blog: false },
   ],
 
   // If you have users set above, you add it here:
@@ -51,7 +51,7 @@ const siteConfig = {
   favicon: 'img/knowledge.png',
   githubIcon: 'img/members/git.png',
   linkedinIcon: 'img/members/link.png',
-  Bernardo: 'img/members/Bernardo.jpeg',  
+  Bernardo: 'img/members/Bernardo.jpeg',
   Clarissa: 'img/members/Clarissa.jpg',
   Esio: 'img/members/Esio.jpg',
   Felipe: 'img/members/Felipe.jpeg',
@@ -61,7 +61,7 @@ const siteConfig = {
   Pedro: 'img/members/Pedro.jpeg',
   Saleh: 'img/members/Saleh.png',
   Youssef: 'img/members/Youssef.jpeg',
- 
+
   members: [
     "Bernardo", "Clarissa", "Ésio", "Felipe",
     "Jacó", "Lucas", "Mariana", "Pedro", "Saleh", "Youssef"
