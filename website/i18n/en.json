@@ -12,12 +12,13 @@
     "doc3": "This is document number 3",
     "doc5": "document teste",
     "TESTINHO": "TESTINHO",
+    "docVisao": "Documento de Visão",
     "doc4": "Other Document",
     "overview": "Overview do Projeto",
     "rsprint0": "Resultados Sprint 0",
     "rsprint1": "Resultados Sprint 1",
     "psprint1": "Planejamento Sprint 1",
-    "Sprint-2": "Sprint-2",
+    "psprint2": "Planejamento Sprint 2",
     "psprint0": "Planejamento Sprint 0",
     "Documentação": "Documentação",
     "Sprints": "Sprints",
@@ -27,7 +28,8 @@
     "Engenharia de Requisitos": "Engenharia de Requisitos",
     "Arquitetura": "Arquitetura",
     "Sprint 0": "Sprint 0",
-    "Sprint 1": "Sprint 1"
+    "Sprint 1": "Sprint 1",
+    "Sprint 2": "Sprint 2"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",

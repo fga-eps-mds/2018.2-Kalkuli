@@ -5,7 +5,9 @@
       "comunicacao",
       "contributing"
     ],
-    "Visão de Produto": [],
+    "Visão de Produto": [
+      "docVisao"
+    ],
     "Engenharia de Requisitos": [],
     "Arquitetura": []
   },
@@ -17,6 +19,9 @@
     "Sprint 1": [
       "psprint1",
       "rsprint1"
+    ],
+    "Sprint 2": [
+      "psprint2"
     ]
   }
 }

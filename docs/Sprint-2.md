@@ -1,4 +1,10 @@
-# Sprint 2   
+---
+id: psprint2    
+title: Planejamento Sprint 2 
+---
+
+***    
+
 
 <p align="justify">
 Refino de escopo, criação de <i>roadmap</i> e <i>backlog</i> do produto.</p>
@@ -17,11 +23,11 @@ Também da <i>sprint</i> anterior, ficaram dívidas para serem liquidadas, sendo
 
 ## Objetivos  
 
-[Subir _Wiki_ ](https://github.com/fga-eps-mds/PDF2Knowledge/issues/33) qua    
-[Iniciar _Roadmap_ do _Product Manager_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/34) qua   
-[Refinar o Documento de Visão](https://github.com/fga-eps-mds/PDF2Knowledge/issues/31) prazo ate quarta   
-[Iniciar _Roadmap_ do Arquiteto](https://github.com/fga-eps-mds/PDF2Knowledge/issues/20) qua    
-[Definir Política de _Branches_ e _Commits_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/10) qua    
+[Subir _Wiki_ ](https://github.com/fga-eps-mds/PDF2Knowledge/issues/33)        
+[Iniciar _Roadmap_ do _Product Manager_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/34)      
+[Refinar o Documento de Visão](https://github.com/fga-eps-mds/PDF2Knowledge/issues/31)       
+[Iniciar _Roadmap_ do Arquiteto](https://github.com/fga-eps-mds/PDF2Knowledge/issues/20)      
+[Definir Política de _Branches_ e _Commits_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/10)     
 [Protótipo de Alta Fidelidade](https://github.com/fga-eps-mds/PDF2Knowledge/issues/23)   
 [Definir Identidade Visual](https://github.com/fga-eps-mds/PDF2Knowledge/issues/22)    
 [Iniciar o Documento de Arquitetura](https://github.com/fga-eps-mds/PDF2Knowledge/issues/27)    
@@ -37,9 +43,10 @@ Também da <i>sprint</i> anterior, ficaram dívidas para serem liquidadas, sendo
 
 ### Dívida   
 
-- Elaboração da [EAP](https://github.com/fga-eps-mds/PDF2Knowledge/issues/11); prazo ate qua
-- Elaboração do [TAP](https://github.com/fga-eps-mds/PDF2Knowledge/issues/12); prazo ate qua
-- Finalizar o [Community Profile](https://github.com/fga-eps-mds/PDF2Knowledge/issues/15)  do Repositório
+Da [_sprint 1_](Sprint-1.md):  
+- Elaboração da [EAP](https://github.com/fga-eps-mds/PDF2Knowledge/issues/11);
+- Elaboração do [TAP](https://github.com/fga-eps-mds/PDF2Knowledge/issues/12);
+- Finalizar o [Community Profile](https://github.com/fga-eps-mds/PDF2Knowledge/issues/15) do Repositório;
 
 
 > [Sprint Backlog](https://github.com/fga-eps-mds/PDF2Knowledge/milestone/3)  
