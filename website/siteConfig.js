@@ -22,7 +22,7 @@ const users = [
 const siteConfig = {
   title: 'PDF2Knowledge', // Title for your website.
   tagline: 'A website for PDF2Knowledge',
-  url: 'https://youssef-md.github.io', // Your website URL
+  url: 'https://fga-eps-mds.github.io', // Your website URL
   baseUrl: '/pdf2Knowledge', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -30,13 +30,12 @@ const siteConfig = {
 
   // Used for publishing and more
   projectName: 'PDF2Knowledge',
-  organizationName: 'youssef-md',
+  organizationName: 'fga-eps-mds',
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: 'overview', label: 'Documentação' },
     { doc: 'psprint0', label: 'Sprints' },
-    { page: 'help', label: 'Help' },
     { blog: false },
   ],
 
