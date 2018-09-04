@@ -14,7 +14,6 @@ const users = [
     caption: 'PDF2Knowledge',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/docusaurus.svg',
     infoLink: 'https://www.facebook.com',
     pinned: true,
   },
@@ -46,8 +45,6 @@ const siteConfig = {
 
   /* path to images for header/footer */
 
-  headerIcon: 'img/knowledge.png',
-  footerIcon: 'img/knowledge.png',
   favicon: 'img/knowledge.png',
   githubIcon: 'img/members/git.png',
   linkedinIcon: 'img/members/link.png',

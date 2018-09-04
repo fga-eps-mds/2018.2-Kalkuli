@@ -5,7 +5,7 @@ body {
 }
 
 .heading-primary {
-  color: var(--color-gray-dark);
+  color: var(--color-gray-light-1);
   text-transform: uppercase;
   margin-bottom: 6rem;
   user-select: none; 
