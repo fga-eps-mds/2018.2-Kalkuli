@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Overview do Projeto · PDF2Knowledge</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="***"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Overview do Projeto · PDF2Knowledge"/><meta property="og:type" content="website"/><meta property="og:url" content="https://youssef-md.github.io/pdf2Knowledgeindex.html"/><meta property="og:description" content="***"/><meta property="og:image" content="https://youssef-md.github.io/pdf2Knowledge/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://youssef-md.github.io/pdf2Knowledge/img/docusaurus.png"/><link rel="shortcut icon" href="/pdf2Knowledgeimg/knowledge.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/rainbow.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/pdf2Knowledgecss/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/pdf2Knowledge"><h2 class="headerTitle">PDF2Knowledge</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive siteNavItemActive"><a href="/pdf2Knowledgedocs/overview" target="_self">Documentação</a></li><li class=""><a href="/pdf2Knowledgedocs/psprint0" target="_self">Sprints</a></li><li class=""><a href="/pdf2Knowledgeen/help" target="_self">Help</a></li><li class=""><a target="_self"></a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Gerenciamento do Projeto</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Gerenciamento do Projeto</h3><ul><li class="navListItem navListItemActive"><a class="navItem" href="/pdf2Knowledgedocs/overview">Overview do Projeto</a></li><li class="navListItem"><a class="navItem" href="/pdf2Knowledgedocs/comunicacao">Gerenciamento de Comunicações</a></li><li class="navListItem"><a class="navItem" href="/pdf2Knowledgedocs/contributing">Guia de Contribuição</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Visão de Produto</h3><ul><li class="navListItem"><a class="navItem" href="/pdf2Knowledgedocs/docVisao">Documento de Visão</a></li></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Overview do Projeto</h1></header><article><div><span><hr>
+<p>A equipe de EPS adotará algumas das práticas do <em>Scrum</em>, e terá papeis bem definidos.</p>
+<h2><a class="anchor" aria-hidden="true" id="arquiteto"></a><a href="#arquiteto" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Arquiteto</h2>
+<p align="justify">  
+O arquiteto de <i>software</i> se responsabiliza por tomadas de decisões estratégicas relacionadas à parte técnica do projeto. A ele cabe a escolha de tecnologias e demais ferramentas, além de definir e garantir a viabilidade do modelo arquitetural do sistema a ser implementado. Possui forte relação com <i>DevOps</i>, sendo a integração entre esses dois papeis de grande importância para o sucesso do empreendimento.</p>
+<h2><a class="anchor" aria-hidden="true" id="devops"></a><a href="#devops" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><em>DevOps</em></h2>
+<p align="justify">  
+Tem a responsailidade de automatizar o maior número possível de processos operacionais, para levar o código existente até o usuário. Padroniza ambientes de desenvolvimento visando entrega contínua e qualidade.
+</p>   
+<h2><a class="anchor" aria-hidden="true" id="product-manager-prooduct-owner"></a><a href="#product-manager-prooduct-owner" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><em>Product Manager (Prooduct Owner)</em></h2>
+<p align="justify">  
+As atribuições do PM giram em torno de, basicamente, buscar o maior valor possível para o produto. No contexto deste projeto, que não é proposto por um cliente em específico, cabe ao PM buscar a viabilidade do que se tenta vender no produto, entendendo a necessidade do público que se deseja atingir e como é possível atendê-la através de melhorias. Dentro do time, o PM faz a organização e priorização do <i>backlog</i>, de forma que ele consiga entregar o maior valor de negócio tão cedo quanto possível, gerencia o orçamento do trabalho desenvolvido e toma decisões para dar a direção correta ao projeto.</p>
+<h2><a class="anchor" aria-hidden="true" id="tech-leader-scrum-master"></a><a href="#tech-leader-scrum-master" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><em>Tech Leader (Scrum Master)</em></h2>
+<p>O <i>Tech Leader</i> (antigo <i>Scrum Master</i>), é responsável pela comunicação da equipe, por monitorar sua produtividade, e por guiar, facilitar e ensinar as práticas do <i>scrum</i> para os envolvidos no projeto, além de remover possíveis impedimentos. Define os critérios de pronto juntamente com o PM, e também o auxilia na criação do <i>backlog</i> priorizado do produto.</p>
+<ul>
+<li>Conduz <em>daily meetings</em>;</li>
+<li>Conduz rituais;
+<ul>
+<li><em>Review</em>;</li>
+<li>Retrospectiva;</li>
+<li>Rlanejamento;</li>
+</ul></li>
+<li>Estabelece <em>timebox</em> para reuniões e rituais;</li>
+<li>Monitora riscos e age diretamente;</li>
+<li>Colhe métricas;</li>
+</ul>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-next button" href="/pdf2Knowledgedocs/comunicacao">Gerenciamento de Comunicações →</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#arquiteto">Arquiteto</a></li><li><a href="#devops"><em>DevOps</em></a></li><li><a href="#product-manager-prooduct-owner"><em>Product Manager (Prooduct Owner)</em></a></li><li><a href="#tech-leader-scrum-master"><em>Tech Leader (Scrum Master)</em></a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/pdf2Knowledge" class="nav-home"><img src="../../img/knowledge.png" alt="PDF2Knowledge" width="66" height="58"/></a><div><h5>Docs</h5><a href="/pdf2Knowledgedocs/en/doc1.html">Getting Started (or other categories)</a><a href="/pdf2Knowledgedocs/en/doc2.html">Guides (or other categories)</a><a href="/pdf2Knowledgedocs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/pdf2Knowledgeen/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/pdf2Knowledgeblog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/pdf2Knowledgeimg/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2018 PDF2Knowledge</section></footer></div></body></html>

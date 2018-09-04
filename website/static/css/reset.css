@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body{
+  box-sizing: border-box;
+  background-color: var(--color-gray-light-1);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p,h1,h3 {
+  color: var(--color-gray-dark);
+}
+
+
+a, .toc .toggleNav ul li.navListItemActive a, 
+.toc .toggleNav .navGroup .navGroupCategoryTitle,
+.toc .toggleNav ul li a:hover, .toc .toggleNav ul li a:focus {
+  color: black;
+}
+

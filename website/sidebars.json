@@ -1,0 +1,27 @@
+{
+  "docs": {
+    "Gerenciamento do Projeto": [
+      "overview",
+      "comunicacao",
+      "contributing"
+    ],
+    "Visão de Produto": [
+      "docVisao"
+    ],
+    "Engenharia de Requisitos": [],
+    "Arquitetura": []
+  },
+  "docs-other": {
+    "Sprint 0": [
+      "psprint0",
+      "rsprint0"
+    ],
+    "Sprint 1": [
+      "psprint1",
+      "rsprint1"
+    ],
+    "Sprint 2": [
+      "psprint2"
+    ]
+  }
+}
