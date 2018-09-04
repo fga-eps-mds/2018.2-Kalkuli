@@ -3,14 +3,7 @@ id: comunicacao
 title: Gerenciamento de Comunicações 
 ---
 
-***
-
-### Histórico de Revisões
-
-| Data       | Autor            | Revisor           |
-|:----------:|:----------------:|:-----------------:|
-| 25/08/2018 | Mariana Pícolo   | Felipe Hargreaves |
-  
+***   
 
 ## _Overview_
 <p align="justify"> 
@@ -60,6 +53,3 @@ Reuniões semanais aos sábados, todas _timeboxed_, para realização dos rituai
 - Retrospectiva - Duas horas    
     - (Sofreu ajuste para uma hora);    
 - Planejamento - Uma hora e quarenta e cinco minutos;   
-
-À medida que a equipe ganhar maturidade se adaptando aos rituais, o tempo de realização destes será gradualmente reduzido.
-
