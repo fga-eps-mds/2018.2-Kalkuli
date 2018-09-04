@@ -1,6 +1,7 @@
 {
   "docs": {
     "Gerenciamento do Projeto": [
+      "overview",
       "comunicacao",
       "contributing"
     ],
