@@ -33,5 +33,8 @@ O <i>Tech Leader</i> (antigo <i>Scrum Master</i>), é responsável pela comunica
 - Monitora riscos e age diretamente;
 - Colhe métricas;
 
+## Equipe de Desenvolvimento   
+<p align="justify">  
+A equipe de desenvolvimento é responsável por construir o código da aplicação sempre seguindo as metodologias adotadas pela equipe de EPS, sempre se atentando às boas práticas, aos requisitos definidos e ao tempo acordado.</p>
 
 
