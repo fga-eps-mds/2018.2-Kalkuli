@@ -28,15 +28,15 @@ function pageUrl(page, language) {
 /* CUSTOM COMPONENTS START */
 
 const Header = () => {
-  return(
+  return (
     <div className="header">
-			<div className="header__text-box">
-				<h1 className="heading-primary">
-					<span className="heading-primary--main">pdf2</span>
-					<span className="heading-primary--sub">knowledge</span>
-				</h1> 
-			</div>
-		</div>
+      <div className="header__text-box">
+        <h1 className="heading-primary">
+          <span className="heading-primary--main">Kalkuli</span>
+          <span className="heading-primary--sub">de notas para dados</span>
+        </h1>
+      </div>
+    </div>
   )
 }
 
@@ -68,30 +68,30 @@ const Cards = (props) => {
       photo = siteConfig.Pedro
       break
     case "Saleh":
-      photo = siteConfig.Saleh 
-      break   
+      photo = siteConfig.Saleh
+      break
     case "Youssef":
       photo = siteConfig.Youssef
       break
     default:
       break
   }
-  return(
+  return (
     <div className="card-foto">
-      <img src={ photo } alt={ props.name } className="card-foto-perfil"/>
+      <img src={photo} alt={props.name} className="card-foto-perfil" />
       <div className="card-link">
-        <p className="card-link-text">{ props.name }</p>
+        <p className="card-link-text">{props.name}</p>
         <div className="links">
           <a href='google.com' >
-            <img src={siteConfig.githubIcon} alt="GitHub"/>
+            <img src={siteConfig.githubIcon} alt="GitHub" />
           </a>
           <a href='google.com' >
-            <img src={siteConfig.linkedinIcon} alt="LinkedIn"/>
+            <img src={siteConfig.linkedinIcon} alt="LinkedIn" />
           </a>
         </div>
       </div>
     </div>
-  ) 
+  )
 }
 
 /* CUSTOM COMPONENTS END*/
@@ -173,11 +173,11 @@ class Index extends React.Component {
     const language = this.props.language || '';
 
     return (
-      <div> 
+      <div>
         <Header />
         <div className="mainContainer">
           <div className="card-container">
-            {siteConfig.members.map(member => <Cards key={member} name={member}/>)}
+            {siteConfig.members.map(member => <Cards key={member} name={member} />)}
           </div>
           <Features />
           <LearnHow />

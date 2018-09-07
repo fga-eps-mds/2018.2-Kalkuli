@@ -21,7 +21,7 @@ const users = [
 
 const siteConfig = {
   title: 'Kalkuli', // Title for your website.
-  tagline: 'A website for Kalkuli',
+  tagline: 'de notas para dados',
   url: 'https://fga-eps-mds.github.io', // Your website URL
   baseUrl: '/Kalkuli/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -65,8 +65,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#424242',
-    secondaryColor: '#80df70',
+    primaryColor: '#353535',
+    secondaryColor: '#595959',
   },
 
   /* Custom fonts for website */
