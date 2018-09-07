@@ -8,10 +8,10 @@ title: Guia de Contribuição
 ## Como contribuir?
 Agradecemos pelo interesse em contribuir com o projeto! Para isso, basta seguir os passos abaixo:
 * Fazer o _fork_ do repositório, caso seja um colaborador externo.
-* Criar _issues_, em conformidade com o nosso [template](https://github.com/fga-eps-mds/PDF2Knowledge/blob/master/.github/ISSUE_TEMPLATE/issue-template.md).
+* Criar _issues_, em conformidade com o nosso [template](https://github.com/fga-eps-mds/Kalkuli/blob/master/.github/ISSUE_TEMPLATE/issue-template.md).
 * Criar uma ou mais _branches_ para trabalhar nas _issues_ levantadas, de acordo com nossa [política de branches](#política-de-branches).
 * Seguir nossa [política de commits](#política-de-commits) durante o desenvolvimento.
-* Ao final, submeter um _pull request_, também de acordo com [nosso template](https://github.com/fga-eps-mds/PDF2Knowledge/blob/master/PULL_REQUEST_TEMPLATE.md).
+* Ao final, submeter um _pull request_, também de acordo com [nosso template](https://github.com/fga-eps-mds/Kalkuli/blob/master/PULL_REQUEST_TEMPLATE.md).
 Simples assim!
 
 ## Política de _branches_

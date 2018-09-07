@@ -8,7 +8,7 @@ title: Resultados Sprint 1
 <p align="justify">
 A <i>Sprint</i> 1 marcou o fechamento do escopo, esclarecimento quanto à requisitos de alto nível do produto, e concretizou o conhecimento dos papeis da equipe de EPS.</p>
 <p align="justify">
-A equipe de EPS pôde apresentar e praticar os rituais com a equipe de MDS, já os executando de acordo com o <a href="https://github.com/fga-eps-mds/PDF2Knowledge/issues/29#issuecomment-417827556">pré planejamento</a>.</p>
+A equipe de EPS pôde apresentar e praticar os rituais com a equipe de MDS, já os executando de acordo com o <a href="https://github.com/fga-eps-mds/Kalkuli/issues/29#issuecomment-417827556">pré planejamento</a>.</p>
 
 ## Fechamento da _Sprint_   
 
@@ -22,19 +22,19 @@ Portanto, para esse primeiro momento de estabilização do escopo e coleta de re
 
 |     _Issue_      |     _Status_    |
 |:--------------:|:---------------:|
-|[Fechar Escopo](https://github.com/fga-eps-mds/PDF2Knowledge/issues/7)| Concluída |
-|[EAP](https://github.com/fga-eps-mds/PDF2Knowledge/issues/11)| Não Concluída |
-|[TAP](https://github.com/fga-eps-mds/PDF2Knowledge/issues/12)| Não Concluída |
-|[Documento de Visão](https://github.com/fga-eps-mds/PDF2Knowledge/issues/26)| Concluída |
-|[Treinamento de prototipação](https://github.com/fga-eps-mds/PDF2Knowledge/issues/5)| Concluída |
-|[Criação de protótipos de baixa fidelidade](https://github.com/fga-eps-mds/PDF2Knowledge/issues/28) | Concluída |
-|[Plano de Gerenciamento de Riscos](https://github.com/fga-eps-mds/PDF2Knowledge/issues/9)| Não Concluída |
+|[Fechar Escopo](https://github.com/fga-eps-mds/Kalkuli/issues/7)| Concluída |
+|[EAP](https://github.com/fga-eps-mds/Kalkuli/issues/11)| Não Concluída |
+|[TAP](https://github.com/fga-eps-mds/Kalkuli/issues/12)| Não Concluída |
+|[Documento de Visão](https://github.com/fga-eps-mds/Kalkuli/issues/26)| Concluída |
+|[Treinamento de prototipação](https://github.com/fga-eps-mds/Kalkuli/issues/5)| Concluída |
+|[Criação de protótipos de baixa fidelidade](https://github.com/fga-eps-mds/Kalkuli/issues/28) | Concluída |
+|[Plano de Gerenciamento de Riscos](https://github.com/fga-eps-mds/Kalkuli/issues/9)| Não Concluída |
 
 
-A _Issue_ de [Criar Roadmap do Tech Leader](https://github.com/fga-eps-mds/PDF2Knowledge/issues/21) foi [fechada](https://github.com/fga-eps-mds/PDF2Knowledge/issues/21#issuecomment-417896496) durante a _sprint_.
+A _Issue_ de [Criar Roadmap do Tech Leader](https://github.com/fga-eps-mds/Kalkuli/issues/21) foi [fechada](https://github.com/fga-eps-mds/Kalkuli/issues/21#issuecomment-417896496) durante a _sprint_.
 
 
-> [Milestone Sprint 1](https://github.com/fga-eps-mds/PDF2Knowledge/issues?q=is%3Aissue+milestone%3A%22Sprint+1%22+is%3Aclosed)
+> [Milestone Sprint 1](https://github.com/fga-eps-mds/Kalkuli/issues?q=is%3Aissue+milestone%3A%22Sprint+1%22+is%3Aclosed)
 
 ## Retrospectiva
 <p align="justify">

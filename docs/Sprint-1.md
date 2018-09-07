@@ -21,15 +21,15 @@ Após o fechamento do escopo, será possível definir a Estrutura Analítica do 
 
 ## Objetivos  
 
-- [Fechamento do escopo](https://github.com/fga-eps-mds/PDF2Knowledge/issues/7);
-    - Elaboração da [EAP](https://github.com/fga-eps-mds/PDF2Knowledge/issues/11);
-    - Elaboração do [TAP](https://github.com/fga-eps-mds/PDF2Knowledge/issues/12);
-    - Elaboração do [Documento de Visão](https://github.com/fga-eps-mds/PDF2Knowledge/issues/26);  
-- Realização de [treinamento de prototipação](https://github.com/fga-eps-mds/PDF2Knowledge/issues/5);
-- [Criação de protótipos de baixa fidelidade](https://github.com/fga-eps-mds/PDF2Knowledge/issues/28) para elicitação de requisitos;
-- [Plano de Gerenciamento de Riscos](https://github.com/fga-eps-mds/PDF2Knowledge/issues/9); 
+- [Fechamento do escopo](https://github.com/fga-eps-mds/Kalkuli/issues/7);
+    - Elaboração da [EAP](https://github.com/fga-eps-mds/Kalkuli/issues/11);
+    - Elaboração do [TAP](https://github.com/fga-eps-mds/Kalkuli/issues/12);
+    - Elaboração do [Documento de Visão](https://github.com/fga-eps-mds/Kalkuli/issues/26);  
+- Realização de [treinamento de prototipação](https://github.com/fga-eps-mds/Kalkuli/issues/5);
+- [Criação de protótipos de baixa fidelidade](https://github.com/fga-eps-mds/Kalkuli/issues/28) para elicitação de requisitos;
+- [Plano de Gerenciamento de Riscos](https://github.com/fga-eps-mds/Kalkuli/issues/9); 
 
-> [Sprint Backlog](https://github.com/fga-eps-mds/PDF2Knowledge/milestone/2)    
+> [Sprint Backlog](https://github.com/fga-eps-mds/Kalkuli/milestone/2)    
 
 
 ## Papeis

@@ -23,33 +23,33 @@ Também da <i>sprint</i> anterior, ficaram dívidas para serem liquidadas, sendo
 
 ## Objetivos  
 
-[Subir _Wiki_ ](https://github.com/fga-eps-mds/PDF2Knowledge/issues/33)        
-[Iniciar _Roadmap_ do _Product Manager_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/34)      
-[Refinar o Documento de Visão](https://github.com/fga-eps-mds/PDF2Knowledge/issues/31)       
-[Iniciar _Roadmap_ do Arquiteto](https://github.com/fga-eps-mds/PDF2Knowledge/issues/20)      
-[Definir Política de _Branches_ e _Commits_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/10)     
-[Protótipo de Alta Fidelidade](https://github.com/fga-eps-mds/PDF2Knowledge/issues/23)   
-[Definir Identidade Visual](https://github.com/fga-eps-mds/PDF2Knowledge/issues/22)    
-[Iniciar o Documento de Arquitetura](https://github.com/fga-eps-mds/PDF2Knowledge/issues/27)    
-[Estudar Sobre Notas Fiscais](https://github.com/fga-eps-mds/PDF2Knowledge/issues/32)      
-[Iniciar _Roadmap_ do _DevOps_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/35)    
-[Definir _Backlog_ do Produto](https://github.com/fga-eps-mds/PDF2Knowledge/issues/36)    
-[Pesquisa de Possível Público Alvo](https://github.com/fga-eps-mds/PDF2Knowledge/issues/37)    
-[Iniciar _Roadmap_ do produto](https://github.com/fga-eps-mds/PDF2Knowledge/issues/8)    
-[Fazer _Canvas_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/38)    
-[Estudar _Docker_ e Preparar um Treinamento](https://github.com/fga-eps-mds/PDF2Knowledge/issues/39)   
-[_Burndown_ de Riscos](https://github.com/fga-eps-mds/PDF2Knowledge/issues/9)   
-[Elaborar Quadro de Conhecimento](https://github.com/fga-eps-mds/PDF2Knowledge/issues/40)
+[Subir _Wiki_ ](https://github.com/fga-eps-mds/Kalkuli/issues/33)        
+[Iniciar _Roadmap_ do _Product Manager_](https://github.com/fga-eps-mds/Kalkuli/issues/34)      
+[Refinar o Documento de Visão](https://github.com/fga-eps-mds/Kalkuli/issues/31)       
+[Iniciar _Roadmap_ do Arquiteto](https://github.com/fga-eps-mds/Kalkuli/issues/20)      
+[Definir Política de _Branches_ e _Commits_](https://github.com/fga-eps-mds/Kalkuli/issues/10)     
+[Protótipo de Alta Fidelidade](https://github.com/fga-eps-mds/Kalkuli/issues/23)   
+[Definir Identidade Visual](https://github.com/fga-eps-mds/Kalkuli/issues/22)    
+[Iniciar o Documento de Arquitetura](https://github.com/fga-eps-mds/Kalkuli/issues/27)    
+[Estudar Sobre Notas Fiscais](https://github.com/fga-eps-mds/Kalkuli/issues/32)      
+[Iniciar _Roadmap_ do _DevOps_](https://github.com/fga-eps-mds/Kalkuli/issues/35)    
+[Definir _Backlog_ do Produto](https://github.com/fga-eps-mds/Kalkuli/issues/36)    
+[Pesquisa de Possível Público Alvo](https://github.com/fga-eps-mds/Kalkuli/issues/37)    
+[Iniciar _Roadmap_ do produto](https://github.com/fga-eps-mds/Kalkuli/issues/8)    
+[Fazer _Canvas_](https://github.com/fga-eps-mds/Kalkuli/issues/38)    
+[Estudar _Docker_ e Preparar um Treinamento](https://github.com/fga-eps-mds/Kalkuli/issues/39)   
+[_Burndown_ de Riscos](https://github.com/fga-eps-mds/Kalkuli/issues/9)   
+[Elaborar Quadro de Conhecimento](https://github.com/fga-eps-mds/Kalkuli/issues/40)
 
 ### Dívida   
 
 Da [_sprint 1_](Sprint-1.md):  
-- Elaboração da [EAP](https://github.com/fga-eps-mds/PDF2Knowledge/issues/11);
-- Elaboração do [TAP](https://github.com/fga-eps-mds/PDF2Knowledge/issues/12);
-- Finalizar o [Community Profile](https://github.com/fga-eps-mds/PDF2Knowledge/issues/15) do Repositório;
+- Elaboração da [EAP](https://github.com/fga-eps-mds/Kalkuli/issues/11);
+- Elaboração do [TAP](https://github.com/fga-eps-mds/Kalkuli/issues/12);
+- Finalizar o [Community Profile](https://github.com/fga-eps-mds/Kalkuli/issues/15) do Repositório;
 
 
-> [Sprint Backlog](https://github.com/fga-eps-mds/PDF2Knowledge/milestone/3)  
+> [Sprint Backlog](https://github.com/fga-eps-mds/Kalkuli/milestone/3)  
 
 ## Papeis
 

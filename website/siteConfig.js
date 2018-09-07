@@ -11,7 +11,7 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: 'PDF2Knowledge',
+    caption: 'Kalkuli',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     infoLink: 'https://www.facebook.com',
@@ -20,16 +20,16 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'PDF2Knowledge', // Title for your website.
-  tagline: 'A website for PDF2Knowledge',
+  title: 'Kalkuli', // Title for your website.
+  tagline: 'A website for Kalkuli',
   url: 'https://fga-eps-mds.github.io', // Your website URL
-  baseUrl: '/PDF2Knowledge/', // Base URL for your project */
+  baseUrl: '/Kalkuli/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'PDF2Knowledge',
+  projectName: 'Kalkuli',
   organizationName: 'fga-eps-mds',
 
   // For no header links in the top nav bar -> headerLinks: [],
@@ -84,7 +84,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} PDF2Knowledge`,
+  copyright: `Copyright © ${new Date().getFullYear()} Kalkuli`,
 
   highlight: {
     // https://github.com/isagalaev/highlight.js/tree/master/src/styles

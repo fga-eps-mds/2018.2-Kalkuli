@@ -18,18 +18,18 @@ title: Planejamento Sprint 0
 ## Objetivos  
 
 - Capacitar equipe de desenvolvimento;
-    - [Treinamento](https://github.com/fga-eps-mds/PDF2Knowledge/issues/2) de _Git_;
-    - [Treinamento](https://github.com/fga-eps-mds/PDF2Knowledge/issues/1) de Metodologias Ágeis e _Scrum_;
-- [Pesquisa](https://github.com/fga-eps-mds/PDF2Knowledge/issues/14) de manipulação de PDFs;
-- [Pesquisa](https://github.com/fga-eps-mds/PDF2Knowledge/issues/13) de OCR (Reconhecimento Óptico de Caracteres)
-- [Definição do Plano de Comunicação](https://github.com/fga-eps-mds/PDF2Knowledge/issues/3);
+    - [Treinamento](https://github.com/fga-eps-mds/Kalkuli/issues/2) de _Git_;
+    - [Treinamento](https://github.com/fga-eps-mds/Kalkuli/issues/1) de Metodologias Ágeis e _Scrum_;
+- [Pesquisa](https://github.com/fga-eps-mds/Kalkuli/issues/14) de manipulação de PDFs;
+- [Pesquisa](https://github.com/fga-eps-mds/Kalkuli/issues/13) de OCR (Reconhecimento Óptico de Caracteres)
+- [Definição do Plano de Comunicação](https://github.com/fga-eps-mds/Kalkuli/issues/3);
    - Definição de horários das _dailies_;
    - Definição de duração dos rituais;
-- Definição do [_Community Profile_](https://github.com/fga-eps-mds/PDF2Knowledge/community) do repositório.
-   - Padronizar _issues_ e [_pull requests_](https://github.com/fga-eps-mds/PDF2Knowledge/pull/25);
-- Descobrir os [interesses](https://github.com/fga-eps-mds/PDF2Knowledge/issues/4) dos membros da equipe em possíveis tecnologias que serão utilizadas;
+- Definição do [_Community Profile_](https://github.com/fga-eps-mds/Kalkuli/community) do repositório.
+   - Padronizar _issues_ e [_pull requests_](https://github.com/fga-eps-mds/Kalkuli/pull/25);
+- Descobrir os [interesses](https://github.com/fga-eps-mds/Kalkuli/issues/4) dos membros da equipe em possíveis tecnologias que serão utilizadas;
 
-> [Sprint Backlog](https://github.com/fga-eps-mds/PDF2Knowledge/milestone/1)  
+> [Sprint Backlog](https://github.com/fga-eps-mds/Kalkuli/milestone/1)  
 
 
 ## Papeis

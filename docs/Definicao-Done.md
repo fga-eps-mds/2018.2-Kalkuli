@@ -26,7 +26,7 @@ As <i>pipelines</i> utilizadas serão:
 </ul>  
 
 <p align="justify">
-Assim que uma história técnica ou de usuário respeitar a definição de pronto acordada, e, caso possua testes unitários, e a <i>build</i> esteja passando, o responsável por ela abrirá um  <a href="https://github.com/fga-eps-mds/PDF2Knowledge/blob/master/PULL_REQUEST_TEMPLATE.md"><i>Pull Request</i></a>, e assim que for revisado por um membro de EPS, que, caso aceite a história, ela finalmente poderá ser dada como concluída.    
+Assim que uma história técnica ou de usuário respeitar a definição de pronto acordada, e, caso possua testes unitários, e a <i>build</i> esteja passando, o responsável por ela abrirá um  <a href="https://github.com/fga-eps-mds/Kalkuli/blob/master/PULL_REQUEST_TEMPLATE.md"><i>Pull Request</i></a>, e assim que for revisado por um membro de EPS, que, caso aceite a história, ela finalmente poderá ser dada como concluída.    
 
 A cobertura de testes deverá estar em 30%.
 </p>
@@ -55,7 +55,7 @@ As <i>pipelines</i> utilizadas no <i>ZenHub</i> corresponderão a:
 </ul> 
 
 <p align="justify">
-Assim que uma história técnica ou de usuário respeitar a definição de pronto, e a <i>build</i> esteja passando, o responsável por ela abrirá um  <a href="https://github.com/fga-eps-mds/PDF2Knowledge/blob/master/PULL_REQUEST_TEMPLATE.md"><i>Pull Request</i></a>, e assim que for revisado por um membro de EPS, que, caso aceite a história, ela finalmente poderá ser dada como concluída.    
+Assim que uma história técnica ou de usuário respeitar a definição de pronto, e a <i>build</i> esteja passando, o responsável por ela abrirá um  <a href="https://github.com/fga-eps-mds/Kalkuli/blob/master/PULL_REQUEST_TEMPLATE.md"><i>Pull Request</i></a>, e assim que for revisado por um membro de EPS, que, caso aceite a história, ela finalmente poderá ser dada como concluída.    
 
 A cobertura de testes deverá estar em 90%.
 </p>
