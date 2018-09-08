@@ -8,6 +8,7 @@
 <url> <loc>https://fga-eps-mds.github.io/Kalkuli/blog/2017/09/25/testing-rss</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://fga-eps-mds.github.io/Kalkuli/blog/2017/04/10/blog-post-two</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://fga-eps-mds.github.io/Kalkuli/blog/2016/03/11/blog-post</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://fga-eps-mds.github.io/Kalkuli/docs/canvas</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fga-eps-mds.github.io/Kalkuli/docs/canvas" /> </url>
 <url> <loc>https://fga-eps-mds.github.io/Kalkuli/docs/comunicacao</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fga-eps-mds.github.io/Kalkuli/docs/comunicacao" /> </url>
 <url> <loc>https://fga-eps-mds.github.io/Kalkuli/docs/contributing</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fga-eps-mds.github.io/Kalkuli/docs/contributing" /> </url>
 <url> <loc>https://fga-eps-mds.github.io/Kalkuli/docs/defpronto</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://fga-eps-mds.github.io/Kalkuli/docs/defpronto" /> </url>
