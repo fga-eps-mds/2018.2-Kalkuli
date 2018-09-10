@@ -6,7 +6,7 @@ title: Resultados Sprint 2
 ***    
 
 <p align="justify">
-<i>Sprint</i> que marca o fechamento do escopo, a escolha de tecnologias, o amadurecimento da ideia de produto, e a criação de seu <i>backlog</i> completo.</p>
+<i>Sprint</i> que marca o fechamento do escopo, a escolha de tecnologias, o amadurecimento da ideia de produto, e a criação de seu <a href="https://docs.google.com/spreadsheets/d/1jOOtXSgxs4OZE-kTbZ6oTa4Jjy1Ix0aCNGvWIttggRk/edit#gid=0"><i>backlog</i></a> completo.</p>
 
 ## Fechamento da _Sprint_    
 
