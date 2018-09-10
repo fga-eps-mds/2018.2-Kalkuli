@@ -28,7 +28,7 @@ Também da <i>sprint</i> anterior, ficaram dívidas para serem liquidadas, sendo
 [Refinar o Documento de Visão](https://github.com/fga-eps-mds/Kalkuli/issues/31)       
 [Iniciar _Roadmap_ do Arquiteto](https://github.com/fga-eps-mds/Kalkuli/issues/20)      
 [Definir Política de _Branches_ e _Commits_](https://github.com/fga-eps-mds/Kalkuli/issues/10)     
-[Protótipo de Alta Fidelidade](https://github.com/fga-eps-mds/Kalkuli/issues/23)   
+[Criar Protótipo de Alta Fidelidade](https://github.com/fga-eps-mds/Kalkuli/issues/23)   
 [Definir Identidade Visual](https://github.com/fga-eps-mds/Kalkuli/issues/22)    
 [Iniciar o Documento de Arquitetura](https://github.com/fga-eps-mds/Kalkuli/issues/27)    
 [Estudar Sobre Notas Fiscais](https://github.com/fga-eps-mds/Kalkuli/issues/32)      
