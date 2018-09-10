@@ -41,7 +41,9 @@ A _Issue_ de [Criar Roadmap do Tech Leader](https://github.com/fga-eps-mds/Kalku
 Primeira retrospectiva da equipe. Teve duração de 35 minutos. Para próximas retrospectivas, o <i>timebox</i> será reduzido, dado que o desempenho e foco da equipe possibilitou finalizar o ritual em tempo menor do que o pré estabelecido.
 </p>   
 
-![S1](assets/Retrospectiva-S1.png "Sprint 1")
+[![S1](assets/Retrospectiva-S1.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/1SwrbhRVE0lLx0K-8wPtjzFHJ86G5oUCzknl2b8s2odg/edit#gid=0)   
+
+_(Afirmações precedidas do asterisco são de cunho pessoal)._
 
 ### Registros de Presença nas _Dailies_   
 
@@ -52,19 +54,19 @@ Forma de manter o controle e tornar transparente a participação de membros do 
 
 | Nome    |Segunda Feira      | Terça Feira      | Quarta Feira     | Quinta Feira      | Sexta Feira      |     
 |:-----:  |:-----------------:|:----------------:|:----------------:|:-----------------:|:----------------:|
-|Bernardo |:white_check_mark: |       :x:        |       :x:        |       :x:         |       :x:        |
-|Clarissa |:white_check_mark: |:white_check_mark:|:white_check_mark:|:white_check_mark: |:white_check_mark:|
-|Esio     |:white_check_mark: |:white_check_mark:|:white_check_mark:|:white_check_mark: |:white_check_mark:|
-|Felipe   |:white_check_mark: |:white_check_mark:|:white_check_mark:|:white_check_mark: |:white_check_mark:|
-|Jacó     |:white_check_mark: |:white_check_mark:|:white_check_mark:|:white_check_mark: |       :x:        |
-|Lucas    |:white_check_mark: |:white_check_mark:|:white_check_mark:|:white_check_mark: |:white_check_mark:|
-|Mariana  |:white_check_mark: |:white_check_mark:|:white_check_mark:|:white_check_mark: |:white_check_mark:|
-|Pedro    |:white_check_mark: |      :x:         |       :x:        |       :x:         |       :x:        |
-|Saleh    |:white_check_mark: |:white_check_mark:|:white_check_mark:|:white_check_mark: |:white_check_mark:|
-|Youssef  |:white_check_mark: |:white_check_mark:|       :x:        |:white_check_mark: |:white_check_mark:|    
+|Bernardo |         ✔         |         ✘        |         ✘        |         ✘         |         ✘        |
+|Clarissa |         ✔         |         ✔        |         ✔        |         ✔         |         ✔        |
+|Esio     |         ✔         |         ✔        |         ✔        |         ✔         |         ✔        |
+|Felipe   |         ✔         |         ✔        |         ✔        |         ✔         |         ✔        |
+|Jacó     |         ✔         |         ✔        |         ✔        |         ✔         |         ✘        |
+|Lucas    |         ✔         |         ✔        |         ✔        |         ✔         |         ✔        |
+|Mariana  |         ✔         |         ✔        |         ✔        |         ✔         |         ✔        |
+|Pedro    |         ✔         |         ✘        |         ✘        |         ✘         |         ✘        |
+|Saleh    |         ✔         |         ✔        |         ✔        |         ✔         |         ✔        |
+|Youssef  |         ✔         |         ✔        |         ✘        |         ✔         |         ✔        |    
 
 <p align="justify">
-Os integrantes <a href="https://github.com/bernardohrl">Bernardo Henrique</a> (EPS), e <a href="https://github.com/Phe0">Pedro Féo</a> (MDS), estiveram ausentes durante a semana, porque estavam participando no ENEJ, Encontro Nacional de Empresas Juniores, em Ouro Preto.  
+Os integrantes <a href="https://github.com/bernardohrl">Bernardo Henrique</a> (EPS), e <a href="https://github.com/Phe0">Pedro Féo</a> (MDS), estiveram ausentes durante a semana, porque estavam participando do ENEJ, Encontro Nacional de Empresas Juniores, em Ouro Preto.  
 </p> 
 
 
