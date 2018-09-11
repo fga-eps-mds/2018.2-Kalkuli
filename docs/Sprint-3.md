@@ -20,7 +20,11 @@ Da <i>sprint</i> anterior, a <i>issue</i> de <a href="https://github.com/fga-eps
 
 ## Pareamentos   
  
+![S1](assets/quadro-de-pareamento-s1.png "Pareamentos Sprint 3")
 
+- Pedro Féo e Ésio | US16
+- Lucas Dutra e Saleh | US19
+- Youssef e Jacó | US31
 
 ## Objetivos   
 
