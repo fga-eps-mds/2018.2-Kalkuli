@@ -89,6 +89,9 @@ title: Documento de Arquitetura
 * Front-End
 &emsp;&emsp;O front será inteiramente construído com a biblioteca React, segue a estrutura de pacotes da aplicação:
 
-![S3](docs/assets/diagramaPacotes.png "Diagrama de Pacotes v 0.1")
+![S3](assets/diagramaPacotes.png "Diagrama de Pacotes v 0.1")
+
+## 4.3 Modelagem de Dados
+![S4](assets/ModelagemDados.png "Modelagem de dados v 0.1")
 
 # 5. Visão de Implantação
