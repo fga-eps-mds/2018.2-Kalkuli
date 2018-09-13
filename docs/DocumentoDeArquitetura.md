@@ -65,7 +65,7 @@ title: Documento de Arquitetura
 &emsp;&emsp;A arquitetura de microsserviços é uma abordagem que desmembra um aplicativo único em blocos de pequenos serviços independentes, cada um executando seu próprio processo e se comunicando, muitas vezes, em uma api através de métodos HTTP.
 &emsp;&emsp;No software descrito neste documento a arquitetura de microsserviços será bastante utilizada. Os módulos serão:
     * Extração de texto, bloco responsável somente pela extração do texto proveniente das notas fiscais escaneadas; 
-    * Parser, responsável pelo tratamento dos dados brutos que foram extraídos das notas; 
+    * Interpretação, responsável pelo tratamento dos dados brutos que foram extraídos das notas; 
     * Tags, responsável por toda organização de etiquetas que o usuário vai atribuir a cada nota escaneada; 
     * Exportação, responsável por exportar os relatórios e as notas escaneadas pelo usuário para a extensão desejada;
     * Relatórios, responsável por usar os dados provenientes das notas para gerar relatórios de gastos, entre outros; 
