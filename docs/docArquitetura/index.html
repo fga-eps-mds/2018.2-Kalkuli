@@ -41,13 +41,13 @@
 </table>
 <h1><a class="anchor" aria-hidden="true" id="1-introducão"></a><a href="#1-introducão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Introdução</h1>
 <h2><a class="anchor" aria-hidden="true" id="11-finalidade"></a><a href="#11-finalidade" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.1 Finalidade</h2>
-<p>  Este documento contém uma apresentação geral a respeito da arquitetura utilizada no projeto Kalkuli e explicita como acontecerá a comunicação dos diversos serviços contidos no software como um todo. Sua intenção é capturar e transmitir as decisões significativas do ponto de vista da arquitetura que foram tomadas em relação ao sistema.</p>
+<p style="text-align:justify">&emsp;&emsp;Este documento contém uma apresentação geral a respeito da arquitetura utilizada no projeto Kalkuli e explicita como acontecerá a comunicação dos diversos serviços contidos no <i>software</i> como um todo. Sua intenção é capturar e transmitir as decisões significativas do ponto de vista da arquitetura que foram tomadas em relação ao sistema.</p>
 <h2><a class="anchor" aria-hidden="true" id="12-escopo"></a><a href="#12-escopo" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.2 Escopo</h2>
-<p>  O Kalkuli será uma aplicação responsável por escanear notas fiscais, com o intuito de extrair, tratar e exibir dados de uma maneira simples e intuitiva para o usuário. O documento terá por objetivo apresentar toda parte arquitetural do projeto, a fim de esclarecer características básicas do sistema.</p>
+<p style="text-align:justify">&emsp;&emsp;O Kalkuli será uma aplicação responsável por escanear notas fiscais, com o intuito de extrair, tratar e exibir dados de uma maneira simples e intuitiva para o usuário. O documento terá por objetivo apresentar toda parte arquitetural do projeto, a fim de esclarecer características básicas do sistema.</p>
 <h2><a class="anchor" aria-hidden="true" id="13-definicões-acronimos-e-abreviacões"></a><a href="#13-definicões-acronimos-e-abreviacões" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.3 Definições, Acrônimos e Abreviações</h2>
 <ul>
 <li>NF - Notas fiscais</li>
-<li>WSGI - Web Server Gateway Interface</li>
+<li>WSGI - <i>Web Server Gateway Interface</i></li>
 </ul>
 <h2><a class="anchor" aria-hidden="true" id="14-referencias"></a><a href="#14-referencias" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.4 Referências</h2>
 <blockquote>
@@ -71,36 +71,43 @@
 <h2><a class="anchor" aria-hidden="true" id="22-diagrama-react-redux"></a><a href="#22-diagrama-react-redux" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2.2 Diagrama React-Redux</h2>
 <p><img src="/2018.2-Kalkuli/docs/assets/ReactReduxDiagram.png" alt="S2" title="Diagrama React-Redux v 0.1"></p>
 <ul>
-<li><p>React.js
-  React é uma biblioteca de JavaScript flexível, declarativa e eficiente para construção de interfaces para exibição ao usuário. O React permite a criação desde interfaces complexas até pequenos e isolados pedaços de código chamados “Componentes”.</p></li>
-<li><p>Redux
-  Redux é um contêiner de estado preditivo para aplicações JavaScript. Ele ajuda a escrever aplicações que se comportam de forma constante,ou seja, que possui um processo claro e definido, de como sua aplicação pode mudar, em diferentes ecossistemas, e são facilmente testáveis.</p></li>
-<li><p>Flask
-  Flask é um micro-framework de python, possui toda a flexibilidade da linguagem python e provê um modelo simples para desenvolvimento web. É baseado em 3 pilares: Werkzeug, uma biblioteca para desenvolvimento de apps WSGI, Jinja2, um template engine escrito em Python e good intentions, que são alta qualidade na legibilidade, liberdade de estruturar o app na maneira que desejar, entre outros aspectos.</p></li>
-<li><p>Microsserviços
-  A arquitetura de microsserviços é uma abordagem que desmembra um aplicativo único em blocos de pequenos serviços independentes, cada um executando seu próprio processo e se comunicando, muitas vezes, em uma api através de métodos HTTP.
-  No software descrito neste documento a arquitetura de microsserviços será bastante utilizada. Os módulos serão:</p>
-<ul>
-<li>Extração de texto, bloco responsável somente pela extração do texto proveniente das notas fiscais escaneadas;</li>
-<li>Interpretação, responsável pelo tratamento dos dados brutos que foram extraídos das notas;</li>
-<li>Tags, responsável por toda organização de etiquetas que o usuário vai atribuir a cada nota escaneada;</li>
-<li>Exportação, responsável por exportar os relatórios e as notas escaneadas pelo usuário para a extensão desejada;</li>
-<li>Relatórios, responsável por usar os dados provenientes das notas para gerar relatórios de gastos, entre outros;</li>
-<li>Usuário, bloco responsável por toda interação do usuário, como login, registro;</li>
-<li>Notas,  será um serviço responsável por gerenciar todas as notas fiscais extraídas.</li>
-</ul></li>
+<li><strong>React.js</strong></li>
 </ul>
+<p style="text-align:justify">&emsp;&emsp;<i>React</i> é uma biblioteca de <i>JavaScript</i> flexível, declarativa e eficiente para construção de interfaces para exibição ao usuário. O <i>React</i> permite a criação desde interfaces complexas até pequenos e isolados pedaços de código chamados “Componentes”.</p> 
+<ul>
+<li><strong>Redux</strong></li>
+</ul>
+<p style="text-align:justify">&emsp;&emsp;<i>Redux</i> é um contêiner de estado preditivo para aplicações <i>JavaScript</i>. Ele ajuda a escrever aplicações que se comportam de forma constante,ou seja, que possui um processo claro e definido, de como sua aplicação pode mudar, em diferentes ecossistemas, e são facilmente testáveis.</p>
+<ul>
+<li><strong>Flask</strong></li>
+</ul>
+<p style="text-align:justify">&emsp;&emsp;<i>Flask</i> é um micro-<i>framework</i> de <i>python</i>, possui toda a flexibilidade da linguagem <i>python</i> e provê um modelo simples para desenvolvimento <i>web</i>. É baseado em 3 pilares: <i>Werkzeug</i>, uma biblioteca para desenvolvimento de <i>apps</i> WSGI, Jinja2, um <i>template engine</i> escrito em <i>Python</i> e <i>good intentions</i>, que são alta qualidade na legibilidade, liberdade de estruturar o <i>app</i> na maneira que desejar, entre outros aspectos.</p>
+<ul>
+<li><strong>Microsserviços</strong></li>
+</ul>
+<p style="text-align:justify">&emsp;&emsp;A arquitetura de microsserviços é uma abordagem que desmembra um aplicativo único em blocos de pequenos serviços independentes, cada um executando seu próprio processo e se comunicando, muitas vezes, em uma API através de métodos HTTP.</p>
+<p style="text-align:justify">&emsp;&emsp;No <i>software</i> descrito neste documento a arquitetura de microsserviços será bastante utilizada. Os módulos serão:
+<ul>
+  <li><b>Extração de texto</b>, bloco responsável somente pela extração do texto proveniente das notas fiscais escaneadas;</li> 
+  <li><b>Interpretação</b>, responsável pelo tratamento dos dados brutos que foram extraídos das notas; </li>
+  <li><b>Tags</b>, responsável por toda organização de etiquetas que o usuário vai atribuir a cada nota escaneada; </li>
+  <li><b>Exportação</b>, responsável por exportar os relatórios e as notas escaneadas pelo usuário para a extensão desejada;</li>
+  <li><b>Relatórios</b>, responsável por usar os dados provenientes das notas para gerar relatórios de gastos, entre outros; </li>
+  <li><b>Usuário</b>, bloco responsável por toda interação do usuário, como login, registro; </li>
+  <li><b>Notas</b>,  será um serviço responsável por gerenciar todas as notas fiscais extraídas.</li>
+</ul>
+</p>
 <h1><a class="anchor" aria-hidden="true" id="3-metas-e-restricões-de-arquitetura"></a><a href="#3-metas-e-restricões-de-arquitetura" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. Metas e Restrições de Arquitetura</h1>
-<p>  A aplicação deverá ser suportada pelos navegadores, Mozilla Firefox, Google Chrome,Opera e Microsoft Edge. Toda parte do front-end será construído utilizando React.Js, biblioteca javascript para criar interfaces para o usuário. A aplicação também contemplará Flask, framework construído em python que junto com a biblioteca OCRmyPDF irão realizar a extração de dados das notas.</p>
-<p>  Por fim, Docker será utilizado para facilitar o desenvolvimento em um ambiente isolado e construído especialmente para a equipe.</p>
+<p style="text-align:justify">&emsp;&emsp;A aplicação deverá ser suportada pelos navegadores, <i>Mozilla Firefox</i>, <i>Google Chrome</i>, Opera e <i>Microsoft Edge</i>. Toda parte do <i>front-end</i> será construído utilizando <i>React.Js</i>, biblioteca javascript para criar interfaces para o usuário. A aplicação também contemplará <i>Flask</i>, <i>framework</i> construído em <i>python</i> que junto com a biblioteca OCRmyPDF irão realizar a extração de dados das notas.</p>
+<p style="text-align:justify">&emsp;&emsp;Por fim, <i>Docker</i> será utilizado para facilitar o desenvolvimento em um ambiente isolado e construído especialmente para a equipe.</p>
 <h1><a class="anchor" aria-hidden="true" id="4-visão-de-implementacão"></a><a href="#4-visão-de-implementacão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4. Visão de Implementação</h1>
 <h2><a class="anchor" aria-hidden="true" id="41-visão-geral"></a><a href="#41-visão-geral" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4.1 Visão Geral</h2>
-<p>  A aplicação se baseará na arquitetura de microsserviços. Com cada método executando pequenos serviços, em que cada serviço requisita ou processa dados. O importante dessa arquitetura é a sua implementação mais rápida e de fácil manutenção.</p>
+<p style="text-align:justify">&emsp;&emsp;A aplicação se baseará na arquitetura de microsserviços. Com cada método executando pequenos serviços, em que cada serviço requisita ou processa dados. O importante dessa arquitetura é a sua implementação mais rápida e de fácil manutenção.</p>
 <h2><a class="anchor" aria-hidden="true" id="42-pacotes-de-design-significativos-do-ponto-de-vista-da-arquitetura"></a><a href="#42-pacotes-de-design-significativos-do-ponto-de-vista-da-arquitetura" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura</h2>
 <ul>
-<li>Front-End
-  O front será inteiramente construído com a biblioteca React, segue a estrutura de pacotes da aplicação:</li>
+<li>Front-End</li>
 </ul>
+<p style="text-align:justify">&emsp;&emsp;O <i>front-end</i> será inteiramente construído com a biblioteca <i>React</i>, segue a estrutura de pacotes da aplicação:</p>
 <p><img src="/2018.2-Kalkuli/docs/assets/diagramaPacotes.png" alt="S3" title="Diagrama de Pacotes v 0.1"></p>
 <h2><a class="anchor" aria-hidden="true" id="43-modelagem-de-dados"></a><a href="#43-modelagem-de-dados" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4.3 Modelagem de Dados</h2>
 <p><img src="/2018.2-Kalkuli/docs/assets/ModelagemDados.png" alt="S4" title="Modelagem de dados v 0.1"></p>
