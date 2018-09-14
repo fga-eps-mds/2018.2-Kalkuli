@@ -106,4 +106,4 @@ title: Documento de Arquitetura
 
 A implantação do produto será realizada por etapas. Todas devem visar que cada incremento de produto agregre maior valor ao cliente com maior qualidade possível, como podemos observar no pipeline abaixo: 
 
-![S5](assets/Pipeline_Desenvolvimento.png "Modelagem de dados v 0.1")
+![S5](assets/Pipeline_Desenvolvimento.png "Pipeline de Desenvolvimento v 0.1")
