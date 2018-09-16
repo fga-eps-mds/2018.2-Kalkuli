@@ -6,7 +6,6 @@ title: Resultados Sprint 3
 ***    
 
 - fechamento da sprint
-   - histórias concluídas e dívidas (tabela)
    - burndown
    - velocity    
    - quadro de conhecimento
@@ -34,25 +33,44 @@ title: Resultados Sprint 3
 |     _Issue_      |     _Status_    |       Pontos       |
 |:--------------:|:---------------:|:-------------:
 |[US19 - Fazer o upload de uma nota fiscal ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/46) |Concluída |13 |
-|[US31 - Criar interface gráfica para realizar upload de notas fiscais](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/48) |Não Concluída| 8 |    
 |[US16 - Pesquisar o padrão de notas fiscais](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/49)|Concluída| 8|
 |[Refatorar Protótipo](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/50) |Concluída | 2|
 |[Refinar Documento de Arquitetura](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/51) |Concluída | 1|
 |[Criar Organização](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/52) | Concluída |0|
 |[Criar Repositórios _Dockerizados_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/53)|Concluída | 3|
-|[Estimar Custos](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/54)|Concluída | 2|
+|[Estimar Custos](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/54)|Concluída | 3|
 |[Elaborar o Diagrama de Dados](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/55)|Concluída | 2|
 |[Criar o Documento de Resultados da _Sprint_ 2](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/56)|Concluída | 0 |
 |[Criar o Documento de Planejamento da _Sprint_ 3](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/57)|Concluída | 0|  
 |[Criar o Plano de Medição](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/58)|Concluída | 2|  
 |[Refatorar TAP](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/59)|Concluída | 1|  
-|[Refatorar _Canvas_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/60)|Concluída |1|
+|[Treinamento de Flask](https://github.com/fga-eps-mds/2018.2-kalkuli/issues/64)|Concluída | 2 |
 |[Iniciar _Roadmap_ do produto](https://github.com/fga-eps-mds/PDF2Knowledge/issues/8) |Concluída | 3 |
+|[Refatorar _Canvas_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/60)| Não Concluída |1|
+|[US31 - Criar interface gráfica para realizar upload de notas fiscais](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/48) |Não Concluída| 8 |    
+ 
+
+
+Pontos Planejados Concluídos: 37    
+Pontos de Dívida Concluídos:  3    
+Pontos Não Agregados: 9   
 
 
 > [Milestone Sprint 3](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/4?closed=1)
 
 ## Riscos  
+
+<p align="justify">
+Não foram identificados riscos novos no decorrer da <i>sprint</i>.
+Entretanto, um dos riscos já mapeados se mostrou bastante durante a <i>sprint</i>: ausência de membros do time.</p> 
+
+<p align="justify">
+A dificuldade com tecnologias ainda é um risco com probabilidade alta, dado que nem todos os membros da equipe entraram em contato com as tecnologias durante a <i>sprint</i>.
+</p> 
+
+<p align="justify">
+Em comparação com a <i>sprint</i> anterior, foi possível perceber a melhora da comunicação entre o time, fazendo com que o risco de falha de comunicação diminua. A escrita do <i>backlog</i> do produto completo com a participação total da equipe, esclareceu pontas soltas no escopo, favorecendo a diminuição do risco de indefinição de escopo.</p>
+
 
 [![S3](assets/BurndowndeRiscos-S3.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/1PYjMMXbWRgKwY5oZH5ekg4VbqTYYfdJImHmxCLH62xI/edit#gid=0) 
 
@@ -62,7 +80,7 @@ title: Resultados Sprint 3
 texto
 </p>   
 
-[![S3](assets/Retrospectiva-S3.png "Clique para ver em detalhes")](link)   
+[![S3](assets/Retrospectiva-S3.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/1SwrbhRVE0lLx0K-8wPtjzFHJ86G5oUCzknl2b8s2odg/edit#gid=185412717)   
 
 
 ### _Sprint_ Anterior
@@ -88,7 +106,7 @@ Com relação aos pontos negativos e a melhorar apresentados na retrospectiva an
      <li>União com a equipe como um geral e entre MDS</li>
     </ul>
     </td>
-    <td align='center'><p align="justify">A equipe expôs pontos que se conectam com três riscos: falha de comunicação, desentendimentos entre integrantes da equipe e integração do time. As medidas acordadas envolvem maior eficiência na comunicação, através de <i>dailies</i> mais focadas e maior envolvimento com membros desfalcados, através de adaptação de horários para que todos possam participar de todas a decisões que serão tomadas. Com relação aos desentendimentos, a retrospectiva teve duração maior que o usual para que os pontos levantados fossem discutidos. A postura em relação ao time deve ser de respeito e de sempre ouvir o outro.</p></td>
+    <td align='center'><p align="justify">A equipe expôs pontos que se conectam com três riscos: falha de comunicação, desentendimentos entre integrantes da equipe e integração do time. As medidas acordadas envolvem maior eficiência na comunicação, através de <i>dailies</i> mais focadas e maior envolvimento com membros desfalcados, através de adaptação de horários para que todos possam participar de todas a decisões que serão tomadas. Com relação aos desentendimentos, a retrospectiva teve duração maior que o usual para que os pontos levantados fossem discutidos. A postura em relação ao time deve ser de respeito.</p></td>
   </tr>
 </table>
 </p>
@@ -99,7 +117,7 @@ Com relação aos pontos negativos e a melhorar apresentados na retrospectiva an
 <p align="justify">
 </p>
 
-[![S3](assets/Conhecimento-S3.png "Clique para ver em detalhes")](link)
+[![S3](assets/Conhecimento-S3.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/19OGoemAfy_4nSFBbycD4kIoBFJwUjbXB7vxuQi8HLqY/edit#gid=584345149)
 
 
 ### Registros de Presença nas _Dailies_    
