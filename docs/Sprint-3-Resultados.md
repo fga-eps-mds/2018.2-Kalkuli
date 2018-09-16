@@ -5,19 +5,6 @@ title: Resultados Sprint 3
 
 ***    
 
-- fechamento da sprint
-   - burndown
-   - velocity    
-   - quadro de conhecimento
-   - quadro de pŕaticas ágeis em desenvolvimento de software
-   - burndown de riscos
-   - retrospectiva
-        - medidas adotadas para correção de erros apontados na sprint anterior
-   - registro de presença
-- metricas de qualidade de codigo     
-- evm
-- analise sm
-
 <p align="justify">
 (texto)
 </p>
@@ -57,6 +44,22 @@ Pontos Não Agregados: 9
 
 
 > [Milestone Sprint 3](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/4?closed=1)
+
+
+## _Burndown_    
+
+<p align="justify">
+O <i>burndown</i> indica que as <i>issues</i> foram entregues tardiamente. Quase toda a equipe de desenvolvimento estava atarefada com outras disciplinas, e as provas só acabaram no final da <i>sprint</i> (quinta feira).</p> 
+<p align="justify">
+Apesar da semana da <i>sprint</i> ter colidido com a semana mais cheia para a equipe (provas), praticamente todas as <i>issues</i> foram entregues, mostrando que a equipe está motivada e é produtiva.</p> 
+
+![S3](assets/burndown-S3.png "Burndown Sprint 3")
+
+## _Velocity_     
+<p align="justify">
+Nas <i>sprints</i>  anteriores a equipe não pontuava as <i>issues</i>, por acreditar que os pontos se aplicavam apenas às histórias de usuário e técnicas, portanto o <i>velocity</i> da equipe, na <i>sprint</i> 3, ainda não reflete a produtividade, dado que as <i>sprints</i> anteriores não possuíam pontuações definidas.</p>   
+
+![S3](assets/velocity-S3.png "Burndown Sprint 3")
 
 ## Riscos  
 
