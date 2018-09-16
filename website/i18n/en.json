@@ -4,67 +4,31 @@
     "next": "Next",
     "previous": "Previous",
     "tagline": "de notas para dados",
-    "docs": {
-      "canvas": {
-        "title": "Canvas do Projeto"
-      },
-      "comunicacao": {
-        "title": "Gerenciamento de Comunicações"
-      },
-      "contributing": {
-        "title": "Guia de Contribuição"
-      },
-      "defpronto": {
-        "title": "Definição de Pronto"
-      },
-      "docArquitetura": {
-        "title": "Documento de Arquitetura"
-      },
-      "docVisao": {
-        "title": "Documento de Visão"
-      },
-      "eapkalkuli": {
-        "title": "Estrutura Analítica do Projeto"
-      },
-      "overview": {
-        "title": "Overview do Projeto"
-      },
-      "rsprint0": {
-        "title": "Resultados Sprint 0"
-      },
-      "rsprint1": {
-        "title": "Resultados Sprint 1"
-      },
-      "psprint1": {
-        "title": "Planejamento Sprint 1"
-      },
-      "rsprint2": {
-        "title": "Resultados Sprint 2"
-      },
-      "psprint2": {
-        "title": "Planejamento Sprint 2"
-      },
-      "psprint3": {
-        "title": "Planejamento Sprint 3"
-      },
-      "psprint0": {
-        "title": "Planejamento Sprint 0"
-      }
-    },
-    "links": {
-      "Documentação": "Documentação",
-      "Sprints": "Sprints"
-    },
-    "categories": {
-      "Gerenciamento do Projeto": "Gerenciamento do Projeto",
-      "Visão de Produto": "Visão de Produto",
-      "Engenharia de Requisitos": "Engenharia de Requisitos",
-      "Arquitetura": "Arquitetura",
-      "Sprint 0": "Sprint 0",
-      "Sprint 1": "Sprint 1",
-      "Sprint 2": "Sprint 2",
-      "Sprint 3": "Sprint 3"
-    }
+    "canvas": "Canvas do Projeto",
+    "comunicacao": "Gerenciamento de Comunicações",
+    "contributing": "Guia de Contribuição",
+    "defpronto": "Definição de Pronto",
+    "docVisao": "Documento de Visão",
+    "eapkalkuli": "Estrutura Analítica do Projeto",
+    "medicao": "Métricas e Indicadores",
+    "overview": "Overview do Projeto",
+    "rsprint0": "Resultados Sprint 0",
+    "rsprint1": "Resultados Sprint 1",
+    "psprint1": "Planejamento Sprint 1",
+    "rsprint2": "Resultados Sprint 2",
+    "psprint2": "Planejamento Sprint 2",
+    "psprint3": "Planejamento Sprint 3",
+    "psprint0": "Planejamento Sprint 0",
+    "Documentação": "Documentação",
+    "Sprints": "Sprints",
+    "Gerenciamento do Projeto": "Gerenciamento do Projeto",
+    "Visão de Produto": "Visão de Produto",
+    "Engenharia de Requisitos": "Engenharia de Requisitos",
+    "Arquitetura": "Arquitetura",
+    "Sprint 0": "Sprint 0",
+    "Sprint 1": "Sprint 1",
+    "Sprint 2": "Sprint 2",
+    "Sprint 3": "Sprint 3"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",
