@@ -5,7 +5,7 @@ title: Documento de Arquitetura
 
 ***
 
-# Histórico de Revisão
+## Histórico de Revisão
 
 |Data| Versão |Modificação|Autor|
 |:---:|:---:|:---:|:--:|
@@ -15,22 +15,22 @@ title: Documento de Arquitetura
 | 07/09/2018 |   0.3.1  | Tópico: 1.4| Lucas Dutra, Saleh Nazih |
 | 08/09/2018 |   0.4  | Tópicos: 4.2, 2.1, 2.2| Lucas Dutra, Saleh Nazih |
 
-# 1. Introdução
+## 1. Introdução
 
-## 1.1 Finalidade
+### 1.1 Finalidade
 
 <p style="text-align:justify">&emsp;&emsp;Este documento contém uma apresentação geral a respeito da arquitetura utilizada no projeto Kalkuli e explicita como acontecerá a comunicação dos diversos serviços contidos no <i>software</i> como um todo. Sua intenção é capturar e transmitir as decisões significativas do ponto de vista da arquitetura que foram tomadas em relação ao sistema.</p>
 
-## 1.2 Escopo
+### 1.2 Escopo
 
 <p style="text-align:justify">&emsp;&emsp;O Kalkuli será uma aplicação responsável por escanear notas fiscais, com o intuito de extrair, tratar e exibir dados de uma maneira simples e intuitiva para o usuário. O documento terá por objetivo apresentar toda parte arquitetural do projeto, a fim de esclarecer características básicas do sistema.</p>
 
-## 1.3 Definições, Acrônimos e Abreviações
+### 1.3 Definições, Acrônimos e Abreviações
 
 * NF - Notas fiscais 
 * WSGI - <i>Web Server Gateway Interface</i>
 
-## 1.4 Referências
+### 1.4 Referências
 
 >Universidade Federal do Paraná, FUNPAR. RUP - Especificação de Casos de Uso: Template base para construção do documento de arquitetura. Disponível em: <a href="https://goo.gl/gDTkMx"><https://goo.gl/gDTkMx></a>. Acesso em: 2 de setembro de 2018.
 
@@ -42,13 +42,13 @@ title: Documento de Arquitetura
 
 >Read Me. Redux. Disponível em: <a hre="https://goo.gl/SgQiKb"><https://goo.gl/SgQiKb></a>. Acesso em: 7 de setembro de 2018 
 
-# 2. Representação da Arquitetura
+## 2. Representação da Arquitetura
 
-## 2.1 Representação arquitetural
+### 2.1 Representação arquitetural
 
 ![S1](assets/RepresentacaoArquitetural.png "Representação Arquitetural v 0.1")
 
-## 2.2 Diagrama React-Redux
+### 2.2 Diagrama React-Redux
 
 ![S2](assets/ReactReduxDiagram.png "Diagrama React-Redux v 0.1")
 
@@ -80,29 +80,29 @@ title: Documento de Arquitetura
 </p>
 
 
-# 3. Metas e Restrições de Arquitetura
+## 3. Metas e Restrições de Arquitetura
 
 <p style="text-align:justify">&emsp;&emsp;A aplicação deverá ser suportada pelos navegadores, <i>Mozilla Firefox</i>, <i>Google Chrome</i>, Opera e <i>Microsoft Edge</i>. Toda parte do <i>front-end</i> será construído utilizando <i>React.Js</i>, biblioteca javascript para criar interfaces para o usuário. A aplicação também contemplará <i>Flask</i>, <i>framework</i> construído em <i>python</i> que junto com a biblioteca OCRmyPDF irão realizar a extração de dados das notas.</p>
 
 <p style="text-align:justify">&emsp;&emsp;Por fim, <i>Docker</i> será utilizado para facilitar o desenvolvimento em um ambiente isolado e construído especialmente para a equipe.</p>
 
-# 4. Visão de Implementação
+## 4. Visão de Implementação
 
-## 4.1 Visão Geral
+### 4.1 Visão Geral
 
 <p style="text-align:justify">&emsp;&emsp;A aplicação se baseará na arquitetura de microsserviços. Com cada método executando pequenos serviços, em que cada serviço requisita ou processa dados. O importante dessa arquitetura é a sua implementação mais rápida e de fácil manutenção.</p>
 
-## 4.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
+### 4.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
 * Front-End
 <p style="text-align:justify">&emsp;&emsp;O <i>front-end</i> será inteiramente construído com a biblioteca <i>React</i>, segue a estrutura de pacotes da aplicação:</p>
 
 ![S3](assets/diagramaPacotes.png "Diagrama de Pacotes v 0.1")
 
-## 4.3 Modelagem de Dados
+### 4.3 Modelagem de Dados
 ![S4](assets/ModelagemDados.png "Modelagem de dados v 0.1")
 
-# 5. Visão de Implantação
+## 5. Visão de Implantação
 
 A implantação do produto será realizada por etapas. Todas devem visar que cada incremento de produto agregre maior valor ao cliente com maior qualidade possível, como podemos observar no pipeline abaixo: 
 
