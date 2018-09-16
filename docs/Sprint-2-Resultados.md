@@ -48,6 +48,19 @@ Durante o <i>review</i>, a equipe de MDS apresentou o protótipo de alta fidelid
 
 ## Riscos
 
+<p align="justify">
+Novos riscos foram identificados durante a <i>sprint</i>:
+<p align="justify">
+</p>
+
+<ul>
+     <li>Desentendimentos entre integrantes da equipe</li>
+     <li>Falta de tempo de integrantes da equipe</li>
+     <li>Problemas com ambiente de desenvolvimento</li>
+     <li>Falhas de comunicação</li>
+    </ul>
+
+
 [![S2](assets/BurndowndeRiscos-S2.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/1PYjMMXbWRgKwY5oZH5ekg4VbqTYYfdJImHmxCLH62xI/edit#gid=0) 
 
 ## Retrospectiva     
