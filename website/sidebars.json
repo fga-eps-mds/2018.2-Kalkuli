@@ -11,10 +11,13 @@
       "tap",
       "eapkalkuli",
       "docVisao",
-      "canvas"
+      "canvas",
+      "idVisual"
     ],
     "Engenharia de Requisitos": [],
-    "Arquitetura": []
+    "Arquitetura": [
+      "docArquitetura"
+    ]
   },
   "docs-other": {
     "Sprint 0": [

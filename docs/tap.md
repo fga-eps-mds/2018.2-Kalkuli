@@ -20,6 +20,7 @@ O Kalkuli é um sistema que busca ajudar qualquer tipo de empresa que precisa fa
 <p align="justify">
 Atualmente existe uma dificuldade para empresas em registrar e guardar notas fiscais para o próprio controle. Essa dificuldade acontece porque não existe, até o momento, nenhum sistema ou tecnologia que seja capaz de automatizar este processo, ou seja, qualquer pessoa que deseje ter um controle das notas fiscais de gastos da sua empresa precisa que alguém dedique algum tempo registrando manualmente todas as notas sempre que for necessário, atividade que, além de consumir muito tempo, está sujeita a erros.</p>
 
+<p align="justify">
 Ainda que o registro eletrônico seja feito manualmente em uma planilha, por exemplo, o armazenamento dessas notas também é problemático, uma vez que o material utilizado para gerar essas notas tem a durabilidade muito comprometida, dificultando a leitura do seu conteúdo no futuro. Mesmo que, ainda assim, a empresa faça um controle dessas notas digitalizando todas e mantendo-as em um disco, não existe uma ferramenta que facilite a consulta e a organização das mesmas ou que permita que relatórios dessas notas sejam gerados posteriormente sem que, novamente, isto envolva algum trabalho manual.</p>
 
 ## Objetivo do Projeto   
