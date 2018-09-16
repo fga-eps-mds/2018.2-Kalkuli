@@ -4,7 +4,8 @@
       "overview",
       "comunicacao",
       "contributing",
-      "defpronto"
+      "defpronto",
+      "medicao"
     ],
     "Visão de Produto": [
       "eapkalkuli",
@@ -12,7 +13,9 @@
       "canvas"
     ],
     "Engenharia de Requisitos": [],
-    "Arquitetura": []
+    "Arquitetura": [
+      "docArquitetura"
+    ]
   },
   "docs-other": {
     "Sprint 0": [
