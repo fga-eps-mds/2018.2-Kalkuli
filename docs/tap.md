@@ -3,25 +3,34 @@ id: tap
 title: Termo de Abertura do Projeto
 ---
 
-# Termo de Abertura de Projeto
-## Introdução
+***   
+
+
+## Introdução   
+<p align="justify">
 Este documento visa descrever os pontos iniciais do projeto Kalkuli.
+</p>
 
-## Descrição do Projeto
+## Descrição do Projeto    
+<p align="justify">
 O Kalkuli é um sistema que busca ajudar qualquer tipo de empresa que precisa fazer controle de suas notas fiscais periodicamente de maneira rápida e prática facilitando o registro e consulta dessas notas fiscais.
+</p>
 
-## Justificativa
-Atualmente existe uma dificuldade para empresas em registrar e guardar notas fiscais para o próprio controle. Essa dificuldade acontece porque não existe, até o momento, nenhum sistema ou tecnologia que seja capaz de automatizar este processo, ou seja, qualquer pessoa que deseje ter um controle das notas fiscais de gastos da sua empresa precisa que alguém dedique algum tempo registrando manualmente todas as notas sempre que for necessário, atividade que, além de consumir muito tempo, está sujeita a erros.
+## Justificativa   
+<p align="justify">
+Atualmente existe uma dificuldade para empresas em registrar e guardar notas fiscais para o próprio controle. Essa dificuldade acontece porque não existe, até o momento, nenhum sistema ou tecnologia que seja capaz de automatizar este processo, ou seja, qualquer pessoa que deseje ter um controle das notas fiscais de gastos da sua empresa precisa que alguém dedique algum tempo registrando manualmente todas as notas sempre que for necessário, atividade que, além de consumir muito tempo, está sujeita a erros.</p>
 
-Ainda que o registro eletrônico seja feito manualmente em uma planilha, por exemplo, o armazenamento dessas notas também é problemático, uma vez que o material utilizado para gerar essas notas tem a durabilidade muito comprometida, dificultando a leitura do seu conteúdo no futuro. Mesmo que, ainda assim, a empresa faça um controle dessas notas digitalizando todas e mantendo-as em um disco, não existe uma ferramenta que facilite a consulta e a organização das mesmas ou que permita que relatórios dessas notas sejam gerados posteriormente sem que, novamente, isto envolva algum trabalho manual.
+Ainda que o registro eletrônico seja feito manualmente em uma planilha, por exemplo, o armazenamento dessas notas também é problemático, uma vez que o material utilizado para gerar essas notas tem a durabilidade muito comprometida, dificultando a leitura do seu conteúdo no futuro. Mesmo que, ainda assim, a empresa faça um controle dessas notas digitalizando todas e mantendo-as em um disco, não existe uma ferramenta que facilite a consulta e a organização das mesmas ou que permita que relatórios dessas notas sejam gerados posteriormente sem que, novamente, isto envolva algum trabalho manual.</p>
 
-## Objetivo do Projeto
-O objetivo deste projeto é tornar o registro e consulta de notas fiscais de uma empresa um processo automatizado, fornecendo um relatório completo dos gastos em determinado período.
+## Objetivo do Projeto   
+<p align="justify">
+O objetivo deste projeto é tornar o registro e consulta de notas fiscais de uma empresa um processo automatizado, fornecendo um relatório completo dos gastos em determinado período.</p>
 
-## Produto do Projeto
-A proposta do projeto é de criar uma ferramenta onde o usuário precise apenas fazer o upload de notas fiscais digitalizadas para que o sistema se encarregue de extrair as informações automaticamente e de gerar um relatório de gastos periodicamente. O sistema também deverá armazenar essas notas para que o usuário possa realizar consultas e gerar novos relatórios de acordo com o período desejado. Os relatórios gerados mostrarão gráficos que indicam porcentagens de gastos em diferentes categorias de compras.
+## Produto do Projeto   
+<p align="justify">
+A proposta do projeto é de criar uma ferramenta onde o usuário precise apenas fazer o upload de notas fiscais digitalizadas para que o sistema se encarregue de extrair as informações automaticamente e de gerar um relatório de gastos periodicamente. O sistema também deverá armazenar essas notas para que o usuário possa realizar consultas e gerar novos relatórios de acordo com o período desejado. Os relatórios gerados mostrarão gráficos que indicam porcentagens de gastos em diferentes categorias de compras.</p>
 
-## Requisitos de alto nível
+## Requisitos de alto nível   
 * O sistema será desenvolvido em plataforma web;
 * O sistema deve ser capaz de extrair informações de notas fiscais escaneadas;
 * O sistema deve permitir que o usuário faça controle dos gastos da sua empresa a partir das informações extraídas.
@@ -31,12 +40,34 @@ As restrições do presente projeto são:
 * Aplicação restrita à plataforma web;
 * Aplicação dependente de um navegador e de internet para sua utilização.
 
-## Riscos iniciais
+## Riscos iniciais   
+<p align="justify">
+Durante a fase de iniciação do projeto, riscos foram levantados e serão rastreados continuamente, de forma que a equipe de gerência consiga prevenir, transferir, mitigar ou aceitá-los, para que o projeto ocorra sem atrasos ou grandes impedimentos que possam comprometê-lo ou até mesmo inviabilizá-lo.</p>
 
-## Custo Estimado
-Os custos estimados são para 15 sprints de projeto, ou seja, 15 semanas, totalizando 3 meses e 3 semanas de projeto.
+<ul>
+    <li>Indefinição de escopo</li>
+    <li>Ausência de membros do time</li>
+    <li>Divergência de horários dos membros</li>
+    <li>Falta de integração entre a equipe</li>
+    <li>Baixa produtividade dos integrantes da equipe</li>
+    <li>Dificuldade com tecnologias escolhidas</li>
+    <li>Requisitos com alto nível de complexidade</li>
+    <li>Desentendimentos entre integrantes da equipe</li>
+    <li>Falta de tempo de integrantes da equipe</li>
+    <li>Problemas com ambiente de desenvolvimento</li>
+    <li>Falhas de comunicação</li>
+</ul>
 
-### Pessoal
+<p align="justify">
+O <i>Tech Leader</i> é o responsável por monitorar os riscos, e adotar medidas que facilitem com que sejam mitigados. O controle é feito através do <a href="https://docs.google.com/spreadsheets/d/1PYjMMXbWRgKwY5oZH5ekg4VbqTYYfdJImHmxCLH62xI/edit#gid=0"><i>burndown</i></a> de riscos, <a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/medicao#burndown-de-riscos-https-docsgooglecom-spreadsheets-d-1pyjmmxbwrgkwy5ozh5ekg4vbqtyyfdjimhmxclh62xi-edit-gid-0 ">indicador</a> adotado em equipes ágeis.
+</p>
+
+
+## Custo Estimado    
+<p align="justify">
+Os custos estimados são para 15 sprints de projeto, ou seja, 15 semanas, totalizando 3 meses e 3 semanas de projeto.</p>
+
+### Pessoal   
 | Papel na equipe                             | Quantidade de membros na função | Transporte e alimentação/ dia | Salário/ mês | Total         |
 |---------------------------------------------|---------------------------------|-------------------------------|--------------|---------------|
 | Desenvolvedor de Python, Flask e JavaScript |                5                |            R$ 20,00           |  R$ 4.000,00 |  R$ 81.000,00 |
