@@ -10,7 +10,7 @@ title: Planejamento Sprint 4
 </p>
 
 <p align="justify">
-Busca de melhoria contínua através da adição de integração contínua nos repositórios, adição e configuração do Sonar para monitorar a qualidade do código. Objetivos mapeados no <a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/roadmap" title="Roadmap do Produto, Release I."><i>roadmap</i></a>.    
+Busca de melhoria contínua através da adição de integração contínua nos repositórios, adição e configuração de ferramenta para monitorar a qualidade do código. Objetivos mapeados no <a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/roadmap" title="Roadmap do Produto, Release I."><i>roadmap</i></a>.    
 </p>
 
 <p align="justify">
@@ -39,12 +39,12 @@ Da <i>sprint</i> anterior, a <i>issue</i> de <a href="https://github.com/fga-eps
 |[US13 - Listar notas fiscais ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/72) | 8 |
 |[US17 - Interpretar dados de notas fiscais ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/73) | 21 |
 |[US32 - Armazenar notas fiscais no sistema ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/74) | 8 |
-|[Configurar o _Sonar_ ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/75) | 5 |
+|[Configurar o _Code Climate_ ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/75) | 3 |
 |[Configurar as Integrações Contínuas ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/76) | 5 |
 |[Refatorar EAP ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/77) | 3 |
 |[Elaborar a Matriz de Avaliação de Valor ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/78) | 3 |
 
-<b>Total de pontos planejados: 53</b>  
+<b>Total de pontos planejados: 51</b>  
 
 ### Dívida    
 
@@ -52,11 +52,11 @@ Da <i>sprint</i> anterior, a <i>issue</i> de <a href="https://github.com/fga-eps
 |:--------------:|:---------:|
 |[Refatorar Canvas](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/60) | 1 |
 
-<b>Total: 54</b> 
+<b>Total: 52</b> 
 
 ***
 
-<div style="text-align: center"> Total de pontos da <i>sprint</i>: 54 </div> <br>
+<div style="text-align: center"> Total de pontos da <i>sprint</i>: 52 </div> <br>
 
 > [_Sprint_ _Backlog_](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/5)  
 
