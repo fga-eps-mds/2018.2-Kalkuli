@@ -1,3 +1,8 @@
+---
+id: backlog    
+title: Backlog do Produto
+---
+
 # Histórias de Usuário
 <p align="justify">
 O escopo do projeto foi delimitado levando em conta as necessidades do público alvo, que foram elicitadas através da aplicação de um questionário que contempla o processo atual de como é realizado o controle de gastos através de notas fiscais (se houver e, caso não exista, explora os motivos de não ser realizado) e como esse controle poderia ser feito em um processo ideal de acordo com o ponto de vista de quem está respondendo o questionário.
@@ -16,8 +21,11 @@ Tendo isso em mãos, uma estimativa preliminar de pontuação foi realizada para
 </p>
 
 ## Épico 01 - Gerenciamento do Sistema de Contas
-### Feature 01 - Manter Empresas
+<p align="justify">
+Este épico determina as histórias que formarão a funcionalidade de autenticação no sistema. Dentro dela, são definidos dois diferentes níveis de permissão de usuários: administradores e usuários comuns. Os usuários são agrupados em empresas, criadas e gerenciadas pelo administrador.
+</p>
 
+### Feature 01 - Manter Empresas
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -34,16 +42,16 @@ Tendo isso em mãos, uma estimativa preliminar de pontuação foi realizada para
     <th class="tg-wcrb">Pontos</th>
   </tr>
   <tr>
-    <td class="tg-s6z2">US01</td>
-    <td class="tg-s268">Eu, como administrador de empresa, desejo cadastrar minha empresa no sistema para que eu possa ter controle dos gastos da minha empresa.</td>
-    <td class="tg-s6z2">Muito alta</td>
-    <td class="tg-s6z2">13</td>
+    <td class="tg-uys7">US01</td>
+    <td class="tg-0pky">Eu, como administrador de empresa, desejo cadastrar minha empresa no sistema para que eu possa ter controle dos gastos da minha empresa.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">13</td>
   </tr>
   <tr>
-    <td class="tg-s6z2">US02</td>
-    <td class="tg-s268">Eu, como administrador de empresa, desejo desativar minha conta para que eu possa dispensar os serviços do sistema.</td>
-    <td class="tg-s6z2">Baixa</td>
-    <td class="tg-s6z2">3</td>
+    <td class="tg-uys7">US02</td>
+    <td class="tg-0pky">Eu, como administrador de empresa, desejo desativar minha conta para que eu possa dispensar os serviços do sistema.</td>
+    <td class="tg-uys7">Baixa</td>
+    <td class="tg-uys7">3</td>
   </tr>
 </table>
 
@@ -105,6 +113,10 @@ Tendo isso em mãos, uma estimativa preliminar de pontuação foi realizada para
 </table>
 
 ## Épico 02 - Notas Fiscais
+<p align="justify">
+É o épico central de todo o sistema, e é responsável por toda a manipulação inicial das informações das notas fiscais, desde a submissão até a extração dos dados e exportação.
+</p>
+
 ### Feature 03 - Manter notas fiscais
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -132,40 +144,40 @@ Tendo isso em mãos, uma estimativa preliminar de pontuação foi realizada para
     <td class="tg-uys7">5</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">US11</td>
-    <td class="tg-0pky">Eu, como usuário do sistema, desejo poder digitar os dados de uma nota manualmente para que eu possa incluir uma nota com dificuldades de leitura.</td>
-    <td class="tg-c3ow">Média</td>
-    <td class="tg-c3ow">5</td>
+    <td class="tg-uys7">US11</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo poder digitar os dados de uma nota manualmente para que eu possa incluir uma nota com dificuldades de leitura.</td>
+    <td class="tg-uys7">Média</td>
+    <td class="tg-uys7">5</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">US12</td>
-    <td class="tg-0pky">Eu, como usuário do sistema, desejo excluir uma nota fiscal para que eu possa dispensar uma nota que não precisa exisitr no sistema.</td>
-    <td class="tg-c3ow">Baixa</td>
-    <td class="tg-c3ow">2</td>
+    <td class="tg-uys7">US12</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo excluir uma nota fiscal para que eu possa dispensar uma nota que não precisa exisitr no sistema.</td>
+    <td class="tg-uys7">Baixa</td>
+    <td class="tg-uys7">2</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">US13</td>
-    <td class="tg-0pky">Eu, como usuário do sistema, desejo visualizar uma lista de todas as notas fiscais submetidas para ter acesso a todas as notas.</td>
-    <td class="tg-c3ow">Muito alta</td>
-    <td class="tg-c3ow">8</td>
+    <td class="tg-uys7">US13</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo visualizar uma lista de todas as notas fiscais submetidas para ter acesso a todas as notas.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">8</td>
   </tr>
   <tr>
-    <td class="tg-baqh">US14</td>
-    <td class="tg-0lax">Eu, como usuário do sistema, desejo visualizar uma nota detalhadamente para que eu possa verificar os dados.</td>
-    <td class="tg-baqh">Muito alta</td>
-    <td class="tg-baqh">8</td>
+    <td class="tg-uys7">US14</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo visualizar uma nota detalhadamente para que eu possa verificar os dados.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">8</td>
   </tr>
   <tr>
-    <td class="tg-baqh">US32</td>
-    <td class="tg-0lax">Eu, como usuário do sistema, desejo que os dados da nota fiscal fiquem armazenados no sistema para que eu possa gerar relatórios a partir delas e consultá-las.</td>
-    <td class="tg-baqh">Muito alta</td>
-    <td class="tg-baqh">8</td>
+    <td class="tg-uys7">US32</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo que os dados da nota fiscal fiquem armazenados no sistema para que eu possa gerar relatórios a partir delas e consultá-las.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">8</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">US15</td>
-    <td class="tg-0pky">Eu, como usuário do sistema, desejo filtrar notas para que eu possa encontrar notas de acordo com o critério definido.</td>
-    <td class="tg-c3ow">Muito alta</td>
-    <td class="tg-c3ow">13</td>
+    <td class="tg-uys7">US15</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo filtrar notas para que eu possa encontrar notas de acordo com o critério definido.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">13</td>
   </tr>
 </table>
 
@@ -196,32 +208,36 @@ Tendo isso em mãos, uma estimativa preliminar de pontuação foi realizada para
     <td class="tg-uys7">8</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">US17</td>
-    <td class="tg-0pky">Eu, como usuário do sistema, desejo que uma nota fiscal submetida seja interpretada para que seus dados sejam disponibilizados de uma forma mais acessível. </td>
-    <td class="tg-c3ow">Muito alta</td>
-    <td class="tg-c3ow">21</td>
+    <td class="tg-uys7">US17</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo que uma nota fiscal submetida seja interpretada para que seus dados sejam disponibilizados de uma forma mais acessível. </td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">21</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">US18</td>
-    <td class="tg-0pky">Eu, como usuário do sistema, desejo que categorias sejam adicionadas aos meus gastos para que eu possa ter uma classificação das minhas compras.</td>
-    <td class="tg-c3ow">Média</td>
-    <td class="tg-c3ow">0</td>
+    <td class="tg-uys7">US18</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo que categorias sejam adicionadas aos meus gastos para que eu possa ter uma classificação das minhas compras.</td>
+    <td class="tg-uys7">Média</td>
+    <td class="tg-uys7">0</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">US31</td>
-    <td class="tg-0pky">Eu, como usuário do sistema, desejo utilizar uma interface gráfica para realizar o upload de notas fiscais.</td>
-    <td class="tg-c3ow">Muito alta</td>
-    <td class="tg-c3ow">8</td>
+    <td class="tg-uys7">US31</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo utilizar uma interface gráfica para realizar o upload de notas fiscais.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">8</td>
   </tr>
   <tr>
-    <td class="tg-baqh">US19</td>
-    <td class="tg-0lax">Eu, como usuário do sistema, desejo fazer o upload de uma nota fiscal para que os dados das notas fiscais fiquem salvos no sistema.</td>
-    <td class="tg-baqh">Muito alta</td>
-    <td class="tg-baqh">13</td>
+    <td class="tg-uys7">US19</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo fazer o upload de uma nota fiscal para que os dados das notas fiscais fiquem salvos no sistema.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">13</td>
   </tr>
 </table>
 
 ## Épico 03 - Relatórios de Gastos
+<p align="justify">
+A partir das informações obtidas das notas fiscais, os dados precisam ser apresentados em um documento para que o propósito do sistema seja, por fim, cumprido. Existe também a funcionalidade da geração de gráficos, que permitirá que o usuário tenha uma visão detalhada dos seus gastos.
+</p>
+
 ### Feature 05 - Manter relatórios
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -249,28 +265,28 @@ Tendo isso em mãos, uma estimativa preliminar de pontuação foi realizada para
     <td class="tg-uys7">8</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">US21</td>
-    <td class="tg-0pky">Eu, como usuário do sistema, desejo que o sistema gere relatórios periodicamente para que eu possa ter acesso a relatórios nas datas desejadas.</td>
-    <td class="tg-c3ow">Muito baixa</td>
-    <td class="tg-c3ow">5</td>
+    <td class="tg-uys7">US21</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo que o sistema gere relatórios periodicamente para que eu possa ter acesso a relatórios nas datas desejadas.</td>
+    <td class="tg-uys7">Muito baixa</td>
+    <td class="tg-uys7">5</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">US22</td>
-    <td class="tg-0pky">Eu, como usuário do sistema, desejo gerar um relatório de notas fiscais filtrado por categorias.</td>
-    <td class="tg-c3ow">Média</td>
-    <td class="tg-c3ow">5</td>
+    <td class="tg-uys7">US22</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo gerar um relatório de notas fiscais filtrado por categorias.</td>
+    <td class="tg-uys7">Média</td>
+    <td class="tg-uys7">5</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">US23</td>
-    <td class="tg-0pky">Eu, como usuário do sistema, desejo visualizar uma lista de todos os relatórios salvos para que eu possa ter acesso a todos os relatórios.</td>
-    <td class="tg-c3ow">Baixa</td>
-    <td class="tg-c3ow">3</td>
+    <td class="tg-uys7">US23</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo visualizar uma lista de todos os relatórios salvos para que eu possa ter acesso a todos os relatórios.</td>
+    <td class="tg-uys7">Baixa</td>
+    <td class="tg-uys7">3</td>
   </tr>
   <tr>
-    <td class="tg-baqh">US24</td>
-    <td class="tg-0lax">Eu, como usuário do sistema, desejo visualizar um relatório em detalhes para que eu possa ver os seus dados.</td>
-    <td class="tg-baqh">Muito alta</td>
-    <td class="tg-baqh">8</td>
+    <td class="tg-uys7">US24</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo visualizar um relatório em detalhes para que eu possa ver os seus dados.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">8</td>
   </tr>
     <tr>
     <td class="tg-uys7">US25</td>
@@ -305,16 +321,16 @@ Tendo isso em mãos, uma estimativa preliminar de pontuação foi realizada para
     <td class="tg-uys7">8</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">US27</td>
-    <td class="tg-0pky">Eu, como usuário do sistema, desejo que gráficos sejam gerados a partir dos gastos totais para que eu possa ter maior controle financeiro.</td>
-    <td class="tg-c3ow">Alta</td>
-    <td class="tg-c3ow">8</td>
+    <td class="tg-uys7">US27</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo que gráficos sejam gerados a partir dos gastos totais para que eu possa ter maior controle financeiro.</td>
+    <td class="tg-uys7">Alta</td>
+    <td class="tg-uys7">8</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">US28</td>
-    <td class="tg-0pky">Eu, como usuário do sistema, desejo que gráficos sejam gerados a partir de categorias para que eu possa ter maior controle financeiro.</td>
-    <td class="tg-c3ow">Alta</td>
-    <td class="tg-c3ow">8</td>
+    <td class="tg-uys7">US28</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo que gráficos sejam gerados a partir de categorias para que eu possa ter maior controle financeiro.</td>
+    <td class="tg-uys7">Alta</td>
+    <td class="tg-uys7">8</td>
   </tr>
 </table>
 
@@ -343,12 +359,12 @@ Tendo isso em mãos, uma estimativa preliminar de pontuação foi realizada para
     <td class="tg-uys7">5</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">US30</td>
-    <td class="tg-0pky">Eu, como usuário do sistema, desejo enviar um relatório por e-mail para que eu possa manter colaboradores a par dos relatórios.</td>
-    <td class="tg-c3ow">Muito baixa</td>
-    <td class="tg-c3ow">3</td>
+    <td class="tg-uys7">US30</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo enviar um relatório por e-mail para que eu possa manter colaboradores a par dos relatórios.</td>
+    <td class="tg-uys7">Muito baixa</td>
+    <td class="tg-uys7">3</td>
   </tr>
 </table>
 
 ***
-O total de pontos estipulados para o escopo até a Release 2 é de **213 pontos**.
+O total de pontos estimados para o escopo até a Release 2 é de **213 pontos**.
