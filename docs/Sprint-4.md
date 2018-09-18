@@ -41,10 +41,12 @@ Da <i>sprint</i> anterior, a <i>issue</i> de <a href="https://github.com/fga-eps
 |[US32 - Armazenar notas fiscais no sistema ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/74) | 8 |
 |[Configurar o _Code Climate_ ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/75) | 3 |
 |[Configurar as Integrações Contínuas ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/76) | 5 |
+|[Configurar Ambiente de Testes](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/81)| 3 |
+|[Configurar Bancos de Dados dos Serviços](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/80)| 3 | 
 |[Refatorar EAP ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/77) | 3 |
 |[Elaborar a Matriz de Avaliação de Valor ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/78) | 3 |
 
-<b>Total de pontos planejados: 51</b>  
+<b>Total de pontos planejados: 57</b>  
 
 ### Dívida    
 
@@ -52,19 +54,11 @@ Da <i>sprint</i> anterior, a <i>issue</i> de <a href="https://github.com/fga-eps
 |:--------------:|:---------:|
 |[Refatorar Canvas](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/60) | 1 |
 
-<b>Total: 52</b> 
-
-### _Issues_ Acrescentadas Durante a _Sprint_  
-
-|     _Issue_      |    Pontos   |
-|:--------------:|:---------:|
-|[Configurar Ambiente de Testes](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/81)| 3 |
-|[Configurar Bancos de Dados dos Serviços](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/80)| 3 |   
-
+<b>Total: 58</b> 
 
 ***
 
-<div style="text-align: center"> Total de pontos da <i>sprint</i>: 57 </div> <br>
+<div style="text-align: center"> Total de pontos da <i>sprint</i>: 58 </div> <br>
 
 
 > [_Sprint_ _Backlog_](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/5)  
