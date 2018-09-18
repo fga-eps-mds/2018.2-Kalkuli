@@ -1,0 +1,378 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Backlog do Produto · Kalkuli</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="# Histórias de Usuário"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Backlog do Produto · Kalkuli"/><meta property="og:type" content="website"/><meta property="og:url" content="https://fga-eps-mds.github.io/2018.2-Kalkuli/index.html"/><meta property="og:description" content="# Histórias de Usuário"/><meta property="og:image" content="https://fga-eps-mds.github.io/2018.2-Kalkuli/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://fga-eps-mds.github.io/2018.2-Kalkuli/img/docusaurus.png"/><link rel="shortcut icon" href="/2018.2-Kalkuli/img/knowledge.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/rainbow.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/2018.2-Kalkuli/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/2018.2-Kalkuli/"><h2 class="headerTitle">Kalkuli</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/2018.2-Kalkuli/docs/overview" target="_self">Documentação</a></li><li class=""><a href="/2018.2-Kalkuli/docs/psprint0" target="_self">Release I</a></li><li class=""><a target="_self"></a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Escopo do Projeto</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Gerenciamento do Projeto</h3><ul><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/overview">Overview do Projeto</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/comunicacao">Gerenciamento de Comunicações</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/contributing">Guia de Contribuição</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/defpronto">Definição de Pronto</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/medicao">Métricas e Indicadores</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Visão de Produto</h3><ul><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/tap">Termo de Abertura do Projeto</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/eapkalkuli">Estrutura Analítica do Projeto</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/docVisao">Documento de Visão</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/canvas">Canvas do Projeto</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/idVisual">Identidade Visual e Protótipo de Alta Fidelidade</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Arquitetura</h3><ul><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/docArquitetura">Documento de Arquitetura</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Escopo do Projeto</h3><ul><li class="navListItem navListItemActive"><a class="navItem" href="/2018.2-Kalkuli/docs/backlog">Backlog do Produto</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/roadmap">Roadmap do Produto</a></li></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docMainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Backlog do Produto</h1></header><article><div><span><h1><a class="anchor" aria-hidden="true" id="historias-de-usuario"></a><a href="#historias-de-usuario" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Histórias de Usuário</h1>
+<p align="justify">
+O escopo do projeto foi delimitado levando em conta as necessidades do público alvo, que foram elicitadas através da aplicação de um questionário que contempla o processo atual de como é realizado o controle de gastos através de notas fiscais (se houver e, caso não exista, explora os motivos de não ser realizado) e como esse controle poderia ser feito em um processo ideal de acordo com o ponto de vista de quem está respondendo o questionário.
+</p>
+<p align="justify">
+Definidas as funcionalidades, o público também respondeu quais delas são mais ou menos interessantes. Assim, as histórias puderam ser priorizadas para que fosse possível começar a gerar valor mais rapidamente.
+</p>
+<p align="justify">
+Tendo isso em mãos, uma estimativa preliminar de pontuação foi realizada para fins de planejamento. Para pontuar, o time escolheu uma história que julgasse de menor pontuação que foi utilizada como parâmetro ao longo da pontuação de todas as histórias. Os critérios utilizados para maior ou menor pontuação foram valor para a entrega (prioridade) e esforço para sua realização.
+</p>
+<p align="justify">
+É importante frisar que o <i>backlog</i> sofrerá ajustes ao longo do andamento do projeto para que as necessidades sejam todas atendidas. Esses ajustes incluem também os pontos, que devem ser reanalisados a cada <i>sprint</i> para que se mantenham sempre alinhados com a evolução de nível técnico da equipe.
+</p>
+<h2><a class="anchor" aria-hidden="true" id="epico-01-gerenciamento-do-sistema-de-contas"></a><a href="#epico-01-gerenciamento-do-sistema-de-contas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Épico 01 - Gerenciamento do Sistema de Contas</h2>
+<p align="justify">
+Este épico determina as histórias que formarão a funcionalidade de autenticação no sistema. Dentro dela, são definidos dois diferentes níveis de permissão de usuários: administradores e usuários comuns. Os usuários são agrupados em empresas, criadas e gerenciadas pelo administrador.
+</p>
+<h3><a class="anchor" aria-hidden="true" id="feature-01-manter-empresas"></a><a href="#feature-01-manter-empresas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Feature 01 - Manter Empresas</h3>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-s6z2{text-align:center}
+.tg .tg-wcrb{font-weight:bold;background-color:#0f8891;color:#f7f7f7;text-align:center}
+.tg .tg-s268{text-align:left}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-wcrb">ID</th>
+    <th class="tg-wcrb">História de Usuário</th>
+    <th class="tg-wcrb">Prioridade</th>
+    <th class="tg-wcrb">Pontos</th>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US01</td>
+    <td class="tg-0pky">Eu, como administrador de empresa, desejo cadastrar minha empresa no sistema para que eu possa ter controle dos gastos da minha empresa.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">13</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US02</td>
+    <td class="tg-0pky">Eu, como administrador de empresa, desejo desativar minha conta para que eu possa dispensar os serviços do sistema.</td>
+    <td class="tg-uys7">Baixa</td>
+    <td class="tg-uys7">3</td>
+  </tr>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="feature-02-manter-usuarios"></a><a href="#feature-02-manter-usuarios" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Feature 02 - Manter Usuários</h3>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-uys7{border-color:inherit;text-align:center}
+.tg .tg-ukcy{font-weight:bold;background-color:#0f8891;color:#f7f7f7;border-color:inherit;text-align:center}
+.tg .tg-xldj{border-color:inherit;text-align:left}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-ukcy">ID</th>
+    <th class="tg-ukcy">História de Usuário</th>
+    <th class="tg-ukcy">Prioridade</th>
+    <th class="tg-ukcy">Pontos</th>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US03</td>
+    <td class="tg-xldj">Eu, como administrador de empresa, desejo vincular um funcionário a minha empresa no sistema para que ele tenha acesso às notas fiscais dos gastos da minha empresa e registrar novas notas.</td>
+    <td class="tg-uys7">Média</td>
+    <td class="tg-uys7">5</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">US04</td>
+    <td class="tg-0pky">Eu, como administrador de empresa, desejo conceder a um usuário permissões de administrador para que ele possa gerenciar usuários.</td>
+    <td class="tg-c3ow">Média</td>
+    <td class="tg-c3ow">5</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">US05</td>
+    <td class="tg-0pky">Eu, como administrador do sistema, desejo listar os usuários vinculados à minha empresa para que eu possa gerenciar usuários.</td>
+    <td class="tg-c3ow">Média</td>
+    <td class="tg-c3ow">2</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">US06</td>
+    <td class="tg-0pky">Eu, como administrador de empresa, desejo excluir o vínculo de um funcionário para que ele não tenha mais acesso às informações da minha empresa.</td>
+    <td class="tg-c3ow">Baixa</td>
+    <td class="tg-c3ow">2</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">US07</td>
+    <td class="tg-0pky">Eu, como usuário do sistema, desejo alterar minha senha para manter a segurança dos meus dados.</td>
+    <td class="tg-c3ow">Alta</td>
+    <td class="tg-c3ow">5</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US08</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo recuperar minha senha para ter acesso ao sistema caso eu a esqueça.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">8</td>
+  </tr>
+</table>
+<h2><a class="anchor" aria-hidden="true" id="epico-02-notas-fiscais"></a><a href="#epico-02-notas-fiscais" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Épico 02 - Notas Fiscais</h2>
+<p align="justify">
+É o épico central de todo o sistema, e é responsável por toda a manipulação inicial das informações das notas fiscais, desde a submissão até a extração dos dados e exportação.
+</p>
+<h3><a class="anchor" aria-hidden="true" id="feature-03-manter-notas-fiscais"></a><a href="#feature-03-manter-notas-fiscais" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Feature 03 - Manter notas fiscais</h3>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-uys7{border-color:inherit;text-align:center}
+.tg .tg-ukcy{font-weight:bold;background-color:#0f8891;color:#f7f7f7;border-color:inherit;text-align:center}
+.tg .tg-xldj{border-color:inherit;text-align:left}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-ukcy">ID</th>
+    <th class="tg-ukcy">História de Usuário</th>
+    <th class="tg-ukcy">Prioridade</th>
+    <th class="tg-ukcy">Pontos</th>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US10</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo poder editar o envio de uma nota fiscal para que eu possa corrigir dados incorretos na extração dos dados da nota.</td>
+    <td class="tg-uys7">Média</td>
+    <td class="tg-uys7">5</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US11</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo poder digitar os dados de uma nota manualmente para que eu possa incluir uma nota com dificuldades de leitura.</td>
+    <td class="tg-uys7">Média</td>
+    <td class="tg-uys7">5</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US12</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo excluir uma nota fiscal para que eu possa dispensar uma nota que não precisa exisitr no sistema.</td>
+    <td class="tg-uys7">Baixa</td>
+    <td class="tg-uys7">2</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US13</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo visualizar uma lista de todas as notas fiscais submetidas para ter acesso a todas as notas.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">8</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US14</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo visualizar uma nota detalhadamente para que eu possa verificar os dados.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">8</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US32</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo que os dados da nota fiscal fiquem armazenados no sistema para que eu possa gerar relatórios a partir delas e consultá-las.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">8</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US15</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo filtrar notas para que eu possa encontrar notas de acordo com o critério definido.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">13</td>
+  </tr>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="feature-04-extracão-e-interpretacão-dos-dados"></a><a href="#feature-04-extracão-e-interpretacão-dos-dados" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Feature 04 - Extração e interpretação dos dados</h3>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-uys7{border-color:inherit;text-align:center}
+.tg .tg-ukcy{font-weight:bold;background-color:#0f8891;color:#f7f7f7;border-color:inherit;text-align:center}
+.tg .tg-xldj{border-color:inherit;text-align:left}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-ukcy">ID</th>
+    <th class="tg-ukcy">História de Usuário</th>
+    <th class="tg-ukcy">Prioridade</th>
+    <th class="tg-ukcy">Pontos</th>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US16</td>
+    <td class="tg-xldj">SPIKE: Eu, como desenvolvedor, desejo entender o padrão de notas fiscais para que eu aprenda como interpretar suas informações.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">8</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US17</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo que uma nota fiscal submetida seja interpretada para que seus dados sejam disponibilizados de uma forma mais acessível. </td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">21</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US18</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo que categorias sejam adicionadas aos meus gastos para que eu possa ter uma classificação das minhas compras.</td>
+    <td class="tg-uys7">Média</td>
+    <td class="tg-uys7">0</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US31</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo utilizar uma interface gráfica para realizar o upload de notas fiscais.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">8</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US19</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo fazer o upload de uma nota fiscal para que os dados das notas fiscais fiquem salvos no sistema.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">13</td>
+  </tr>
+</table>
+<h2><a class="anchor" aria-hidden="true" id="epico-03-relatorios-de-gastos"></a><a href="#epico-03-relatorios-de-gastos" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Épico 03 - Relatórios de Gastos</h2>
+<p align="justify">
+A partir das informações obtidas das notas fiscais, os dados precisam ser apresentados em um documento para que o propósito do sistema seja, por fim, cumprido. Existe também a funcionalidade da geração de gráficos, que permitirá que o usuário tenha uma visão detalhada dos seus gastos.
+</p>
+<h3><a class="anchor" aria-hidden="true" id="feature-05-manter-relatorios"></a><a href="#feature-05-manter-relatorios" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Feature 05 - Manter relatórios</h3>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-uys7{border-color:inherit;text-align:center}
+.tg .tg-ukcy{font-weight:bold;background-color:#0f8891;color:#f7f7f7;border-color:inherit;text-align:center}
+.tg .tg-xldj{border-color:inherit;text-align:left}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-ukcy">ID</th>
+    <th class="tg-ukcy">História de Usuário</th>
+    <th class="tg-ukcy">Prioridade</th>
+    <th class="tg-ukcy">Pontos</th>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US20</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo gerar um relatório de notas fiscais em um período selecionado para que eu possa ter uma lista de todos os gastos dessas datas.</td>
+    <td class="tg-uys7">Alta</td>
+    <td class="tg-uys7">8</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US21</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo que o sistema gere relatórios periodicamente para que eu possa ter acesso a relatórios nas datas desejadas.</td>
+    <td class="tg-uys7">Muito baixa</td>
+    <td class="tg-uys7">5</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US22</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo gerar um relatório de notas fiscais filtrado por categorias.</td>
+    <td class="tg-uys7">Média</td>
+    <td class="tg-uys7">5</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US23</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo visualizar uma lista de todos os relatórios salvos para que eu possa ter acesso a todos os relatórios.</td>
+    <td class="tg-uys7">Baixa</td>
+    <td class="tg-uys7">3</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US24</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo visualizar um relatório em detalhes para que eu possa ver os seus dados.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">8</td>
+  </tr>
+    <tr>
+    <td class="tg-uys7">US25</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo apagar um relatório para que eu possa excluir um relatório indesejado no sistema.</td>
+    <td class="tg-uys7">Muito baixa</td>
+    <td class="tg-uys7">2</td>
+  </tr>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="feature-06-geracão-de-graficos"></a><a href="#feature-06-geracão-de-graficos" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Feature 06 - Geração de gráficos</h3>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-uys7{border-color:inherit;text-align:center}
+.tg .tg-ukcy{font-weight:bold;background-color:#0f8891;color:#f7f7f7;border-color:inherit;text-align:center}
+.tg .tg-xldj{border-color:inherit;text-align:left}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-ukcy">ID</th>
+    <th class="tg-ukcy">História de Usuário</th>
+    <th class="tg-ukcy">Prioridade</th>
+    <th class="tg-ukcy">Pontos</th>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US26</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo que gráficos sejam gerados a partir dos gastos em impostos para que eu possa ter maior controle financeiro.</td>
+    <td class="tg-uys7">Alta</td>
+    <td class="tg-uys7">8</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US27</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo que gráficos sejam gerados a partir dos gastos totais para que eu possa ter maior controle financeiro.</td>
+    <td class="tg-uys7">Alta</td>
+    <td class="tg-uys7">8</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US28</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo que gráficos sejam gerados a partir de categorias para que eu possa ter maior controle financeiro.</td>
+    <td class="tg-uys7">Alta</td>
+    <td class="tg-uys7">8</td>
+  </tr>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="feature-07-exportacão-de-relatorios"></a><a href="#feature-07-exportacão-de-relatorios" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Feature 07 - Exportação de relatórios</h3>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-uys7{border-color:inherit;text-align:center}
+.tg .tg-ukcy{font-weight:bold;background-color:#0f8891;color:#f7f7f7;border-color:inherit;text-align:center}
+.tg .tg-xldj{border-color:inherit;text-align:left}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-ukcy">ID</th>
+    <th class="tg-ukcy">História de Usuário</th>
+    <th class="tg-ukcy">Prioridade</th>
+    <th class="tg-ukcy">Pontos</th>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US29</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo baixar um relatório em formato de planilha para que eu possa ter uma versão exportadas meus gastos.</td>
+    <td class="tg-uys7">Média</td>
+    <td class="tg-uys7">5</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US30</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo enviar um relatório por e-mail para que eu possa manter colaboradores a par dos relatórios.</td>
+    <td class="tg-uys7">Muito baixa</td>
+    <td class="tg-uys7">3</td>
+  </tr>
+</table>
+<hr>
+<p>O total de pontos estimados para o escopo até a Release 2 é de <strong>213 pontos</strong>.</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/2018.2-Kalkuli/docs/docArquitetura"><span class="arrow-prev">← </span><span>Previous</span></a><a class="docs-next button" href="/2018.2-Kalkuli/docs/roadmap"><span>Next</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav docOnPageNav"><ul class="toc-headings"><li><a href="#epico-01-gerenciamento-do-sistema-de-contas">Épico 01 - Gerenciamento do Sistema de Contas</a><ul class="toc-headings"><li><a href="#feature-01-manter-empresas">Feature 01 - Manter Empresas</a></li><li><a href="#feature-02-manter-usuarios">Feature 02 - Manter Usuários</a></li></ul></li><li><a href="#epico-02-notas-fiscais">Épico 02 - Notas Fiscais</a><ul class="toc-headings"><li><a href="#feature-03-manter-notas-fiscais">Feature 03 - Manter notas fiscais</a></li><li><a href="#feature-04-extracão-e-interpretacão-dos-dados">Feature 04 - Extração e interpretação dos dados</a></li></ul></li><li><a href="#epico-03-relatorios-de-gastos">Épico 03 - Relatórios de Gastos</a><ul class="toc-headings"><li><a href="#feature-05-manter-relatorios">Feature 05 - Manter relatórios</a></li><li><a href="#feature-06-geracão-de-graficos">Feature 06 - Geração de gráficos</a></li><li><a href="#feature-07-exportacão-de-relatorios">Feature 07 - Exportação de relatórios</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/2018.2-Kalkuli/" class="nav-home"><img src="../../img/knowledge.png" alt="Kalkuli" width="66" height="58"/></a><div><h5>Docs</h5><a href="/2018.2-Kalkuli/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/2018.2-Kalkuli/docs/en/doc2.html">Guides (or other categories)</a><a href="/2018.2-Kalkuli/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/2018.2-Kalkuli/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/2018.2-Kalkuli/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/2018.2-Kalkuli/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2018 Kalkuli</section></footer></div></body></html>
