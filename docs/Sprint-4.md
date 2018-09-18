@@ -10,7 +10,7 @@ title: Planejamento Sprint 4
 </p>
 
 <p align="justify">
-Busca de melhoria contínua através da adição de integração contínua nos repositórios, adição e configuração de ferramenta para monitorar a qualidade do código. Objetivos mapeados no <a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/roadmap" title="Roadmap do Produto, Release I."><i>roadmap</i></a>.    
+Busca de melhoria contínua através da configuração dos ambientes de testes, da adição de integração contínua nos repositórios, adição e configuração de ferramenta para monitorar a qualidade do código. Objetivos mapeados no <a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/roadmap" title="Roadmap do Produto, Release I."><i>roadmap</i></a>.    
 </p>
 
 <p align="justify">
@@ -54,9 +54,18 @@ Da <i>sprint</i> anterior, a <i>issue</i> de <a href="https://github.com/fga-eps
 
 <b>Total: 52</b> 
 
+### _Issues_ Acrescentadas Durante a _Sprint_  
+
+|     _Issue_      |    Pontos   |
+|:--------------:|:---------:|
+|[Configurar Ambiente de Testes](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/81)| 3 |
+|[Configurar Bancos de Dados dos Serviços](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/80)| 3 |   
+
+
 ***
 
-<div style="text-align: center"> Total de pontos da <i>sprint</i>: 52 </div> <br>
+<div style="text-align: center"> Total de pontos da <i>sprint</i>: 57 </div> <br>
+
 
 > [_Sprint_ _Backlog_](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/5)  
 
