@@ -59,13 +59,12 @@ Ajuda a monitorar os riscos do projeto, através do produto entre probabilidade 
 
 ## Indicadores de Qualidade do Código 
 
-### [SonarQube](https://www.sonarqube.org/features/clean-code/)
+### [Code Climate](https://codeclimate.com/quality/)
 
 <p align="justify">
-O <i>SonarQube</i> é uma plataforma de código aberto para inspeção contínua da qualidade de código para realizar revisões automáticas com análise estática de código para detectar <i>bugs</i>, <i>code smells</i> e vulnerabilidades de segurança em mais de 20 linguagens de programação.</p>
-<p align="justify">
-O <i>Sonar</i> oferece relatórios sobre código duplicado, padrões de codificação, testes unitários, cobertura de código, complexidade de código, comentários, <i>bugs</i> e vulnerabilidades de segurança.
-</p>  
-<p align="justify">
-O <i>Sonar</i> pode registrar o histórico de métricas e fornece gráficos de evolução, também fornece análise e integração totalmente automatizadas com ferramentas de integração contínua.
-</p> 
+O <i>Code Climate</i> é uma ferramenta de análise de qualidade de código, que oferece duas classificações principais: 
+<ul>
+<li>Manutenibilidade: Através de avaliação padronizada de 10 pontos, examina a duplicação, a complexidade e as questões estruturais do código.</li>
+<li>Cobertura de Testes: A porcentagem de linhas cobertas em comparação com o número total de linhas de código.</li>
+</ul>
+</p>

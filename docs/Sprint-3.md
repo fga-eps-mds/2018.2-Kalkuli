@@ -8,6 +8,9 @@ title: Planejamento Sprint 3
 Início dos pareamentos, criação da <a href="https://github.com/Kalkuli">organização</a> do projeto, preparo de ambientes, e criação de containers para desenvolvimento.
 </p>
 <p align="justify">
+Buscando aumentar a qualidade do projeto, essa <i>sprint</i> também almeja <i>dockerizar</i> os repositórios, para, na <i>sprint</i> 4, preparar as integrações contínuas. Faz parte da proposta de melhoria contínua, e contempla os papeis do <i>DevOps</i> e do <i>Scrum Master</i>.
+</p>
+<p align="justify">
 Da <i>sprint</i> anterior, a <i>issue</i> de <a href="https://github.com/fga-eps-mds/PDF2Knowledge/issues/8">criar o <i>roadmap</i> do produto</a> ficou como dívida para ser liquidada.
 </p>
 
@@ -22,30 +25,30 @@ Da <i>sprint</i> anterior, a <i>issue</i> de <a href="https://github.com/fga-eps
  
 ![S1](assets/quadro-de-pareamento-s1.png "Pareamentos Sprint 3")
 
-- Pedro Féo e Ésio | US16
-- Lucas Dutra e Saleh | US19
-- Youssef e Jacó | US31
+- Pedro Féo e Ésio | [US16](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/49)
+- Lucas Dutra e Saleh | [US19](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/46)
+- Youssef e Jacó | [US31](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/48)
 
 ## Objetivos   
 
 |     _Issue_      |    Pontos   |
 |:--------------:|:---------:|
-|[US19 - Fazer o upload de uma nota fiscal ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/46) | 3 |
-|[US31 - Criar interface gráfica para realizar upload de notas fiscais](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/48) | 2 |    
+|[US19 - Fazer o upload de uma nota fiscal ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/46) | 13 |
+|[US31 - Criar interface gráfica para realizar upload de notas fiscais](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/48) | 8 |    
 |[US16 - Pesquisar o padrão de notas fiscais](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/49)| 8|
 |[Refatorar Protótipo](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/50) |2|
 |[Refinar Documento de Arquitetura](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/51) |1|
-|[Criar Organização](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/52)  |1|
+|[Criar Organização](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/52)  |0|
 |[Criar Repositórios _Dockerizados_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/53)|3|
-|[Estimar Custos](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/54)|2|
-|[Elaborar o Diagrama de Dados](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/55) |3|
-|[Criar o Documento de Resultados da _Sprint_ 2](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/56)|1 |
-|[Criar o Documento de Planejamento da _Sprint_ 3](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/57)|1|  
+|[Estimar Custos](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/54)|3|
+|[Elaborar o Diagrama de Dados](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/55) |2|
+|[Criar o Documento de Resultados da _Sprint_ 2](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/56)|0 |
+|[Criar o Documento de Planejamento da _Sprint_ 3](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/57)|0|  
 |[Criar o Plano de Medição](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/58)|2|  
 |[Refatorar TAP](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/59)|1|  
 |[Refatorar _Canvas_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/60)|1|
 
-Total: 31 pontos
+<b>Total de pontos planejados: 44</b>  
 
 ### Dívida    
 
@@ -53,11 +56,19 @@ Total: 31 pontos
 |:--------------:|:---------:|
 |[Iniciar _Roadmap_ do produto](https://github.com/fga-eps-mds/PDF2Knowledge/issues/8) | 3 |
 
-> [_Sprint_ _Backlog_](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/4)  
+<b>Total: 47</b> 
+
+### _Issues_ Acrescentadas Durante a _Sprint_  
+
+|     _Issue_      |    Pontos   |
+|:--------------:|:---------:|
+|[Treinamento de Flask](https://github.com/fga-eps-mds/2018.2-kalkuli/issues/64)| 2 |   
 
 ***
 
-Total de pontos planejados: 34
+<div style="text-align: center"> Total de pontos da <i>sprint</i>: 49 </div> <br>
+
+> [_Sprint_ _Backlog_](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/4)  
 
 ## Papeis
 
