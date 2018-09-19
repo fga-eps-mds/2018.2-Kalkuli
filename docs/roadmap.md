@@ -5,4 +5,4 @@ title: Roadmap do Produto
 
 ## Roadmap do Produto
 
-![S1](assets/roadmap.jpg "Roadmap do Produto v 0.1")
+![S1](assets/roadmap.png "Roadmap do Produto v 0.2")
