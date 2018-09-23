@@ -55,15 +55,24 @@ O empenho e a capacidade da equipe em finalizar as <i>issues</i> reflete a incid
 
 ## Riscos    
 <p align="justify">
+Dois novos riscos foram identificados durante a <i>sprint</i>:
 
-</p>  
+<ul>
+<li>Trancamento de discplina por integrante da equipe;</li>
+<li><a href="https://www.metropoles.com/distrito-federal/transporte-df/no-df-semana-comeca-com-ameaca-de-greve-em-onibus-e-no-metro" title="No DF, semana começa com ameaça de greve em ônibus e no metrô;">Greve no transporte público; </a>  </li>
+</ul>
+</p> 
+
+<p align="justify">
+Durante a <i>sprint</i>, a probabilidade de uma possível greve no transporte público prejudicar a equipe é baixa, pois a semana da <i>sprint</i> coincide com a semana universitária, semana que a maioria dos integrantes não têm aula, portanto, não afetará as dailies tampouco os pareamentos.
+</p>
 
 [![S4](assets/BurndowndeRiscos-S4.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/1PYjMMXbWRgKwY5oZH5ekg4VbqTYYfdJImHmxCLH62xI/edit#gid=0) 
 
 
 ## Retrospectiva
 <p align="justify">
-texto
+Retrospectiva apontou a redução de pontos negativos em relação a <a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/rsprint3#retrospectiva" title="Retrospectiva Sprint 3"><i>sprint</i> anterior</a>. Também transpareceu o bom relaciomanento entre EPS e a fluidez na execução das tarefas de cada papel.
 </p>   
 
 [![S4](assets/Retrospectiva-S4.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/1SwrbhRVE0lLx0K-8wPtjzFHJ86G5oUCzknl2b8s2odg/edit#gid=1486689596)   
@@ -74,17 +83,28 @@ texto
 Com relação aos pontos negativos apresentados na retrospectiva anterior, algumas medidas foram tomadas para que não se mostrassem novamente, são eles:
 
 <table>
-  <tr>
+  <tr align="center">
     <th>Ponto Negativo</th>
     <th>Correção Adotada</th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>
+      <ul style="list-style-type:circle">
+        <li>Problemas no planejamento da execução da história (pareamento)</li>  
+        <li>Ausência de membro</li>
+      </ul>
+    </td>
+    <td>
+      <p align="justify">Estes pontos negativos refletem a sobrecarga de um membro da dupla de pareamento, que com a ausência do parceiro, concluiu a história sozinho.</p>
+      <p align="justify">A medida preventiva adotada para a <i>sprint</i> corrente, foi a adoção de um <i>superpairing</i>, uma vez que se este membro se ausentasse novamente, não haveria sobrecarga em uma pessoa, e uma dupla seria capaz de finalizar a história.</p></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>
+      <ul style="list-style-type:circle">
+        <li>Dailies por hangouts (horários e atrasos)</li>  
+      </ul>
+    </td>
+    <td><p align="justify">Buscando a participação de toda a equipe nas <i>dailies</i> de segunda e sexta, o horário da <i>daily</i> de sexta sofreu alteração para 20h45.</p></td>
   </tr>
 </table>
 </p>
@@ -93,7 +113,7 @@ Com relação aos pontos negativos apresentados na retrospectiva anterior, algum
 ### Quadro de Conhecimento   
 
 <p align="justify">
-texto
+Houve uma leve melhora em algumas das tecnologias por parte de MDS, visto que estão em contato constante com as mesmas, entretanto, por ainda ser o começo do projeto e do uso das tecnologias, não esperava-se um salto notável.
 </p>
 
 [![S4](assets/Conhecimento-S4.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/19OGoemAfy_4nSFBbycD4kIoBFJwUjbXB7vxuQi8HLqY/edit#gid=2020311772)
@@ -102,7 +122,7 @@ texto
 ### Registros de Presença nas _Dailies_    
 
 <p align="justify">
-<i>Dailies</i> de segunda e sexta feira são feitas por <i>hangouts</i>, às 21h30.
+<i>Dailies</i> de segunda e sexta feira são feitas por <i>hangouts</i>, às 21h30 e 20h45, respectivamente.
 </p>
 
 | Nome    |Segunda Feira      | Terça Feira      | Quarta Feira     | Quinta Feira      | Sexta Feira      |     
@@ -122,11 +142,14 @@ texto
 ## Avaliação do _Scrum Master_  
 
 <p align="justify">
-As duplas de pareamento eram diferentes da <i>sprint</i> anterior, para facilitar a troca de conhecimento, em razão de as duplas foram definidas levando em consideração o conhecimento de cada integrante nas tecnologias, e o objetivo foi de balancear o nível de conhecimento. Portanto, esperava-se que as issues fossem entregues mais rapidamente.
+A capacidade técnica da equipe fica evidente numa <i>sprint</i> que, ainda com afazeres de outras disciplinas, se mostrou capaz de entregar praticamente todas as <i>issues</i> planejadas, incluindo o cerne da aplicação, que possui prioridade e complexidade altas.
 </p>
 
 <p align="justify">
+As duplas de pareamento foram montadas de forma diferente da <i>sprint</i> anterior, para facilitar a troca de conhecimento, em razão de as duplas foram definidas levando em consideração o conhecimento de cada integrante nas tecnologias, e o objetivo foi de balancear o nível de conhecimento. Portanto, esperava-se que as issues fossem entregues mais rapidamente.
 </p>
+
+deixar evidente as entregas com testes
 
 <p align="justify">
 </p>

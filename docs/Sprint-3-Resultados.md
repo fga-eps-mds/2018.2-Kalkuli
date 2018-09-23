@@ -82,7 +82,7 @@ Medidas tomadas para que pontos negativos elencados na semana anterior não se m
   </tr>
   <tr align="left">
     <td>Mais <i>dailies</i> presenciais, as pelo <i>Telegram</i> são ok, mas nem todos respondem ou respondem bem</td>
-    <td><i>Dailies</i> de segunda e sexta serão realizadas via <i>hangouts</i>, e não mais por <i>telegram</i>. Terão duração de 20 minutos e começarão às 21:30.</td>
+    <td><i>Dailies</i> de segunda e sexta serão realizadas via <i>hangouts</i>, e não mais por <i>telegram</i>. Terão duração de 20 minutos e começarão às 21h30.</td>
   </tr>
   <tr align="left">
     <td>
