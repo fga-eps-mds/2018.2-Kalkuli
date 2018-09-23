@@ -1,12 +1,5 @@
 {
-  "docs": {
-    "Gerenciamento do Projeto": [
-      "overview",
-      "comunicacao",
-      "contributing",
-      "defpronto",
-      "medicao"
-    ],
+  "produto": {
     "Visão de Produto": [
       "tap",
       "eapkalkuli",
@@ -15,15 +8,24 @@
       "idVisual"
     ],
     "Engenharia de Requisitos": [],
-    "Arquitetura": [
-      "docArquitetura"
-    ],
     "Escopo do Projeto": [
       "backlog",
       "roadmap"
     ]
   },
-  "docs-other": {
+  "projeto": {
+    "Gerenciamento do Projeto": [
+      "overview",
+      "comunicacao",
+      "contributing",
+      "defpronto",
+      "medicao"
+    ],
+    "Arquitetura": [
+      "docArquitetura"
+    ]    
+  },
+  "release-um": {
     "Sprint 0": [
       "psprint0",
       "rsprint0"

@@ -34,7 +34,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: 'overview', label: 'Documentação' },
+    { doc: 'tap', label: 'Produto' },
+    { doc: 'overview', label: 'Projeto' },
     { doc: 'psprint0', label: 'Release I' },
     // { doc: 'psprint0', label: 'Release II' },
     { blog: false },
