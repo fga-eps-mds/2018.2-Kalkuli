@@ -6,21 +6,13 @@ title: Resultados Sprint 4
 ***    
 
 - fechamento da sprint
-   - histórias concluídas e dívidas (tabela)
-   - burndown
-   - velocity    
-   - gráfico de commits
-   - quadro de conhecimento
-   - quadro de pŕaticas ágeis em desenvolvimento de software
-   - burndown de riscos
+   - quadro de pŕaticas ágeis em desenvolvimento de softwar
    - retrospectiva
         - medidas adotadas para correção de erros apontados na sprint anterior
-   - registro de presença
 - metricas de qualidade de codigo     
-- evm
 
 <p align="justify">
-(texto)
+<i>Sprint</i> que simboliza a busca do aumento de qualidade através da adição de integrações contínuas e ambientes de testes em todos os repositórios, como também a entrega do <i>core</i> da aplicação, a intepretação dos dados de notas fiscais.
 </p>
 
 ## Fechamento da _Sprint_   
@@ -45,20 +37,25 @@ Pontos Não Agregados: 3
 ## _Burndown_    
 
 <p align="justify">
-O <i>burndown</i> indica que as <i>issues</i> foram entregues tardiamente. Quase toda a equipe de desenvolvimento <a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/29#issuecomment-417966373" title="Quadro de Provas de Integrantes da Equipe">estava atarefada com outras disciplinas</a>, e as provas só acabaram no final da <i>sprint</i> (quinta feira).</p> 
+O <i>burndown</i> indica que as <i>issues</i> entregues tinham pontuações altas, representando alta complexidade e valor para o produto. </p>
+<p align="justify"> 
+Foi apontado na retrospectiva da <i>sprint</i> anterior, que as histórias foram começadas tardiamente. Nesta <i>sprint</i> esperava-se que as entregas começassem a partir de terça-feira, dado que toda a  <a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/29#issuecomment-420445456" title="Quadro de Provas de Integrantes da Equipe">equipe de desenvolvimento teria provas</a> nesta data. A equipe de EPS também teria provas na semana da <i>sprint</i>, contudo, foi capaz de entregar suas <i>issues</i> porque as começou com antecedência.</p>
+
 
 ![S4](assets/burndown-S4.png "Burndown Sprint 4")
 
 ## _Velocity_     
 <p align="justify">
-texto
+A pontuação planejada em relação à <i>sprint</i> anterior aumentou, evidenciando a busca pela produtividade máxima.</p>
+<p align="justify">
+O empenho e a capacidade da equipe em finalizar as <i>issues</i> reflete a incidência de poucas dívidas, e resulta no aumento gradual da pontuação da <i>sprint</i>.
 </p>   
 
 ![S4](assets/velocity-S4.png "Burndown Sprint 4")
 
 ## Riscos    
 <p align="justify">
-texto
+
 </p>  
 
 [![S4](assets/BurndowndeRiscos-S4.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/1PYjMMXbWRgKwY5oZH5ekg4VbqTYYfdJImHmxCLH62xI/edit#gid=0) 
@@ -69,7 +66,7 @@ texto
 texto
 </p>   
 
-[![S3](assets/Retrospectiva-S4.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/1SwrbhRVE0lLx0K-8wPtjzFHJ86G5oUCzknl2b8s2odg/edit#gid=1486689596)   
+[![S4](assets/Retrospectiva-S4.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/1SwrbhRVE0lLx0K-8wPtjzFHJ86G5oUCzknl2b8s2odg/edit#gid=1486689596)   
 
 ### _Sprint_ Anterior
 
@@ -99,7 +96,7 @@ Com relação aos pontos negativos apresentados na retrospectiva anterior, algum
 texto
 </p>
 
-[![S3](assets/Conhecimento-S4.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/19OGoemAfy_4nSFBbycD4kIoBFJwUjbXB7vxuQi8HLqY/edit#gid=2020311772)
+[![S4](assets/Conhecimento-S4.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/19OGoemAfy_4nSFBbycD4kIoBFJwUjbXB7vxuQi8HLqY/edit#gid=2020311772)
 
 
 ### Registros de Presença nas _Dailies_    
@@ -125,5 +122,17 @@ texto
 ## Avaliação do _Scrum Master_  
 
 <p align="justify">
-texto
+As duplas de pareamento eram diferentes da <i>sprint</i> anterior, para facilitar a troca de conhecimento, em razão de as duplas foram definidas levando em consideração o conhecimento de cada integrante nas tecnologias, e o objetivo foi de balancear o nível de conhecimento. Portanto, esperava-se que as issues fossem entregues mais rapidamente.
+</p>
+
+<p align="justify">
+</p>
+
+<p align="justify">
+</p>
+
+<p align="justify">
+</p>
+
+<p align="justify">
 </p>

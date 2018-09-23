@@ -147,5 +147,5 @@ A dificuldade com tecnologias ainda é um risco com probabilidade alta, dado que
 </p> 
 
 <p align="justify">
-O final da <i>sprint</i> marca acertos e erros por parte das equipes de MDS e EPS. Erros como MDS começar tardiamente as <i>issues</i>, e EPS por revisá-las tardiamente, entre falhas como atrasos nas reuniões, principalemnte nas <i>dailies</i>, sobrecarga de membro por conta de ausência do parceiro, e falta de atenção com as <i>pipelines</i> do <i>ZenHub</i>. Dentre os pontos positivos, vale destacar a comunicação da equipe, o empenho em entregar as tarefas mesmo numa semana caótica, os treinamentos de qualidade, e os planejamentos rápidos e eficientes.
+O final da <i>sprint</i> marca acertos e erros por parte das equipes de MDS e EPS. Erros como MDS começar tardiamente as <i>issues</i>, e EPS por revisá-las tardiamente, entre falhas como atrasos nas reuniões, principalmente nas <i>dailies</i>, sobrecarga de membro por conta de ausência do parceiro, e falta de atenção com as <i>pipelines</i> do <i>ZenHub</i>. Dentre os pontos positivos, vale destacar a comunicação da equipe, o empenho em entregar as tarefas mesmo numa semana caótica, os treinamentos de qualidade, e os planejamentos rápidos e eficientes.
 </p> 

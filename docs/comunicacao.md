@@ -16,8 +16,8 @@ As ferramentas escolhidas pela equipe buscam ao máximo reduzir falhas de comuni
     <td> <b>Telegram</b> </td>
     <td><ul>
         <li>Para comunicação instantânea entre membros da equipe;</li>
-        <li>Para realização de  <i>dailies</i>, pontualmente às 16h; <i>(Auxílio de Bot)</i></li>
-        <li>Para notificar membros de abertura/fechamento de <i>issues</i> ou <i>pull requests</i>, e qualquer outro nível de interação no repositório/<i>issue</i>; <i>(Auxílio de Bot)</i>;</li>
+        <li>Para realização de <i>dailies</i>, pontualmente às 16h; <i>(Auxílio de Bot)</i></li>
+        <li>Para notificar os membros de abertura/fechamento de <i>issues</i> ou <i>pull requests</i>, e qualquer outro nível de interação no repositório/<i>issue</i>; <i>(Auxílio de Bot)</i>;</li>
     </ul></td>
   </tr>
   <tr>
