@@ -82,7 +82,7 @@ Medidas tomadas para que pontos negativos elencados na semana anterior não se m
   </tr>
   <tr align="left">
     <td>Mais <i>dailies</i> presenciais, as pelo <i>Telegram</i> são ok, mas nem todos respondem ou respondem bem</td>
-    <td><i>Dailies</i> de segunda e sexta serão realizadas via <i>hangouts</i>, e não mais por <i>telegram</i>. Terão duração de 20 minutos e começarão às 21:30.</td>
+    <td><i>Dailies</i> de segunda e sexta serão realizadas via <i>hangouts</i>, e não mais por <i>telegram</i>. Terão duração de 20 minutos e começarão às 21h30.</td>
   </tr>
   <tr align="left">
     <td>
@@ -147,5 +147,5 @@ A dificuldade com tecnologias ainda é um risco com probabilidade alta, dado que
 </p> 
 
 <p align="justify">
-O final da <i>sprint</i> marca acertos e erros por parte das equipes de MDS e EPS. Erros como MDS começar tardiamente as <i>issues</i>, e EPS por revisá-las tardiamente, entre falhas como atrasos nas reuniões, principalemnte nas <i>dailies</i>, sobrecarga de membro por conta de ausência do parceiro, e falta de atenção com as <i>pipelines</i> do <i>ZenHub</i>. Dentre os pontos positivos, vale destacar a comunicação da equipe, o empenho em entregar as tarefas mesmo numa semana caótica, os treinamentos de qualidade, e os planejamentos rápidos e eficientes.
+O final da <i>sprint</i> marca acertos e erros por parte das equipes de MDS e EPS. Erros como MDS começar tardiamente as <i>issues</i>, e EPS por revisá-las tardiamente, entre falhas como atrasos nas reuniões, principalmente nas <i>dailies</i>, sobrecarga de membro por conta de ausência do parceiro, e falta de atenção com as <i>pipelines</i> do <i>ZenHub</i>. Dentre os pontos positivos, vale destacar a comunicação da equipe, o empenho em entregar as tarefas mesmo numa semana caótica, os treinamentos de qualidade, e os planejamentos rápidos e eficientes.
 </p> 
