@@ -9,25 +9,26 @@ title: Documento de Arquitetura
 
 |Data| Versão |Modificação|Autor|
 |:---:|:---:|:---:|:--:|
-| 04/09/2018 |   0.1  | Tópicos: 1.1, 1.2, 1.3, 1.4, 1.5| Lucas Dutra, Saleh Nazih |
+| 04/09/2018 |   0.1  | Tópicos: 1.1, 1.2, 1.3, 1.4, 1.5| Lucas Dutra e Saleh Nazih |
 | 06/09/2018 |   0.2  | Tópicos: 3, 4.1| Saleh Nazih |
 | 07/09/2018 |   0.3  | Tópicos: 2| Lucas Dutra | 
-| 07/09/2018 |   0.3.1  | Tópico: 1.4| Lucas Dutra, Saleh Nazih |
-| 08/09/2018 |   0.4  | Tópicos: 4.2, 2.1, 2.2| Lucas Dutra, Saleh Nazih |
+| 07/09/2018 |   0.3.1  | Tópico: 1.4| Lucas Dutra e Saleh Nazih |
+| 08/09/2018 |   1.0  | Tópicos: 4.2, 2.1, 2.2| Lucas Dutra e Saleh Nazih |
+| 23/09/2018 |   1.1 | Tópicos: 1.1, 1.2, 1.3, 2.2 3| Ésio Freitas e Lucas Dutra |
 
 ## 1. Introdução
 
 ### 1.1 Finalidade
 
-<p style="text-align:justify">&emsp;&emsp;Este documento contém uma apresentação geral a respeito da arquitetura utilizada no projeto Kalkuli e explicita como acontecerá a comunicação dos diversos serviços contidos no <i>software</i> como um todo. Sua intenção é capturar e transmitir as decisões significativas do ponto de vista da arquitetura que foram tomadas em relação ao sistema.</p>
+<p style="text-align:justify">&emsp;&emsp;A intenção desse documento é capturar e transmitir as decisões significativas que foram tomadas em relação ao sistema do ponto de vista do arquiteto. Por isso, ele contém uma apresentação geral da arquitetura utilizada no projeto Kalkuli e explicita como acontecerá a comunicação dos diversos serviços contidos no software como um todo.</p>
 
 ### 1.2 Escopo
 
-<p style="text-align:justify">&emsp;&emsp;O Kalkuli será uma aplicação responsável por escanear notas fiscais, com o intuito de extrair, tratar e exibir dados de uma maneira simples e intuitiva para o usuário. O documento terá por objetivo apresentar toda parte arquitetural do projeto, a fim de esclarecer características básicas do sistema.</p>
+<p style="text-align:justify">&emsp;&emsp;O Kalkuli será uma aplicação responsável por escanear DANFCE, com o intuito de extrair, tratar e exibir dados de uma maneira simples e intuitiva para o usuário. (O documento terá por objetivo apresentar toda parte arquitetural do projeto, a fim de esclarecer características básicas do sistema).</p>
 
 ### 1.3 Definições, Acrônimos e Abreviações
 
-* NF - Notas fiscais 
+* DANFCE - Documento auxiliar de notas fiscais do consumidar eletrônica
 * WSGI - <i>Web Server Gateway Interface</i>
 
 ### 1.4 Referências
@@ -66,7 +67,7 @@ title: Documento de Arquitetura
 
 * **Microsserviços**   
 
-<p style="text-align:justify">&emsp;&emsp;A arquitetura de microsserviços é uma abordagem que desmembra um aplicativo único em blocos de pequenos serviços independentes, cada um executando seu próprio processo e se comunicando, muitas vezes, em uma API através de métodos HTTP.</p>
+<p style="text-align:justify">&emsp;&emsp;A arquitetura de microsserviços é uma abordagem que desmembra uma aplicação única em blocos de pequenos serviços independentes. Esses serviços executam o seu próprio processo e se comunicam, muitas vezes, por meio de métodos HTTP em uma API.</p>
 <p style="text-align:justify">&emsp;&emsp;No <i>software</i> descrito neste documento a arquitetura de microsserviços será bastante utilizada. Os módulos serão:
 <ul>
   <li><b>Extração de texto</b>, bloco responsável somente pela extração do texto proveniente das notas fiscais escaneadas;</li> 
@@ -82,7 +83,7 @@ title: Documento de Arquitetura
 
 ## 3. Metas e Restrições de Arquitetura
 
-<p style="text-align:justify">&emsp;&emsp;A aplicação deverá ser suportada pelos navegadores, <i>Mozilla Firefox</i>, <i>Google Chrome</i>, Opera e <i>Microsoft Edge</i>. Toda parte do <i>front-end</i> será construído utilizando <i>React.Js</i>, biblioteca javascript para criar interfaces para o usuário. A aplicação também contemplará <i>Flask</i>, <i>framework</i> construído em <i>python</i> que junto com a biblioteca OCRmyPDF irão realizar a extração de dados das notas.</p>
+<p style="text-align:justify">&emsp;&emsp;A aplicação deverá ser suportada pelos navegadores, <i>Mozilla Firefox</i>, <i>Google Chrome</i>, Opera e <i>Microsoft Edge</i>. Toda parte do <i>front-end</i> será construído utilizando <i>React.Js</i>, biblioteca javascript para criar interfaces para o usuário. A aplicação também contemplará <i>Flask</i>, <i>framework</i> construído em <i>python</i> que junto com a biblioteca PyTesseract irão realizar a extração de dados das notas.</p>
 
 <p style="text-align:justify">&emsp;&emsp;Por fim, <i>Docker</i> será utilizado para facilitar o desenvolvimento em um ambiente isolado e construído especialmente para a equipe.</p>
 
