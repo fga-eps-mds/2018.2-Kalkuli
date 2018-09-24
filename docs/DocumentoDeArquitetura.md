@@ -14,7 +14,9 @@ title: Documento de Arquitetura
 | 07/09/2018 |   0.3  | Tópicos: 2| Lucas Dutra | 
 | 07/09/2018 |   0.3.1  | Tópico: 1.4| Lucas Dutra e Saleh Nazih |
 | 08/09/2018 |   1.0  | Tópicos: 4.2, 2.1, 2.2| Lucas Dutra e Saleh Nazih |
-| 23/09/2018 |   1.1 | Tópicos: 1.1, 1.2, 1.3, 2.2 3| Ésio Freitas e Lucas Dutra |
+| 23/09/2018 |   1.1 | Tópicos: 1.1, 1.2, 1.3, 2.2| Ésio Freitas e Lucas Dutra |
+| 24/09/2018 |   1.2 | Tópico: 3, 4.1| Lucas Dutra |
+
 
 ## 1. Introdução
 
@@ -83,15 +85,15 @@ title: Documento de Arquitetura
 
 ## 3. Metas e Restrições de Arquitetura
 
-<p style="text-align:justify">&emsp;&emsp;A aplicação deverá ser suportada pelos navegadores, <i>Mozilla Firefox</i>, <i>Google Chrome</i>, Opera e <i>Microsoft Edge</i>. Toda parte do <i>front-end</i> será construído utilizando <i>React.Js</i>, biblioteca javascript para criar interfaces para o usuário. A aplicação também contemplará <i>Flask</i>, <i>framework</i> construído em <i>python</i> que junto com a biblioteca PyTesseract irão realizar a extração de dados das notas.</p>
+<p style="text-align:justify">&emsp;&emsp;A aplicação deverá ser suportada pelos navegadores, <i>Mozilla Firefox</i>, <i>Google Chrome</i>, Opera e <i>Microsoft Edge</i>. Toda parte do <i>front-end</i> será construído utilizando <i>React.Js</i>, biblioteca javascript para criar interfaces para o usuário, juntamente com <i>Redux</i>, um contêiner de estado preditivo para aplicações <i>JavaScript</i> . A aplicação também utilizará do <i>microframework</i> <i>Flask</i>, que é construído em <i>python</i> que junto com a biblioteca PyTesseract irão realizar a extração de dados das notas.</p>
 
-<p style="text-align:justify">&emsp;&emsp;Por fim, <i>Docker</i> será utilizado para facilitar o desenvolvimento em um ambiente isolado e construído especialmente para a equipe.</p>
+<p style="text-align:justify">&emsp;&emsp;Além disso, a ferramenta <i>Docker</i> será utilizada para facilitar o desenvolvimento em um ambiente isolado e construído especialmente para a equipe.</p>
 
 ## 4. Visão de Implementação
 
 ### 4.1 Visão Geral
 
-<p style="text-align:justify">&emsp;&emsp;A aplicação se baseará na arquitetura de microsserviços. Com cada método executando pequenos serviços, em que cada serviço requisita ou processa dados. O importante dessa arquitetura é a sua implementação mais rápida e de fácil manutenção.</p>
+<p style="text-align:justify">&emsp;&emsp;A aplicação se baseará na arquitetura de microsserviços. Com cada serviço executando pequenas tarefas, requisitando ou processando dados. O importante dessa arquitetura é a sua implementação mais rápida e de fácil manutenção.</p>
 
 ### 4.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
