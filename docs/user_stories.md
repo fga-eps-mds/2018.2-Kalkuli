@@ -3,6 +3,8 @@ id: backlog
 title: Backlog do Produto
 ---
 
+***    
+
 # Histórias de Usuário
 <p align="justify">
 O escopo do projeto foi delimitado levando em conta as necessidades do público alvo, que foram elicitadas através da aplicação de um questionário que contempla o processo atual de como é realizado o controle de gastos através de notas fiscais (se houver e, caso não exista, explora os motivos de não ser realizado) e como esse controle poderia ser feito em um processo ideal de acordo com o ponto de vista de quem está respondendo o questionário.
