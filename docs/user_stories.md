@@ -110,6 +110,18 @@ Este épico determina as histórias que formarão a funcionalidade de autentica�
     <td class="tg-uys7">Muito alta</td>
     <td class="tg-uys7">8</td>
   </tr>
+  <tr>
+    <td class="tg-uys7">US09</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo realizar login no sistema para que eu tenha acesso às suas funcionalidades.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">8</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US34</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo ter acesso à pagina principal do sistema para que eu possa ter informações do site e me cadastrar ou realizar login.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">5</td>
+  </tr>
 </table>
 
 ## Épico 02 - Notas Fiscais
@@ -177,7 +189,7 @@ Este épico determina as histórias que formarão a funcionalidade de autentica�
     <td class="tg-uys7">US15</td>
     <td class="tg-xldj">Eu, como usuário do sistema, desejo filtrar notas para que eu possa encontrar notas de acordo com o critério definido.</td>
     <td class="tg-uys7">Muito alta</td>
-    <td class="tg-uys7">13</td>
+    <td class="tg-uys7">8</td>
   </tr>
 </table>
 
@@ -260,9 +272,15 @@ A partir das informações obtidas das notas fiscais, os dados precisam ser apre
   </tr>
   <tr>
     <td class="tg-uys7">US20</td>
-    <td class="tg-xldj">Eu, como usuário do sistema, desejo gerar um relatório de notas fiscais em um período selecionado para que eu possa ter uma lista de todos os gastos dessas datas.</td>
-    <td class="tg-uys7">Alta</td>
-    <td class="tg-uys7">8</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo gerar um relatório de notas fiscais para que eu possa ter uma lista de todos os gastos.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">13</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US33</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo que um relatório gerado contemple apenas o período que eu definir para que eu possa ter uma lista de todos os gastos apenas nas datas escolhidas.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">13</td>
   </tr>
   <tr>
     <td class="tg-uys7">US21</td>
@@ -367,4 +385,4 @@ A partir das informações obtidas das notas fiscais, os dados precisam ser apre
 </table>
 
 ***
-O total de pontos estimados para o escopo até a Release 2 é de **213 pontos**.
+O total de pontos estimados para o escopo até a Release 2 é de **231 pontos**.
