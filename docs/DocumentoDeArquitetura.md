@@ -100,13 +100,18 @@ title: Documento de Arquitetura
 * Front-End
 <p style="text-align:justify">&emsp;&emsp;O <i>front-end</i> será inteiramente construído com a biblioteca <i>React</i>, segue a estrutura de pacotes da aplicação:</p>
 
-![S3](assets/diagramaPacotes.png "Diagrama de Pacotes v 0.1")
+![S3](assets/diagramaPacotes.png "Diagrama de Pacotes Front-end v 0.1")
+
+* Back-End
+<p style="text-align:justify">&emsp;&emsp;O <i>back-end</i> será inteiramente construído com o <i>microframework</i> <i>Flask</i>, segue a estrutura de pacotes da aplicação:</p>
+
+![S4](assets/DiagramadePacotesFlask.png "Diagrama de Pacotes Back-end v 0.1")
 
 ### 4.3 Modelagem de Dados
-![S4](assets/ModelagemDados.png "Modelagem de dados v 0.1")
+![S5](assets/ModelagemDados.png "Modelagem de dados v 0.1")
 
 ## 5. Visão de Implantação
 
 A implantação do produto será realizada por etapas. Todas devem visar que cada incremento de produto agregre maior valor ao cliente com maior qualidade possível, como podemos observar no pipeline abaixo: 
 
-![S5](assets/Pipeline_Desenvolvimento.png "Pipeline de Desenvolvimento v 0.1")
+![S6](assets/Pipeline_Desenvolvimento.png "Pipeline de Desenvolvimento v 0.1")
