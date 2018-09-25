@@ -1,6 +1,10 @@
 
+<p align="center"><a href="https://github.com/Kalkuli" target="_blank"><img width="190"src="https://user-images.githubusercontent.com/26073710/46049201-7eba4780-c103-11e8-9c79-37ff934af6ad.png"></a></p>
+
+
+
 <a href="#"><img src="https://img.shields.io/badge/MDS--EPS-2018.2-green.svg?Cache=true&style=flat-square"></a>
-<a href="https://opensource.org/licenses/GPL-3.0"><img src="https://img.shields.io/badge/license-GPL-%235DA8C1.svg"/></a> 
+<a href="https://opensource.org/licenses/GPL-3.0"><img src="https://img.shields.io/badge/license-GPL-%235DA8C1.svg"/></a>
 
 
 # Kalkuli
