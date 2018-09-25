@@ -15,7 +15,8 @@ title: Documento de Arquitetura
 | 07/09/2018 |   0.3.1  | Tópico: 1.4| Lucas Dutra e Saleh Nazih |
 | 08/09/2018 |   1.0  | Tópicos: 4.2, 2.1, 2.2| Lucas Dutra e Saleh Nazih |
 | 23/09/2018 |   1.1 | Tópicos: 1.1, 1.2, 1.3, 2.2| Ésio Freitas e Lucas Dutra |
-| 24/09/2018 |   1.2 | Tópico: 3, 4.1| Lucas Dutra |
+| 24/09/2018 |   1.2 | Tópicos: 3, 4.1 e 4.2| Lucas Dutra |
+| 25/09/2018 |   1.3 | Tópicos: 1.2, 2, 4.2, 4.5 e 5 | Ésio Gustavo |
 
 
 ## 1. Introdução
@@ -26,7 +27,7 @@ title: Documento de Arquitetura
 
 ### 1.2 Escopo
 
-<p style="text-align:justify">&emsp;&emsp;O Kalkuli será uma aplicação responsável por escanear DANFCE, com o intuito de extrair, tratar e exibir dados de uma maneira simples e intuitiva para o usuário. (O documento terá por objetivo apresentar toda parte arquitetural do projeto, a fim de esclarecer características básicas do sistema).</p>
+<p style="text-align:justify">&emsp;&emsp;O Kalkuli será uma aplicação responsável por escanear DANFCE, com o intuito de extrair, tratar e exibir dados de uma maneira simples e intuitiva para o usuário.</p>
 
 ### 1.3 Definições, Acrônimos e Abreviações
 
@@ -46,15 +47,6 @@ title: Documento de Arquitetura
 >Read Me. Redux. Disponível em: <a hre="https://goo.gl/SgQiKb"><https://goo.gl/SgQiKb></a>. Acesso em: 7 de setembro de 2018 
 
 ## 2. Representação da Arquitetura
-
-### 2.1 Representação arquitetural
-
-![S1](assets/RepresentacaoArquitetural.png "Representação Arquitetural v 0.1")
-
-### 2.2 Diagrama React-Redux
-
-![S2](assets/ReactReduxDiagram.png "Diagrama React-Redux v 0.1")
-
 * **React.js**      
 
 <p style="text-align:justify">&emsp;&emsp;<i>React</i> é uma biblioteca de <i>JavaScript</i> flexível, declarativa e eficiente para construção de interfaces para exibição ao usuário. O <i>React</i> permite a criação desde interfaces complexas até pequenos e isolados pedaços de código chamados “Componentes”.</p> 
@@ -83,6 +75,14 @@ title: Documento de Arquitetura
 </p>
 
 
+### 2.1 Representação arquitetural
+
+![S1](assets/RepresentacaoArquitetural.png "Representação Arquitetural v 0.1")
+
+### 2.2 Diagrama React-Redux
+
+![S2](assets/ReactReduxDiagram.png "Diagrama React-Redux v 0.1")
+
 ## 3. Metas e Restrições de Arquitetura
 
 <p style="text-align:justify">&emsp;&emsp;A aplicação deverá ser suportada pelos navegadores, <i>Mozilla Firefox</i>, <i>Google Chrome</i>, Opera e <i>Microsoft Edge</i>. Toda parte do <i>front-end</i> será construído utilizando <i>React.Js</i>, biblioteca javascript para criar interfaces para o usuário, juntamente com <i>Redux</i>, um contêiner de estado preditivo para aplicações <i>JavaScript</i> . A aplicação também utilizará do <i>microframework</i> <i>Flask</i>, que é construído em <i>python</i> que junto com a biblioteca PyTesseract irão realizar a extração de dados das notas.</p>
@@ -108,7 +108,7 @@ title: Documento de Arquitetura
 ![S4](assets/DiagramadePacotesFlask.png "Diagrama de Pacotes Back-end v 0.1")
 
 ### 4.3 Modelagem de Dados
-![S5](assets/ModelagemDados.png "Modelagem de dados v 0.1")
+![S5](assets/ModelagemdeDados.png "Modelagem de dados v 0.1")
 
 ## 5. Visão de Implantação
 
