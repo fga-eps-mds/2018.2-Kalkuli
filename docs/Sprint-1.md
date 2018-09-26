@@ -30,8 +30,9 @@ Após o fechamento do escopo, será possível definir a Estrutura Analítica do 
 |Realizar [treinamento de prototipação](https://github.com/fga-eps-mds/Kalkuli/issues/5)| 2|
 |[Criar protótipos de baixa fidelidade](https://github.com/fga-eps-mds/Kalkuli/issues/28)|3|
 |[Criar Plano de Gerenciamento de Riscos](https://github.com/fga-eps-mds/Kalkuli/issues/9)|5|
+|[Criar as Políticas de Uso do Repositório](https://github.com/fga-eps-mds/Kalkuli/issues/9)|2|
 
-<b>Total de pontos planejados: 25</b>  
+<b>Total de pontos planejados: 27</b>  
 
 ### _Issues_ Acrescentadas Durante a _Sprint_  
 
@@ -41,7 +42,7 @@ Após o fechamento do escopo, será possível definir a Estrutura Analítica do 
 
 ***
 
-<div style="text-align: center"> Total de pontos da <i>sprint</i>: 25 </div> <br>
+<div style="text-align: center"> Total de pontos da <i>sprint</i>: 27 </div> <br>
 
 > [_Sprint_ _Backlog_](https://github.com/fga-eps-mds/Kalkuli/milestone/2)   
 

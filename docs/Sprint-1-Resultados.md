@@ -20,13 +20,14 @@ A equipe de EPS pôde apresentar e praticar os rituais com a equipe de MDS, já 
 |[Treinamento de prototipação](https://github.com/fga-eps-mds/Kalkuli/issues/5)| Concluída | 2|
 |[Criação de protótipos de baixa fidelidade](https://github.com/fga-eps-mds/Kalkuli/issues/28) | Concluída | 3 |
 |[Documento de Visão](https://github.com/fga-eps-mds/Kalkuli/issues/26)| Concluída | 5 |
+|[Criar as Políticas de Uso do Repositório](https://github.com/fga-eps-mds/Kalkuli/issues/9)| Não Concluída |2|
 |[TAP](https://github.com/fga-eps-mds/Kalkuli/issues/12)| Não Concluída |5 |
 |[Plano de Gerenciamento de Riscos](https://github.com/fga-eps-mds/Kalkuli/issues/9)| Não Concluída | 5 |  
 |[EAP](https://github.com/fga-eps-mds/Kalkuli/issues/11)| Não Concluída | 5 |
 
 Pontos Planejados Concluídos: 10     
 Pontos de Dívida Concluídos:  0   
-Pontos Não Agregados: 15   
+Pontos Não Agregados: 17   
 
 
 > [_Milestone Sprint_ 1](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/2?closed=1)   
