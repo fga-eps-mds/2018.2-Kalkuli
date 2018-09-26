@@ -19,6 +19,7 @@ title: Resultados Sprint 4
 |[Configurar o _Code Climate_ ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/75) |Concluída | 3 |
 |[Configurar as Integrações Contínuas ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/76) |Concluída | 5 |
 |[Refatorar EAP ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/77) |Concluída | 3 |
+|[Refatorar Canvas](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/60) |Concluída | 1 |
 |[Elaborar a Matriz de Avaliação de Valor ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/78) |Não Concluída | 3 |
 
 
