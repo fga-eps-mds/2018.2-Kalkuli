@@ -17,6 +17,7 @@ title: Documento de Arquitetura
 | 23/09/2018 |   1.1 | Tópicos: 1.1, 1.2, 1.3, 2.2| Ésio Freitas e Lucas Dutra |
 | 24/09/2018 |   1.2 | Tópicos: 3, 4.1 e 4.2| Lucas Dutra |
 | 25/09/2018 |   1.3 | Tópicos: 1.2, 2, 4.2, 4.5 e 5 | Ésio Gustavo |
+| 25/09/2018 |   1.4 | Tópicos: 2 | Ésio Gustavo, Lucas Dutra, Youssef Muhamad |
 
 
 ## 1. Introdução
@@ -74,6 +75,10 @@ title: Documento de Arquitetura
   <li><b>Gateway</b>, serviço responsável por intermediar a comunicação entre o Back-end e o Front-end.</li>
 </ul>
 </p>
+
+* **Comunicação entre os serviços**        
+
+<p style="text-align:justify">&emsp;&emsp;Comunicação entre os serviços será feita por meio de uma <i>API Gateway</i>, o qual será responsável por fazer o intermédio entre os microsserviços por meio de métodos do protocolo HTTP. </p>
 
 
 ### 2.1 Representação arquitetural
