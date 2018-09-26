@@ -10,40 +10,37 @@ title: Resultados Sprint 2
 
 ## Fechamento da _Sprint_    
 
-<p align="justify">
-A equipe se mostrou proativa e conseguiu entregar praticamente tudo o que foi planejado, inclusive a dívida vinda da <i>sprint</i> anterior. Provavelmente o feriado no final da semana tenha ajudado a aumentar as entregas. Isso favorece o início da construção do <i>software</i>, para que a equipe comece a entregar executáveis.</p>
 
-<p align="justify">
-Durante o <i>review</i>, a equipe de MDS apresentou o protótipo de alta fidelidade, que precisará de ajustes para se adequar à identidade visual, também completa durante a <i>sprint</i>. MDS, juntamente com o arquiteto, apresentou a versão inicial do documento de arquitetura, que também soferá ajustes. O <i>devOps</i> <a href="https://github.com/bernardohrl/lets-docker">instruiu</a> a equipe para utilizar <i>docker</i>.</p>
+|     _Issue_      |     _Status_    |    Pontos    |
+|:--------------:|:---------------:|:----------------:|
+|[Subir _Wiki_ ](https://github.com/fga-eps-mds/PDF2Knowledge/issues/33)| Concluída | 0 |
+|[Elaborar Quadro de Conhecimento](https://github.com/fga-eps-mds/PDF2Knowledge/issues/40)| Concluída | 0 |
+|[Fazer o Community Profile do Repositório](https://github.com/fga-eps-mds/PDF2Knowledge/issues/15)| Concluída | 0 |
+|[Iniciar _Roadmap_ do Arquiteto](https://github.com/fga-eps-mds/PDF2Knowledge/issues/20)| Concluída | 0 |
+|[Estudar _Docker_ e Preparar um Treinamento](https://github.com/fga-eps-mds/PDF2Knowledge/issues/39)| Concluída | 0 |
+|[Iniciar _Roadmap_ do _Product Manager_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/34)| Concluída | 0 |
+|[Iniciar _Roadmap_ do _DevOps_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/35)| Concluída | 0 |
+|[Refinar o Documento de Visão](https://github.com/fga-eps-mds/PDF2Knowledge/issues/31)| Concluída | 1 |
+|[Estudar Sobre Notas Fiscais](https://github.com/fga-eps-mds/PDF2Knowledge/issues/32)| Concluída | 2 |
+|[Pesquisa de Possível Público Alvo](https://github.com/fga-eps-mds/PDF2Knowledge/issues/37) | Concluída | 3 |
+|[Iniciar o Documento de Arquitetura](https://github.com/fga-eps-mds/PDF2Knowledge/issues/27) | Concluída | 5 | 
+|[Protótipos de Alta Fidelidade](https://github.com/fga-eps-mds/PDF2Knowledge/issues/23) | Concluída | 8 | 
+|[Definir Identidade Visual](https://github.com/fga-eps-mds/PDF2Knowledge/issues/22) | Concluída | 8 | 
+|[Fazer _Canvas_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/38)| Concluída | 8 |
+|[Definir Backlog do Produto](https://github.com/fga-eps-mds/PDF2Knowledge/issues/36) | Concluída | 13 |
 
-</p>
+|[Definir Política de _Branches_ e _Commits_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/10)| Concluída | 2 |
+|[Elaborar EAP](https://github.com/fga-eps-mds/PDF2Knowledge/issues/11)| Concluída | 5|
+|[_Burndown_ de Riscos](https://github.com/fga-eps-mds/PDF2Knowledge/issues/9)| Concluída | 5 |
+|[Elaborar TAP](https://github.com/fga-eps-mds/PDF2Knowledge/issues/12)| Concluída |5 |
 
-|     _Issue_      |     _Status_    |
-|:--------------:|:---------------:|
-|[Definir Política de _Branches_ e _Commits_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/10)| Concluída |
-|[Finalizar o Community Profile do Repositório](https://github.com/fga-eps-mds/PDF2Knowledge/issues/15)| Concluída |
-|[Elaborar Quadro de Conhecimento](https://github.com/fga-eps-mds/PDF2Knowledge/issues/40)| Concluída |
-|[Subir _Wiki_ ](https://github.com/fga-eps-mds/PDF2Knowledge/issues/33)| Concluída |
-|[Refinar o Documento de Visão](https://github.com/fga-eps-mds/PDF2Knowledge/issues/31)| Concluída |
-|[Iniciar _Roadmap_ do Arquiteto](https://github.com/fga-eps-mds/PDF2Knowledge/issues/20)| Concluída |
-|[Protótipos de Alta Fidelidade](https://github.com/fga-eps-mds/PDF2Knowledge/issues/23) | Concluída |
-|[Definir Identidade Visual](https://github.com/fga-eps-mds/PDF2Knowledge/issues/22) | Concluída |
-|[Iniciar o Documento de Arquitetura](https://github.com/fga-eps-mds/PDF2Knowledge/issues/27) | Concluída |
-|[Estudar Sobre Notas Fiscais](https://github.com/fga-eps-mds/PDF2Knowledge/issues/32)| Concluída |
-|[Pesquisa de Possível Público Alvo](https://github.com/fga-eps-mds/PDF2Knowledge/issues/37) | Concluída |
-|[Fazer _Canvas_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/38)| Concluída |
-|[_Burndown_ de Riscos](https://github.com/fga-eps-mds/PDF2Knowledge/issues/9)| Concluída |
-|[Estudar _Docker_ e Preparar um Treinamento](https://github.com/fga-eps-mds/PDF2Knowledge/issues/39)| Concluída |
-|[Elaborar EAP](https://github.com/fga-eps-mds/PDF2Knowledge/issues/11)| Concluída |
-|[Elaborar TAP](https://github.com/fga-eps-mds/PDF2Knowledge/issues/12)| Concluída |
-|[Iniciar _Roadmap_ do _Product Manager_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/34)| Concluída | 
-|[Iniciar _Roadmap_ do _DevOps_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/35)| Concluída |
-|[Definir Backlog do Produto](https://github.com/fga-eps-mds/PDF2Knowledge/issues/36) | Concluída | 
-|[Iniciar _Roadmap_ do produto](https://github.com/fga-eps-mds/PDF2Knowledge/issues/8)| Não Concluída |   
+|[Iniciar _Roadmap_ do Produto](https://github.com/fga-eps-mds/PDF2Knowledge/issues/8)| Não Concluída | 3 |  
+
+68 total sprint
 
 ---    
 
-> [Milestone Sprint 2](https://github.com/fga-eps-mds/PDF2Knowledge/milestone/3?closed=1)
+> [_Milestone Sprint_ 2](https://github.com/fga-eps-mds/PDF2Knowledge/milestone/3?closed=1)
 
 
 ## Riscos
@@ -122,4 +119,11 @@ As tecnologias que serão utilizadas no projeto foram definidas, e o quadro de c
 |Saleh    |         ✔         |         ✔        |         ✔        |         ✔         |         ✔        |
 |Youssef  |          ✘        |         ✔        |         ✔        |         ✔         |         ✔        |
  
+## Avaliação do _Scrum Master_   
+
+<p align="justify">
+Durante o <i>review</i>, a equipe de MDS apresentou o protótipo de alta fidelidade, que precisará de ajustes para se adequar à identidade visual, também completa durante a <i>sprint</i>. MDS, juntamente com o arquiteto, apresentou a versão inicial do documento de arquitetura, que também soferá ajustes. O <i>devOps</i> <a href="https://github.com/bernardohrl/lets-docker">instruiu</a> a equipe para utilizar <i>docker</i>.</p>
+
+<p align="justify">
+A equipe se mostrou proativa e conseguiu entregar praticamente tudo o que foi planejado, inclusive a dívida vinda da <i>sprint</i> anterior. Provavelmente o feriado no final da semana tenha ajudado a aumentar as entregas. Isso favorece o início da construção do <i>software</i>, para que a equipe comece a entregar executáveis.</p>
 
