@@ -66,7 +66,7 @@ Durante a <i>sprint</i>, a probabilidade de uma possível greve no transporte p�
 
 ## Retrospectiva
 <p align="justify">
-Retrospectiva apontou a redução de pontos negativos em relação a <a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/rsprint3#retrospectiva" title="Retrospectiva Sprint 3"><i>sprint</i> anterior</a>. Também transpareceu o bom relaciomanento entre EPS e a fluidez na execução das tarefas de cada papel.
+Retrospectiva apontou a redução de pontos negativos em relação a <a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/rsprint3#retrospectiva" title="Retrospectiva Sprint 3"><i>sprint</i> anterior</a>. Também transpareceu o bom relacionamento entre EPS e a fluidez na execução das tarefas de cada papel.
 </p>   
 
 [![S4](assets/Retrospectiva-S4.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/1SwrbhRVE0lLx0K-8wPtjzFHJ86G5oUCzknl2b8s2odg/edit#gid=1486689596)   
@@ -125,12 +125,12 @@ Houve uma leve melhora em algumas das tecnologias por parte de MDS, visto que es
 |Clarissa |         ✔         |         ✔        |         ✔        |         ✔         |         ✔        |
 |Esio     |         ✔         |         ✔        |         ✔        |         ✔         |         ✔        |
 |Felipe   |         ✔         |         ✔        |         ✔        |         ✔         |         ✔        |
-|Jacó     |         ✔         |         ✔        |         ✔        |         ✔         |         ✔        |
+|Jacó     |         ✔         |         ✔        |         ✘        |         ✔         |         ✔        |
 |Lucas    |         ✔         |         ✔        |         ✔        |         ✔         |         ✘        |
 |Mariana  |         ✔         |         ✘        |         ✔        |         ✔         |         ✔        |
-|Pedro    |         ✔         |         ✔        |         ✘        |         ✔         |         ✔        |
+|Pedro    |         ✔         |         ✔        |         ✔        |         ✔         |         ✔        |
 |Saleh    |         ✔         |         ✔        |         ✔        |         ✔         |         ✔        |
-|Youssef  |         ✘         |         ✔        |         ✘        |         ✔         |         ✔        |      
+|Youssef  |         ✘         |         ✔        |         ✔        |         ✔         |         ✔        |      
 
 
 ## Avaliação do _Scrum Master_  
@@ -149,7 +149,7 @@ As duplas de pareamento foram montadas de forma diferente da <i>sprint</i> anter
 
 
 <p align="justify">
-Durante a <i>sprint</i>, o risco de requisitos com alto nível de complexidade se mostrou na retrospectiva: "muitas atividades para apenas uma <i>issue</i>". Causou confusão na equipe de MDS, pois não sabiam onde começavam e onde terminavam as obrigações da história, dificultando a criação de <i>tasks</i> de histórias tecnicamente mais complexas que as da <i>sprint</i> anterior. EPS percebeu a falha na granularidade das histórias, e como resposta ao risco, buscando sua mitigação, no <i>sprint planning</i> a equipe revisará as histórias escolhidas, buscando a possibilidade de granularização destas. Também <i>Product Owner</i> e <i>Scrum Master</i> revisarão o <i>backlog</i> do produto, buscando possíveis histórias passíveis de redução.
+O risco de requisitos com alto nível de complexidade se mostrou na retrospectiva: "muitas atividades para apenas uma <i>issue</i>". Causou confusão na equipe de MDS, pois não sabiam onde começavam e onde terminavam as obrigações da história, dificultando a criação de <i>tasks</i> de histórias tecnicamente mais complexas que as da <i>sprint</i> anterior. EPS percebeu a falha na granularidade das histórias, e como resposta ao risco, buscando sua mitigação, no <i>sprint planning</i> a equipe revisará as histórias escolhidas, buscando a possibilidade de granularização destas. Também <i>Product Owner</i> e <i>Scrum Master</i> revisarão o <i>backlog</i> do produto, buscando possíveis histórias passíveis de redução.
 </p>
 
 <p align="justify">
