@@ -12,33 +12,40 @@ A equipe de EPS pôde apresentar e praticar os rituais com a equipe de MDS, já 
 
 ## Fechamento da _Sprint_   
 
+
+|     _Issue_      |     _Status_    |    Pontos   |
+|:--------------:|:---------------:|:---------:
+|[Fechar Escopo](https://github.com/fga-eps-mds/Kalkuli/issues/7)| Concluída | 0 |
+|[Criar roadmap do Tech Leader](https://github.com/fga-eps-mds/2018.2-kalkuli/issues/21)| Concluída | 0 |
+|[Treinamento de prototipação](https://github.com/fga-eps-mds/Kalkuli/issues/5)| Concluída | 2|
+|[Criação de protótipos de baixa fidelidade](https://github.com/fga-eps-mds/Kalkuli/issues/28) | Concluída | 3 |
+|[Documento de Visão](https://github.com/fga-eps-mds/Kalkuli/issues/26)| Concluída | 5 |
+|[TAP](https://github.com/fga-eps-mds/Kalkuli/issues/12)| Não Concluída |5 |
+|[Plano de Gerenciamento de Riscos](https://github.com/fga-eps-mds/Kalkuli/issues/9)| Não Concluída | 5 |  
+|[EAP](https://github.com/fga-eps-mds/Kalkuli/issues/11)| Não Concluída | 5 |
+
+Pontos Planejados Concluídos: 10     
+Pontos de Dívida Concluídos:  0   
+Pontos Não Agregados: 15   
+
+
+> [_Milestone Sprint_ 1](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/2?closed=1)   
+
+
+## _Burndown_    
+
 <p align="justify">
-A equipe de EPS constatou que as primeiras <i>sprints</i> se encaixam mais como "momento de <i>start</i>" do projeto, e decidiu não pontuar as <i>issues</i> abertas, já que estas são para controle e monitoramento das atividades planejadas para a <i>sprint</i>, que ainda não são de desenvolvimento. Em seu livro, <i>Software Engineering</i>, Sommervile define uma <i>sprint</i> como "[...] uma unidade de planejamento na qual o trabalho a ser feito é avaliado, as <i>features</i> são selecionadas para desenvolvimento e o <i>software</i> é implementado. No final de uma <i>sprint</i>, a funcionalidade completa é entregue aos <i>stakeholders</i>." 
-Por este motivo, EPS optou por não atribuir pontuação para artefatos que definirão o produto de <i>software</i>, por entender que o conceito de 'pontuação', de acordo com a definição clássica do <i>Scrum</i>, apoia métricas de desenvolvimento de software.</p>
-<p align="justify">
-Portanto, para esse primeiro momento de estabilização do escopo e coleta de requisitos, o <i>velocity</i> da equipe estará zerado, e começará a crescer apenas com histórias de usuário e tecnologias definidas.
-</p>    
+O <i>burndown</i> indica que as <i>issues</i> foram entregues tardiamente. A equipe ficou impossibilitada de prosseguir, uma vez que as <i>issues</i> alocadas para a <i>sprint</i> dependiam do escopo lapidado.</p> 
 
+![S1](assets/burndown-S1.png "Burndown Sprint 1")
 
-|     _Issue_      |     _Status_    |
-|:--------------:|:---------------:|
-|[Fechar Escopo](https://github.com/fga-eps-mds/Kalkuli/issues/7)| Concluída |
-|[EAP](https://github.com/fga-eps-mds/Kalkuli/issues/11)| Não Concluída |
-|[TAP](https://github.com/fga-eps-mds/Kalkuli/issues/12)| Não Concluída |
-|[Documento de Visão](https://github.com/fga-eps-mds/Kalkuli/issues/26)| Concluída |
-|[Treinamento de prototipação](https://github.com/fga-eps-mds/Kalkuli/issues/5)| Concluída |
-|[Criação de protótipos de baixa fidelidade](https://github.com/fga-eps-mds/Kalkuli/issues/28) | Concluída |
-|[Plano de Gerenciamento de Riscos](https://github.com/fga-eps-mds/Kalkuli/issues/9)| Não Concluída |
+## _Velocity_   
 
-
-A _Issue_ de [Criar Roadmap do Tech Leader](https://github.com/fga-eps-mds/Kalkuli/issues/21) foi [fechada](https://github.com/fga-eps-mds/Kalkuli/issues/21#issuecomment-417896496) durante a _sprint_.
-
-
-> [Milestone Sprint 1](https://github.com/fga-eps-mds/Kalkuli/issues?q=is%3Aissue+milestone%3A%22Sprint+1%22+is%3Aclosed)
+![S1](assets/velocity-S1.png "Burndown Sprint 1")
 
 ## Retrospectiva
 <p align="justify">
-Primeira retrospectiva da equipe. Teve duração de 35 minutos. Para próximas retrospectivas, o <i>timebox</i> será reduzido, dado que o desempenho e foco da equipe possibilitou finalizar o ritual em tempo menor do que o pré estabelecido.
+Primeira retrospectiva da equipe. Teve duração de 35 minutos. Para próximas retrospectivas, a expectativa é a de que o <i>timebox</i> se mantenha, dado que o desempenho e foco da equipe possibilitou finalizar o ritual em tempo menor do que o pré estabelecido.
 </p>   
 
 [![S1](assets/Retrospectiva-S1.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/1SwrbhRVE0lLx0K-8wPtjzFHJ86G5oUCzknl2b8s2odg/edit#gid=0)   
@@ -70,6 +77,14 @@ Os integrantes <a href="https://github.com/bernardohrl">Bernardo Henrique</a> (E
 </p> 
 
 
-### Referências   
+## Avaliação do _Scrum Master_    
 
-> Sommerville, Ian. Software engineering. Addison-wesley, 2007.
+<p align="justify">
+A equipe de EPS conseguiu fechar o escopo até a data definida, e pôde delegar a criação do documento de visão à equipe de MDS, como também a criação de protótipos de baixa fidelidade. Entretanto, por dificuldades no entendimento e refino do escopo incial acordado, não foi possível concluir o Termo de Abertura do Projeto, nem sua Estrutura Analítica. 
+</p> 
+
+<p align="justify">
+Nesse meio tempo, EPS já prepara a equipe de MDS para o início do projeto com treinamentos, e vivência dos rituais <i>scrum</i>.
+</p>
+
+
