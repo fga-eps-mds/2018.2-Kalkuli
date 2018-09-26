@@ -49,7 +49,9 @@ O <i>burndown</i> indica que as <i>issues</i> foram entregues tardiamente. Quase
 
 ## _Velocity_     
 <p align="justify">
-Nas <i>sprints</i>  anteriores a equipe não pontuava as <i>issues</i>, por acreditar que os pontos se aplicavam apenas às histórias de usuário e técnicas, portanto o <i>velocity</i> da equipe, na <i>sprint</i> 3, ainda não reflete a produtividade, dado que as <i>sprints</i> anteriores não possuíam pontuações definidas.</p>   
+Após o fechamento do escopo na <i>sprint</i> anterior, foi possível alocar mais histórias, e concluir a dívida relacionada ao escopo.</p>   
+<p align="justify">
+O <i>velocity</i> aumenta à medida que a equipe ganha maturidade, permitindo o aumento gradual da pontuação total das próximas <i>sprints</i>.</p>   
 
 ![S3](assets/velocity-S3.png "Burndown Sprint 3")
 

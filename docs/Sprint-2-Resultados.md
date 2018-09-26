@@ -22,26 +22,40 @@ title: Resultados Sprint 2
 |[Iniciar _Roadmap_ do _DevOps_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/35)| Concluída | 0 |
 |[Refinar o Documento de Visão](https://github.com/fga-eps-mds/PDF2Knowledge/issues/31)| Concluída | 1 |
 |[Estudar Sobre Notas Fiscais](https://github.com/fga-eps-mds/PDF2Knowledge/issues/32)| Concluída | 2 |
+|[Definir Política de _Branches_ e _Commits_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/10)| Concluída | 2 |
 |[Pesquisa de Possível Público Alvo](https://github.com/fga-eps-mds/PDF2Knowledge/issues/37) | Concluída | 3 |
 |[Iniciar o Documento de Arquitetura](https://github.com/fga-eps-mds/PDF2Knowledge/issues/27) | Concluída | 5 | 
 |[Protótipos de Alta Fidelidade](https://github.com/fga-eps-mds/PDF2Knowledge/issues/23) | Concluída | 8 | 
 |[Definir Identidade Visual](https://github.com/fga-eps-mds/PDF2Knowledge/issues/22) | Concluída | 8 | 
 |[Fazer _Canvas_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/38)| Concluída | 8 |
-|[Definir Backlog do Produto](https://github.com/fga-eps-mds/PDF2Knowledge/issues/36) | Concluída | 13 |
-
-|[Definir Política de _Branches_ e _Commits_](https://github.com/fga-eps-mds/PDF2Knowledge/issues/10)| Concluída | 2 |
 |[Elaborar EAP](https://github.com/fga-eps-mds/PDF2Knowledge/issues/11)| Concluída | 5|
 |[_Burndown_ de Riscos](https://github.com/fga-eps-mds/PDF2Knowledge/issues/9)| Concluída | 5 |
 |[Elaborar TAP](https://github.com/fga-eps-mds/PDF2Knowledge/issues/12)| Concluída |5 |
-
+|[Definir Backlog do Produto](https://github.com/fga-eps-mds/PDF2Knowledge/issues/36) | Concluída | 13 |
 |[Iniciar _Roadmap_ do Produto](https://github.com/fga-eps-mds/PDF2Knowledge/issues/8)| Não Concluída | 3 |  
 
-68 total sprint
 
----    
+Pontos Planejados Concluídos: 48     
+Pontos de Dívida Concluídos:  17    
+Pontos Não Agregados: 3  
 
-> [_Milestone Sprint_ 2](https://github.com/fga-eps-mds/PDF2Knowledge/milestone/3?closed=1)
+> [_Milestone Sprint_ 2](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/3?closed=1)
 
+
+## _Burndown_    
+
+<p align="justify">
+A equipe novamente entrega as <i>issues</i> no final da <i>sprint</i>. Com a ocorrência do feriado, a maioria delas foi entregue na sexta-feira.
+</p> 
+
+![S2](assets/burndown-S2.png "Burndown Sprint 2")
+
+## _Velocity_     
+<p align="justify">
+O <i>velocity</i> da equipe aumentou consideravelmente graças ao fechamento de escopo. Foi possível liquidar as dívidas vindas da <i>sprint</i> anterior, e também finalizar o planejado, finalmente elicitando requisitos e moldando o produto.
+</p>   
+
+![S2](assets/velocity-S2.png "Burndown Sprint 2")
 
 ## Riscos
 
