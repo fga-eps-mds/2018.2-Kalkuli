@@ -78,7 +78,7 @@ title: Documento de Arquitetura
 
 ### 2.1 Representação arquitetural
 
-![S1](assets/RepresentacaoArquitetural.png "Representação Arquitetural v 0.1")
+![S1](assets/RepresentaçãoArquitetural.png "Representação Arquitetural v 0.1")
 
 ### 2.2 Diagrama React-Redux
 
