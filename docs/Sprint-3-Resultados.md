@@ -29,8 +29,7 @@ title: Resultados Sprint 3
 |[Treinamento de Flask](https://github.com/fga-eps-mds/2018.2-kalkuli/issues/64)|Concluída | 2 |
 |[Iniciar _Roadmap_ do produto](https://github.com/fga-eps-mds/PDF2Knowledge/issues/8) |Concluída | 3 |
 |[US31 - Criar interface gráfica para realizar upload de notas fiscais](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/48) |Concluída| 8 |    
-|[Refatorar _Canvas_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/60)| Não Concluída |1|
- 
+|[Refatorar _Canvas_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/60)| Não Concluída |1| 
 
 
 Pontos Planejados Concluídos: 45     
@@ -38,7 +37,7 @@ Pontos de Dívida Concluídos:  3
 Pontos Não Agregados: 1   
 
 
-> [Milestone Sprint 3](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/4?closed=1)
+> [_Milestone Sprint_ 3](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/4?closed=1)
 
 
 ## _Burndown_    

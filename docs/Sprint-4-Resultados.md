@@ -26,7 +26,7 @@ Pontos Planejados Concluídos: 54
 Pontos de Dívida Concluídos:  1   
 Pontos Não Agregados: 3 
 
-> [Milestone Sprint 4](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/5?closed=1)
+> [_Milestone Sprint_ 4](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/5?closed=1)
 
 ## _Burndown_    
 
