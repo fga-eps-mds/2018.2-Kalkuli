@@ -15,29 +15,34 @@ title: Planejamento Sprint 0
 **Duração:** Sete dias   
 
 
-## Objetivos  
+## Objetivos    
 
-- Capacitar equipe de desenvolvimento;
-    - [Treinamento](https://github.com/fga-eps-mds/Kalkuli/issues/2) de _Git_;
-    - [Treinamento](https://github.com/fga-eps-mds/Kalkuli/issues/1) de Metodologias Ágeis e _Scrum_;
-- [Pesquisa](https://github.com/fga-eps-mds/Kalkuli/issues/14) de manipulação de PDFs;
-- [Pesquisa](https://github.com/fga-eps-mds/Kalkuli/issues/13) de OCR (Reconhecimento Óptico de Caracteres)
-- [Definição do Plano de Comunicação](https://github.com/fga-eps-mds/Kalkuli/issues/3);
-   - Definição de horários das _dailies_;
-   - Definição de duração dos rituais;
-- Definição do [_Community Profile_](https://github.com/fga-eps-mds/Kalkuli/community) do repositório.
-   - Padronizar _issues_ e [_pull requests_](https://github.com/fga-eps-mds/Kalkuli/pull/25);
-- Descobrir os [interesses](https://github.com/fga-eps-mds/Kalkuli/issues/4) dos membros da equipe em possíveis tecnologias que serão utilizadas;
+|     _Issue_      |    Pontos   |
+|:--------------:|:---------:|
+|[Treinamento](https://github.com/fga-eps-mds/Kalkuli/issues/2) de _Git_| 2 |
+|[Treinamento](https://github.com/fga-eps-mds/Kalkuli/issues/1) de Metodologias Ágeis e _Scrum_ | 2 |
+| [Definição do Plano de Comunicação](https://github.com/fga-eps-mds/Kalkuli/issues/3)   |  1  |
+| [Pesquisa](https://github.com/fga-eps-mds/Kalkuli/issues/13) de OCR (Reconhecimento Óptico de Caracteres) | 3 |
+| [Pesquisa](https://github.com/fga-eps-mds/Kalkuli/issues/14) de manipulação de PDFs;   |  3  |
+|  Definição do [_Community Profile_](https://github.com/fga-eps-mds/Kalkuli/community) do repositório  | 0 |
+|  Padronizar _issues_ e [_pull requests_](https://github.com/fga-eps-mds/Kalkuli/pull/25)  |  0  |
+|  Fazer o quadro de [interesses](https://github.com/fga-eps-mds/Kalkuli/issues/4) |  0  |
 
-> [Sprint Backlog](https://github.com/fga-eps-mds/Kalkuli/milestone/1)  
+<b>Total de pontos planejados: 11</b>  
+
+***
+
+<div style="text-align: center"> Total de pontos da <i>sprint</i>: 11 </div> <br>
+
+> [_Sprint_ _Backlog_](https://github.com/fga-eps-mds/Kalkuli/milestone/1)   
 
 
 ## Papeis
 
 **Arquiteto:** [Felipe Hargreaves](https://github.com/Hargre)   
-**DevOps:** [Bernardo Henrique](https://github.com/bernardohrl)  
-**Product Manager:** [Clarissa Borges](https://github.com/clarissalimab)    
-**Tech Leader:** [Mariana Pícolo](https://github.com/MarianaPicolo)   
+**_DevOps_:** [Bernardo Henrique](https://github.com/bernardohrl)  
+**_Product Manager_:** [Clarissa Borges](https://github.com/clarissalimab)    
+**_Tech Leader_:** [Mariana Pícolo](https://github.com/MarianaPicolo)   
 **Equipe de Desenvolvimento:** 
 - [Esio Gustavo](https://github.com/EsioFreitas)   
 - [Jacó Apolinário](https://github.com/Jacoapolinario)   

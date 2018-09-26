@@ -18,19 +18,30 @@ Após conhecimento da proposta inicial, de extração de texto de PDFs no format
 
 ## Fechamento da Sprint
 
-|     _Issue_      |     _Status_    |
-|:--------------:|:---------------:|
-|[Treinamento](https://github.com/fga-eps-mds/Kalkuli/issues/2) de _Git_| Concluída |
-|[Treinamento](https://github.com/fga-eps-mds/Kalkuli/issues/1) de Metodologias Ágeis e _Scrum_| Concluída |
-|[Pesquisa manipulação de PDFs](https://github.com/fga-eps-mds/Kalkuli/issues/14)| Concluída |
-|[Definição do Plano de Comunicação](https://github.com/fga-eps-mds/Kalkuli/issues/3)| Concluída |
-|[Pesquisa OCR](https://github.com/fga-eps-mds/Kalkuli/issues/13)| Concluída |
-|[_Community Profile_](https://github.com/fga-eps-mds/Kalkuli/community) |Não Concluída |
-|[Template de _Issues_ e _Pull Requests_](https://github.com/fga-eps-mds/Kalkuli/pull/25)| Não Concluída |
-|[Quadro de Interesses](https://github.com/fga-eps-mds/Kalkuli/issues/4)|Concluída|
+|     _Issue_      |     _Status_    |     Pontos     |
+|:--------------:|:---------------:|:-------------:|
+|[Treinamento](https://github.com/fga-eps-mds/Kalkuli/issues/2) de _Git_| Concluída | 2 |
+|[Treinamento](https://github.com/fga-eps-mds/Kalkuli/issues/1) de Metodologias Ágeis e _Scrum_| Concluída | 2 |
+|[Pesquisa manipulação de PDFs](https://github.com/fga-eps-mds/Kalkuli/issues/14)| Concluída | 3 |
+|[Definição do Plano de Comunicação](https://github.com/fga-eps-mds/Kalkuli/issues/3)| Concluída | 1 |
+|[Pesquisa OCR](https://github.com/fga-eps-mds/Kalkuli/issues/13)| Concluída | 3 |
+|[_Community Profile_](https://github.com/fga-eps-mds/Kalkuli/community) |Não Concluída |0 |
+|[Template de _Issues_ e _Pull Requests_](https://github.com/fga-eps-mds/Kalkuli/pull/25)| Não Concluída | 0 |
+|[Quadro de Interesses](https://github.com/fga-eps-mds/Kalkuli/issues/4)|Concluída| 0 |
 
-> [Sprint Backlog](https://github.com/fga-eps-mds/Kalkuli/milestone/1?closed=1)   
- 
+
+Pontos Planejados Concluídos: 11     
+
+
+> [Milestone Sprint 0](https://github.com/fga-eps-mds/Kalkuli/milestone/1?closed=1)
+
+## _Burndown_    
+
+![S0](assets/burndown-S0.png "Burndown Sprint 0")
+
+## _Velocity_    
+
+![S0](assets/velocity-S0.png "Burndown Sprint 0")
 
 ### Quadro de Conhecimento Inicial     
 
