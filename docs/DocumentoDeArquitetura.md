@@ -61,7 +61,7 @@ title: Documento de Arquitetura
 
 * **Microsserviços**   
 
-<p style="text-align:justify">&emsp;&emsp;A arquitetura de microsserviços é uma abordagem que desmembra uma aplicação única em blocos de pequenos serviços independentes. Esses serviços executam o seu próprio processo e se comunicam, muitas vezes, por meio de métodos HTTP em uma API.</p>
+<p style="text-align:justify">&emsp;&emsp;A arquitetura de microsserviços é uma abordagem que desmembra uma aplicação única em blocos de pequenos serviços independentes. Esses serviços executam o seu próprio processo e se comunicam, muitas vezes, por meio de métodos HTTP.</p>
 <p style="text-align:justify">&emsp;&emsp;No <i>software</i> descrito neste documento a arquitetura de microsserviços será bastante utilizada. Os módulos serão:
 <ul>
   <li><b>Extração de texto</b>, bloco responsável somente pela extração do texto proveniente das notas fiscais escaneadas;</li> 
@@ -71,6 +71,7 @@ title: Documento de Arquitetura
   <li><b>Relatórios</b>, responsável por usar os dados provenientes das notas para gerar relatórios de gastos, entre outros; </li>
   <li><b>Usuário</b>, bloco responsável por toda interação do usuário, como login, registro; </li>
   <li><b>Notas</b>,  será um serviço responsável por gerenciar todas as notas fiscais extraídas.</li>
+  <li><b>Gateway</b>, serviço responsável por intermediar a comunicação entre o Back-end e o Front-end.</li>
 </ul>
 </p>
 
@@ -85,7 +86,7 @@ title: Documento de Arquitetura
 
 ## 3. Metas e Restrições de Arquitetura
 
-<p style="text-align:justify">&emsp;&emsp;A aplicação deverá ser suportada pelos navegadores, <i>Mozilla Firefox</i>, <i>Google Chrome</i>, Opera e <i>Microsoft Edge</i>. Toda parte do <i>front-end</i> será construído utilizando <i>React.Js</i>, biblioteca javascript para criar interfaces para o usuário, juntamente com <i>Redux</i>, um contêiner de estado preditivo para aplicações <i>JavaScript</i> . A aplicação também utilizará do <i>microframework</i> <i>Flask</i>, que é construído em <i>python</i> que junto com a biblioteca PyTesseract irão realizar a extração de dados das notas.</p>
+<p style="text-align:justify">&emsp;&emsp;A aplicação deverá ser suportada pelos navegadores, <i>Mozilla Firefox</i>, <i>Google Chrome</i>, Opera e <i>Microsoft Edge</i>. Toda parte do <i>front-end</i> será construída utilizando <i>React.js</i>, biblioteca de JavaScript para criar interfaces para o usuário, juntamente com <i>Redux</i>, um contêiner de estado preditivo para aplicações <i>JavaScript</i> . A aplicação também utilizará do <i>microframework</i> <i>Flask</i>, que é construído em <i>python</i> e que juntamente com a biblioteca PyTesseract realizarão a extração de dados das notas.</p>
 
 <p style="text-align:justify">&emsp;&emsp;Além disso, a ferramenta <i>Docker</i> será utilizada para facilitar o desenvolvimento em um ambiente isolado e construído especialmente para a equipe.</p>
 
