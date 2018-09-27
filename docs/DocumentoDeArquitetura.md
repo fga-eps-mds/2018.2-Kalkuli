@@ -17,7 +17,7 @@ title: Documento de Arquitetura
 | 23/09/2018 |   1.1 | Tópicos: 1.1, 1.2, 1.3, 2.2| Ésio Freitas e Lucas Dutra |
 | 24/09/2018 |   1.2 | Tópicos: 3, 4.1 e 4.2| Lucas Dutra |
 | 25/09/2018 |   1.3 | Tópicos: 1.2, 2, 4.2, 4.5 e 5 | Ésio Gustavo |
-| 25/09/2018 |   1.4 | Tópicos: 2 | Ésio Gustavo, Lucas Dutra, Youssef Muhamad |
+| 25/09/2018 |   2.0 | Tópicos: 2 | Ésio Gustavo, Lucas Dutra, Youssef Muhamad |
 
 
 ## 1. Introdução
@@ -32,7 +32,7 @@ title: Documento de Arquitetura
 
 ### 1.3 Definições, Acrônimos e Abreviações
 
-* DANFCE - Documento auxiliar de notas fiscais do consumidar eletrônica
+* DANFCE - Documento auxiliar de notas fiscais do consumidor eletrônica
 * WSGI - <i>Web Server Gateway Interface</i>
 
 ### 1.4 Referências
@@ -45,7 +45,9 @@ title: Documento de Arquitetura
 
 >Tutorial: Intro to React. What is React?. ReactJs. Disponível em: <a href="https://goo.gl/9CCQXK"><https://goo.gl/9CCQXK></a>. Acesso em: 7 de setembro de 2018.
 
->Read Me. Redux. Disponível em: <a hre="https://goo.gl/SgQiKb"><https://goo.gl/SgQiKb></a>. Acesso em: 7 de setembro de 2018 
+>Read Me. Redux. Disponível em: <a href="https://goo.gl/SgQiKb"><https://goo.gl/SgQiKb></a>. Acesso em: 7 de setembro de 2018 
+
+>SASS_REFERENCE (frames). Sass. Disponível em: <a href="https://goo.gl/E8cs2o"><https://goo.gl/E8cs2o></a>. Acesso em: 26 de setembro de 2018 
 
 ## 2. Representação da Arquitetura
 * **React.js**      
@@ -55,6 +57,10 @@ title: Documento de Arquitetura
 * **Redux**     
 
 <p style="text-align:justify">&emsp;&emsp;<i>Redux</i> é um contêiner de estado preditivo para aplicações <i>JavaScript</i>. Ele ajuda a escrever aplicações que se comportam de forma constante,ou seja, que possui um processo claro e definido, de como sua aplicação pode mudar, em diferentes ecossistemas, e são facilmente testáveis.</p>
+
+* **Sass**     
+
+<p style="text-align:justify">&emsp;&emsp;<i>Sass</i> é uma extensão de CSS para adicionar poder e elegância para linguagem. Ela permite usar variáveis, regras de aninhamento, mixins e importações de outros arquivos. Sass ajuda a manter as extensas folhas de estilo organizadas e as menores executando mais rapidamente, particulamente, com a ajuda da biblioteca Compass.</p>
 
 * **Flask**        
 
@@ -87,7 +93,7 @@ title: Documento de Arquitetura
 
 ### 2.2 Diagrama React-Redux
 
-![S2](assets/ReactReduxDiagram.png "Diagrama React-Redux v 0.1")
+![S2](assets/React-Redux.png "Diagrama React-Redux v 0.1")
 
 ## 3. Metas e Restrições de Arquitetura
 
