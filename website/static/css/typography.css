@@ -23,7 +23,12 @@ body {
   display: block;
   font-size: 3rem;
   font-weight: 700;
-  letter-spacing: 1.7rem;
+  letter-spacing: 1.4rem;
   margin-right: 34px;
   animation: moveInBottom 2s ease-in-out;
+}
+
+.heading-colaboradores {
+  text-align: center;
+  margin-bottom: 50px;
 }

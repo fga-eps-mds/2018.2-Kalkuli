@@ -41,37 +41,47 @@ const Header = () => {
 }
 
 const Cards = (props) => {
-  let photo, memberGithub, memberLinkedIn = null
+  let photo, githubLink = null
   switch (props.name) {
     case "Clarissa":
       photo = siteConfig.Clarissa
+      githubLink = siteConfig.ClarissaGithub
       break
     case "Ésio":
       photo = siteConfig.Esio
+      githubLink = siteConfig.EsioGithub
       break
     case "Bernardo":
       photo = siteConfig.Bernardo
+      githubLink = siteConfig.BernardoGithub
       break
     case "Felipe":
       photo = siteConfig.Felipe
+      githubLink = siteConfig.FelipeGithub
       break
     case "Jacó":
       photo = siteConfig.Jaco
+      githubLink = siteConfig.JacoGithub
       break
     case "Lucas":
       photo = siteConfig.Lucas
+      githubLink = siteConfig.LucasGithub
       break
     case "Mariana":
       photo = siteConfig.Mariana
+      githubLink = siteConfig.MarianaGithub
       break
     case "Pedro":
       photo = siteConfig.Pedro
+      githubLink = siteConfig.PedroGithub
       break
     case "Saleh":
       photo = siteConfig.Saleh
+      githubLink = siteConfig.SalehGithub
       break
     case "Youssef":
       photo = siteConfig.Youssef
+      githubLink = siteConfig.YoussefGithub
       break
     default:
       break
@@ -82,11 +92,8 @@ const Cards = (props) => {
       <div className="card-link">
         <p className="card-link-text">{props.name}</p>
         <div className="links">
-          <a href='google.com' >
+          <a href={githubLink} >
             <img src={siteConfig.githubIcon} alt="GitHub" />
-          </a>
-          <a href='google.com' >
-            <img src={siteConfig.linkedinIcon} alt="LinkedIn" />
           </a>
         </div>
       </div>
@@ -101,7 +108,7 @@ const Block = props => (
   <Container
     padding={['bottom', 'top']}
     id={props.id}
-    background={props.background}>
+    background={props.background} className="featuresContainer" >
     <GridBlock align="center" contents={props.children} layout={props.layout} />
   </Container>
 );
@@ -110,16 +117,16 @@ const Features = () => (
   <Block layout="fourColumn">
     {[
       {
-        content: 'This is the content of my feature',
-        image: '',
+        content: '</p align="justify">O Kalkuli é um sistema que busca ajudar micro e pequenas empresas que precisem fazer controle de suas notas fiscais periodicamente de maneira rápida e prática.</p>\n\n Esta página contempla a documentação completa do projeto Kalkuli.',
+        image: 'img/doc.png',
         imageAlign: 'top',
-        title: 'Feature One',
+        title: 'Documentação',
       },
       {
-        content: 'The content of my second feature',
-        image: '',
+        content: '</p align="justify">O projeto utiliza de microsserviços, onde cada serviço abrange uma funcionalidade do <i>software</i>. Dentro de cada repositório é possível encontrar instruções de configuração e execução.</p>\n\n Cada serviço possui seu próprio repositório, dentro da organização do <a href="https://github.com/Kalkuli">projeto</a>.',
+        image: 'img/github.png',
         imageAlign: 'top',
-        title: 'Feature Two',
+        title: '<a href="https://github.com/Kalkuli">Repositórios</a>',
       },
     ]}
   </Block>
@@ -153,7 +160,7 @@ const TryOut = () => (
 );
 
 const Description = () => (
-  <Block background="dark">
+  <Block background="light">
     {[
       {
         content: 'This is another description of how this project is useful',
@@ -175,16 +182,15 @@ class Index extends React.Component {
     return (
       <div>
         <Header />
-        <div className="mainContainer">
+          <Features />
+          {/* <LearnHow />
+          <TryOut /> */}
+          {/* <Description /> */}
+        <h1 className="heading-colaboradores">Colaboradores</h1>
           <div className="card-container">
             {siteConfig.members.map(member => <Cards key={member} name={member} />)}
           </div>
-          <Features />
-          <LearnHow />
-          <TryOut />
-          <Description />
         </div>
-      </div>
     );
   }
 }

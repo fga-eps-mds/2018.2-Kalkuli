@@ -60,6 +60,17 @@ const siteConfig = {
   Saleh: 'img/members/Saleh.png',
   Youssef: 'img/members/Youssef.jpeg',
 
+  BernardoGithub: 'https://github.com/bernardohrl',
+  ClarissaGithub: 'https://github.com/clarissalimab',
+  EsioGithub: 'https://github.com/EsioFreitas',
+  FelipeGithub: 'https://github.com/Hargre',
+  JacoGithub: 'https://github.com/Jacoapolinario',
+  LucasGithub: 'https://github.com/lucasdutraf',
+  MarianaGithub: 'https://github.com/MarianaPicolo',
+  PedroGithub: 'https://github.com/Phe0',
+  SalehGithub: 'https://github.com/devsalula',
+  YoussefGithub: 'https://github.com/youssef-md',
+
   members: [
     "Bernardo", "Clarissa", "Ésio", "Felipe",
     "Jacó", "Lucas", "Mariana", "Pedro", "Saleh", "Youssef"
