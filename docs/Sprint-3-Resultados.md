@@ -76,18 +76,25 @@ Pontos positivos aumentaram em comparação com a <a href="https://fga-eps-mds.g
 <p align="justify">
 Medidas tomadas para que pontos negativos elencados na semana anterior não se mostrassem novamente:</p>
 
+<style>
+td {
+    text-align: center; 
+    vertical-align: middle;
+}
+</style>
+
 <table>
   <tr align="center">
     <th>Ponto Negativo/Melhorar</th>
     <th>Correção Adotada</th>
   </tr>
   <tr align="left">
-    <td>Mais <i>dailies</i> presenciais, as pelo <i>Telegram</i> são ok, mas nem todos respondem ou respondem bem</td>
+    <td></br>Mais <i>dailies</i> presenciais, as pelo <i>Telegram</i> são ok, mas nem todos respondem ou respondem bem </br></br></td>
     <td><i>Dailies</i> de segunda e sexta serão realizadas via <i>hangouts</i>, e não mais por <i>telegram</i>. Terão duração de 20 minutos e começarão às 21h30.</td>
   </tr>
   <tr align="left">
     <td>
-    <ul>
+    <ul></br>
      <li>Falhas de comunicação</li>
      <li>Membros não presentes nas reuniões</li>
      <li>Participação do time inteiro na tomada de decisões</li>

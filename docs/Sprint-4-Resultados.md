@@ -77,6 +77,13 @@ Retrospectiva apontou a redução de pontos negativos em relação a <a href="ht
 <p align="justify">
 Com relação aos pontos negativos apresentados na retrospectiva anterior, algumas medidas foram tomadas para que não se mostrassem novamente, são eles:
 
+<style>
+td {
+    text-align: center; 
+    vertical-align: middle;
+}
+</style>
+
 <table>
   <tr align="center">
     <th>Ponto Negativo</th>
