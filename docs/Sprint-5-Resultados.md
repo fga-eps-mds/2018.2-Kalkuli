@@ -6,7 +6,7 @@ title: Resultados Sprint 5
 ***    
 
 <p align="justify">
-<i>Sprint</i> que consolida a primeira versão funcional do <i>software</i>, alcançando o planejado para a primeira <i>release</i>.
+<i>Sprint</i> que consolida a primeira versão funcional do <i>software</i>, alcançando, parcialmente, o planejado para a primeira <i>release</i>.
 </p>
 
 ## Fechamento da _Sprint_   
@@ -25,8 +25,8 @@ title: Resultados Sprint 5
 |[Pontuar _Sprints_ Anteriores](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/98) |Concluída | 8 |  
 |[Unir _Back-end_ e _Front-end_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/101) |Concluída | 13 |  
 |[Organizar Resultados da Elicitação de Requisitos](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/102) |Não Concluída | 5 | 
-|[Adicionar _Deploy_ Contínuo ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/97) |Não Concluída | 21 |  
 |[US34 - Acessar Página Principal](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/105) |Não Concluída | 5 |
+|[Adicionar _Deploy_ Contínuo ](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/97) |Não Concluída | 21 |  
 
 
 Pontos Planejados Concluídos: 58    
@@ -38,20 +38,20 @@ Pontos Não Agregados: 31
 ## _Burndown_    
 
 <p align="justify">
-O <i>burndown</i> indica que as <i>issues</i> começaram a ser entregues no meio da <i>sprint</i>. Com o advento da Semana Universitária, mais pontos foram alocados para a <i>sprint</i>, entretanto, nem todas as <i>issues</i> foram entregues, em virtude de dificuldades técnicas.</p> 
+O <i>burndown</i> indica que as <i>issues</i> começaram a ser entregues no meio da <i>sprint</i>. Com o advento da Semana Universitária, mais pontos foram planejados, entretanto, nem todas as <i>issues</i> foram entregues, em virtude de dificuldades técnicas.</p> 
 
 ![S5](assets/burndown-S5.png "Burndown Sprint 5")
 
 ## _Velocity_     
 <p align="justify">
-texto
+Apesar de algumas das <i>issues</i> alocadas para a <i>sprint</i> não terem sido finalizadas, percebe-se melhora no <i>velocity</i> da equipe, evidencando sua capacidade de entrega máxima até o momento. 
 </p>   
 
-![S5](assets/velocity-S5.png "Burndown Sprint 5")
+![S5](assets/velocity-S5.png "Velocity Sprint 5")
 
 ## Riscos    
 <p align="justify">
-
+Não foram identificados riscos novos no decorrer da <i>sprint</i>.
 </p>  
 
 [![S5](assets/BurndowndeRiscos-S5.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/1PYjMMXbWRgKwY5oZH5ekg4VbqTYYfdJImHmxCLH62xI/edit#gid=0) 
@@ -59,7 +59,7 @@ texto
 
 ## Retrospectiva
 <p align="justify">
-texto
+A equipe continua exibindo poucos pontos negativos na retrospectiva, entretanto, um deles se conecta à um dos riscos mapeados. O ponto negativo "Muitas atividades para apenas uma <i>issue</i> (EPS)", traz à tona o ponto negativo de "requisitos com alto nível de complexidade", onde EPS não percebeu a possibilidade de diminuição da <i>issue</i> em <i>issues</i> menores, com menor carga.
 </p>   
 
 [![S5](assets/Retrospectiva-S5.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/1SwrbhRVE0lLx0K-8wPtjzFHJ86G5oUCzknl2b8s2odg/edit#gid=1573426706)   
@@ -77,7 +77,7 @@ td {
 </style>
 
 <table>
-  <tr>
+  <tr align="center">
     <th>Ponto Negativo</th>
     <th>Correção Adotada</th>
   </tr>
@@ -104,7 +104,8 @@ td {
 ### Quadro de Conhecimento   
 
 <p align="justify">
-
+Foram adicionadas as metodologias adotadas pela equipe: <i>Scrum</i> e <i>Kanban</i>
+ideia de visualizar a evolução do conhecimento de MDS nos princípios ágeis.
 </p>
 
 [![S5](assets/Conhecimento-S5.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/19OGoemAfy_4nSFBbycD4kIoBFJwUjbXB7vxuQi8HLqY/edit#gid=1616735696)
@@ -130,4 +131,28 @@ td {
 |Youssef  |         ✔         |         ✔        |         ✘        |         ✔         |         ✔        |      
 
 
-## Avaliação do _Scrum Master_  
+## Avaliação do _Scrum Master_    
+
+<p align="justify">
+<i>Sprint</i> com a maior pontuação planejada até o momento. A ocorrência da Semana Universitária permitiu o aumento de pontos, dado que a equipe não teve aulas, e nem se matriculou em atividades extracurriculares.
+</p>
+
+<p align="justify">
+Apesar da <i>sprint</i> atípica, é possível perceber que a capacidade de entrega da equipe cresce progressivamente. As pontuações das próximas <i>sprints</i> estarão restritas aos valores refetidos pelo <i>velocity</i>.
+</p>
+
+<p align="justify">
+A equipe de desenvolvimento foi capaz de entregar as histórias planejadas, com o <i>back-end</i> testado. Ao final da <i>sprint</i>, EPS percebeu a falta de granularização em uma das <i>issues</i> que era responsável, o <a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/97" title="Issue: Adicionar Deploy Contínuo">deploy contínuo</a>, pois era possível fragmentá-la, evitando sobrecarga no <i>DevOps</i>, e por fim, não contrair uma dívida técnica tão alta.
+</p>
+
+<p align="justify">
+O risco de requisitos com alto nível de complexidade se mostra novamente durante a <i>sprint</i>, dessa vez refletindo uma <i>issue</i> de responsabilidade de EPS, onde não foi percebida a possibilidade de granularização desta. A resposta ao risco vem na revisão das <i>issues</i> planejadas, não apenas nas histórias de usuário e técnicas, como também as atribuições de projeto endereçadas à equipe de EPS.
+</p>
+
+<p align="justify">
+As <i>dailies</i> de segunda, quarta e sexta-feira, ponto constante de busca de melhoria, tanto em qualidade quanto horários, apresentou melhora significativa, com maior participação da equipe e também diminuição de atrasos. As <i>dailies</i> remotas da equipe têm um ponto forte, que se mostra cada vez mais: quando um membro expõe uma dificuldade, alguém da equipe se manifesta para ajudar, dando início a uma nova sessão remota, onde as dúvidas e/ou dificuldades serão sanadas, contribuindo para a redução dos riscos de falhas de comunicação e de dificuldade com tecnologias escolhidas.
+</p>
+
+<p align="justify">
+O final da <i>Sprint</i> 5 mostra uma equipe cada vez mais unida e engajada, que começa as <i>issues</i> e expõe dúvidas cada vez mais brevemente, evidenciando a busca por produtividade máxima.
+</p>
