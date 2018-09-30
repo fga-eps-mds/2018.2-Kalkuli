@@ -18,7 +18,7 @@ title: Documento de Arquitetura
 | 24/09/2018 |   1.2 | Tópicos: 3, 4.1 e 4.2| Lucas Dutra |
 | 25/09/2018 |   1.3 | Tópicos: 1.2, 2, 4.2, 4.5 e 5 | Ésio Gustavo |
 | 25/09/2018 |   2.0 | Tópicos: 2 | Ésio Gustavo, Lucas Dutra, Youssef Muhamad |
-
+| 30/09/2018 |   2.1 | Tópicos: 2.2, 2.3 | Youssef Muhamad  
 
 ## 1. Introdução
 
@@ -84,16 +84,35 @@ title: Documento de Arquitetura
 
 * **Comunicação entre os serviços**        
 
-<p style="text-align:justify">&emsp;&emsp;Comunicação entre os serviços será feita por meio de uma <i>API Gateway</i>, o qual será responsável por fazer o intermédio entre os microsserviços por meio de métodos do protocolo HTTP. </p>
+<p style="text-align:justify">&emsp;&emsp;Comunicação entre os serviços será feita por meio de uma <i>API Gateway</i>, **o** qual será responsável por fazer o intermédio entre os microsserviços por meio de métodos do protocolo HTTP. </p>
 
 
 ### 2.1 Representação arquitetural
 
 ![S1](assets/RepresentaçãoArquitetural.png "Representação Arquitetural v 0.1")
 
-### 2.2 Diagrama React-Redux
+### 2.2 Diagrama React-Redux Síncrono
 
-![S2](assets/React-Redux.png "Diagrama React-Redux v 0.1")
+![S2](assets/React-Redux-Sync.png "Diagrama síncrono React-Redux ")
+
+<p style="text-align:justify"><b>State:</b> É um conjunto de verdades para o correto funcionamento da aplicação, o estado é altamente dinâmico e por isso deve ser alterado de forma imutável, para que não ocorram inconsistências no sistema.</a>
+
+<p style="text-align:justify"><b>Store:</b> É o objeto que armazena toda a árvore de estado, podendo ser modificado somente via <i>action</i>.</p>
+
+<p style="text-align:justify"><b>Container:</b> É o componente maior, que faz a conexão com a Store do Redux e que gerencia as partes menores da aplicação, permeando o estado e gerenciando os eventos.</a>
+
+<p style="text-align:justify"><b>Template:</b> É o conjunto das partes menores da aplicação, os componentes têm somente uma responsabilidade e não possuem estado.</a>
+
+<p style="text-align:justify"><b>Action:</b> É um objeto que carrega informações relacionadas a um ação. Toda ação deve ter a propriedade <i>type</i> que descreve o que está sendo enviado, e um objeto <i>payload</i> que possui as informações de fato. Uma <i>action</i> é despachada via <i>store.dispatch()</i> que por padrão é executado de forma síncrona.</a>
+
+<p style="text-align:justify"><b>Reducer:</b> É uma função responsável pela modificação do estado da <i>store</i>. Ela recebe a <i>action</i>, verifica o que deseja ser feito e sua informação, e toma as medidas necessárias para que o novo estado fique de acordo.</p>
+
+### 2.3 Diagrama React-Redux Assíncrono
+
+![S2](assets/React-Redux-Async.png "Diagrama assíncrono do React-Redux")
+
+<p style="text-align:justify"><b>Action Creator:</b> Em sua forma mais simples, ele é uma função que retorna uma <i>action</i> e que é despachada imediatamente para a <i>Store</i></p>
+<p style="text-align:justify"><b>Thunk Middleware</b> O Redux Thunk adiciona o assincronismo em um <i>Action Creator</i>, ao invés de despachar uma <i>action</i> imediatamente este <i>middleware</i> faz com que código assíncrono possa ser executado, como por exemplo uma chamada AJAX para uma API.</p>
 
 ## 3. Metas e Restrições de Arquitetura
 
