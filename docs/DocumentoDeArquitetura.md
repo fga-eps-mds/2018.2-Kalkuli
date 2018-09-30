@@ -93,7 +93,7 @@ title: Documento de Arquitetura
 
 ### 2.2 Diagrama React-Redux Síncrono
 
-![S2](assets/React-Redux-Sync.png "Diagrama React-Redux v 0.1")
+![S2](assets/React-Redux-Sync.png "Diagrama síncrono React-Redux ")
 
 <p style="text-align:justify"><b>State:</b> É um conjunto de verdades para o correto funcionamento da aplicação, o estado é altamente dinâmico e por isso deve ser alterado de forma imutável, para que não ocorram inconsistências no sistema.</a>
 
@@ -107,6 +107,12 @@ title: Documento de Arquitetura
 
 <p style="text-align:justify"><b>Reducer:</b> É uma função responsável pela modificação do estado da <i>store</i>. Ela recebe a <i>action</i>, verifica o que deseja ser feito e sua informação, e toma as medidas necessárias para que o novo estado fique de acordo.</p>
 
+### 2.3 Diagrama React-Redux Assíncrono
+
+![S2](assets/React-Redux-Async.png "Diagrama assíncrono do React-Redux")
+
+<p style="text-align:justify"><b>Action Creator:</b> Em sua forma mais simples, ele é uma função que retorna uma <i>action</i> e que é despachada imediatamente para a <i>Store</i></p>
+<p style="text-align:justify"><b>Thunk Middleware</b> O Redux Thunk adiciona o assincronismo em um <i>Action Creator</i>, ao invés de despachar uma <i>action</i> imediatamente este <i>middleware</i> faz com que código assíncrono possa ser executado, como por exemplo uma chamada AJAX para uma API.</p>
 
 ## 3. Metas e Restrições de Arquitetura
 
