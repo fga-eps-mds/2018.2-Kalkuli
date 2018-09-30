@@ -1,0 +1,156 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Resultados Sprint 5 · Kalkuli</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="***    "/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Resultados Sprint 5 · Kalkuli"/><meta property="og:type" content="website"/><meta property="og:url" content="https://fga-eps-mds.github.io/2018.2-Kalkuli/index.html"/><meta property="og:description" content="***    "/><meta property="og:image" content="https://fga-eps-mds.github.io/2018.2-Kalkuli/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://fga-eps-mds.github.io/2018.2-Kalkuli/img/docusaurus.png"/><link rel="shortcut icon" href="/2018.2-Kalkuli/img/knowledge.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/rainbow.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/2018.2-Kalkuli/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/2018.2-Kalkuli/"><h2 class="headerTitle">Kalkuli</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/2018.2-Kalkuli/docs/tap" target="_self">Produto</a></li><li class=""><a href="/2018.2-Kalkuli/docs/overview" target="_self">Projeto</a></li><li class="siteNavGroupActive"><a href="/2018.2-Kalkuli/docs/psprint0" target="_self">Release I</a></li><li class=""><a target="_self"></a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Sprint 5</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Sprint 0</h3><ul><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/psprint0">Planejamento Sprint 0</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/rsprint0">Resultados Sprint 0</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Sprint 1</h3><ul><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/psprint1">Planejamento Sprint 1</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/rsprint1">Resultados Sprint 1</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Sprint 2</h3><ul><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/psprint2">Planejamento Sprint 2</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/rsprint2">Resultados Sprint 2</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Sprint 3</h3><ul><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/psprint3">Planejamento Sprint 3</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/rsprint3">Resultados Sprint 3</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Sprint 4</h3><ul><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/psprint4">Planejamento Sprint 4</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/rsprint4">Resultados Sprint 4</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Sprint 5</h3><ul><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/psprint5">Planejamento Sprint 5</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/2018.2-Kalkuli/docs/rsprint5">Resultados Sprint 5</a></li></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docMainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Resultados Sprint 5</h1></header><article><div><span><hr>
+<p align="justify">
+<i>Sprint</i> que consolida a primeira versão funcional do <i>software</i>, alcançando, parcialmente, o planejado para a primeira <i>release</i>.
+</p>
+<h2><a class="anchor" aria-hidden="true" id="fechamento-da-sprint"></a><a href="#fechamento-da-sprint" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fechamento da <em>Sprint</em></h2>
+<table>
+<thead>
+<tr><th style="text-align:center"><em>Issue</em></th><th style="text-align:center"><em>Status</em></th><th style="text-align:center">Pontos</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center"><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/91">US10 - Editar Envio de Uma Nota</a></td><td style="text-align:center">Concluída</td><td style="text-align:center">5</td></tr>
+<tr><td style="text-align:center"><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/92">US14 - Visualizar Uma Nota Detalhadamente</a></td><td style="text-align:center">Concluída</td><td style="text-align:center">8</td></tr>
+<tr><td style="text-align:center"><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/46">US19 - Fazer o upload de uma nota fiscal </a></td><td style="text-align:center">Concluída</td><td style="text-align:center">3</td></tr>
+<tr><td style="text-align:center"><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/94">US20 - Gerar Relatório de Notas Fiscais em Um Período Selecionado</a></td><td style="text-align:center">Concluída</td><td style="text-align:center">13</td></tr>
+<tr><td style="text-align:center"><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/100">Atualizar <em>Readmes</em></a></td><td style="text-align:center">Concluída</td><td style="text-align:center">1</td></tr>
+<tr><td style="text-align:center"><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/95">Refatorar Documento de Visão</a></td><td style="text-align:center">Concluída</td><td style="text-align:center">2</td></tr>
+<tr><td style="text-align:center"><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/99">Corrigir <em>Layouts</em> da <em>Wiki</em></a></td><td style="text-align:center">Concluída</td><td style="text-align:center">2</td></tr>
+<tr><td style="text-align:center"><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/96">Refatorar Documento de Arquitetura</a></td><td style="text-align:center">Concluída</td><td style="text-align:center">3</td></tr>
+<tr><td style="text-align:center"><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/78">Elaborar a Matriz de Avaliação de Valor </a></td><td style="text-align:center">Concluída</td><td style="text-align:center">3</td></tr>
+<tr><td style="text-align:center"><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/98">Pontuar <em>Sprints</em> Anteriores</a></td><td style="text-align:center">Concluída</td><td style="text-align:center">8</td></tr>
+<tr><td style="text-align:center"><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/101">Unir <em>Back-end</em> e <em>Front-end</em></a></td><td style="text-align:center">Concluída</td><td style="text-align:center">13</td></tr>
+<tr><td style="text-align:center"><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/102">Organizar Resultados da Elicitação de Requisitos</a></td><td style="text-align:center">Não Concluída</td><td style="text-align:center">5</td></tr>
+<tr><td style="text-align:center"><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/105">US34 - Acessar Página Principal</a></td><td style="text-align:center">Não Concluída</td><td style="text-align:center">5</td></tr>
+<tr><td style="text-align:center"><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/97">Adicionar <em>Deploy</em> Contínuo </a></td><td style="text-align:center">Não Concluída</td><td style="text-align:center">21</td></tr>
+</tbody>
+</table>
+<p>Pontos Planejados Concluídos: 58<br>
+Pontos de Dívida Concluídos:  3<br>
+Pontos Não Agregados: 31</p>
+<blockquote>
+<p><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/6?closed=1"><em>Milestone Sprint</em> 5</a></p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="burndown"></a><a href="#burndown" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><em>Burndown</em></h2>
+<p align="justify">
+O <i>burndown</i> indica que as <i>issues</i> começaram a ser entregues no meio da <i>sprint</i>. Com o advento da Semana Universitária, mais pontos foram planejados, entretanto, nem todas as <i>issues</i> foram entregues, em virtude de dificuldades técnicas.</p> 
+<p><img src="/2018.2-Kalkuli/docs/assets/burndown-S5.png" alt="S5" title="Burndown Sprint 5"></p>
+<h2><a class="anchor" aria-hidden="true" id="velocity"></a><a href="#velocity" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><em>Velocity</em></h2>
+<p align="justify">
+Apesar de algumas das <i>issues</i> alocadas para a <i>sprint</i> não terem sido finalizadas, percebe-se melhora no <i>velocity</i> da equipe, evidencando sua capacidade de entrega máxima até o momento. 
+</p>   
+<p><img src="/2018.2-Kalkuli/docs/assets/velocity-S5.png" alt="S5" title="Velocity Sprint 5"></p>
+<h2><a class="anchor" aria-hidden="true" id="riscos"></a><a href="#riscos" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Riscos</h2>
+<p align="justify">
+Não foram identificados riscos novos no decorrer da <i>sprint</i>.
+</p>  
+<p><a href="https://docs.google.com/spreadsheets/d/1PYjMMXbWRgKwY5oZH5ekg4VbqTYYfdJImHmxCLH62xI/edit#gid=0"><img src="/2018.2-Kalkuli/docs/assets/BurndowndeRiscos-S5.png" alt="S5" title="Clique para ver em detalhes"></a></p>
+<h2><a class="anchor" aria-hidden="true" id="retrospectiva"></a><a href="#retrospectiva" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Retrospectiva</h2>
+<p align="justify">
+A equipe continua exibindo poucos pontos negativos na retrospectiva, entretanto, um deles se conecta à um dos riscos mapeados. O ponto negativo "Muitas atividades para apenas uma <i>issue</i> (EPS)", traz à tona o ponto negativo de "requisitos com alto nível de complexidade", onde EPS não percebeu a possibilidade de diminuição da <i>issue</i> em <i>issues</i> menores, com menor carga.
+</p>   
+<p><a href="https://docs.google.com/spreadsheets/d/1SwrbhRVE0lLx0K-8wPtjzFHJ86G5oUCzknl2b8s2odg/edit#gid=1573426706"><img src="/2018.2-Kalkuli/docs/assets/Retrospectiva-S5.png" alt="S5" title="Clique para ver em detalhes"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="sprint-anterior"></a><a href="#sprint-anterior" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><em>Sprint</em> Anterior</h3>
+<p align="justify">
+Poucos pontos negativos se mostraram na <i>sprint</i> anterior:
+<style>
+td {
+    text-align: center; 
+    vertical-align: middle;
+}
+</style>
+<table>
+  <tr align="center">
+    <th>Ponto Negativo</th>
+    <th>Correção Adotada</th>
+  </tr>
+  <tr align="center">
+    <td><i>Dailies</i> por hangouts (horários e atrasos)</td>
+    <td>
+    Discussão sobre o melhor horário e ferramenta para realização de dailies. 
+    <br> <br>
+    <ul>
+      <li><i>Daily</i> de segunda-feira será realizada por <i>hangouts</i>, às 21h30;</li>
+      <li><i>Daily</i> de quarta-feira será realizada por <i>telegram</i>, às 12h;</li>
+      <li><i>Daily</i> de sexta-feira será realizada por <i>hangouts</i>, às 20h00;</li>
+    </ul>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">Muitas atividades para apenas uma <i>issue</i></td>
+    <td>Apresentar as <i>issues</i> planejadas à equipe no planejamento de <i>sprint</i>, e discutir a possibilidade de redução destas.</td>
+  </tr>
+</table>
+</p>
+<h3><a class="anchor" aria-hidden="true" id="quadro-de-conhecimento"></a><a href="#quadro-de-conhecimento" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Quadro de Conhecimento</h3>
+<p align="justify">
+Foram adicionadas as metodologias adotadas pela equipe: <i>Scrum</i> e <i>Kanban</i>
+ideia de visualizar a evolução do conhecimento de MDS nos princípios ágeis.
+</p>
+<p><a href="https://docs.google.com/spreadsheets/d/19OGoemAfy_4nSFBbycD4kIoBFJwUjbXB7vxuQi8HLqY/edit#gid=1616735696"><img src="/2018.2-Kalkuli/docs/assets/Conhecimento-S5.png" alt="S5" title="Clique para ver em detalhes"></a></p>
+<h3><a class="anchor" aria-hidden="true" id="registros-de-presenca-nas-dailies"></a><a href="#registros-de-presenca-nas-dailies" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Registros de Presença nas <em>Dailies</em></h3>
+<p align="justify">
+<i>Dailies</i> de segunda e sexta-feira são feitas por <i>hangouts</i>, às 21h30 e 20h00, respectivamente. As <i>dailies</i> de terça-feira e quinta-feira, são realizadas às 15h50, presencialmente, mas por ocorrência da Semana Universitária, foram realizadas via <i>hangouts</i>, às 21h30.
+</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Nome</th><th style="text-align:center">Segunda Feira</th><th style="text-align:center">Terça Feira</th><th style="text-align:center">Quarta Feira</th><th style="text-align:center">Quinta Feira</th><th style="text-align:center">Sexta Feira</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">Bernardo</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✘</td></tr>
+<tr><td style="text-align:center">Clarissa</td><td style="text-align:center">✘</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td></tr>
+<tr><td style="text-align:center">Esio</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✘</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td></tr>
+<tr><td style="text-align:center">Felipe</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td></tr>
+<tr><td style="text-align:center">Jacó</td><td style="text-align:center">✘</td><td style="text-align:center">✘</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✘</td></tr>
+<tr><td style="text-align:center">Lucas</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✘</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td></tr>
+<tr><td style="text-align:center">Mariana</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td></tr>
+<tr><td style="text-align:center">Pedro</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td></tr>
+<tr><td style="text-align:center">Saleh</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✘</td><td style="text-align:center">✔</td></tr>
+<tr><td style="text-align:center">Youssef</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td><td style="text-align:center">✘</td><td style="text-align:center">✔</td><td style="text-align:center">✔</td></tr>
+</tbody>
+</table>
+<h2><a class="anchor" aria-hidden="true" id="avaliacão-do-scrum-master"></a><a href="#avaliacão-do-scrum-master" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Avaliação do <em>Scrum Master</em></h2>
+<p align="justify">
+<i>Sprint</i> com a maior pontuação planejada até o momento. A ocorrência da Semana Universitária permitiu o aumento de pontos, dado que a equipe não teve aulas, e nem se matriculou em atividades extracurriculares.
+</p>
+<p align="justify">
+Apesar da <i>sprint</i> atípica, é possível perceber que a capacidade de entrega da equipe cresce progressivamente. As pontuações das próximas <i>sprints</i> estarão restritas aos valores refetidos pelo <i>velocity</i>.
+</p>
+<p align="justify">
+A equipe de desenvolvimento foi capaz de entregar as histórias planejadas, com o <i>back-end</i> testado. Ao final da <i>sprint</i>, EPS percebeu a falta de granularização em uma das <i>issues</i> que era responsável, o <a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/97" title="Issue: Adicionar Deploy Contínuo">deploy contínuo</a>, pois era possível fragmentá-la, evitando sobrecarga no <i>DevOps</i>, e por fim, não contrair uma dívida técnica tão alta.
+</p>
+<p align="justify">
+O risco de requisitos com alto nível de complexidade se mostra novamente durante a <i>sprint</i>, dessa vez refletindo uma <i>issue</i> de responsabilidade de EPS, onde não foi percebida a possibilidade de granularização desta. A resposta ao risco vem na revisão das <i>issues</i> planejadas, não apenas nas histórias de usuário e técnicas, como também as atribuições de projeto endereçadas à equipe de EPS.
+</p>
+<p align="justify">
+As <i>dailies</i> de segunda, quarta e sexta-feira, ponto constante de busca de melhoria, tanto em qualidade quanto horários, apresentou melhora significativa, com maior participação da equipe e também diminuição de atrasos. As <i>dailies</i> remotas da equipe têm um ponto forte, que se mostra cada vez mais: quando um membro expõe uma dificuldade, alguém da equipe se manifesta para ajudar, dando início a uma nova sessão remota, onde as dúvidas e/ou dificuldades serão sanadas, contribuindo para a redução dos riscos de falhas de comunicação e de dificuldade com tecnologias escolhidas.
+</p>
+<p align="justify">
+O final da <i>Sprint</i> 5 mostra uma equipe cada vez mais unida e engajada, que começa as <i>issues</i> e expõe dúvidas cada vez mais brevemente, evidenciando a busca por produtividade máxima.
+</p></span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/2018.2-Kalkuli/docs/psprint5"><span class="arrow-prev">← </span><span>Previous</span></a></div></div></div><nav class="onPageNav docOnPageNav"><ul class="toc-headings"><li><a href="#fechamento-da-sprint">Fechamento da <em>Sprint</em></a></li><li><a href="#burndown"><em>Burndown</em></a></li><li><a href="#velocity"><em>Velocity</em></a></li><li><a href="#riscos">Riscos</a></li><li><a href="#retrospectiva">Retrospectiva</a><ul class="toc-headings"><li><a href="#sprint-anterior"><em>Sprint</em> Anterior</a></li><li><a href="#quadro-de-conhecimento">Quadro de Conhecimento</a></li><li><a href="#registros-de-presenca-nas-dailies">Registros de Presença nas <em>Dailies</em></a></li></ul></li><li><a href="#avaliacão-do-scrum-master">Avaliação do <em>Scrum Master</em></a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap footerStyle"><a href="/2018.2-Kalkuli/" class="nav-home"><img src="img/kalkui.png" alt="Kalkuli" width="70" height="60"/></a><div><h5>Sobre</h5><a href="#">Universidade de Brasília</a><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli" target="_blank" rel="noreferrer noopener">Grupo 1</a></div><div><h5>Como Contribuir</h5><a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/contributing">GitHub</a><a class="github-button" href="github.com/fga-eps-mds/2018.2-Kalkuli" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2018 Kalkuli</section></footer></div></body></html>
