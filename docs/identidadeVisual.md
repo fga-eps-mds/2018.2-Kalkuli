@@ -9,4 +9,4 @@ title: Identidade Visual e Protótipo de Alta Fidelidade
 
 ## Protótipo de Alta Fidelidade
 
-[Feito utilizando Adobe XD.](https://xd.adobe.com/view/db64571f-82f7-4449-53f2-e2c0db4b3bdb-ad55/)
+Feito utilizando o Adobe XD. Acesse o prototipo [aqui](https://xd.adobe.com/view/db64571f-82f7-4449-53f2-e2c0db4b3bdb-ad55/).
