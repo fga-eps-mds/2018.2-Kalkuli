@@ -46,7 +46,7 @@ A pontuação planejada em relação à <i>sprint</i> anterior aumentou, evidenc
 O empenho e a capacidade da equipe em finalizar as <i>issues</i> repercute a incidência de poucas dívidas, e resulta no aumento gradual da pontuação da <i>sprint</i>.
 </p>   
 
-![S4](assets/velocity-S4.png "Burndown Sprint 4")
+![S4](assets/velocity-S4.png "Velocity Sprint 4")
 
 ## Riscos    
 <p align="justify">
@@ -76,6 +76,13 @@ Retrospectiva apontou a redução de pontos negativos em relação a <a href="ht
 
 <p align="justify">
 Com relação aos pontos negativos apresentados na retrospectiva anterior, algumas medidas foram tomadas para que não se mostrassem novamente, são eles:
+
+<style>
+td {
+    text-align: center; 
+    vertical-align: middle;
+}
+</style>
 
 <table>
   <tr align="center">

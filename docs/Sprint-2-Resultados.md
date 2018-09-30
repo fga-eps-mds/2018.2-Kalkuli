@@ -91,8 +91,15 @@ _(Afirmações precedidas do asterisco são de cunho pessoal)._
 <p align="justify">
 Com relação aos pontos negativos apresentados na retrospectiva anterior, algumas medidas foram tomadas para que não se mostrassem novamente, são eles:
 
+<style>
+td {
+    text-align: center; 
+    vertical-align: middle;
+}
+</style>
+
 <table>
-  <tr>
+  <tr align="center">
     <th>Ponto Negativo</th>
     <th>Correção Adotada</th>
   </tr>

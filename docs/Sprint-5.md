@@ -26,7 +26,7 @@ Como dívida da <i>sprint</i> anterior, a <i>issue</i> de criação da <a href="
 ![S5](assets/quadro-de-pareamento-s5.png "Pareamentos Sprint 5")
 
 - Youssef, Lucas Dutra e Ésio | [US10](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/91)   
-- Youssef, Lucas Dutra e Ésio | [US14](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/92)   
+- Youssef, Lucas Dutra e Ésio | [US14](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/92)     
 - Saleh e Pedro Féo | [US20](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/94)     
 
 ## Objetivos  
