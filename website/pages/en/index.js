@@ -6,6 +6,7 @@
  */
 
 const React = require('react');
+//const Fragment = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
 const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
@@ -180,7 +181,7 @@ class Index extends React.Component {
     const language = this.props.language || '';
 
     return (
-      <div>
+      <React.Fragment>
         <Header />
           <Features />
           {/* <LearnHow />
@@ -190,7 +191,7 @@ class Index extends React.Component {
           <div className="card-container">
             {siteConfig.members.map(member => <Cards key={member} name={member} />)}
           </div>
-        </div>
+      </React.Fragment>
     );
   }
 }
