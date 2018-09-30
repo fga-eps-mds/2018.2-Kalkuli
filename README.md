@@ -27,6 +27,7 @@ Dentro de cada repositório é possível encontrar instruções de configuraçã
     <li><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Reports" title="Organização do Projeto Kalkuli">Relatórios</a> - Serviço que gera relatórios selecionados pelo usuário;</li>
     <li><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Users" title="Organização do Projeto Kalkuli">Usuário</a> - Serviço que gerencia usuários da aplicação;</li>
     <li><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Receipts" title="Organização do Projeto Kalkuli">Notas</a> - Serviço que apresenta as notas escaneadas. </li>
+    <li><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Gateway" title="Organização do Projeto Kalkuli">Notas</a> - Serviço responsável por intermediar a comunicação entre o <i>Back-end</i> e o <i>Front-end</i>. </li>
 </ul>
 
 A camada de <a href="https://github.com/Kalkuli/2018.2-Kalkuli_Front-End" title="Front-end">comunicação com o usuário</a> é construída utilizando <i>react</i>.
@@ -40,6 +41,6 @@ A camada de <a href="https://github.com/Kalkuli/2018.2-Kalkuli_Front-End" title=
 
 
 <p align="center"><b>Grupo 1</b></p>
-<p align="center">Engenharia de Produto de <i>Software</i> (EPS) / Métodos de Desenvolvimento de Software (MDS)<br /><br />
+<p align="center">Engenharia de Produto de <i>Software</i> (EPS) / Métodos de Desenvolvimento de <i>Software</i> (MDS)<br /><br />
 <a href="https://fga.unb.br" target="_blank"><img width="200"src="https://4.bp.blogspot.com/-0aa6fAFnSnA/VzICtBQgciI/AAAAAAAARn4/SxVsQPFNeE0fxkCPVgMWbhd5qIEAYCMbwCLcB/s1600/unb-gama.png"></a>
 </p>
