@@ -183,14 +183,14 @@ class Index extends React.Component {
     return (
       <React.Fragment>
         <Header />
-          <Features />
-          {/* <LearnHow />
-          <TryOut /> */}
-          {/* <Description /> */}
+        <Features />
+        {/* <LearnHow />
+        <TryOut /> */}
+        {/* <Description /> */}
         <h1 className="heading-colaboradores">Colaboradores</h1>
-          <div className="card-container">
-            {siteConfig.members.map(member => <Cards key={member} name={member} />)}
-          </div>
+        <div className="card-container">
+          {siteConfig.members.map(member => <Cards key={member} name={member} />)}
+        </div>
       </React.Fragment>
     );
   }
