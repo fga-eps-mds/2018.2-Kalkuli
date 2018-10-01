@@ -44,7 +44,7 @@ O <i>burndown</i> indica que as <i>issues</i> começaram a ser entregues no meio
 
 ## _Velocity_     
 <p align="justify">
-Apesar de algumas das <i>issues</i> alocadas para a <i>sprint</i> não terem sido finalizadas, percebe-se melhora no <i>velocity</i> da equipe, evidencando sua capacidade de entrega máxima até o momento. 
+Apesar de algumas das <i>issues</i> alocadas para a <i>sprint</i> não terem sido finalizadas, percebe-se melhora no <i>velocity</i> da equipe, evidenciando sua capacidade de entrega máxima até o momento. 
 </p>   
 
 ![S5](assets/velocity-S5.png "Velocity Sprint 5")
