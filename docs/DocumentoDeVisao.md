@@ -25,18 +25,18 @@ title: Documento de Visão
 
 ### 1.1 Finalidade
 
-&emsp;&emsp;Este documento tem como objetivo demonstrar as características do desenvolvimento do Kalkuli. Além disso, visa auxiliar no contexto em que a ferramenta se aplica.
+<p style="text-align:justify">&emsp;&emsp;Este documento tem como objetivo demonstrar as características do desenvolvimento do Kalkuli. Além disso, visa auxiliar no contexto em que a ferramenta se aplica.</p>
 
 ### 1.2 Escopo
-&emsp;&emsp;A nota fiscal é um documento que tem por finalidade, registrar uma transferência de propriedade, o qual pode ser de um produto ou de um serviço comercial. A emissão dessa notas é de fundamental importância para a empresa ficar regularizada perante o estado. O motivo disso é  elas são obrigadas a guardar o talonário de notas por cinco anos, pois durante esse tempo, o consumidor pode exigir uma segunda via da nota fiscal emitida. O não cumprimento dessas leis podem acarretar em multas pesadas que podem passar de R$1.000,00 por documento perdido ou XML de Nota Fiscal.
+<p style="text-align:justify">&emsp;&emsp;A nota fiscal é um documento que tem por finalidade, registrar uma transferência de propriedade, o qual pode ser de um produto ou de um serviço comercial. A emissão dessa notas é de fundamental importância para a empresa ficar regularizada perante o estado. O motivo disso é  elas são obrigadas a guardar o talonário de notas por cinco anos, pois durante esse tempo, o consumidor pode exigir uma segunda via da nota fiscal emitida. O não cumprimento dessas leis podem acarretar em multas pesadas que podem passar de R$1.000,00 por documento perdido ou XML de Nota Fiscal.</p>
 
-&emsp;&emsp;Além de ser importante para regularização da empresa, as notas fiscais são ricas de dados que fornecem informações fundamentais para tomadas de decisões gerenciais mais inteligentes.
+<p style="text-align:justify">&emsp;&emsp;Além de ser importante para regularização da empresa, as notas fiscais são ricas de dados que fornecem informações fundamentais para tomadas de decisões gerenciais mais inteligentes.</p>
 
-&emsp;&emsp;E como forma de resolver esses impasses, o Kalkuli tem como escopo as funcionalidades de não somente armazenar de maneira eficiente as notas fiscais, como também interpreta as informações contidas nelas para microempresários.
+<p style="text-align:justify">&emsp;&emsp;E como forma de resolver esses impasses, o Kalkuli tem como escopo as funcionalidades de não somente armazenar de maneira eficiente as notas fiscais, como também interpreta as informações contidas nelas para microempresários.</p>
 
 ### 1.3 Não Escopo
 
-&emsp;&emsp;O Kalkuli não tem a finalidade de atender as necessidades empresas de grande/médio porte, empresas com renda operacional bruta anual maior que R$ 4,8 milhões, e pessoas físicas. Além disso, a aplicação não atende notas fiscais escritas à mão. 
+<p style="text-align:justify">&emsp;&emsp;O Kalkuli não tem a finalidade de atender as necessidades empresas de grande/médio porte, empresas com renda operacional bruta anual maior que R$ 4,8 milhões, e pessoas físicas. Além disso, a aplicação não atende notas fiscais escritas à mão. </p>
 
 ### 1.4 Definições, Acrônimos e Abreviações
 
@@ -59,13 +59,13 @@ Disponível em: <a href='https://goo.gl/BNAJtT'><https://goo.gl/BNAJtT></a>. Ace
 
 ### 1.6 Visão Geral
 
-&emsp;&emsp;Este documento descreve de forma detalhada o embasamento, o planejamento e a construção do software em questão. Assim contempla a visão de negócio, os problemas que serão solucionados, a descrição do perfil das partes interessadas no projeto, visão de nível superior dos recursos, interfaces com outros aplicativos e configurações de sistemas do produto, descrição dos recursos utilizados pela aplicação, as restrições, intervalos de qualidade para desempenho, robustez, tolerância a erros, usabilidade e características semelhantes que não são capturadas pelos recursos, outros requisitos para a aplicação do produto e a documentação que será necessária para o bom andamento da aplicação.
+<p style="text-align:justify">&emsp;&emsp;Este documento descreve de forma detalhada o embasamento, o planejamento e a construção do software em questão. Assim contempla a visão de negócio, os problemas que serão solucionados, a descrição do perfil das partes interessadas no projeto, visão de nível superior dos recursos, interfaces com outros aplicativos e configurações de sistemas do produto, descrição dos recursos utilizados pela aplicação, as restrições, intervalos de qualidade para desempenho, robustez, tolerância a erros, usabilidade e características semelhantes que não são capturadas pelos recursos, outros requisitos para a aplicação do produto e a documentação que será necessária para o bom andamento da aplicação.</p>
 
 ## 2. Posicionamento
 
 ### 2.1 Oportunidade de Negócios
 
-&emsp;&emsp;Por ser recomendável que sejam guardadas até 5 anos ou até o prazo de vida útil do produto/serviço, as notas fiscais geram bastante bagunça e desorganização. Além disso, essas notas geram um acúmulo de informações que muitas vezes não são usadas e, dessa forma, gerando lixo. Por esse motivo, a aplicação iria auxiliar o nosso público alvo a conseguir a organizar sua vida econômica por meio de relatórios que são gerados dinamicamente.
+<p style="text-align:justify">&emsp;&emsp;Por ser recomendável que sejam guardadas até 5 anos ou até o prazo de vida útil do produto/serviço, as notas fiscais geram bastante bagunça e desorganização. Além disso, essas notas geram um acúmulo de informações que muitas vezes não são usadas e, dessa forma, gerando lixo. Por esse motivo, a aplicação iria auxiliar o nosso público alvo a conseguir a organizar sua vida econômica por meio de relatórios que são gerados dinamicamente.</p>
 
 ### 2.2 Descrição do Problema
 
@@ -107,7 +107,7 @@ Disponível em: <a href='https://goo.gl/BNAJtT'><https://goo.gl/BNAJtT></a>. Ace
 
 ### 3.3 Ambiente do Usuário
 
-&emsp;&emsp;O sistema Web poderá ser usado pela empresa em navegadores mais conhecidos (Mozilla Firefox, Google Chrome, Opera, Microsoft Edge) para melhor funcionamento do software.
+&emsp;&emsp;O sistema Web poderá ser usado pela empresa em navegadores mais conhecidos (Mozilla Firefox, Google Chrome, Opera, Microsoft Edge) para melhor funcionamento do software.</p>
 
 ### 3.4 Perfis dos Envolvidos
 
@@ -160,9 +160,9 @@ Disponível em: <a href='https://goo.gl/BNAJtT'><https://goo.gl/BNAJtT></a>. Ace
   <tr><th>Representante</th><td>Clarissa Lima Borges<br></td></tr>
   <tr><th>Descrição</th><td>Pequenas e micro empresas que emitem notas fiscais.</td></tr>
   <tr><th>Tipo</th><td>Usuários com baixo ou médio conhecimento técnico.</td></tr>
-  <tr><th>Responsabilidades</th><td>Passar as suas notas fiscais escaneadas pelo site, obtendo informações em formatos de gráficos, facilitando o seu trabalho.</td></tr>
+  <p style="text-align:justify" ><tr><th>Responsabilidades</th><td>Passar as suas notas fiscais escaneadas pelo site, obtendo informações em formatos de gráficos, facilitando o seu trabalho.</td></tr></p>
   <tr><th>Critérios de Sucesso</th><td>O sistema deverá ser útil para poder captar informações de pdf’s escaneados, contribuindo para o trabalho de micro e pequenos empresários.</td></tr>
-  <tr><th>Comentários/Problemas</th><td>Desafio de lidar com informações variadas. Além do baixo conhecimento sobre notas fiscais.</td></tr>
+  <tr><th>Comentários/Problemas</th><td>Desafio de lidar com informações variadas. Além do baixo conhecimento sobre notas fiscais.</td></tr></p>
 </table>
 
 ### 3.6 Principais Necessidades dos Usuários ou dos Envolvidos
@@ -175,29 +175,29 @@ Disponível em: <a href='https://goo.gl/BNAJtT'><https://goo.gl/BNAJtT></a>. Ace
 
 #### 3.7.1 Novoto
 
-&emsp;&emsp;Novoto é um aplicativo multiplataforma que permite ao usuário tirar foto, catalogar e armazenar notas fiscais. Além disso, também funciona como alerta para o usuário de contas e pagamentos próximos.<br/>
-&emsp;&emsp;Diferentemento do kalkuli, o Novoto, além de não preencher os campos das notas dinamicamente para usuário, não faz uma interpretação inteligente dos dados obtidos. 
+<p style="text-align:justify">&emsp;&emsp;Novoto é um aplicativo multiplataforma que permite ao usuário tirar foto, catalogar e armazenar notas fiscais. Além disso, também funciona como alerta para o usuário de contas e pagamentos próximos.<br/></p>
+<p style="text-align:justify">&emsp;&emsp;Diferentemento do kalkuli, o Novoto, além de não preencher os campos das notas dinamicamente para usuário, não faz uma interpretação inteligente dos dados obtidos.</p>
 
 #### 3.7.2 Guia Bolso
 
-&emsp;&emsp;Guia Bolso é um software que possui três principais funcionalidades, entre elas está o controle financeiro, que é integrado com a conta bancária do usuário e categoriza os gastos, informa o saldo e estabelece metas de gastos estipulados pelo usuário. Outra funcionalidade é o radar de CPF, que informa a situação de quitação de débitos. Por último, o empréstimo, que fornece uma pesquisa baseada na conta bancária conectada pelo usuário e a oportunidade de realizar este procedimento pelo aplicativo.<br/>
-&emsp;&emsp;Mesmo tendo uma gama de opções, o Guia Bolso não tem o serviço de gerenciamento de NF, o qual é muito importante para a tomadas de decisões inteligentes dentro de uma empresa.
+<p style="text-align:justify">&emsp;&emsp;Guia Bolso é um software que possui três principais funcionalidades, entre elas está o controle financeiro, que é integrado com a conta bancária do usuário e categoriza os gastos, informa o saldo e estabelece metas de gastos estipulados pelo usuário. Outra funcionalidade é o radar de CPF, que informa a situação de quitação de débitos. Por último, o empréstimo, que fornece uma pesquisa baseada na conta bancária conectada pelo usuário e a oportunidade de realizar este procedimento pelo aplicativo.<br/></p>
+<p style="text-align:justify">&emsp;&emsp;Mesmo tendo uma gama de opções, o Guia Bolso não tem o serviço de gerenciamento de NF, o qual é muito importante para a tomadas de decisões inteligentes dentro de uma empresa.</p>
 
 #### 3.7.3 Conta Azul
 
-&emsp;&emsp;Conta azul é uma aplicação mais voltada para empresas, pois a mesma fornece ao usuário informações sobre o financeiro, os gastos e as vendas da empresa cadastrada. Porém, esse software é pago.<br/>
-&emsp;&emsp;O diferencial do Kalkuli em relação a essa empresa é o preenchemento e interpretação dos dados obtidos de notas fiscais dinamicamente.
+<p style="text-align:justify">&emsp;&emsp;Conta azul é uma aplicação mais voltada para empresas, pois a mesma fornece ao usuário informações sobre o financeiro, os gastos e as vendas da empresa cadastrada. Porém, esse software é pago.<br/>
+<p style="text-align:justify">&emsp;&emsp;O diferencial do Kalkuli em relação a essa empresa é o preenchemento e interpretação dos dados obtidos de notas fiscais dinamicamente.</p>
 
 #### 3.7.4 Espresso 
 
-&emsp;&emsp;Espresso é uma aplicação de reembolso para empresas. O aplicativo tem três funcionalidades principais, que são o registro de viagem, classificação e politica de despesas.<br/>
-&emsp;&emsp;O Espresso é o aplicativo concorrente que mais chega perto dos nossos serviços. No entanto, como os outros, o usuário precisa preencher os dados manualmente. Dessa forma, o preenchimento dinamico do Kalkuli acaba sendo uma vantagem em relação a esse serviço pelo ganho de produtividade que oferece. 
+<p style="text-align:justify">&emsp;&emsp;Espresso é uma aplicação de reembolso para empresas. O aplicativo tem três funcionalidades principais, que são o registro de viagem, classificação e politica de despesas.<br/></p>
+<p style="text-align:justify">&emsp;&emsp;O Espresso é o aplicativo concorrente que mais chega perto dos nossos serviços. No entanto, como os outros, o usuário precisa preencher os dados manualmente. Dessa forma, o preenchimento dinamico do Kalkuli acaba sendo uma vantagem em relação a esse serviço pelo ganho de produtividade que oferece. </p>
 
 ## 4. Visão Geral do Produto
 
 ### 4.1 Perspectiva do Produto
 
-&emsp;&emsp;O produto se difere dos demais do mercado por ser capaz de, através de notas fiscais escaneadas e adicionadas pelo usuário, fazer o processamento das informações contidas. Além disso, a aplicação trata e fornece dados úteis para controle de gastos do cliente.
+<p style="text-align:justify">&emsp;&emsp;O produto se difere dos demais do mercado por ser capaz de, através de notas fiscais escaneadas e adicionadas pelo usuário, fazer o processamento das informações contidas. Além disso, a aplicação trata e fornece dados úteis para controle de gastos do cliente.</p>
 
 ### 4.2 Resumo dos Recursos
 
@@ -211,14 +211,14 @@ Disponível em: <a href='https://goo.gl/BNAJtT'><https://goo.gl/BNAJtT></a>. Ace
 
 ### 5.1 Acesso
 
-&emsp;&emsp;O usuário poderá ter acesso ao sistema, através de uma autenticação por login.
+<p style="text-align:justify">&emsp;&emsp;O usuário poderá ter acesso ao sistema, através de uma autenticação por login.</p>
 
 ### 5.2 Cadastro
 
-&emsp;&emsp;O usuário poderá criar um cadastro no próprio site, para ter acesso ao sistema.
+<p style="text-align:justify">&emsp;&emsp;O usuário poderá criar um cadastro no próprio site, para ter acesso ao sistema.</p>
 
 ### 5.3 Submissão de Informações
-&emsp;&emsp;Dentro do sistema, haverá um espaço para submissão de Notas Fiscais, onde serão extraídas as suas informações para serem tratadas.
+<p style="text-align:justify">&emsp;&emsp;Dentro do sistema, haverá um espaço para submissão de Notas Fiscais, onde serão extraídas as suas informações para serem tratadas.</p>
 
 ### 5.4 Visualização de Dados
-&emsp;&emsp;O sistema fornecerá uma série de gráficos, onde dará liberdade interpretativa de informações ao usuário.
+<p style="text-align:justify">&emsp;&emsp;O sistema fornecerá uma série de gráficos, onde dará liberdade interpretativa de informações ao usuário.</p>
