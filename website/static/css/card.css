@@ -3,6 +3,10 @@
   flex-flow: row wrap;
   justify-content: space-around;
   text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 50px;
 }
 
 .card-foto {
@@ -10,22 +14,28 @@
 }
 
 .card-foto-perfil {
-  width: 260px;
-  height: 260px;
-  box-shadow: 0 1px 5px black;
-  border-radius: 5px;
-  margin-bottom: 2rem;
-  border: 2px solid gray;
+  width: 210px;
+  height: 210px;
+  border-radius: 150px;
+  margin: 2rem;
+  border: 2px solid #353535;
   transition: .4s ease;
   backface-visibility: hidden;
 }
 
 .card-link {  
   position: absolute;
-  bottom: 10rem;
+  text-align: center;
+  bottom: 10.5rem;
+  width: 100%;
   opacity: 0;
-  left: 9rem;
   transition: all 1s;
+}
+
+.card-link-text {
+  font-size: 2rem;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .card-foto:hover .card-link {
@@ -33,13 +43,7 @@
 }
 
 .card-foto:hover .card-foto-perfil {
-  opacity: 0.3;
-  filter: drop-shadow(0 0 1rem #000000);
-  transform: scale(1.05);
-
-}
-
-.card-link-text {
-  font-size: 2rem;
-  user-select: none;
+  opacity: 0.2;
+  transform: translateY(-1rem);
+  cursor: pointer;
 }

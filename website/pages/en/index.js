@@ -44,61 +44,57 @@ const Header = () => {
 const Cards = (props) => {
   let photo, githubLink = null
   switch (props.name) {
-    case "Clarissa":
+    case "@clarissalimab":
       photo = siteConfig.Clarissa
       githubLink = siteConfig.ClarissaGithub
       break
-    case "Ésio":
+    case "@EsioFreitas":
       photo = siteConfig.Esio
       githubLink = siteConfig.EsioGithub
       break
-    case "Bernardo":
+    case "@bernardohrl":
       photo = siteConfig.Bernardo
       githubLink = siteConfig.BernardoGithub
       break
-    case "Felipe":
+    case "@Hargre":
       photo = siteConfig.Felipe
       githubLink = siteConfig.FelipeGithub
       break
-    case "Jacó":
+    case "@Jacoapolinario":
       photo = siteConfig.Jaco
       githubLink = siteConfig.JacoGithub
       break
-    case "Lucas":
+    case "@lucasdutraf":
       photo = siteConfig.Lucas
       githubLink = siteConfig.LucasGithub
       break
-    case "Mariana":
+    case "@MarianaPicolo":
       photo = siteConfig.Mariana
       githubLink = siteConfig.MarianaGithub
       break
-    case "Pedro":
+    case "@Phe0":
       photo = siteConfig.Pedro
       githubLink = siteConfig.PedroGithub
       break
-    case "Saleh":
+    case "@devsalula":
       photo = siteConfig.Saleh
       githubLink = siteConfig.SalehGithub
       break
-    case "Youssef":
+    case "@youssef-md":
       photo = siteConfig.Youssef
       githubLink = siteConfig.YoussefGithub
       break
     default:
       break
   }
+  
   return (
-    <div className="card-foto">
-      <img src={photo} alt={props.name} className="card-foto-perfil" />
+    <a href={githubLink} className="card-foto">
+      <img src={photo} alt={props.name}  className="card-foto-perfil" />
       <div className="card-link">
         <p className="card-link-text">{props.name}</p>
-        <div className="links">
-          <a href={githubLink} >
-            <img src={siteConfig.githubIcon} alt="GitHub" />
-          </a>
-        </div>
       </div>
-    </div>
+    </a>
   )
 }
 
@@ -194,6 +190,9 @@ class Index extends React.Component {
       </React.Fragment>
     );
   }
+
+  
+
 }
 
 module.exports = Index;
