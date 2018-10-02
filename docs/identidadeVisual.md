@@ -9,4 +9,31 @@ title: Identidade Visual e Protótipo de Alta Fidelidade
 
 ## Protótipo de Alta Fidelidade
 
-Feito utilizando o Adobe XD. Acesse o prototipo [aqui](https://xd.adobe.com/view/db64571f-82f7-4449-53f2-e2c0db4b3bdb-ad55/).
+<p style="text-align:justify">
+  O protótipo foi desenvolvido utilizando a ferramente 
+  <a href="https://www.adobe.com/br/products/xd.html">
+    <i>Adobe XD</i>
+  </a> e pode ser conferido da íntegra 
+  <a class="dark-btn" href="https://xd.adobe.com/view/db64571f-82f7-4449-53f2-e2c0db4b3bdb-ad55/">aqui</a>
+</p>
+
+### - Homepage
+<img src="assets/Home Page.png"/>
+
+### - Dashboard
+<img src="assets/Dashboard.png"/>
+
+### - Selecionar o pdf
+<img src="assets/DragFile.png"/>
+
+### - Comparação 
+<img src="assets/ComparacaodeNotas.png"/>
+
+### - Tags
+<img src="assets/Tags.png"/>
+
+### - Criar nova tag
+<img src="assets/CriarTag.png"/>
+
+### - Área de notas
+<img src="assets/AreadeNotas.png"/>
