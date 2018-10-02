@@ -96,7 +96,7 @@ Observação: O aluguel do espaço de trabalho leva em conta o valor para toda a
 | Ferramenta           | Descrição                                                      |    Valor    |
 |----------------------|----------------------------------------------------------------|:-----------:|
 | ZenHub               | Ferramenta de gerenciamento de projetos ágeis                  |   R$ 0,00   |
-| Adobe Creative Cloud* | Ferramentas de manipulação e criação de imagens                | R$ 1.952,00 |
+| Adobe Creative Cloud*| Ferramentas de manipulação e criação de imagens                | R$ 1.952,00 |
 | Draw.io              | Ferramenta para elaboração de diagramas                        |   R$ 0,00   |
 | Git e GitHub         | Ferramenta de versionamento de código                          |   R$ 0,00   |
 | Telegram e Hangouts  | Ferramentas de comunicação do time                             |   R$ 0,00   |
@@ -104,7 +104,8 @@ Observação: O aluguel do espaço de trabalho leva em conta o valor para toda a
 | Linux                | Sistema operacional                                            |   R$ 0,00   |
 | Visual Studio Code   | Ferramenta de editor de texto                                  |   R$ 0,00   |
 | AWS                  | Servidor                                                       |   R$ 0,00   |
-| Total                |             -                                                  | R$ 1.952,00 |
+| Marketing            | Investimentos em anúncios (por mês)                            |  R$ 800,00  |
+| Total                |             -                                                  | R$ 2.752,00 |
 
 Observação: *duas licenças de 4 meses do Adobe Creative Cloud.
 
@@ -115,7 +116,7 @@ Observação: *duas licenças de 4 meses do Adobe Creative Cloud.
 | Equipe      | R$ 175.800,00 |
 | Aquisições  | R$ 31.160,00  |
 | Ferramentas | R$ 1.952,00   |
-| Total       | R$ 208.912,00 |
+| Total       | R$ 209.712,00 |
 
 ## Stakeholders
 ### Público alvo
