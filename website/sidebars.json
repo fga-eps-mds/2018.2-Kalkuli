@@ -8,7 +8,9 @@
       "mav",
       "idVisual"
     ],
-    "Engenharia de Requisitos": [],
+    "Engenharia de Requisitos": [
+      "elicitacao"
+    ],
     "Escopo do Projeto": [
       "backlog",
       "roadmap"
