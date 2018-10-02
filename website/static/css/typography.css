@@ -65,3 +65,8 @@ body {
     margin-left: 8px;
   }
 }
+@media only screen and (max-width: 475px) {
+  .header__text-box {
+    margin-top: 50px;
+  }
+}
