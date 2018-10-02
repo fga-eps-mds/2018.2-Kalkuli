@@ -138,7 +138,7 @@ ideia de visualizar a evolução do conhecimento de MDS nos princípios ágeis.
 </p>
 
 <p align="justify">
-Apesar da <i>sprint</i> atípica, é possível perceber que a capacidade de entrega da equipe cresce progressivamente. As pontuações das próximas <i>sprints</i> estarão restritas aos valores refetidos pelo <i>velocity</i>.
+Apesar da <i>sprint</i> atípica, é possível perceber que a capacidade de entrega da equipe cresce progressivamente. As pontuações das próximas <i>sprints</i> estarão restritas aos valores refletidos pelo <i>velocity</i>.
 </p>
 
 <p align="justify">

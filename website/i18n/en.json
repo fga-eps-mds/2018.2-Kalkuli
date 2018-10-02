@@ -74,6 +74,9 @@
       "psprint5": {
         "title": "Planejamento Sprint 5"
       },
+      "psprint6": {
+        "title": "Planejamento Sprint 6"
+      },
       "psprint0": {
         "title": "Planejamento Sprint 0"
       },
@@ -100,7 +103,8 @@
       "Sprint 2": "Sprint 2",
       "Sprint 3": "Sprint 3",
       "Sprint 4": "Sprint 4",
-      "Sprint 5": "Sprint 5"
+      "Sprint 5": "Sprint 5",
+      "Sprint 6": "Sprint 6"
     }
   },
   "pages-strings": {
