@@ -7,11 +7,12 @@ body {
 .heading-primary {
   color: var(--color-gray-light-1);
   text-transform: uppercase;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   user-select: none; 
 }
 
 .heading-primary--main {
+  margin-bottom: 5rem;
   display: block;
   font-size: 7.5rem;
   font-weight: 400;
@@ -31,4 +32,41 @@ body {
 .heading-colaboradores {
   text-align: center;
   margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1360px) and (min-width: 731px) {
+  .heading-primary--main {
+    font-size: 6.5rem;
+    letter-spacing: 4.8rem;
+  }
+  .heading-primary--sub {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 730px) and (min-width: 581px){
+  .heading-primary--main {
+    font-size: 5rem;
+    letter-spacing: 4.8rem;
+  }
+  .heading-primary--sub {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .heading-primary--main {
+    font-size: 3.2rem;
+    letter-spacing: 2.5rem;
+  }
+  .heading-primary--sub {
+    font-size: 1.5rem;
+    letter-spacing: .7rem;
+    margin-left: 8px;
+  }
+}
+@media only screen and (max-width: 475px) {
+  .header__text-box {
+    margin-top: 50px;
+  }
 }

@@ -19,6 +19,11 @@ const users = [
   },
 ];
 
+function redirectPage() {
+  //window.location.replace(githubLink)
+  console.log('oi')
+}
+
 const siteConfig = {
   title: 'Kalkuli', // Title for your website.
   tagline: 'de notas para dados',
@@ -46,9 +51,8 @@ const siteConfig = {
 
   /* path to images for header/footer */
 
+  
   favicon: 'img/knowledge.png',
-  githubIcon: 'img/members/git.png',
-  linkedinIcon: 'img/members/link.png',
   Bernardo: 'img/members/Bernardo.jpeg',
   Clarissa: 'img/members/Clarissa.jpg',
   Esio: 'img/members/Esio.jpg',
@@ -72,8 +76,8 @@ const siteConfig = {
   YoussefGithub: 'https://github.com/youssef-md',
 
   members: [
-    "Bernardo", "Clarissa", "Ésio", "Felipe",
-    "Jacó", "Lucas", "Mariana", "Pedro", "Saleh", "Youssef"
+    "@bernardohrl", "@clarissalimab", "@EsioFreitas", "@Hargre",
+    "@Jacoapolinario", "@lucasdutraf", "@MarianaPicolo", "@Phe0", "@devsalula", "@youssef-md"
   ],
 
   /* Colors for website */

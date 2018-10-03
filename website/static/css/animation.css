@@ -4,11 +4,11 @@
     transform: translateY(-10rem)
   }
   80% {
-    transform: translateY(1rem)
+    transform: translateY(0.5rem)
   }
   100% {
     opacity: 1;
-    transform: translateY(0)
+    transform: translateY(0rem)
   }
 }
 
@@ -18,11 +18,11 @@
     transform: translateY(10rem)
   }
   80% {
-    transform: translateY(-1rem)
+    transform: translateY(-0.5rem)
   }
   100% {
     opacity: 1;
-    transform: translateY(0)
+    transform: translateY(0rem)
   }
 }
 

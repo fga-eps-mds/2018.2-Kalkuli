@@ -3,11 +3,9 @@
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
 }
 
 body{
-  box-sizing: border-box;
   background-color: var(--color-gray-light-1);
 }
 
@@ -26,3 +24,14 @@ a, .toc .toggleNav ul li.navListItemActive a,
   color: black;
 }
 
+.dark-btn {
+  border: 1px solid #353535;
+  padding: 6px;
+  border-radius: 6px;
+  transition: all .2s;
+}
+
+.dark-btn:hover {
+  background-color: #353535;
+  color: #f3f3f3;
+}

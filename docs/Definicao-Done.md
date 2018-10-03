@@ -21,7 +21,7 @@ As <i>pipelines</i> utilizadas serão:
     <li><i>Backlog</i> - Todo o <i>Backlog</i> atualizado do produto.</li>
     <li><i>Sprint Backlog</i> - <i>Issues</i>/histórias que foram alocadas para a <i>Sprint.</i></li>
     <li><i>In Progress</i> - Histórias sendo trabalhadas no momento.</li>
-    <li><i>Review</i> - Necessário revisão de EPS. (Documentação)</li>
+    <li><i>Review</i> - Necessário revisão de EPS.</li>
     <li><i>Done</i> - <i>Issue</i>/história concluída.</li>
 </ul>  
 
@@ -36,7 +36,7 @@ A cobertura de testes deverá estar em 30%.
 
 
 <p align="justify">
-Para a <i>Release II</i>, a definição de pronto soferá mudanças.
+Para a <i>Release II</i>, a definição de pronto sofrerá mudanças.
 Os critérios de pronto corresponderão a:
 <ul>
     <li>Critérios de aceitação completos;</li>

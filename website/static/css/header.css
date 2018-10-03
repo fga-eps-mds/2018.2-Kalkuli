@@ -1,5 +1,6 @@
 
 .header {
+  display: flex;
   height: 95vh;
   background-image: linear-gradient(
     to right bottom, var(--color-primary-light), var(--color-primary-dark)
@@ -11,9 +12,12 @@
 }
 
 .header__text-box {
-  position: absolute;
+ /*  position: absolute;
   top: 45%;
-  left: 50%;
+  left: 50%; */
+  position: fixed;
+  top: 45%;
+  left: 52%;
   transform: translate(-50%, -50%);
-  text-align: center; 
+  text-align: center;
 }

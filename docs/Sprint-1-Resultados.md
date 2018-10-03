@@ -81,7 +81,7 @@ Os integrantes <a href="https://github.com/bernardohrl">Bernardo Henrique</a> (E
 ## Avaliação do _Scrum Master_    
 
 <p align="justify">
-A equipe de EPS conseguiu fechar o escopo até a data definida, e pôde delegar a criação do documento de visão à equipe de MDS, como também a criação de protótipos de baixa fidelidade. Entretanto, por dificuldades no entendimento e refino do escopo incial acordado, não foi possível concluir o Termo de Abertura do Projeto, nem sua Estrutura Analítica. 
+A equipe de EPS conseguiu fechar o escopo até a data definida, e pôde delegar a criação do documento de visão à equipe de MDS, como também a criação de protótipos de baixa fidelidade. Entretanto, por dificuldades no entendimento e refino do escopo inicial acordado, não foi possível concluir o Termo de Abertura do Projeto, nem sua Estrutura Analítica. 
 </p> 
 
 <p align="justify">
