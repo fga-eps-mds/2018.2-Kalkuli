@@ -61,7 +61,6 @@ title: Planejamento Sprint 7
 **Tech Leader:** [Mariana Pícolo](https://github.com/MarianaPicolo)   
 **Equipe de Desenvolvimento:** 
 - [Esio Gustavo](https://github.com/EsioFreitas)   
-- [Jacó Apolinário](https://github.com/Jacoapolinario)   
 - [Lucas Dutra](https://github.com/lucasdutraf)   
 - [Pedro Féo](https://github.com/Phe0)   
 - [Saleh Nazih](https://github.com/devsalula)

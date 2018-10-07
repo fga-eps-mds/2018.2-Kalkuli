@@ -30,6 +30,9 @@
     ]    
   },
   "release-um": {
+    "Release I": [
+      "release"
+    ],
     "Sprint 0": [
       "psprint0",
       "rsprint0"
