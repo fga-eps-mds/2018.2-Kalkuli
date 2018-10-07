@@ -42,7 +42,7 @@ const siteConfig = {
     { doc: 'tap', label: 'Produto' },
     { doc: 'overview', label: 'Projeto' },
     { doc: 'psprint0', label: 'Release I' },
-    // { doc: 'psprint0', label: 'Release II' },
+    { doc: 'psprint7', label: 'Release II' },
     { blog: false },
   ],
 
