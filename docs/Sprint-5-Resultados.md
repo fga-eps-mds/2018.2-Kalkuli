@@ -104,8 +104,7 @@ td {
 ### Quadro de Conhecimento   
 
 <p align="justify">
-Foram adicionadas as metodologias adotadas pela equipe: <i>Scrum</i> e <i>Kanban</i>
-ideia de visualizar a evolução do conhecimento de MDS nos princípios ágeis.
+Foram adicionadas as metodologias adotadas pela equipe: <i>Scrum</i> e <i>Kanban</i>.O objetivo é visualizar a evolução do conhecimento de MDS nos princípios ágeis.
 </p>
 
 [![S5](assets/Conhecimento-S5.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/19OGoemAfy_4nSFBbycD4kIoBFJwUjbXB7vxuQi8HLqY/edit#gid=1616735696)
