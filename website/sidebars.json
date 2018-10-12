@@ -30,6 +30,9 @@
     ]    
   },
   "release-um": {
+    "Release I": [
+      "release"
+    ],
     "Sprint 0": [
       "psprint0",
       "rsprint0"
@@ -55,7 +58,13 @@
       "rsprint5"
     ],
     "Sprint 6": [
-      "psprint6"
+      "psprint6",
+      "rsprint6"
+    ]
+  },
+  "release-dois": {
+    "Sprint 7": [
+      "psprint7"
     ]
   }
 }
