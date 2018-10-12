@@ -17,7 +17,7 @@ title: Planejamento Sprint 7
 
 ## Pareamentos   
  
-![S7](assets/quadro-de-pareamento-s7.png "Pareamentos Sprint 7")
+![S7](assets/quadro-de-pareamento-s7.jpg "Pareamentos Sprint 7")
 
 - Youssef e Saleh | [Aumentar Cobertura de Testes no _Front-end_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/141)    
 - Youssef e Saleh | [Evoluir US20](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/120)   
