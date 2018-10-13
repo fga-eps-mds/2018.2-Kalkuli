@@ -63,6 +63,14 @@ Durante a fase de iniciação do projeto, riscos foram levantados e serão rastr
 O <i>Tech Leader</i> é o responsável por monitorar os riscos, e adotar medidas que facilitem com que sejam mitigados. O controle é feito através do <a href="https://docs.google.com/spreadsheets/d/1PYjMMXbWRgKwY5oZH5ekg4VbqTYYfdJImHmxCLH62xI/edit#gid=0"><i>burndown</i></a> de riscos, <a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/medicao#burndown-de-riscos-https-docsgooglecom-spreadsheets-d-1pyjmmxbwrgkwy5ozh5ekg4vbqtyyfdjimhmxclh62xi-edit-gid-0 ">indicador</a> adotado em equipes ágeis.
 </p>
 
+## Cronograma e marcos
+O andamento do projeto dentro do escopo até então definido conta com duas principais entregas:
+
+| Marco | Data | Atividade |
+|:-----:|:----:|:---------:|
+|Início do projeto| 19/08/2018 | Início da primeira Sprint do projeto |
+|Release 01| 04/06/2018 | Primeira entrega de valor do projeto, que aborda os principais artefatos do início de projeto e algumas funcionalidades relacionadas a extração de dados e geração de relatórios|
+|Release 02| 05/12/2018 | Segunda entrega de valor, que aborda o restante das funcionalidades definidas no escopo |
 
 ## Custo Estimado    
 <p align="justify">
@@ -96,7 +104,7 @@ Observação: O aluguel do espaço de trabalho leva em conta o valor para toda a
 | Ferramenta           | Descrição                                                      |    Valor    |
 |----------------------|----------------------------------------------------------------|:-----------:|
 | ZenHub               | Ferramenta de gerenciamento de projetos ágeis                  |   R$ 0,00   |
-| Adobe Creative Cloud* | Ferramentas de manipulação e criação de imagens                | R$ 1.952,00 |
+| Adobe Creative Cloud*| Ferramentas de manipulação e criação de imagens                | R$ 1.952,00 |
 | Draw.io              | Ferramenta para elaboração de diagramas                        |   R$ 0,00   |
 | Git e GitHub         | Ferramenta de versionamento de código                          |   R$ 0,00   |
 | Telegram e Hangouts  | Ferramentas de comunicação do time                             |   R$ 0,00   |
@@ -104,7 +112,8 @@ Observação: O aluguel do espaço de trabalho leva em conta o valor para toda a
 | Linux                | Sistema operacional                                            |   R$ 0,00   |
 | Visual Studio Code   | Ferramenta de editor de texto                                  |   R$ 0,00   |
 | AWS                  | Servidor                                                       |   R$ 0,00   |
-| Total                |             -                                                  | R$ 1.952,00 |
+| Marketing            | Investimentos em anúncios (por mês)                            |  R$ 800,00  |
+| Total                |             -                                                  | R$ 2.752,00 |
 
 Observação: *duas licenças de 4 meses do Adobe Creative Cloud.
 
@@ -115,7 +124,7 @@ Observação: *duas licenças de 4 meses do Adobe Creative Cloud.
 | Equipe      | R$ 175.800,00 |
 | Aquisições  | R$ 31.160,00  |
 | Ferramentas | R$ 1.952,00   |
-| Total       | R$ 208.912,00 |
+| Total       | R$ 209.712,00 |
 
 ## Stakeholders
 ### Público alvo
