@@ -63,6 +63,14 @@ Durante a fase de iniciação do projeto, riscos foram levantados e serão rastr
 O <i>Tech Leader</i> é o responsável por monitorar os riscos, e adotar medidas que facilitem com que sejam mitigados. O controle é feito através do <a href="https://docs.google.com/spreadsheets/d/1PYjMMXbWRgKwY5oZH5ekg4VbqTYYfdJImHmxCLH62xI/edit#gid=0"><i>burndown</i></a> de riscos, <a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/medicao#burndown-de-riscos-https-docsgooglecom-spreadsheets-d-1pyjmmxbwrgkwy5ozh5ekg4vbqtyyfdjimhmxclh62xi-edit-gid-0 ">indicador</a> adotado em equipes ágeis.
 </p>
 
+## Cronograma e marcos
+O andamento do projeto dentro do escopo até então definido conta com duas principais entregas:
+
+| Marco | Data | Atividade |
+|:-----:|:----:|:---------:|
+|Início do projeto| 19/08/2018 | Início da primeira Sprint do projeto |
+|Release 01| 04/06/2018 | Primeira entrega de valor do projeto, que aborda os principais artefatos do início de projeto e algumas funcionalidades relacionadas a extração de dados e geração de relatórios|
+|Release 02| 05/12/2018 | Segunda entrega de valor, que aborda o restante das funcionalidades definidas no escopo |
 
 ## Custo Estimado    
 <p align="justify">
