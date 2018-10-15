@@ -148,7 +148,7 @@ A capacidade técnica e motivação da equipe fica evidente numa <i>sprint</i> q
 </p>
 
 <p align="justify">
-A qualidade das entregas das histórias de usuário ficam evidentes, já que todas foram testadas, assegurando a cobertura de todos os serviços a que as histórias pertencem. Já respeitam os critérios de pronto para a  <a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/defpronto#release-ii" title="Definição de Pronto"><i>release</i> II</a>, onde todas as histórias deverão, obrigatoriamente, ser testadas. Isso reflete o empenho e a capacidade técnica elevada da equipe de desenvolvimento, e permite planejamentos maiores e mais refinados, visando produtividade máxima.
+A qualidade das entregas das histórias de usuário ficam evidentes, já que todas foram testadas, assegurando a cobertura de todos os serviços a que as histórias pertencem. Já respeitam os critérios de pronto para a <a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/defpronto#release-ii" title="Definição de Pronto"><i>release</i> II</a>, onde todas as histórias deverão, obrigatoriamente, ser testadas. Isso reflete o empenho e a capacidade técnica elevada da equipe de desenvolvimento, e permite planejamentos maiores e mais refinados, visando produtividade máxima.
 </p>
 
 <p align="justify">

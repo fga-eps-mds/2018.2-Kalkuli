@@ -64,7 +64,8 @@
   },
   "release-dois": {
     "Sprint 7": [
-      "psprint7"
+      "psprint7",
+      "rsprint7"
     ],
     "Sprint 8": [
       "psprint8"
