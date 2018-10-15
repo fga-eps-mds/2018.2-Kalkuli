@@ -60,10 +60,6 @@ const Cards = (props) => {
       photo = siteConfig.Felipe
       githubLink = siteConfig.FelipeGithub
       break
-    case "@Jacoapolinario":
-      photo = siteConfig.Jaco
-      githubLink = siteConfig.JacoGithub
-      break
     case "@lucasdutraf":
       photo = siteConfig.Lucas
       githubLink = siteConfig.LucasGithub

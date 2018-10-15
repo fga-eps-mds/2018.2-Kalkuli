@@ -104,7 +104,7 @@ Conhecimento nas tecnologias aumenta, dado o contato constante da equipe de dese
 <li><i>Dailies</i> de terça e quinta feira são realizadas presencialmente, às 15h50.</li>
 </p>
 
-| Nome    |Segunda Feira      | Terça Feira      | Quarta Feira     | Quinta Feira      | Sexta Feira      |     
+| Nome    |Segunda Feira      | Terça Feira      | Quarta Feira     |   Quinta Feira    | Sexta Feira      |     
 |:-----:  |:-----------------:|:----------------:|:----------------:|:-----------------:|:----------------:|
 |Bernardo |         ✔         |         ✘        |         ✔        |         ✔         |         ✘        |
 |Clarissa |         ✘         |         ✔        |         ✔        |         ✔         |         ✔        |
@@ -120,14 +120,21 @@ Conhecimento nas tecnologias aumenta, dado o contato constante da equipe de dese
 ## Avaliação do _Scrum Master_  
 
 <p align="justify">
-texto
+<i>Sprint</i> planejada visando a recuperação da equipe pós <i>release</i>, sem novas histórias de usuário. A equipe vinha se queixando de cansaço durante e após a <i>sprint</i> da <i>release</i>, portanto, ao planjear a <i>sprint</i> atual, o objetivo foi de recuperar a equipe, buscando os ânimos pré <i>release</i>.
 </p>
 
 <p align="justify">
+Ainda com rendimento abaixo do esperado, a equipe foi capaz de entregar a maioria das <i>issues</i>, e as que não foram entregues foram resultado de dificuldades técnicas, principalmente o EVM.
 </p>
 
 <p align="justify">
+Um novo risco foi mapeado, dado que o critério de pronto mudou, e os testes no <i>front-end</i> ainda são motivo de dificuldades constantes dentro da equipe de desenvolvimento, muito se deve por conta da complexidade superior aos testes no <i>back-end</i>.
 </p>
 
 <p align="justify">
+A equipe continua harmoniosa, as <i>dailies</i> têm bons níveis de participação, e as <i>issues</i> continuam sendo entregues com qualidade, mesmo com o cansaço de meio de semestre. 
+</p>
+
+<p align="justify">
+O empenho de MDS e EPS em entregar o melhor produto possível e também absorver o maior nível de conhecimento possível fica explícito, onde os papeis estão bem articulados, e erros vindos de <i>sprints</i> anteriores são constantemente trabalhados, a fim de atingir níveis cada vez maiores de produtividade saudável. 
 </p>
