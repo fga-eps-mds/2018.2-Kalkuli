@@ -57,7 +57,6 @@ const siteConfig = {
   Clarissa: 'img/members/Clarissa.jpg',
   Esio: 'img/members/Esio.jpg',
   Felipe: 'img/members/Felipe.jpeg',
-  Jaco: 'img/members/Jaco.jpeg',
   Lucas: 'img/members/Lucas.jpeg',
   Mariana: 'img/members/Mariana.jpeg',
   Pedro: 'img/members/Pedro.jpeg',
@@ -68,7 +67,6 @@ const siteConfig = {
   ClarissaGithub: 'https://github.com/clarissalimab',
   EsioGithub: 'https://github.com/EsioFreitas',
   FelipeGithub: 'https://github.com/Hargre',
-  JacoGithub: 'https://github.com/Jacoapolinario',
   LucasGithub: 'https://github.com/lucasdutraf',
   MarianaGithub: 'https://github.com/MarianaPicolo',
   PedroGithub: 'https://github.com/Phe0',
@@ -76,8 +74,8 @@ const siteConfig = {
   YoussefGithub: 'https://github.com/youssef-md',
 
   members: [
-    "@bernardohrl", "@clarissalimab", "@EsioFreitas", "@Hargre",
-    "@Jacoapolinario", "@lucasdutraf", "@MarianaPicolo", "@Phe0", "@devsalula", "@youssef-md"
+    "@bernardohrl", "@clarissalimab", "@EsioFreitas", "@Hargre", "@lucasdutraf", 
+    "@MarianaPicolo", "@Phe0", "@devsalula", "@youssef-md"
   ],
 
   /* Colors for website */
