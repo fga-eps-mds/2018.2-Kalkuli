@@ -105,10 +105,10 @@ A <a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/defpronto#release-i
 ### Registros de Presença nas _Dailies_    
 
 <p align="justify">
-<i>Dailies</i> de segunda e sexta feira são feitas por <i>hangouts</i>, às 21h30.
-</p>
-<p align="justify">
-<i>Dailies</i> de quarta-feira são feitas por <i>telegram</i>, às 12h.
+<ul>
+<li><i>Dailies</i> de segunda e sexta feira são realizadas por <i>hangouts</i>, às 21h30 e 20h, respectivamente.</li>
+<li><i>Dailies</i> de quarta-feira são realizadas por <i>telegram</i>, às 12h.</li>
+<li><i>Dailies</i> de terça e quinta feira são realizadas presencialmente, às 15h50.</li>
 </p>
 
 | Nome    |Segunda Feira      | Terça Feira      | Quarta Feira     | Quinta Feira      | Sexta Feira      |     
