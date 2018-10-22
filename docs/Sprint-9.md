@@ -54,7 +54,7 @@ Como dívidas vindas da <i>sprint</i> anterior, as <i>issues</i> de <a href="htt
 
 <div style="text-align: center"> Total de pontos da <i>sprint</i>: 79 </div> <br>
 
-> [_Sprint_ _Backlog_](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/9)  
+> [_Sprint_ _Backlog_](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/10)  
 
 
 ## Papeis   
