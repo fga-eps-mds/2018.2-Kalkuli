@@ -59,13 +59,80 @@ Para a próxima <i>sprint</i>, o risco de "falta de tempo" aumenta, visto que as
 
 [![S7](assets/BurndowndeRiscos-S8.png "Clique para ver em detalhes")](https://docs.google.com/spreadsheets/d/1PYjMMXbWRgKwY5oZH5ekg4VbqTYYfdJImHmxCLH62xI/edit#gid=0) 
 
-## Indicadores de Qualidade do Código
+## Indicadores de Qualidade do Código   
+<p align="justify">
+Dos sete serviços planejados para o <i>software</i>, apenas dois foram trabalhados durante a <i>sprint</i>: <a href="https://github.com/Kalkuli/2018.2-Kalkuli_Receipts" title="Serviço de Apresentação de Notas">notas</a> e <a href="https://github.com/Kalkuli/2018.2-Kalkuli_Reports" title="Serviço de Geração de Relatórios">relatórios</a>.
+</p>
+<p align="justify">
+<a href="https://github.com/Kalkuli/2018.2-Kalkuli_Gateway" title="API Gateway para o Kalkuli"><i>Gateway</i></a> e <a href="https://github.com/Kalkuli/2018.2-Kalkuli_Front-End" title="Front-end"><i>front-end</i></a> também sofreram alterações durante a <i>sprint</i>.
+</p>  
 
-### Cobertura de Testes
+### Cobertura, Manutenibilidade e Duplicação   
+<p align="justify">
+Análises fornecidas pelo <i>Code Climate</i>.
+</p>  
 
-### Duplicação
+<table>
+  <tr align="center">
+    <th>Serviço</th>
+    <th><i>Status</i></th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Extraction" title="Serviço de Extração de Texto de Notas Fiscais">Extração de texto</a></td>
+    <td>
+      Testes não implementados.
+    </td>
+  </tr>
+  <tr>
+    <tr>
+    <td><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Gateway" title="Camada de comunicação entre os microsserviços e o Front-End do sistema"><i>Gateway</i></a></td>
+    <td>
+      Testes não implementados.
+    </td>
+  </tr>
+    <tr>
+    <td><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Tags" title="Serviço de Tageamento de Notas">Tags</a></td>
+    <td>
+    Serviço ainda não implementado.
+    </td>
+  </tr>
+      <tr>
+    <td><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Users" title="Serviço de Gerenciamento de Usuários">Usuários</a></td>
+    <td>
+    Serviço ainda não implementado.
+    </td>
+  </tr>
+    <tr>
+    <td><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Export" title="Serviço de Exportação de Relatórios">Exportação</a></td>
+    <td>
+    Serviço ainda não implementado.
+    </td>
+  </tr>
+    <tr>
+    <td><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Reports" title="Serviço de Geração de Relatórios">Relatórios</a></td>
+    <td>
+    <a href="https://codeclimate.com/github/Kalkuli/2018.2-Kalkuli_Reports"><img src="assets/code/reports-s8.png" alt="HTML tutorial"></a>
+    </td>
+  </tr>
+    <tr>
+    <td><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Interpretation" title="Serviço de Interpretação de Dados de Notas Fiscais">Interpretação</a></td>
+    <td>
+    <a href="https://codeclimate.com/github/Kalkuli/2018.2-Kalkuli_Interpretation"><img src="assets/code/interpretation-s8.png" alt="HTML tutorial"></a>
+    </td>
+  </tr>
+    <tr>
+    <td><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Receipts" title="Serviço de Apresentação de Notas">Notas</a></td>
+    <td>
+    <a href="https://codeclimate.com/github/Kalkuli/2018.2-Kalkuli_Receipts"><img src="assets/code/receipts-s8.png" alt="HTML tutorial"></a>
+    </td>
+  </tr>
+    <td><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Front-End" title="Interface de comunicação com o usuário"><i>Front-end</i></a></td>
+    <td>
+      <a href="https://codeclimate.com/github/Kalkuli/2018.2-Kalkuli_Front-End"><img src="assets/code/front-end-s8.png" alt="HTML tutorial"></a>
+    </td>
+  </tr>
+</table>
 
-### Manutenibilidade
 
 ## Retrospectiva
 <p align="justify">
@@ -144,7 +211,11 @@ O quadro de conhecimento foi atualizado com as responsabilidades de EPS, visto q
 ## Avaliação do _Scrum Master_  
 
 <p align="justify">
-Aos poucos, a equipe recupera os ânimos pré <i>release</i>. As entregas continuam seguindo o alto nível estabelecido pela equipe desde o começo do projeto, ainda que a incidência de dívidas esteja alta. As <i>issues</i> que são dívida, em sua maioria, são atribuições de EPS, que enfrenta dificuldades em lidar com tecnologias/artefatos que nunca tiveram contato, e não consegue concluí-las em tempo hábil.
+Aos poucos, a equipe recupera os ânimos pré <i>release</i>. As entregas continuam seguindo o alto nível estabelecido pela equipe desde o começo do projeto, ainda que a incidência de dívidas esteja alta. 
+</p>
+
+<p align="justify">
+As <i>issues</i> que são dívida, em sua maioria, são atribuições de EPS, que enfrenta dificuldades em lidar com tecnologias/artefatos que nunca tiveram contato, e não consegue concluí-las em tempo hábil.
 </p>
 
 <p align="justify">
