@@ -99,7 +99,7 @@ Conhecimento nas tecnologias aumenta, dado o contato constante da equipe de dese
 
 <p align="justify">
 <ul>
-<li><i>Dailies</i> de segunda e sexta feira são realizadas por <i>hangouts</i>, às 21h30.</li>
+<li><i>Dailies</i> de segunda e sexta feira são realizadas por <i>hangouts</i>, às 21h30 e 20h, respectivamente.</li>
 <li><i>Dailies</i> de quarta-feira são realizadas por <i>telegram</i>, às 12h.</li>
 <li><i>Dailies</i> de terça e quinta feira são realizadas presencialmente, às 15h50.</li>
 </p>
