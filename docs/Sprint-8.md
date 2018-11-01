@@ -23,7 +23,7 @@ Como dívidas vindas da <i>sprint</i> anterior, as <i>issues</i> de <a href="htt
 
 ## Pareamentos   
  
-![Pareamento S8](assets/quadro-de-pareamento-s8.png "Pareamentos Sprint 8")
+![Pareamento S8](assets/quadro-de-pareamento-s8.jpg "Pareamentos Sprint 8")
 
 - Youssef, Esio e Lucas Dutra | [US12 - Excluir Nota do Sistema](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/154)  
 - Youssef, Esio e Lucas Dutra | [US35 - Inserir Descrição e Título na Nota](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/151)    

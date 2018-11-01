@@ -4,108 +4,62 @@
     "next": "Next",
     "previous": "Previous",
     "tagline": "de notas para dados",
-    "docs": {
-      "canvas": {
-        "title": "Canvas do Projeto"
-      },
-      "comunicacao": {
-        "title": "Gerenciamento de Comunicações"
-      },
-      "contributing": {
-        "title": "Guia de Contribuição"
-      },
-      "defpronto": {
-        "title": "Definição de Pronto"
-      },
-      "docArquitetura": {
-        "title": "Documento de Arquitetura"
-      },
-      "docVisao": {
-        "title": "Documento de Visão"
-      },
-      "eapkalkuli": {
-        "title": "Estrutura Analítica do Projeto"
-      },
-      "idVisual": {
-        "title": "Identidade Visual e Protótipo de Alta Fidelidade"
-      },
-      "mav": {
-        "title": "Matriz de Avaliação de Valor"
-      },
-      "medicao": {
-        "title": "Métricas e Indicadores"
-      },
-      "overview": {
-        "title": "Overview do Projeto"
-      },
-      "roadmap": {
-        "title": "Roadmap do Produto"
-      },
-      "rsprint0": {
-        "title": "Resultados Sprint 0"
-      },
-      "rsprint1": {
-        "title": "Resultados Sprint 1"
-      },
-      "psprint1": {
-        "title": "Planejamento Sprint 1"
-      },
-      "rsprint2": {
-        "title": "Resultados Sprint 2"
-      },
-      "psprint2": {
-        "title": "Planejamento Sprint 2"
-      },
-      "rsprint3": {
-        "title": "Resultados Sprint 3"
-      },
-      "psprint3": {
-        "title": "Planejamento Sprint 3"
-      },
-      "rsprint4": {
-        "title": "Resultados Sprint 4"
-      },
-      "psprint4": {
-        "title": "Planejamento Sprint 4"
-      },
-      "rsprint5": {
-        "title": "Resultados Sprint 5"
-      },
-      "psprint5": {
-        "title": "Planejamento Sprint 5"
-      },
-      "psprint6": {
-        "title": "Planejamento Sprint 6"
-      },
-      "psprint0": {
-        "title": "Planejamento Sprint 0"
-      },
-      "tap": {
-        "title": "Termo de Abertura do Projeto"
-      },
-      "backlog": {
-        "title": "Backlog do Produto"
-      }
-    },
-    "links": {
-      "Produto": "Produto",
-      "Projeto": "Projeto",
-      "Release I": "Release I"
-    },
-    "categories": {
-      "Visão de Produto": "Visão de Produto",
-      "Engenharia de Requisitos": "Engenharia de Requisitos",
-      "Escopo do Projeto": "Escopo do Projeto",
-      "Gerenciamento do Projeto": "Gerenciamento do Projeto",
-      "Arquitetura": "Arquitetura",
-      "Sprint 0": "Sprint 0",
-      "Sprint 1": "Sprint 1",
-      "Sprint 2": "Sprint 2",
-      "Sprint 3": "Sprint 3",
-      "Sprint 4": "Sprint 4",
-      "Sprint 5": "Sprint 5",
-      "Sprint 6": "Sprint 6"
-    }
+    "canvas": "Canvas do Projeto",
+    "comunicacao": "Gerenciamento de Comunicações",
+    "contributing": "Guia de Contribuição",
+    "defpronto": "Definição de Pronto",
+    "deploy": "Guia de Deploy",
+    "docArquitetura": "Documento de Arquitetura",
+    "docVisao": "Documento de Visão",
+    "eapkalkuli": "Estrutura Analítica do Projeto",
+    "idVisual": "Identidade Visual e Protótipo de Alta Fidelidade",
+    "mav": "Matriz de Avaliação de Valor",
+    "medicao": "Métricas e Indicadores",
+    "modeloMaturidadeDevops": "Modelo de Maturidade DevOps",
+    "overview": "Overview do Projeto",
+    "release": "Apresentação Release I",
+    "elicitacao": "Questionário sobre controle de gastos",
+    "roadmap": "Roadmap do Produto",
+    "rsprint0": "Resultados Sprint 0",
+    "rsprint1": "Resultados Sprint 1",
+    "psprint1": "Planejamento Sprint 1",
+    "rsprint2": "Resultados Sprint 2",
+    "psprint2": "Planejamento Sprint 2",
+    "rsprint3": "Resultados Sprint 3",
+    "psprint3": "Planejamento Sprint 3",
+    "rsprint4": "Resultados Sprint 4",
+    "psprint4": "Planejamento Sprint 4",
+    "rsprint5": "Resultados Sprint 5",
+    "psprint5": "Planejamento Sprint 5",
+    "rsprint6": "Resultados Sprint 6",
+    "psprint6": "Planejamento Sprint 6",
+    "rsprint7": "Resultados Sprint 7",
+    "psprint7": "Planejamento Sprint 7",
+    "rsprint8": "Resultados Sprint 8",
+    "psprint8": "Planejamento Sprint 8",
+    "psprint9": "Planejamento Sprint 9",
+    "psprint0": "Planejamento Sprint 0",
+    "tap": "Termo de Abertura do Projeto",
+    "backlog": "Backlog do Produto",
+    "Produto": "Produto",
+    "Projeto": "Projeto",
+    "Release I": "Release I",
+    "Release II": "Release II",
+    "Visão de Produto": "Visão de Produto",
+    "Engenharia de Requisitos": "Engenharia de Requisitos",
+    "Escopo do Projeto": "Escopo do Projeto",
+    "Gerenciamento do Projeto": "Gerenciamento do Projeto",
+    "Arquitetura": "Arquitetura",
+    "Sprint 0": "Sprint 0",
+    "Sprint 1": "Sprint 1",
+    "Sprint 2": "Sprint 2",
+    "Sprint 3": "Sprint 3",
+    "Sprint 4": "Sprint 4",
+    "Sprint 5": "Sprint 5",
+    "Sprint 6": "Sprint 6",
+    "Sprint 7": "Sprint 7",
+    "Sprint 8": "Sprint 8",
+    "Sprint 9": "Sprint 9"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",
