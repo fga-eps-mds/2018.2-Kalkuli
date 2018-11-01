@@ -18,13 +18,13 @@ title: Resultados Sprint 8
 |[US35 - Inserir Descrição e Título na Nota](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/151) | Concluída |  8 |  
 |[US24 - Visualizar um Relatório em Detalhes](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/153) | Concluída |  8 |  
 |[_Spike_: Estudar _Serverless_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/157) | Concluída |  13 | 
-|[Migrar _Deploy_ do Serviço _Extraction_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/155) |Não Concluída |  13 |  
+|[Spike: Migrar _Deploy_ do Serviço _Extraction_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/155) |Concluída |  13 |  
 |[Fazer o Plano de Projeto](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/156) |Não Concluída |  13 |   
 |[US33 - Gerar Relatório por Período Definido](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/126) | Concluída | 13 |
 |[Criar o EVM](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/124) |Não Concluída | 8 |  
 
 
-Pontos Planejados Concluídos: 34    
+Pontos Planejados Concluídos: 47    
 Pontos de Dívida Concluídos: 13   
 Pontos Não Agregados: 34  
 
