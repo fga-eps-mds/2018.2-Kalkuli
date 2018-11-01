@@ -1,0 +1,160 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Modelo de Maturidade DevOps · Kalkuli</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Introdução"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Modelo de Maturidade DevOps · Kalkuli"/><meta property="og:type" content="website"/><meta property="og:url" content="https://fga-eps-mds.github.io/2018.2-Kalkuli/index.html"/><meta property="og:description" content="## Introdução"/><meta property="og:image" content="https://fga-eps-mds.github.io/2018.2-Kalkuli/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://fga-eps-mds.github.io/2018.2-Kalkuli/img/docusaurus.png"/><link rel="shortcut icon" href="/2018.2-Kalkuli/img/knowledge.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/rainbow.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/2018.2-Kalkuli/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/2018.2-Kalkuli/"><h2 class="headerTitle">Kalkuli</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/2018.2-Kalkuli/docs/tap" target="_self">Produto</a></li><li class="siteNavGroupActive"><a href="/2018.2-Kalkuli/docs/overview" target="_self">Projeto</a></li><li class=""><a href="/2018.2-Kalkuli/docs/release" target="_self">Release I</a></li><li class=""><a href="/2018.2-Kalkuli/docs/psprint7" target="_self">Release II</a></li><li class=""><a target="_self"></a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Gerenciamento do Projeto</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Gerenciamento do Projeto</h3><ul><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/overview">Overview do Projeto</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/comunicacao">Gerenciamento de Comunicações</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/contributing">Guia de Contribuição</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/defpronto">Definição de Pronto</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/deploy">Guia de Deploy</a></li><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/medicao">Métricas e Indicadores</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/2018.2-Kalkuli/docs/modeloMaturidadeDevops">Modelo de Maturidade DevOps</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Arquitetura</h3><ul><li class="navListItem"><a class="navItem" href="/2018.2-Kalkuli/docs/docArquitetura">Documento de Arquitetura</a></li></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docMainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Modelo de Maturidade DevOps</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="introducão"></a><a href="#introducão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Introdução</h2>
+<p align="justify">
+Puppet é uma empresa de TI voltada para a área de de infraestrutura de softwares. Possui como principal produto o Puppet Enterprise, software que lida com o ciclo de vida de infra. 
+</p>
+<p align="justify">
+Também é responsável por realizar, anualmente, a maior pesquisa na áreas de DevOps do planeta. Em 2018 a pesquisa foi voltada para mapear os estágios de maturidade de empresas na área de DevOps, levantando práticas e atividades que devem ser realizadas para que um projeto atinja tal nível de maturidade.
+</p>
+<p align="justify">
+Abaixo podemos observar o Modelo de Maturidade e as práticas relacionadas a cada uma das etapas. Note que as práticas em negrito são definidoras, ou seja, obrigatórias para um projeto se encontre neste nível de maturidade:
+</p>
+<p><img src="/2018.2-Kalkuli/docs/assets/modeloMaturidadeDevOps.png" alt="S3" title="Modelo de Maturidade DevOps"></p>
+<p><br></p>
+<h2><a class="anchor" aria-hidden="true" id="estagio-0-construa-a-fundacão"></a><a href="#estagio-0-construa-a-fundacão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estágio 0: Construa a Fundação</h2>
+<p align="justify">
+Os times integrantes do projeto (Desenvolvimento, DevOps, Testes e etc) estão começando a entender a importância da colaboração e padronização. Assim, são utilizadas tecnologias e processos que ajudem a compartilhar ideias, métricas e conhecimento.
+</p>
+<h3><a class="anchor" aria-hidden="true" id="praticas-definidoras"></a><a href="#praticas-definidoras" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práticas Definidoras</h3>
+<ul>
+<li>Neste estágio inicial não há praticas definidoras, apenas associadas.</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="praticas-associadas"></a><a href="#praticas-associadas" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práticas Associadas</h3>
+<ul>
+<li><p>[ ] <strong>Monitoramento e alerta são configuráveis pela equipe que opera o serviço.</strong> Atualmente os sistemas de monitoramente e alerta não são configuráveis, sendo pré-definidos de acordo com as limitações do Heroku, plataforma que disponibiliza o ambiente de produção.</p></li>
+<li><p>[X] <strong>Reutilizar padrões de implantação para aplicações ou serviços de construção.</strong> Nesta fase os deploys, mesmo sendo realizadas em formas, plataformas e SOs diferentes, devem serguir padrões semelhantes. A implantação é padronizada de acordo com o <a href="/2018.2-Kalkuli/docs/deploy">Guia de Deploy</a>.</p></li>
+<li><p>[ ] <strong>Reutilizar padrões de teste para construção aplicações ou serviços.</strong> O time desenvolvimento procura utilizar testes realizado como base para a criação de novos testes, porém não existe um padrão definido.</p></li>
+<li><p>[X] <strong>Equipes contribuem com melhorias para ferramentas fornecidas por outras equipes.</strong> Não há equipes diferentes para que esta prática seja corretamente aplicada. Porém extendendo este conceito para pareamento, há contribuição de diferentes duplas para a mesma ferramenta.</p></li>
+<li><p>[X] <strong>Configurações são gerenciadas por ferramentas de gerenciamento de configuração.</strong> Docker é utilizado com este intuito.</p></li>
+</ul>
+<p><br></p>
+<h2><a class="anchor" aria-hidden="true" id="estagio-1-simplifique-a-pilha-de-tecnologia"></a><a href="#estagio-1-simplifique-a-pilha-de-tecnologia" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estágio 1: Simplifique a Pilha de Tecnologia</h2>
+<p align="justify">
+Neste nível os desenvolvedores já adotaram controle de versionamento e começaram a enxugar os seus sistemas para reduzir sua complexidade. Utilizar uma gama tecnologias diferentes para o mesmo objetivo demanda muito esforço, desacelerado os avanços do negócio, então nesta fase um padrão de tecnologias a serem utilizadas deve ser definido.
+</p>
+<h3><a class="anchor" aria-hidden="true" id="praticas-definidoras-1"></a><a href="#praticas-definidoras-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práticas Definidoras</h3>
+<ul>
+<li><p>[X] <strong>As equipes de desenvolvimento de aplicativos usam o controle de versão.</strong> Git e Github são utilizados com este intuito.</p></li>
+<li><p>[X] <strong>Deploy realizado em um conjunto de sistemas operacionais padrão.</strong> Não houve necessidade de realizar a implação em um conjunto de SOs diferentes, sendo realizado apenas em um, no Linux.</p></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="praticas-associadas-1"></a><a href="#praticas-associadas-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práticas Associadas</h3>
+<ul>
+<li>Não há práticas associadas.</li>
+</ul>
+<p><br></p>
+<h2><a class="anchor" aria-hidden="true" id="estagio-2-padrozinar-e-reduzir-variaveis"></a><a href="#estagio-2-padrozinar-e-reduzir-variaveis" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estágio 2: Padrozinar e Reduzir Variáveis</h2>
+<p align="justify">
+Ao final do primeiro estágio, as empresas já começaram a definir tecnologias padrões para serem utilizadas. Agora devemos pensar: Todos os serviços utilizam a mesma arquitetura? Todos utilizam a mesma fila de mensagem? Os mesmo componentes? Todos utilizam o mesmo sistema operacional?
+</p>
+<p align="justify">
+Uma vez que os padrões e componentes estão padrozinados, não haverá gasto de tempo reaprendendo como diferentes serviços operam, falham, se recuperam ou evoluem.
+</p>
+<h3><a class="anchor" aria-hidden="true" id="praticas-definidoras-2"></a><a href="#praticas-definidoras-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práticas Definidoras</h3>
+<ul>
+<li><p>[X] <strong>Construa em um conjunto padrão de tecnologia.</strong> No projeto todos microsserviços e o gateway são construídos utilizando Flask e o front utilizando ReactJs.</p></li>
+<li><p>[X] <strong>Deploy realizado em apenas um de sistema operacional padrão.</strong> O SO padrão é o Linux.</p></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="praticas-associadas-2"></a><a href="#praticas-associadas-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práticas Associadas</h3>
+<ul>
+<li>Não há práticas associadas.</li>
+</ul>
+<p><br></p>
+<h2><a class="anchor" aria-hidden="true" id="estagio-3-expandidon-praticas-devops"></a><a href="#estagio-3-expandidon-praticas-devops" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estágio 3: Expandidon Práticas DevOps</h2>
+<p align="justify">
+Com a base pronta, times de sucesso reutilizam padrões de deploy e mudanças de de infraestrutura são testadas antes de serem aplicadas em produção. Essas práticas trazem confiança e presivibilidade para o sistema.  
+</p>
+<h3><a class="anchor" aria-hidden="true" id="praticas-definidoras-3"></a><a href="#praticas-definidoras-3" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práticas Definidoras</h3>
+<ul>
+<li><p>[X] <strong>Indivíduos podem trabalhar sem aprovação manual fora da equipe.</strong> Como apresentado no <a href="/2018.2-Kalkuli/docs/contributing">Guia de Contribuição</a>, o processo demanda aprovação interna, não externa.</p></li>
+<li><p>[X] <strong>Padrões de implantação para criação de aplicativos e serviços são reutilizados.</strong> O deploy de diferentes microsserviços é realizado seguindo exatamente os mesmos passos, como pode ser visto no <a href="/2018.2-Kalkuli/docs/deploy">Guia de Deploy</a>.</p></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="praticas-associadas-3"></a><a href="#praticas-associadas-3" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práticas Associadas</h3>
+<ul>
+<li>[ ] <strong>As alterações de infraestrutura são testadas antes de serem implementadas na produção.</strong> Seria necessário um ambiente de homologação, o qual não foi implementado ainda.</li>
+</ul>
+<p><br></p>
+<h2><a class="anchor" aria-hidden="true" id="estagio-4-entrega-de-infraestrutura-automatizada"></a><a href="#estagio-4-entrega-de-infraestrutura-automatizada" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estágio 4: Entrega de Infraestrutura Automatizada</h2>
+<p align="justify">
+Este estágio é marcado por sistemas de configurações e provisão atomáticos. Estes dois passos são de suma importancia para possibilitar a reprodução de um sistema semelhante ao de produção para desenvolvedores e analistas de qualidade.  
+</p>
+<h3><a class="anchor" aria-hidden="true" id="praticas-definidoras-4"></a><a href="#praticas-definidoras-4" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práticas Definidoras</h3>
+<ul>
+<li><p>[X] <strong>Automatize as configurações do sistema.</strong> Atualmente os serviços possuem um sistema de configuração que dependendo do ambiente que se encontra (desenvolvimento ou produção). Dessa forma os serviços ajustam atributos do sistema automaticamente.</p></li>
+<li><p>[ ] <strong>Provisionamento Automatizado.</strong> Ainda não há nenhum tipo de provisionamento automático. Uma opção pode ser a população automática dos bancos no deploy.</p></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="praticas-associadas-4"></a><a href="#praticas-associadas-4" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práticas Associadas</h3>
+<ul>
+<li><p>[ ] <strong>Configurações da aplicação possuem controle de versionamento.</strong> Não, atualmente o projeto não possui configurações versionaveis ou auditaveis.</p></li>
+<li><p>[X] <strong>Times de Infraestrutura utilizam controle de versionamento.</strong> Não só a infra como os artefatos possuem controle de versionamento. O controle é feito de forma bem rudimentar, utilizando o git.</p></li>
+</ul>
+<p><br></p>
+<h2><a class="anchor" aria-hidden="true" id="estagio-5-prover-recursos-self-service"></a><a href="#estagio-5-prover-recursos-self-service" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estágio 5: Prover Recursos Self-Service</h2>
+<p align="justify">
+Recursos self-service são facilitadores que permitem as pessoas de sua organização trabalharem sem dependerem de outras (para que configurações necessárias sejam feitas, chaves de licença sejam obtidas, entre outros).  
+</p>
+<h3><a class="anchor" aria-hidden="true" id="praticas-definidora"></a><a href="#praticas-definidora" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práticas Definidora</h3>
+<ul>
+<li>[ ] <strong>Respostas a incidentes são automatizadas.</strong> Mais conhecido como Engenharia do Caos, é forçar erros acontecerem para criar maneiras automatizadas de mitigá-las. Não ocorre ainda.</li>
+</ul>
+<ul>
+<li>[ ] <strong>Prover Recursos Self-Service.</strong> Não implementado.</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="praticas-associadas-5"></a><a href="#praticas-associadas-5" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Práticas Associadas</h3>
+<ul>
+<li><p>[X] <strong>Rearquiteturar aplicações baseadas nas necessidades de negócios.</strong> A arquitetura é readequada de acordo com o surgimento de novas necessidades, vide issue 177.</p></li>
+<li><p>[X] <strong>Times de segurança estão envolvidos nos processos desenvolvimento e entrega.</strong> Não há times especializados em segurança, sendo assim os responsáveis já fazem parte do time de desenvolvimento.</p></li>
+</ul>
+<p><br></p>
+<h2><a class="anchor" aria-hidden="true" id="maturidade-kalkuli"></a><a href="#maturidade-kalkuli" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Maturidade Kalkuli</h2>
+<p align="justify">
+Atualmente o projeto se encontra no <b>3º Estágio</b> de maturidade DevOps. Se avaliarmos as práticas associadas, nem todas são cumpridas até este nível de maturidade, porém todas as práticas definidoras são. 
+</p>
+<p align="justify">
+Uma previsão realista, considerando o tempo e escopo do projeto, é que este alcance no máximo o <b>4º Estágio</b> de maturidade. Para alcançar este objetivo, foram levantadas algumas atividades referentes às práticas devem ser realizadas:
+</p>
+<ul>
+<li><p>Criação do Ambiente de Homologação. Este garante maior qualidade e confiabilidade ao software, além de disponibilizar um ambiente estável para testes.</p></li>
+<li><p>Prover dados, de forma automática, aos bancos dos serviços de Receipts e Users no ambiente de homologação. Desta forma estes ambientes poderão ser testados mais facilmente.</p></li>
+</ul>
+<p align="justify">
+Outras atividades que poderiam ser realizadas são:
+</p>
+<ul>
+<li><p>Documento para padronização de testes.</p></li>
+<li><p>Implantar sistema de monitoramento e alerta configuráveis pela equipe.</p></li>
+<li><p>Utilização do Rancher para controle de versionamento da infraestrutura do projeto.</p></li>
+<li><p>Aplicar Engenharia do Caos, utilizando ferramentas que gerem falhas no sistemas.</p></li>
+<li><p>Criar mecanismos para mitigar, de forma automatizada, falhas apresentadas por tais ferramentas.</p></li>
+</ul>
+<p><br><br></p>
+<h2><a class="anchor" aria-hidden="true" id="referencias"></a><a href="#referencias" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Referências</h2>
+<blockquote>
+<p>Puppet. State of DevOps Report 2018. Disponível em: <a href="https://puppet.com/resources/whitepaper/state-of-devops-report"><a href="https://puppet.com/resources/whitepaper/state-of-devops-report">https://puppet.com/resources/whitepaper/state-of-devops-report</a></a>. Acesso em: 29 de outubro de 2018.</p>
+</blockquote>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/2018.2-Kalkuli/docs/medicao"><span class="arrow-prev">← </span><span>Previous</span></a><a class="docs-next button" href="/2018.2-Kalkuli/docs/docArquitetura"><span>Next</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav docOnPageNav"><ul class="toc-headings"><li><a href="#introducão">Introdução</a></li><li><a href="#estagio-0-construa-a-fundacão">Estágio 0: Construa a Fundação</a><ul class="toc-headings"><li><a href="#praticas-definidoras">Práticas Definidoras</a></li><li><a href="#praticas-associadas">Práticas Associadas</a></li></ul></li><li><a href="#estagio-1-simplifique-a-pilha-de-tecnologia">Estágio 1: Simplifique a Pilha de Tecnologia</a><ul class="toc-headings"><li><a href="#praticas-definidoras-1">Práticas Definidoras</a></li><li><a href="#praticas-associadas-1">Práticas Associadas</a></li></ul></li><li><a href="#estagio-2-padrozinar-e-reduzir-variaveis">Estágio 2: Padrozinar e Reduzir Variáveis</a><ul class="toc-headings"><li><a href="#praticas-definidoras-2">Práticas Definidoras</a></li><li><a href="#praticas-associadas-2">Práticas Associadas</a></li></ul></li><li><a href="#estagio-3-expandidon-praticas-devops">Estágio 3: Expandidon Práticas DevOps</a><ul class="toc-headings"><li><a href="#praticas-definidoras-3">Práticas Definidoras</a></li><li><a href="#praticas-associadas-3">Práticas Associadas</a></li></ul></li><li><a href="#estagio-4-entrega-de-infraestrutura-automatizada">Estágio 4: Entrega de Infraestrutura Automatizada</a><ul class="toc-headings"><li><a href="#praticas-definidoras-4">Práticas Definidoras</a></li><li><a href="#praticas-associadas-4">Práticas Associadas</a></li></ul></li><li><a href="#estagio-5-prover-recursos-self-service">Estágio 5: Prover Recursos Self-Service</a><ul class="toc-headings"><li><a href="#praticas-definidora">Práticas Definidora</a></li><li><a href="#praticas-associadas-5">Práticas Associadas</a></li></ul></li><li><a href="#maturidade-kalkuli">Maturidade Kalkuli</a></li><li><a href="#referencias">Referências</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap footerStyle"><div class="improve-footer"><a href="/2018.2-Kalkuli/"><img class="footer-logo" src="img/kalkui.png" alt="Kalkuli" width="50" height="50"/></a><div><h5>Sobre</h5><a href="#">Universidade de Brasília</a><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli" target="_blank" rel="noreferrer noopener">Grupo 1</a></div><div><h5>Como Contribuir</h5><a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/contributing">GitHub</a><a class="github-button" href="github.com/fga-eps-mds/2018.2-Kalkuli" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></div></section><section class="copyright">Copyright © 2018 Kalkuli</section></footer></div></body></html>
