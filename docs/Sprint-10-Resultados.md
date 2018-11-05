@@ -132,17 +132,21 @@ A equipe de desenvolvimento apresenta leve melhora em algumas das tecnologias ad
 
 ## Avaliação do _Scrum Master_  
 
+
 <p align="justify"> 
+A incidência de dívidas da equipe diminui, e percebe-se leve melhora no <i>velocity</i>, mesmo com a indisponibilidade prevista de três membros da equipe.
 </p>
 
 <p align="justify"> 
+A redução do escopo favorecerá a entrega de um produto de <i>software</i> menor, porém com foco maior em qualidade.
+A equipe de desenvolvimento está constantetemente monitorando as análises fornecidas pelo Code Climate, na tentativa de aumentar a qualidade do código, e as coberturas de testes de todos os serviços, ainda que a maior dificuldade da equipe sejam os testes no <i>front-end</i>.
 </p>
 
 <p align="justify"> 
+Os planejamentos estão cada vez mais assertivos, dado que a equipe encontrou um ritmo de trabalho saudável, e aprendendo com os erros de <i>sprints</i> anteriores a fragmentar cada vez mais as tarefas.
 </p>
 
 <p align="justify"> 
+As <i>dailies</i> tiveram os melhores índices de participação, servindo como buscador e mitigador de riscos. O risco de maior probabilidade ainda é o de dificuldade com testes, dado que a curva de aprendizado com <i>reactJS</i> é maior que <i>python</i>. Entretanto, os quadros de conhecimento refletem melhora principalmente com <i>reactJS</i>. A programação pareada favorece a disseminação do conhecimento dentro da equipe de desenvolvimento, dado que alguns dos integrantes da equipe têm maior domínio da tecnologia.
 </p>  
 
-<p align="justify"> 
-</p>
