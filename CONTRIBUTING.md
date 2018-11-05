@@ -1,4 +1,9 @@
-# Guia de Contribuição
+---
+id: contributing
+title: Guia de Contribuição
+---
+
+***
 
 ## Como contribuir?
 Agradecemos pelo interesse em contribuir com o projeto! Para isso, basta seguir os passos abaixo:
@@ -10,7 +15,14 @@ Agradecemos pelo interesse em contribuir com o projeto! Para isso, basta seguir 
 Simples assim!
 
 ## Política de _branches_
-Segue-se o fluxo de trabalho descrito pelo [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow). Dessa forma, existem as seguintes categorias de _branches_:
+Segue-se o fluxo de trabalho descrito pelo [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow), representado pelo diagrama abaixo:
+
+
+![S1](assets/GitFlow.png "Gitflow")
+
+
+
+Dessa forma, existem as seguintes categorias de _branches_:
 
 ### *_master_*
 _Branch_ de produção, com a versão estável mais atual do projeto. Bloqueada para commits e pushs, pode ser interagida apenas através de _pull requests_ provenientes da [_devel_](#devel), [_hotfix branches_](#hotfix-branches) ou [_release branches_](#release-branches).

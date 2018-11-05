@@ -42,7 +42,7 @@ O <i>burndown</i> indica que as <i>issues</i> foram entregues tardiamente. A equ
 
 ## _Velocity_   
 
-![S1](assets/velocity-S1.png "Burndown Sprint 1")
+![S1](assets/velocity-S1.png "Velocity Sprint 1")
 
 ## Retrospectiva
 <p align="justify">

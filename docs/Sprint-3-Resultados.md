@@ -53,7 +53,7 @@ Após o fechamento do escopo na <i>sprint</i> anterior, foi possível alocar mai
 <p align="justify">
 O <i>velocity</i> aumenta à medida que a equipe ganha maturidade, permitindo o aumento gradual da pontuação total das próximas <i>sprints</i>.</p>   
 
-![S3](assets/velocity-S3.png "Burndown Sprint 3")
+![S3](assets/velocity-S3.png "Velocity Sprint 3")
 
 ## Riscos    
 <p align="justify">
