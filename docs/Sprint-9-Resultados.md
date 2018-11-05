@@ -48,7 +48,7 @@ Praticamente todas as <i>issues</i> planejadas foram entregues, com exceção da
 A queda do <i>velocity</i> se justifica pela <i>sprint</i> incomum, isso é, a equipe teve diversas de provas de outras matérias. No entanto, ele ainda se manteve em volta da capacidade de entrega, em 40 pontos por <i>sprint</i>. 
 </p>   
 
-![S9](assets/velocity-S9.png "Burndown Sprint 9")
+![S9](assets/velocity-S9.png "Velocity Sprint 9")
 
 ## Riscos    
 <p align="justify">

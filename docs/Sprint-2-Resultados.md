@@ -55,7 +55,7 @@ A equipe novamente entrega as <i>issues</i> no final da <i>sprint</i>. Com a oco
 O <i>velocity</i> da equipe aumentou consideravelmente graças ao fechamento de escopo. Foi possível liquidar as dívidas vindas da <i>sprint</i> anterior, e também finalizar o planejado, finalmente elicitando requisitos e moldando o produto.
 </p>   
 
-![S2](assets/velocity-S2.png "Burndown Sprint 2")
+![S2](assets/velocity-S2.png "Velocity Sprint 2")
 
 ## Riscos
 

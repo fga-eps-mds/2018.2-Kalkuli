@@ -45,7 +45,7 @@ O <i>velocity</i> apresentou melhora, com a equipe quitando dívidas técnicas, 
 EPS, por sua vez, ainda deixa dívidas técnicas por dificuldade em compreender os encargos relacionados às <i>issues</i>, como por exemplo o cálculo do valor da <i>sprint</i> no EVM, e a criação do plano de implantação, que incialmente foi interpretado como plano de projeto, oriundo do PMBOK.
 </p> 
 
-![S8](assets/velocity-S8.png "Burndown Sprint 8")
+![S8](assets/velocity-S8.png "Velocity Sprint 8")
 
 ## Riscos    
 <p align="justify">

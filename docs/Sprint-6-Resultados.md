@@ -48,7 +48,7 @@ A <i>release</i> ocorreria na quinta-feira (04/10), portanto, esperava-se que as
 O <i>velocity</i> se mantém estável, visto que poucos pontos foram planejados. A pontuação, em sua maioria, contemplava dívidas técnicas, portanto, esperava-se que a pontuação concluída fosse acima da pontuação planejada.
 </p>   
 
-![S6](assets/velocity-S6.png "Burndown Sprint 6")
+![S6](assets/velocity-S6.png "Velocity Sprint 6")
 
 ## Riscos    
 <p align="justify">
