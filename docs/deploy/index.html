@@ -28,7 +28,136 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Guia de Deploy</h1></header><article><div><span><hr>
-<h2><a class="anchor" aria-hidden="true" id="deploy-servicos-local"></a><a href="#deploy-servicos-local" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deploy - Serviços (Local)</h2>
+<h2><a class="anchor" aria-hidden="true" id="introducão"></a><a href="#introducão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Introdução</h2>
+<p>O deploy do projeto é separado em três diferentes frentes, cada uma com suas necessidades especiais:</p>
+<ul>
+<li>Deploy de Microsserviços sem Banco de Dados</li>
+<li>Deploy de Microsserviços com Banco de Dados</li>
+<li>Deploy do Front-End</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="1-microsservicos-sem-bd"></a><a href="#1-microsservicos-sem-bd" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Microsserviços sem BD</h2>
+<p>O deploy dos microsserviços sem BD são realizados no AmazonAWS utilizando o <a href="https://github.com/Miserlou/Zappa">Zappa</a>. O zappa possibilita realizar implatação de aplicações python server-less. Siga os passos abaixo:</p>
+<h3><a class="anchor" aria-hidden="true" id="11-crie-um-virtual-environment"></a><a href="#11-crie-um-virtual-environment" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.1 Crie um Virtual Environment</h3>
+<p>Baixe o virtualenv</p>
+<pre><code class="hljs">sudo apt <span class="hljs-keyword">install</span> virtualenv
+</code></pre>
+<p>Crie um virtualenv, fora do diretório do repositório, com o python 3.6</p>
+<pre><code class="hljs">virtualenv -<span class="hljs-selector-tag">p</span> python3.<span class="hljs-number">6</span> aws
+</code></pre>
+<p>Entre no virtualenv</p>
+<pre><code class="hljs"><span class="hljs-keyword">source</span> aws<span class="hljs-regexp">/bin/</span>activate
+</code></pre>
+<p>Se assegure que a versão do python dentro do virtualenv é 3.6. <small><small> Caso não seja haverá problema de compatibilidade com o zappa. </small></small></p>
+<pre><code class="hljs">$ python --version
+&gt; Python <span class="hljs-number">3.6</span><span class="hljs-number">.5</span>
+</code></pre>
+<p>Adicione a seguinte dependencia ao requirments.txt:</p>
+<pre><code class="hljs">zappa==<span class="hljs-number">0.47</span><span class="hljs-number">.0</span>
+</code></pre>
+<p>Atualize o ambiente com o requirements do projeto</p>
+<pre><code class="hljs">pip install -r requirements<span class="hljs-selector-class">.txt</span>
+</code></pre>
+<p><br></p>
+<p><small><small> Caso nesta etapa você receba o erro <strong>&quot;command 'x86_64-linux-gnu-gcc' failed with exit status 1&quot;</strong> durante a instação, saia do virtualenv e utilize o seguinte comando:  </small></small></p>
+<pre><code class="hljs">sudo apt-<span class="hljs-built_in">get</span> install python3-<span class="hljs-built_in">dev</span>
+</code></pre>
+<p><small> Agora entre novamente no virtualenv, rode o comando anterior e continue.  </small></p>
+<p><br></p>
+<h3><a class="anchor" aria-hidden="true" id="12-novo-deploy"></a><a href="#12-novo-deploy" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.2 Novo Deploy</h3>
+<p>Inicialize o zappa:</p>
+<pre><code class="hljs"><span class="hljs-attribute">zappa init</span>
+</code></pre>
+<p>Coloque o nome do seu ambiente, aqui assumiremos que será implantado o ambiente de produção:</p>
+<pre><code class="hljs"><span class="hljs-attribute">prod</span>
+</code></pre>
+<p>Coloque o nome do seu bucket, no Kalkuli seguimos o padrão: &quot;kalkuli-serviço-ambiente-bucket&quot;, considerando o serviço de exportação, utilizariamos o padrão:</p>
+<pre><code class="hljs"><span class="hljs-symbol">kalkuli</span>-<span class="hljs-meta">export</span>-prod-<span class="hljs-keyword">bucket
+</span></code></pre>
+<p>Coloque o caminho onde se encontra a sua função de inicialização do App:</p>
+<pre><code class="hljs">manage<span class="hljs-selector-class">.app</span>
+</code></pre>
+<p>Depois será perguntado se o deploy precisa ser global, disponível em todos os servidores. No nosso caso, não necessitamos</p>
+<pre><code class="hljs"><span class="hljs-attribute">n</span>
+</code></pre>
+<p>Depois será apresentado uma pré-visualização de um JSON com as configurações. Aceite.</p>
+<pre><code class="hljs"><span class="hljs-attribute">y</span>
+</code></pre>
+<p>Será criado um arquivo zappa_settings.json similar a estes:</p>
+<pre><code class="hljs">{
+    <span class="hljs-attr">"prod"</span>: {
+        <span class="hljs-attr">"app_function"</span>: <span class="hljs-string">"manage.app"</span>,
+        <span class="hljs-attr">"project_name"</span>: <span class="hljs-string">"2018-2-kalkuli-"</span>,
+        <span class="hljs-attr">"runtime"</span>: <span class="hljs-string">"python3.6"</span>,
+        <span class="hljs-attr">"s3_bucket"</span>: <span class="hljs-string">"kalkuli-gateway-prod-bucket"</span>
+    }
+}
+</code></pre>
+<p>Mude o nome do projeto. Não é aceito hifens, o nosso padrão é kalkuliServiço.</p>
+<pre><code class="hljs"><span class="hljs-string">"project_name"</span>: <span class="hljs-string">"kalkuliExport"</span>,
+</code></pre>
+<p>Depois adicione a região onde o deploy será realizado. No nosso caso utilizamos South America 1.</p>
+<pre><code class="hljs"><span class="hljs-string">"aws_region"</span>: <span class="hljs-string">"sa-east-1"</span>
+</code></pre>
+<p>O arquivo deve estar similar ao abaixo:</p>
+<pre><code class="hljs">{
+    <span class="hljs-attr">"prod"</span>: {
+        <span class="hljs-attr">"app_function"</span>: <span class="hljs-string">"manage.app"</span>,
+        <span class="hljs-attr">"project_name"</span>: <span class="hljs-string">"kalkuliExport"</span>,
+        <span class="hljs-attr">"runtime"</span>: <span class="hljs-string">"python3.6"</span>,
+        <span class="hljs-attr">"s3_bucket"</span>: <span class="hljs-string">"kalkuli-export-prod-bucket"</span>,
+        <span class="hljs-attr">"aws_region"</span>: <span class="hljs-string">"sa-east-1"</span>
+    }
+}
+</code></pre>
+<p>Agora é só fazer o deploy!</p>
+<pre><code class="hljs"><span class="hljs-attribute">zappa deploy prod</span>
+</code></pre>
+<p><br></p>
+<h3><a class="anchor" aria-hidden="true" id="13-atualizando-deploy"></a><a href="#13-atualizando-deploy" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.3 Atualizando Deploy</h3>
+<p>Utilize o seguinte comando:</p>
+<pre><code class="hljs"><span class="hljs-attribute">zappa update prod</span>
+</code></pre>
+<p>Lembrando que 'prod' é referente ao ambiente apresentado nos passos anteriores, podendo variar de acordo com a configuração prévia.</p>
+<p><br></p>
+<h3><a class="anchor" aria-hidden="true" id="14-deploy-continuo"></a><a href="#14-deploy-continuo" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.4 Deploy Contínuo</h3>
+<p>Adicione ao .travis.yml indicações para realizar o deploy:</p>
+<pre><code class="hljs">after_success:
+  - chmod +x ./deploy<span class="hljs-selector-class">.sh</span>
+  - ./deploy<span class="hljs-selector-class">.sh</span>
+</code></pre>
+<p>Depois crie um arquivo deploy.sh:</p>
+<pre><code class="hljs"><span class="hljs-meta">#!/bin/bash
+</span>
+<span class="hljs-built_in">set</span> -e
+<span class="hljs-built_in">set</span> -u
+
+
+
+<span class="hljs-keyword">if</span> [ <span class="hljs-variable">$TRAVIS_PULL_REQUEST</span> = <span class="hljs-string">"false"</span> -o <span class="hljs-variable">$TRAVIS_BRANCH</span> = <span class="hljs-string">"develop"</span> ]
+<span class="hljs-keyword">then</span>
+    <span class="hljs-built_in">echo</span> <span class="hljs-string">"Deploy on homologation environment started"</span>
+    pip3 install zappa
+    zappa update hom
+    <span class="hljs-built_in">echo</span> <span class="hljs-string">"Deploy on homologation environment finished"</span>
+    <span class="hljs-built_in">exit</span> 0;
+<span class="hljs-keyword">fi</span>
+
+
+<span class="hljs-keyword">if</span> [ <span class="hljs-variable">$TRAVIS_PULL_REQUEST</span> = <span class="hljs-string">"false"</span> -o <span class="hljs-variable">$TRAVIS_BRANCH</span> = <span class="hljs-string">"master"</span> ]
+<span class="hljs-keyword">then</span>
+    <span class="hljs-built_in">echo</span> <span class="hljs-string">"Deploy on production environment started"</span>
+    pip3 install zappa
+    zappa update prod
+    <span class="hljs-built_in">echo</span> <span class="hljs-string">"Deploy on production environment finished"</span>
+    <span class="hljs-built_in">exit</span> 0;
+<span class="hljs-keyword">fi</span>
+
+
+<span class="hljs-built_in">echo</span> <span class="hljs-string">"Skipping deployment on branch=<span class="hljs-variable">$TRAVIS_BRANCH</span>, PR=<span class="hljs-variable">$TRAVIS_PULL_REQUEST</span>"</span>
+</code></pre>
+<p>Repare que o deploy será feito nos hambientes de produção e homologação caso as atualizações caiam nas branchs master e develop, respectivamente.</p>
+<p><small> Note que se seu GitFlow for diferente, com branch com outros nomes, essas configurações não funcionarão </small></p>
+<!-- ## Deploy - Serviços (Local)
 <ul>
 <li><p>Fazer uma Dockerfile de Produção, trocando o comando de execução para</p>
 <pre><code class="hljs">  CMD gunicorn -b 0.0.0.0:$PORT manage:app
@@ -92,6 +221,6 @@
 <li><p>No .travis.yml, adicionar o script no passo <code>after_success</code>:</p>
 <pre><code class="hljs">  after_success:
       chmod +x ./&lt;nome-do-script&gt;.sh
-      ./&lt;nome-do-script&gt;.sh</code></pre></li>
+      ./&lt;nome-do-script&gt;.sh --&gt;</code></pre></li>
 </ul>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/2018.2-Kalkuli/docs/defpronto"><span class="arrow-prev">← </span><span>Definição de Pronto</span></a><a class="docs-next button" href="/2018.2-Kalkuli/docs/medicao"><span>Métricas e Indicadores</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#deploy-servicos-local">Deploy - Serviços (Local)</a></li><li><a href="#deploy-continuo-travis">Deploy Contínuo (Travis)</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap footerStyle"><div class="improve-footer"><a href="/2018.2-Kalkuli/"><img class="footer-logo" src="img/kalkui.png" alt="Kalkuli" width="50" height="50"/></a><div><h5>Sobre</h5><a href="#">Universidade de Brasília</a><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli" target="_blank" rel="noreferrer noopener">Grupo 1</a></div><div><h5>Como Contribuir</h5><a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/contributing">GitHub</a><a class="github-button" href="github.com/fga-eps-mds/2018.2-Kalkuli" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></div></section><section class="copyright">Copyright © 2018 Kalkuli</section></footer></div></body></html>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/2018.2-Kalkuli/docs/defpronto"><span class="arrow-prev">← </span><span>Definição de Pronto</span></a><a class="docs-next button" href="/2018.2-Kalkuli/docs/medicao"><span>Métricas e Indicadores</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#introducão">Introdução</a></li><li><a href="#1-microsservicos-sem-bd">1. Microsserviços sem BD</a><ul class="toc-headings"><li><a href="#11-crie-um-virtual-environment">1.1 Crie um Virtual Environment</a></li><li><a href="#12-novo-deploy">1.2 Novo Deploy</a></li><li><a href="#13-atualizando-deploy">1.3 Atualizando Deploy</a></li><li><a href="#14-deploy-continuo">1.4 Deploy Contínuo</a></li></ul></li><li><a href="#deploy-continuo-travis">Deploy Contínuo (Travis)</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap footerStyle"><div class="improve-footer"><a href="/2018.2-Kalkuli/"><img class="footer-logo" src="img/kalkui.png" alt="Kalkuli" width="50" height="50"/></a><div><h5>Sobre</h5><a href="#">Universidade de Brasília</a><a href="https://github.com/fga-eps-mds/2018.2-Kalkuli" target="_blank" rel="noreferrer noopener">Grupo 1</a></div><div><h5>Como Contribuir</h5><a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/contributing">GitHub</a><a class="github-button" href="github.com/fga-eps-mds/2018.2-Kalkuli" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></div></section><section class="copyright">Copyright © 2018 Kalkuli</section></footer></div></body></html>
