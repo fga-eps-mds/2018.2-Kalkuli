@@ -196,9 +196,9 @@ Repare que o deploy será feito nos hambientes de produção e homologação cas
 
 
 
-## 3. Front End
+## 2. Front End
 
-### 3.1 Fazendo deploy
+### 2.1 Fazendo deploy
 
 * Acesse a [dashboard do heroku](https://dashboard.heroku.com/apps). Clique em Create New App.
 
@@ -225,7 +225,7 @@ Repare que o deploy será feito nos hambientes de produção e homologação cas
 
 <br>
 
-### 3.2 Deploy Contínuo
+### 2.2 Deploy Contínuo
 
 * Vá novamente ao dashboard e crie uma pipeline.
 
@@ -237,80 +237,41 @@ Repare que o deploy será feito nos hambientes de produção e homologação cas
 
 * Apps em produção devem ser adicionados ao estágio _Production_, e em homologação ao estágio _Staging_.
 
+* Vá em _Deploy_ e configure a seção _Automatic Deploys_
 
-<!-- ## Deploy - Serviços (Local)
 
-* Fazer uma Dockerfile de Produção, trocando o comando de execução para
 
-        CMD	gunicorn -b 0.0.0.0:$PORT manage:app
+## 3. Microsserviços com BD
 
-* Fazer login no Heroku pelo terminal
+### 3.1 Fazendo Deploy
 
-        heroku login
+* Vá no arquivo config.py e acrescente o ambiente desejado, supondo que seja o de produção, segue um exemplo:
 
-* Fazer login no Heroku Container Registry 
+```
+class ProductionConfig(BaseConfig):
+    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
+```
 
-        heroku container:login
+* Crie um Procfile no diretório pricipal da aplicação, que é um arquivo de configuração do heroku.
 
-* Buildar o container a partir da imagem de produção
+```
+web: gunicorn -b 0.0.0.0:$PORT manage:app
+release: python manage.py recreatedb 
+```
 
-        docker build -t <kalkuli-nome-do-serviço> -f Dockerfile.prod .
+* Os ambientes devem ser listados no README, atualize-o.
 
-* Adicionar uma tag para o container em preparação para o Heroku e enviá-lo para o Registry
+* Acesse a Dashboard do Heroku e crie o app.
 
-        docker tag <kalkuli-nome-do-serviço> registry.heroku.com/<nome-do-app-no-heroku>/web
+* Vá em _Settings_ e configure as variaveis de ambiente:
 
-        docker push registry.heroku.com/<nome-do-app-no-heroku>/web
+![S2](assets/deploy/variaveisHeroku.png)
 
-* Usar o container enviado para o deploy do app no heroku
+<small><small>**OBS:** Não configura **DATABASE_URL**, o heroku fará automaticamente.</small></small>
 
-        heroku container:release web
+* Faça deploy da branch desejada.
 
-</br>
-## Deploy Contínuo (Travis)
 
-* Fazer uma Dockerfile de Produção, trocando o comando de execução para
+### 3.2 Deploy Contínuo
 
-        CMD	gunicorn -b 0.0.0.0:$PORT manage:app
-
-* Fazer login no Heroku pelo terminal e obter o token de acesso
-
-        heroku login
-        heroku auth:token
-
-* No site do Heroku, ir para as configurações da conta e pegar a API Key.
-
-* No site do Travis, ir para o repositório desejado e acessar suas configurações. Adicionar nas variáveis de ambiente:
-
-        HEROKU_API_KEY - A API Key retirada nas configurações do heroku.
-
-        HEROKU_TOKEN - O token obtido a partir do terminal.
-
-* Criar um shell script com as configurações de Deploy. De forma geral:
-
-        ```
-        #!/bin/bash
-
-        set -e
-        set -u
-
-        if [ $TRAVIS_PULL_REQUEST != "false" -o $TRAVIS_BRANCH != "master" ]
-        then
-            echo "Skipping deployment on branch=$TRAVIS_BRANCH, PR=$TRAVIS_PULL_REQUEST"
-            exit 0;
-        fi
-
-        docker login -u _ -p "$HEROKU_TOKEN" registry.heroku.com
-
-        docker build -t registry.heroku.com/<nome-do-app-no-heroku>/web -f Dockerfile.prod .
-
-        docker push registry.heroku.com/<nome-do-app-no-heroku>/web
-
-        heroku container:release web -a <nome-do-app-no-heroku>
-        ```
-
-* No .travis.yml, adicionar o script no passo ``` after_success ```:
-
-        after_success:
-            chmod +x ./<nome-do-script>.sh
-            ./<nome-do-script>.sh -->
+* Siga os passos do deploy contínuo no front (seção 2.2).
