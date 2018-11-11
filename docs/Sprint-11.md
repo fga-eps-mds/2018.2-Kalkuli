@@ -41,12 +41,13 @@ Como dívida vinda da <i>sprint</i> anterior, a <i>issue</i> de <a href="https:/
 |[Criar ambiente de homologação: Serviço de Notas](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/189) | 3 |
 |[Criar ambiente de homologação: Serviço de Relatórios](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/190) | 3 |
 |[Criar ambiente de homologação: Serviço de Exportação](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/191) | 2 |
+|[Criar ambiente de homologação: _Front-end_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/196) |3|
 |[Corrigir os Fluxos da Aplicação](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/192) | 13 |
 |[Atualizar o _Backlog_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/193) | 5 |
 |[US15 - Filtrar Notas por Título e Descrição](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/194) | 8 |
 |[US37 - Criar Categorias](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/195) | 8 |
 
-<b>Total de pontos planejados: 57</b>  
+<b>Total de pontos planejados: 60</b>  
 
 ### Dívida    
 
@@ -58,7 +59,7 @@ Como dívida vinda da <i>sprint</i> anterior, a <i>issue</i> de <a href="https:/
 
 ***
 
-<div style="text-align: center"> Total de pontos da <i>sprint</i>: 65 </div> <br>
+<div style="text-align: center"> Total de pontos da <i>sprint</i>: 68 </div> <br>
 
 > [_Sprint Backlog_](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/12)  
 
