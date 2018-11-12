@@ -128,16 +128,13 @@ td {
 ## Avaliação do _Scrum Master_  
 
 <p align="justify"> 
+Reta final do projeto, e a equipe apresenta <i>sprints</i> cada vez melhores, sempre melhorando o número de pontos entregues por <i>sprint</i>, respeitando o nível saudável, ainda que o <i>burndown</i> apresente queimas no meio e no final da <i>sprint</i>.
 </p>
 
 <p align="justify"> 
+Os riscos do mapeados estão praticamente mitigados, mostrando que as práticas ágeis surtiram efeito, dado que a equipe apresenta níveis ótimos de adesão às práticas, resultando em entregas de qualidade.
 </p>
 
 <p align="justify"> 
-</p>
-
-<p align="justify"> 
-</p>  
-
-<p align="justify"> 
+Os níveis de qualidade de código no <i>backend</i> apresentam níveis ótimos na maioria dos serviços. Entretanto, o <i>front-end</i> continua apresentando <a href="https://codeclimate.com/github/Kalkuli/2018.2-Kalkuli_Front-End" title="Code Climate: 2018.2-Kalkuli_Front-End">níveis de qualidade não satisfatórios</a>, originando uma nova <i>issue</i> apenas para que a equipe de desenvolvimento identifique e corrija as falhas no código, e também aumente a qualidade, já que também ficam responsáveis por testar o restante do código.
 </p>
