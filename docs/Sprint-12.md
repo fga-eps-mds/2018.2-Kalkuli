@@ -19,8 +19,8 @@ Como dívida vinda da <i>sprint</i> anterior, as <i>issues</i> de <a href="https
 **Duração:** Sete dias   
 
 ## Pareamentos   
- 
-![Pareamento S12](assets/quadro-de-pareamento-s12.png "Pareamentos Sprint 12")
+
+![Pareamento S12](https://user-images.githubusercontent.com/15739610/48490433-88f7e880-e80c-11e8-8027-79ee6e5521c8.png "Pareamentos Sprint 12") 
 
 - Lucas Dutra e Esio |  [US25 - Apagar Relatório](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/202)  
 - Lucas Dutra e Esio |  [US38 - Editar Nota](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/203) 
@@ -37,13 +37,13 @@ Como dívida vinda da <i>sprint</i> anterior, as <i>issues</i> de <a href="https
 |[US25 - Apagar Relatório](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/202) | 2 |
 |[US38 - Editar Nota](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/203) | 3 |
 |[US22 - Gerar Relatório por Categoria](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/204) | 5 |
-|[US36 - Associar Notas à Empresa](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/205) | 13 |
 |[US27 - Gerar Gráfico de Gastos Totais](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/206) | 8 |
-|[Criar Sistema de _Migrations_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/214) | 8 |
-|[Aumentar a Cobertura de Testes no _Front-End_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/206) | 13 |
+|[US36 - Associar Notas à Empresa](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/205) | 13 |
+|[Criar _Script_ de Popular Banco](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/210) | 1 |
 |[Atualizar Guia do _Deploy_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/208) | 3 |
 |[Automatizar Sistema de Troca de Ambientes](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/209) | 5 |
-|[Criar _Script_ de Popular Banco](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/210) | 1 |
+|[Criar Sistema de _Migrations_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/214) | 8 |
+|[Aumentar a Cobertura de Testes no _Front-End_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/206) | 13 |
 |[Realizar Testes de Usabilidade](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/211)| 13 |
 
 

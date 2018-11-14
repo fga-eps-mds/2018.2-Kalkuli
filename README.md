@@ -7,7 +7,7 @@
 <a href="#"><img src="https://img.shields.io/badge/MDS--EPS-2018.2-5DA8C1.svg?style=for-the-badge"></a>
 <a href="https://opensource.org/licenses/GPL-3.0"><img src="https://img.shields.io/badge/license-GPL-0F8891.svg?style=for-the-badge"/></a> <br>
 <a href="https://kalkuli-front-end.herokuapp.com/"><img src="https://img.shields.io/badge/heroku-production-353535.svg?style=for-the-badge&logo=heroku"/></a>
-<a href="https://kalkuli-front-end-hom.herokuapp.com/)"><img src="https://img.shields.io/badge/heroku-homolog-353535.svg?style=for-the-badge&logo=heroku"/></a>
+<a href="https://kalkuli-front-end-hom.herokuapp.com/"><img src="https://img.shields.io/badge/heroku-homolog-353535.svg?style=for-the-badge&logo=heroku"/></a>
 </p>
 
 
