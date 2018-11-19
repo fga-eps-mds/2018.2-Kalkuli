@@ -49,14 +49,20 @@ Como dívidas vindas da <i>sprint</i> anterior, as <i>issues</i> de <a href="htt
 
 |     _Issue_      |    Pontos   |
 |:--------------:|:---------:|
+|[US38 - Editar Nota](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/203) | 3 |
 |[US22 - Gerar Relatório por Categoria](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/204) | 5 |
+|[Automatizar Sistema de Troca de Ambientes](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/209) | 5 |
+|[US27 - Gerar Gráfico de Gastos Totais](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/206) | 8 |
+|[Criar Sistema de Migrations](https://app.zenhub.com/workspace/o/fga-eps-mds/2018.2-kalkuli/issues/214)| 8 |
+|[US36 - Associar Notas à Empresa](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/205) | 13 |
+|[Aumentar a Cobertura de Testes no _Front-End_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/206) | 13 |
 |[Realizar Testes de Usabilidade](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/211)| 13 |
 
-<b>Total: 18</b> 
+<b>Total: 68</b> 
 
 ***
 
-<div style="text-align: center"> Total de pontos da <i>sprint</i>: 45 </div> <br>
+<div style="text-align: center"> Total de pontos da <i>sprint</i>: 95 </div> <br>
 
 > [_Sprint Backlog_](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/14)  
 
