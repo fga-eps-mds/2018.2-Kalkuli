@@ -11,9 +11,6 @@
       "comunicacao": {
         "title": "Gerenciamento de Comunicações"
       },
-      "contributing": {
-        "title": "Guia de Contribuição"
-      },
       "defpronto": {
         "title": "Definição de Pronto"
       },
@@ -53,6 +50,9 @@
       "roadmap": {
         "title": "Roadmap do Produto"
       },
+      "roadmapeps": {
+        "title": "Roadmaps de Papeis"
+      },
       "rsprint0": {
         "title": "Resultados Sprint 0"
       },
@@ -62,8 +62,26 @@
       "psprint1": {
         "title": "Planejamento Sprint 1"
       },
+      "rsprint10": {
+        "title": "Resultados Sprint 10"
+      },
       "psprint10": {
         "title": "Planejamento Sprint 10"
+      },
+      "rsprint11": {
+        "title": "Resultados Sprint 11"
+      },
+      "psprint11": {
+        "title": "Planejamento Sprint 11"
+      },
+      "rsprint12": {
+        "title": "Resultados Sprint 12"
+      },
+      "psprint12": {
+        "title": "Planejamento Sprint 12"
+      },
+      "psprint13": {
+        "title": "Planejamento Sprint 13"
       },
       "rsprint2": {
         "title": "Resultados Sprint 2"
@@ -146,7 +164,10 @@
       "Sprint 7": "Sprint 7",
       "Sprint 8": "Sprint 8",
       "Sprint 9": "Sprint 9",
-      "Sprint 10": "Sprint 10"
+      "Sprint 10": "Sprint 10",
+      "Sprint 11": "Sprint 11",
+      "Sprint 12": "Sprint 12",
+      "Sprint 13": "Sprint 13"
     }
   },
   "pages-strings": {
