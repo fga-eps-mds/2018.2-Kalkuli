@@ -18,7 +18,8 @@ title: Documento de Arquitetura
 | 24/09/2018 |   1.2 | Tópicos: 3, 4.1 e 4.2| Lucas Dutra |
 | 25/09/2018 |   1.3 | Tópicos: 1.2, 2, 4.2, 4.5 e 5 | Ésio Gustavo |
 | 25/09/2018 |   2.0 | Tópicos: 2 | Ésio Gustavo, Lucas Dutra, Youssef Muhamad |
-| 30/09/2018 |   2.1 | Tópicos: 2.2, 2.3 | Youssef Muhamad  
+| 30/09/2018 |   2.1 | Tópicos: 2.2, 2.3 | Youssef Muhamad
+| 22/11/2018 |   2.2 | Tópicos: 2.1, 4.3 | Lucas Dutra
 
 ## 1. Introdução
 
