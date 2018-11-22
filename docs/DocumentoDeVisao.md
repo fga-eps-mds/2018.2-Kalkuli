@@ -126,7 +126,6 @@ Disponível em: <a href='https://goo.gl/BNAJtT'><https://goo.gl/BNAJtT></a>. Ace
 
 <table>
   <tr><th>Representantes</th><td>Esio Gustavo Pereira Freitas<br>
-  Jacó Apolinário da Silva<br>
   Lucas Dutra Ferreira do Nascimento<br>
   Pedro Henrique Andrade Féo<br>
   Saleh Nazih Abdel Kader<br>

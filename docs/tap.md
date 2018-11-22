@@ -140,7 +140,6 @@ O projeto busca contemplar necessidades de empresas de grande e pequeno porte, e
 | Ésio Gustavo      | Desenvolvedor   |     esio.gustavo@gmail.com      |
 | Saleh Nazih       | Desenvolvedor   |    saleh.nazih.dev@gmail.com    |
 | Lucas Dutra       | Desenvolvedor   |       ldutra98@gmail.com        |
-| Jacó Apolinário   | Desenvolvedor   |    jacoapollinario@gmail.com    |
 | Pedro Féo         | Desenvolvedor   |        pheofo@gmail.com         |
 | Youssef Muhamad   | Desenvolvedor   | emaildeyoussefmuhamad@gmail.com |
 
