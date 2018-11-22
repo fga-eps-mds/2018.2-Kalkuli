@@ -115,7 +115,7 @@ Este estágio é marcado por sistemas de configurações e provisão atomáticos
 ### Práticas Definidoras
 - [X] **Automatize as configurações do sistema.** Atualmente os serviços possuem um sistema de configuração que dependendo do ambiente que se encontra (desenvolvimento ou produção). Dessa forma os serviços ajustam atributos do sistema automaticamente.
 
-- [ ] **Provisionamento Automatizado.** Ainda não há nenhum tipo de provisionamento automático. Uma opção pode ser a população automática dos bancos no deploy. 
+- [X] **Provisionamento Automatizado.** Ainda não há nenhum tipo de provisionamento automático. Uma opção pode ser a população automática dos bancos no deploy. 
 
 ### Práticas Associadas
 - [ ] **Configurações da aplicação possuem controle de versionamento.** Não, atualmente o projeto não possui configurações versionaveis ou auditaveis.
@@ -147,6 +147,8 @@ Recursos self-service são facilitadores que permitem as pessoas de sua organiza
 
 <br>
 ## Maturidade Kalkuli
+
+#### Análise 01/11
 <p align="justify">
 Atualmente o projeto se encontra no <b>3º Estágio</b> de maturidade DevOps. Se avaliarmos as práticas associadas, nem todas são cumpridas até este nível de maturidade, porém todas as práticas definidoras são. 
 </p>
@@ -173,6 +175,10 @@ Outras atividades que poderiam ser realizadas são:
 * Aplicar Engenharia do Caos, utilizando ferramentas que gerem falhas no sistemas.
 
 * Criar mecanismos para mitigar, de forma automatizada, falhas apresentadas por tais ferramentas.
+
+
+#### Análise 21/11
+Após a execução das atividades previstas na análise anterior: criação do ambiente de homologação (Issues [#186](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/186), [#187](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/187), [#188](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/188), [#189](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/189), [#190](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/190), [#191](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/191), [#196](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/196)) e dos scripts de provisão para o banco (Issues [#210](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/210)), o projeto alcançou o **4º Estágio de Maturidade DevOps**. Assim o projeto alcançou a maturidade proposta para o escopo da disciplina.
 
 <br><br>
 ## Referências
