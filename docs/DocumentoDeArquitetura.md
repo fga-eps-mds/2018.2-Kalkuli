@@ -84,7 +84,7 @@ title: Documento de Arquitetura
 
 * **Comunicação entre os serviços**        
 
-<p style="text-align:justify">&emsp;&emsp;Comunicação entre os serviços será feita por meio de uma <i>API Gateway</i>, **o** qual será responsável por fazer o intermédio entre os microsserviços por meio de métodos do protocolo HTTP. </p>
+<p style="text-align:justify">&emsp;&emsp;Comunicação entre os serviços será feita por meio de uma <i>API Gateway</i>, a qual será responsável por fazer o intermédio entre os microsserviços por meio de métodos do protocolo HTTP. </p>
 
 
 ### 2.1 Representação arquitetural
