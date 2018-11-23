@@ -20,6 +20,7 @@ title: Documento de Arquitetura
 | 25/09/2018 |   2.0 | Tópicos: 2 | Ésio Gustavo, Lucas Dutra, Youssef Muhamad |
 | 30/09/2018 |   2.1 | Tópicos: 2.2, 2.3 | Youssef Muhamad
 | 22/11/2018 |   2.2 | Tópicos: 2.1, 4.3 | Lucas Dutra
+| 22/11/2018 |   2.3 | Tópico: 2 - Serverless & Zappa | Felipe Hargreaves
 
 ## 1. Introdução
 
@@ -50,6 +51,8 @@ title: Documento de Arquitetura
 
 >SASS_REFERENCE (frames). Sass. Disponível em: <a href="https://goo.gl/E8cs2o"><https://goo.gl/E8cs2o></a>. Acesso em: 26 de setembro de 2018 
 
+>Zappa - Serverless Python. Disponível em: <a href="https://goo.gl/WoifXn"><https://goo.gl/WoifXn></a>. Acesso em: 23 de novembro de 2018 
+
 ## 2. Representação da Arquitetura
 * **React.js**      
 
@@ -66,6 +69,8 @@ title: Documento de Arquitetura
 * **Flask**        
 
 <p style="text-align:justify">&emsp;&emsp;<i>Flask</i> é um micro-<i>framework</i> de <i>python</i>, possui toda a flexibilidade da linguagem <i>python</i> e provê um modelo simples para desenvolvimento <i>web</i>. É baseado em 3 pilares: <i>Werkzeug</i>, uma biblioteca para desenvolvimento de <i>apps</i> WSGI, Jinja2, um <i>template engine</i> escrito em <i>Python</i> e <i>good intentions</i>, que são alta qualidade na legibilidade, liberdade de estruturar o <i>app</i> na maneira que desejar, entre outros aspectos.</p>
+
+
 
 * **Microsserviços**   
 
@@ -87,6 +92,13 @@ title: Documento de Arquitetura
 
 <p style="text-align:justify">&emsp;&emsp;Comunicação entre os serviços será feita por meio de uma <i>API Gateway</i>, a qual será responsável por fazer o intermédio entre os microsserviços por meio de métodos do protocolo HTTP. </p>
 
+* **Serverless**
+<p style="text-align:justify">&emsp;&emsp;A computação Serverless (sem servidor) é um modelo de execução de código em nuvem sem infraestrutura permanente. Em contraste a um servidor tradicional, que se mantém no ar 24/7, um serviço <i>serverless</i> funciona por demanda, criando os recursos necessários e os gerenciando apenas ao receber uma requisição ou responder a outro tipo de evento. Toda a escalabilidade é gerenciada automaticamente e de forma horizontal, reduzindo a ocorrência de <i>timeouts</i>. Em adição, o custo de manutenção é reduzido drasticamente, não sendo necessário manter um servidor ativo continuamente. Alguns microsserviços do Kalkuli utilizam do modelo Serverless, através da plataforma Lambda da Amazon Web Services (AWS).
+</p>
+
+* **Zappa**
+<p style="text-align:justify">&emsp;&emsp;<i>Zappa</i> é uma ferramenta para o desenvolvimento e deploy <i>serverless</i> de aplicações Web em Python. Funciona como uma camada intermediária entre um projeto Web tradicional e a infraestrutura da AWS Lambda. O Zappa é utilizado em dois microsserviços do sistema, o Gateway e o Interpretation, e permite uma solução eficiente, escalável e de baixo custo para a publicação dos mesmos. Essa solução reduz consideravelmente o risco de ponto único de falha introduzido pelo API Gateway, pois elimina a possibilidade de queda de seu servidor, que implicaria na incapacidade de acesso ao restante do sistema.
+</p>
 
 ### 2.1 Representação arquitetural
 
