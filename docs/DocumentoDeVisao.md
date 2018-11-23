@@ -20,6 +20,7 @@ title: Documento de Visão
 | 02/09/2018 |   0.6.1  | Tópicos: 3.2, 3.5.1, 3.5.2, 3.5.3| Lucas Dutra |
 | 03/09/2018 |   1.0  | Tópicos: 1.2, 1.3, 1.4, 1.5, 2.1, 2.2, 2.3, 3.7 | Ésio Gustavo |
 | 03/09/2018 |   2.0  | Tópicos: 3.7.1, 3.7.2, 3.7.3, 3.7.4, 1.1, 1.2, 1.3, 2.3, 4.1| Ésio Gustavo |
+| 23/11/2018 |   3.0  | Tópicos: 1.2, 1.3, 2.2, 3.1, 5.4, 5.5, 5.6| Lucas Dutra |
 
 ## 1. Introdução
 
@@ -32,11 +33,11 @@ title: Documento de Visão
 
 <p style="text-align:justify">&emsp;&emsp;Além de ser importante para regularização da empresa, as notas fiscais são ricas de dados que fornecem informações fundamentais para tomadas de decisões gerenciais mais inteligentes.</p>
 
-<p style="text-align:justify">&emsp;&emsp;E como forma de resolver esses impasses, o Kalkuli tem como escopo as funcionalidades de não somente armazenar de maneira eficiente as notas fiscais, como também interpreta as informações contidas nelas para microempresários.</p>
+<p style="text-align:justify">&emsp;&emsp;E como forma de resolver esses impasses, o Kalkuli tem como escopo as funcionalidades de não somente interpretar as informações contidas em notas fiscais, como armazená-las de uma maneira mais eficiente e gerar relatórios por período a partir das NFs inseridas, para o público de microempresários.</p>
 
 ### 1.3 Não Escopo
 
-<p style="text-align:justify">&emsp;&emsp;O Kalkuli não tem a finalidade de atender as necessidades empresas de grande/médio porte, empresas com renda operacional bruta anual maior que R$ 4,8 milhões, e pessoas físicas. Além disso, a aplicação não atende notas fiscais escritas à mão. </p>
+<p style="text-align:justify">&emsp;&emsp;O Kalkuli não tem a finalidade de atender as necessidades empresas de grande/médio porte, empresas com renda operacional bruta anual maior que R$ 4,8 milhões, e pessoas físicas. Além disso, a aplicação não atende notas fiscais escritas à mão e também não armazena, em seu banco de dados, as notas inseridas pelo usuário, somente salva as informações extraídas da mesma. </p>
 
 ### 1.4 Definições, Acrônimos e Abreviações
 
@@ -70,10 +71,10 @@ Disponível em: <a href='https://goo.gl/BNAJtT'><https://goo.gl/BNAJtT></a>. Ace
 ### 2.2 Descrição do Problema
 
 <table>
-  <tr><th> O problema de </th><td>Armazenar de forma eficiente notas fiscais e interpretar os dados contido nelas</td></tr>
+  <tr><th> O problema de </th><td>Interpretar e armazenar de forma eficiente os dados contidos em notas fiscais</td></tr>
   <tr><th> afeta </th><td>Empresas</td></tr>
-  <tr><th> cujo impacto é </th><td>Desregularização com  a Receita Federal, multas, pagar imposto inadequado e a possibilidade de tomar decisões gerenciais menos inteligentes</td></tr>
-  <tr><th> uma boa solução seria </th><td>A automação do armazenamento das NE e interpretação dos dados delas</td></tr>
+  <tr><th> cujo impacto é </th><td>Desregularização com  a Receita Federal, multas, pagar imposto inadequado e, principalmente, a possibilidade de tomar decisões gerenciais menos inteligentes</td></tr>
+  <tr><th> uma boa solução seria </th><td>A automação do armazenamento e interpretação dos dados das NFs</td></tr>
 </table>
 
 
@@ -82,10 +83,10 @@ Disponível em: <a href='https://goo.gl/BNAJtT'><https://goo.gl/BNAJtT></a>. Ace
 <table>
   <tr><th>Para</th><td>Pequenas e micro empresas</td></tr>
   <tr><th>Que</th><td>Tem problemas de armazenar e interpretar os dados de notas fiscais</td></tr>
-  <tr><th>O Kalkuli</th><td>é uma aplicação de controle e armazenamento de NF</td></tr>
-  <tr><th>Que</th><td>auxilia a empresa a interpretar os dados das notas fiscais que ela adquire e as armazenam de maneira eficientes</td></tr>
+  <tr><th>O Kalkuli</th><td>É uma aplicação de controle e armazenamento de dados provenientes de NF</td></tr>
+  <tr><th>Que</th><td>Auxilia a empresa a interpretar os dados das notas fiscais que ela adquire e os armazenam de maneira eficientes</td></tr>
   <tr><th>Diferente de</th><td>Novoto e Espresso que somente armazena os dados</td></tr>
-  <tr><th>Nosso produto</th><td> os interpreta também</td></tr>
+  <tr><th>Nosso produto</th><td>Os interpreta também</td></tr>
 </table>
 
 ## 3. Descrição dos Envolvidos e dos Usuários
@@ -94,7 +95,7 @@ Disponível em: <a href='https://goo.gl/BNAJtT'><https://goo.gl/BNAJtT></a>. Ace
 
 | Nome | Descrição | Responsabilidades |
 |:---:|:---:|:---:|
-| Equipe de desenvolvimento | Estudantes da disciplina de Métodos de Desenvolvimento de Software na Universidade de Brasília - FGA | Contribuir ativamente com o desenvolvimento e implementação do software citado nesse documento |
+| Equipe de desenvolvimento | Estudantes da disciplina de Métodos de Desenvolvimento de Software na Universidade de Brasília - FGA | Contribuir ativamente com o desenvolvimento e implementação do software citado neste documento |
 | Equipe de gestão do projeto | Estudantes da disciplina de Engenharia de Produto de Software na Universidade de Brasília - FGA | Gerenciar tempo, escopo, riscos, tomadas de decisões para garantir a viabilidade do projeto e garantir a aplicação dos princípios ágeis |
 | Equipe de avaliação e suporte | Professora e Coaches das disciplinas de EPS e MDS | Auxiliar a equipe ao longo do desenvolvimento do projeto |
 | Empresas que emitem notas fiscais | Empresas que prestam o serviço/produto | Emitem as notas fiscais para os clientes |
@@ -220,4 +221,11 @@ Disponível em: <a href='https://goo.gl/BNAJtT'><https://goo.gl/BNAJtT></a>. Ace
 <p style="text-align:justify">&emsp;&emsp;Dentro do sistema, haverá um espaço para submissão de Notas Fiscais, onde serão extraídas as suas informações para serem tratadas.</p>
 
 ### 5.4 Visualização de Dados
-<p style="text-align:justify">&emsp;&emsp;O sistema fornecerá uma série de gráficos, onde dará liberdade interpretativa de informações ao usuário.</p>
+<p style="text-align:justify">&emsp;&emsp;O sistema fornecerá
+gráficos gerados a partir das informações extraídas da nota, onde dará liberdade interpretativa de informações ao usuário.</p>
+
+### 5.5 Classificação de Gastos
+<p style="text-align:justify">&emsp;&emsp;O usuário, ao inserir uma nota ou posteriormente, poderá classificar aquela nota com uma categoria e nome de acordo com sua necessidade.</p>
+
+### 5.6 Relatórios de Gastos
+<p style="text-align:justify">&emsp;&emsp;O sistema fornecerá, baseado no período de escolha do usuário, relatórios, que irão conter a soma total de gastos provenientes das notas fiscais inseridas.</p>
