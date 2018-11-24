@@ -96,16 +96,21 @@ A retrospectiva refletiu o problema da sprint: as dificuldades com a integraçã
 ## Avaliação do _Scrum Master_  
 
 <p align="justify"> 
+<i>Sprint</i> com níveis altíssimos de dívida e também com alta pontuação planejada visando entrega de qualidade ao final do projeto.
 </p>
 
 <p align="justify"> 
+A equipe assumiu altos riscos planejando uma <i>sprint</i> com pontuação mais alta que o usual no fim do projeto. Isso ocorre porque o fluxo da aplicação ainda não era satisfatório para os usuários, e também porque ainda era esperado uma das <i>features</i> chave do projeto: a <a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/backlog#feature-06-gerac%C3%A3o-de-graficos" title="Feature 06 - Geração de Gráficos">geração de gráficos de gastos</a>.
 </p>
 
 <p align="justify"> 
+O nível de dívidas foi alto porque a equipe se deparou com problemas no momento de juntar as histórias de usuário, já que existem dois ambientes com rotas diferentes, e a troca manual de todas as rotas do sistema para testes é trabalhosa, o que impediu a revisão em tempo hábil dentro da <i>sprint</i> corrente.
 </p>
 
 <p align="justify"> 
+A qualidade de código no <i>front-end</i> ainda poderia ser melhorada, e para tanto, receberia mais uma <i>issue</i> para que a equipe de desenvolvimento pudesse polir o código reduzindo complexidade, duplicidade, e riscos de <i>bugs</i>, além de aumentar a cobertura de testes.</p>
+
+<p align="justify"> 
+O produto final finalmente possui forma, resultado do empenho das equipes de EPS e MDS que, mesmo no final do semestre, ainda mantêm bom ritmo de entrega, e níveis ótimos de adesão às práticas ágeis.
 </p>  
 
-<p align="justify"> 
-</p>

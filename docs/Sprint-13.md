@@ -21,7 +21,7 @@ Como dívidas vindas da <i>sprint</i> anterior, as <i>issues</i> de <a href="htt
 
 ## Pareamentos   
  
-![Pareamento S13](assets/quadro-de-pareamento-s13.png "Pareamentos Sprint 13")
+![Pareamento S13](https://user-images.githubusercontent.com/15739610/48971106-ae4ed880-effc-11e8-81d1-2a5c9edb306c.png "Pareamentos Sprint 13")
 
 - Lucas Dutra e Felipe |  [Atualizar Documento de Arquitetura](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/219)  
 - Lucas Dutra e Esio |  [US39 - Fazer _Logout_ da Aplicação](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/220)   
