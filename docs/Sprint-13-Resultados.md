@@ -17,7 +17,7 @@ title: Resultados Sprint 13
 |[US39 - Fazer _Logout_ da Aplicação](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/220) | Concluída |  2 |
 |[Ajustar Responsividade](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/221) |Não Concluída | 8 |
 |[Atualizar Modelo de Maturidade](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/222) | Concluída |  1 |
-|[Aumentar a Cobertura de Testes no _Front-End_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/223) |Não Concluída | 8 |
+|[Aumentar a Cobertura de Testes no _Front-End_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/223) | Concluída | 8 |
 |[Corrigir o Serviço de Relatórios](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/224) | Concluída | 3 |
 |[Corrigir o Serviço de Exportação](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/225) | Concluída | 3 |
 |[US38 - Editar Nota](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/203) | Concluída | 3 |
@@ -26,23 +26,26 @@ title: Resultados Sprint 13
 |[US27 - Gerar Gráfico de Gastos Totais](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/206) | Concluída | 8 |
 |[Criar Sistema de Migrations](https://app.zenhub.com/workspace/o/fga-eps-mds/2018.2-kalkuli/issues/214)| Concluída | 8 |
 |[US36 - Associar Notas à Empresa](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/205) | Concluída | 13 |
+|[Aumentar a Cobertura de Testes no _Front-End_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/206) |Concluída | 13 |
 |[Realizar Testes de Usabilidade](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/211)|Não Concluída | 13 |
 
-Pontos Planejados Concluídos: xx    
-Pontos de Dívida Concluídos: x   
-Pontos Não Agregados: x    
+Pontos Planejados Concluídos: 19    
+Pontos de Dívida Concluídos: 55   
+Pontos Não Agregados: 21    
 
 > [_Milestone Sprint_ 13](https://github.com/fga-eps-mds/2018.2-Kalkuli/milestone/14?closed=1)
 
 ## _Burndown_    
 
 <p align="justify">
+O <i>burndown</i> apresentou uma queda brusca no começo da <i>sprint</i> porque as <i>issues</i> <a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/rsprint12#burndown" title="Burndown, Sprint 12">vindas da sprint anterior</a> precisavam apenas de integração umas com as outras, e feito isso, puderam ser dadas como concluídas.        
 </p> 
 
 ![S13](assets/burndown-S13.png "Burndown Sprint 13")
 
 ## _Velocity_     
 <p align="justify">
+O <i>velocity</i> final da equipe fixa-se em 43 pontos.
 </p> 
 
 ![S13](assets/velocity-S13.png "Velocity Sprint 13")

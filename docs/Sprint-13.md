@@ -40,7 +40,7 @@ Como dívidas vindas da <i>sprint</i> anterior, as <i>issues</i> de <a href="htt
 |[Corrigir o Serviço de Relatórios](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/224) | 3 |
 |[Corrigir o Serviço de Exportação](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/225) | 3 |
 |[Ajustar Responsividade](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/221) | 8 |
-|[Aumentar a Cobertura de Testes no _Front-End_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/223) | 8 |
+|[Subir a Cobertura de Testes no _Front-End_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/223) | 8 |
 
 
 <b>Total de pontos planejados: 27</b>  
@@ -55,6 +55,7 @@ Como dívidas vindas da <i>sprint</i> anterior, as <i>issues</i> de <a href="htt
 |[US27 - Gerar Gráfico de Gastos Totais](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/206) | 8 |
 |[Criar Sistema de Migrations](https://app.zenhub.com/workspace/o/fga-eps-mds/2018.2-kalkuli/issues/214)| 8 |
 |[US36 - Associar Notas à Empresa](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/205) | 13 |
+|[Aumentar a Cobertura de Testes no _Front-End_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/206) | 13 |
 |[Realizar Testes de Usabilidade](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/211)| 13 |
 
 <b>Total: 68</b> 
