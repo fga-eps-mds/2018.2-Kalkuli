@@ -18,6 +18,7 @@
   },
   "projeto": {
     "Gerenciamento do Projeto": [
+      "postmortem",
       "overview",
       "roadmapeps",
       "comunicacao",
@@ -25,6 +26,7 @@
       "defpronto",
       "deploy",
       "medicao",
+      "evm",
       "modeloMaturidadeDevops"
     ],
     "Arquitetura": [
