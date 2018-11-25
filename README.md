@@ -26,7 +26,6 @@ Dentro de cada repositório é possível encontrar instruções de configuraçã
 <ul>
     <li><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Extraction" title="Organização do Projeto Kalkuli">Extração de texto</a> - Serviço que extrai o texto das notas fiscais escaneadas;</li>
     <li><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Interpretation" title="Organização do Projeto Kalkuli">Interpretação</a> - Serviço que trata os dados extraídos das notas;</li>
-    <li><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Tags" title="Organização do Projeto Kalkuli">Tags</a> - Serviço que organiza as categorias atribuídas às notas escaneadas;</li>
     <li><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Export" title="Organização do Projeto Kalkuli">Exportação</a> - Serviço que exporta relatórios para o usuário;</li>
     <li><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Reports" title="Organização do Projeto Kalkuli">Relatórios</a> - Serviço que gera relatórios selecionados pelo usuário;</li>
     <li><a href="https://github.com/Kalkuli/2018.2-Kalkuli_Users" title="Organização do Projeto Kalkuli">Usuário</a> - Serviço que gerencia usuários da aplicação;</li>
