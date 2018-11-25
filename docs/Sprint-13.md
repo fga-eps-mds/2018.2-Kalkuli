@@ -15,9 +15,9 @@ Como dívidas vindas da <i>sprint</i> anterior, as <i>issues</i> de <a href="htt
 
 ## Tamanho da _Sprint_      
 **Início:** 11/11/2018   
-**Término:** 24/11/2018   
+**Término:** 25/11/2018   
 
-**Duração:** Sete dias   
+**Duração:** Oito dias   
 
 ## Pareamentos   
  
@@ -55,7 +55,6 @@ Como dívidas vindas da <i>sprint</i> anterior, as <i>issues</i> de <a href="htt
 |[US27 - Gerar Gráfico de Gastos Totais](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/206) | 8 |
 |[Criar Sistema de Migrations](https://app.zenhub.com/workspace/o/fga-eps-mds/2018.2-kalkuli/issues/214)| 8 |
 |[US36 - Associar Notas à Empresa](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/205) | 13 |
-|[Aumentar a Cobertura de Testes no _Front-End_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/206) | 13 |
 |[Realizar Testes de Usabilidade](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/211)| 13 |
 
 <b>Total: 68</b> 

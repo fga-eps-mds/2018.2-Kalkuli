@@ -5,6 +5,8 @@ title: Post Mortem
 
 ***    
 
+## Introdução
+
 <p align="justify"> 
 Durante a execução do projeto, a equipe lidou com diversos desafios que poderiam impactar negativamente sua conclusão satisfatória, visto que todos os integrantes da equipe, tanto EPS como MDS eram inexperientes nos papeis que assumiram, tendo como compromisso conduzir a construção de um <i>software</i> que teve o escopo definido pela própria equipe.
 </p>
