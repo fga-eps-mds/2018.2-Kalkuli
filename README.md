@@ -1,13 +1,16 @@
 
-<p align="center"><a href="https://github.com/Kalkuli" target="_blank"><img width="200"src="https://user-images.githubusercontent.com/26073710/46049201-7eba4780-c103-11e8-9c79-37ff934af6ad.png"></a></p>
+<p align="center"><a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/" target="_blank"><img width="240"src="https://user-images.githubusercontent.com/26073710/46049201-7eba4780-c103-11e8-9c79-37ff934af6ad.png"></a></p>
 
 <br>
 
+
 <p align="center">
-<a href="#"><img src="https://img.shields.io/badge/MDS--EPS-2018.2-5DA8C1.svg?style=for-the-badge"></a>
-<a href="https://opensource.org/licenses/GPL-3.0"><img src="https://img.shields.io/badge/license-GPL-0F8891.svg?style=for-the-badge"/></a> <br>
-<a href="https://kalkuli-front-end.herokuapp.com/"><img src="https://img.shields.io/badge/heroku-production-353535.svg?style=for-the-badge&logo=heroku"/></a>
-<a href="https://kalkuli-front-end-hom.herokuapp.com/"><img src="https://img.shields.io/badge/heroku-homolog-353535.svg?style=for-the-badge&logo=heroku"/></a>
+<a href="https://github.com/fga-eps-mds/2018.2-Kalkuli/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/fga-eps-mds/2018.2-Kalkuli.svg?style=for-the-badge&colorA=gray&logo=github&colorB=0F8891&logoColor=F7F7F7&logoWidth=15"/></a>
+<br>    
+<a href="#"><img src="https://img.shields.io/badge/MDS--EPS-2018.2-0F8891.svg?style=for-the-badge"></a>
+<a href="https://opensource.org/licenses/GPL-3.0"><img src="https://img.shields.io/badge/license-GPL--3.0-0F8891.svg?style=for-the-badge"/></a> <br>
+<a href="https://kalkuli-front-end.herokuapp.com/"><img src="https://img.shields.io/badge/heroku-production-353535.svg?style=for-the-badge&logo=heroku&colorA=gray&logoColor=F7F7F7&logoWidth=25"/></a>
+<a href="https://kalkuli-front-end-hom.herokuapp.com/"><img src="https://img.shields.io/badge/heroku-homolog-353535.svg?style=for-the-badge&logo=heroku&colorA=gray&logoColor=F7F7F7&logoWidth=25"/></a>
 </p>
 
 
@@ -51,5 +54,5 @@ A camada de <a href="https://github.com/Kalkuli/2018.2-Kalkuli_Front-End" title=
 
 <p align="center"><b>Grupo 1</b></p>
 <p align="center">Engenharia de Produto de <i>Software</i> (EPS) / Métodos de Desenvolvimento de <i>Software</i> (MDS)<br /><br />
-<a href="https://fga.unb.br" target="_blank"><img width="200"src="https://4.bp.blogspot.com/-0aa6fAFnSnA/VzICtBQgciI/AAAAAAAARn4/SxVsQPFNeE0fxkCPVgMWbhd5qIEAYCMbwCLcB/s1600/unb-gama.png"></a>
+<a href="https://fga.unb.br" target="_blank"><img width="230"src="https://4.bp.blogspot.com/-0aa6fAFnSnA/VzICtBQgciI/AAAAAAAARn4/SxVsQPFNeE0fxkCPVgMWbhd5qIEAYCMbwCLcB/s1600/unb-gama.png"></a>
 </p>

@@ -15,9 +15,9 @@ Como dívidas vindas da <i>sprint</i> anterior, as <i>issues</i> de <a href="htt
 
 ## Tamanho da _Sprint_      
 **Início:** 11/11/2018   
-**Término:** 24/11/2018   
+**Término:** 25/11/2018   
 
-**Duração:** Sete dias   
+**Duração:** Oito dias   
 
 ## Pareamentos   
  
@@ -40,7 +40,7 @@ Como dívidas vindas da <i>sprint</i> anterior, as <i>issues</i> de <a href="htt
 |[Corrigir o Serviço de Relatórios](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/224) | 3 |
 |[Corrigir o Serviço de Exportação](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/225) | 3 |
 |[Ajustar Responsividade](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/221) | 8 |
-|[Aumentar a Cobertura de Testes no _Front-End_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/223) | 8 |
+|[Subir a Cobertura de Testes no _Front-End_](https://github.com/fga-eps-mds/2018.2-Kalkuli/issues/223) | 8 |
 
 
 <b>Total de pontos planejados: 27</b>  
