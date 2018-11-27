@@ -26,13 +26,13 @@ Os testes foram conduzidos com uma preparação prévia, no [ambiente de homolog
 ## Usuários
 
 ### Idade
-![Idade dos Usuários](assets/idade.png "Idade dos Usuários")
+![Idade dos Usuários](assets/idade.PNG "Idade dos Usuários")
 
 ### Gênero
-![Gênero dos Usuários](assets/genero.png "Gênero dos Usuários")
+![Gênero dos Usuários](assets/genero.PNG "Gênero dos Usuários")
 
 ### Uso de Computador
-![Uso de Computador](assets/uso-computador.png "Uso de Computador")
+![Uso de Computador](assets/uso-computador.PNG "Uso de Computador")
 
 ## Cenário
 Os cenários foram escritos de forma que a condução dos testes não sugerisse explicitamente o que os usuários têm que fazer. Os usuários receberam uma breve explicação do que é o sistema e o que pode ser feito com ele antes dos testes. Foi solicitado aos usuários que dissessem suas ações em voz alta para que o condutor do teste pudesse saber o que eles estão pensando ao executar as tarefas.

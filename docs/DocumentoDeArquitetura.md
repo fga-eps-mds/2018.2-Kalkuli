@@ -79,7 +79,6 @@ title: Documento de Arquitetura
 <ul>
   <li><b>Extração de texto</b>, bloco responsável somente pela extração do texto proveniente das notas fiscais escaneadas;</li> 
   <li><b>Interpretação</b>, responsável pelo tratamento dos dados brutos que foram extraídos das notas; </li>
-  <li><b>Tags</b>, responsável por toda organização de etiquetas que o usuário vai atribuir a cada nota escaneada; </li>
   <li><b>Exportação</b>, responsável por exportar os relatórios e as notas escaneadas pelo usuário para a extensão desejada;</li>
   <li><b>Relatórios</b>, responsável por usar os dados provenientes das notas para gerar relatórios de gastos, entre outros; </li>
   <li><b>Usuário</b>, bloco responsável por toda interação do usuário, como login, registro; </li>
