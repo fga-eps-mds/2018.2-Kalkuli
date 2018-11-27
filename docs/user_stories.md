@@ -77,29 +77,6 @@ Este épico determina as histórias que formarão a funcionalidade de autentica�
     <th class="tg-ukcy">Pontos</th>
   </tr>
   <tr>
-    <td class="tg-uys7">US03</td>
-    <td class="tg-xldj">Eu, como administrador de empresa, desejo vincular um funcionário a minha empresa no sistema para que ele tenha acesso às notas fiscais dos gastos da minha empresa e registrar novas notas.</td>
-    <td class="tg-uys7">Média</td>
-    <td class="tg-uys7">5</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">US04</td>
-    <td class="tg-0pky">Eu, como administrador de empresa, desejo conceder a um usuário permissões de administrador para que ele possa gerenciar usuários.</td>
-    <td class="tg-c3ow">Média</td>
-    <td class="tg-c3ow">5</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">US05</td>
-    <td class="tg-0pky">Eu, como administrador do sistema, desejo listar os usuários vinculados à minha empresa para que eu possa gerenciar usuários.</td>
-    <td class="tg-c3ow">Média</td>
-    <td class="tg-c3ow">2</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">US06</td>
-    <td class="tg-0pky">Eu, como administrador de empresa, desejo excluir o vínculo de um funcionário para que ele não tenha mais acesso às informações da minha empresa.</td>
-    <td class="tg-c3ow">Baixa</td>
-    <td class="tg-c3ow">2</td>
-  </tr>
   <tr>
     <td class="tg-c3ow">US07</td>
     <td class="tg-0pky">Eu, como usuário do sistema, desejo alterar minha senha para manter a segurança dos meus dados.</td>
@@ -123,6 +100,12 @@ Este épico determina as histórias que formarão a funcionalidade de autentica�
     <td class="tg-xldj">Eu, como usuário do sistema, desejo ter acesso à pagina principal do sistema para que eu possa ter informações do site e me cadastrar ou realizar login.</td>
     <td class="tg-uys7">Muito alta</td>
     <td class="tg-uys7">5</td>
+  </tr>
+  <tr>
+    <td class="tg-uys7">US38</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo realizar logout para que eu possa encerrar minhas atividades no site.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">2</td>
   </tr>
 </table>
 
@@ -170,6 +153,12 @@ Este épico determina as histórias que formarão a funcionalidade de autentica�
     <td class="tg-uys7">2</td>
   </tr>
   <tr>
+    <td class="tg-uys7">US35</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo que as notas tenham descrição e título para que eu possa pesquisá-las posteriormente.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">8</td>
+  </tr>
+  <tr>
     <td class="tg-uys7">US13</td>
     <td class="tg-xldj">Eu, como usuário do sistema, desejo visualizar uma lista de todas as notas fiscais submetidas para ter acesso a todas as notas.</td>
     <td class="tg-uys7">Muito alta</td>
@@ -190,6 +179,12 @@ Este épico determina as histórias que formarão a funcionalidade de autentica�
   <tr>
     <td class="tg-uys7">US15</td>
     <td class="tg-xldj">Eu, como usuário do sistema, desejo filtrar notas para que eu possa encontrar notas de acordo com o critério definido.</td>
+    <td class="tg-uys7">Muito alta</td>
+    <td class="tg-uys7">8</td>
+  </tr>
+    <tr>
+    <td class="tg-uys7">US16</td>
+    <td class="tg-xldj">SPIKE: Eu, como desenvolvedor, desejo entender o padrão de notas fiscais para que eu aprenda como interpretar suas informações.</td>
     <td class="tg-uys7">Muito alta</td>
     <td class="tg-uys7">8</td>
   </tr>
@@ -245,6 +240,13 @@ Este épico determina as histórias que formarão a funcionalidade de autentica�
     <td class="tg-uys7">Muito alta</td>
     <td class="tg-uys7">13</td>
   </tr>
+  
+  <tr>
+    <td class="tg-uys7">US37</td>
+    <td class="tg-xldj">Eu, como usuário do sistema, desejo criar categorias para que eu possa ter categorias específicas do meu contexto. </td>
+    <td class="tg-uys7">Média</td>
+    <td class="tg-uys7">5</td>
+  </tr>
 </table>
 
 ## Épico 03 - Relatórios de Gastos
@@ -283,12 +285,6 @@ A partir das informações obtidas das notas fiscais, os dados precisam ser apre
     <td class="tg-xldj">Eu, como usuário do sistema, desejo que um relatório gerado contemple apenas o período que eu definir para que eu possa ter uma lista de todos os gastos apenas nas datas escolhidas.</td>
     <td class="tg-uys7">Muito alta</td>
     <td class="tg-uys7">13</td>
-  </tr>
-  <tr>
-    <td class="tg-uys7">US21</td>
-    <td class="tg-xldj">Eu, como usuário do sistema, desejo que o sistema gere relatórios periodicamente para que eu possa ter acesso a relatórios nas datas desejadas.</td>
-    <td class="tg-uys7">Muito baixa</td>
-    <td class="tg-uys7">5</td>
   </tr>
   <tr>
     <td class="tg-uys7">US22</td>
@@ -378,13 +374,7 @@ A partir das informações obtidas das notas fiscais, os dados precisam ser apre
     <td class="tg-uys7">Média</td>
     <td class="tg-uys7">5</td>
   </tr>
-  <tr>
-    <td class="tg-uys7">US30</td>
-    <td class="tg-xldj">Eu, como usuário do sistema, desejo enviar um relatório por e-mail para que eu possa manter colaboradores a par dos relatórios.</td>
-    <td class="tg-uys7">Muito baixa</td>
-    <td class="tg-uys7">3</td>
-  </tr>
 </table>
 
 ***
-O total de pontos estimados para o escopo até a Release 2 é de **231 pontos**.
+O total de pontos estimados para o escopo até a Release 2 é de **216 pontos**.
