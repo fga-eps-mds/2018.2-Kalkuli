@@ -45,7 +45,21 @@ A camada de <a href="https://github.com/Kalkuli/2018.2-Kalkuli_Front-End" title=
 
 ### [Produção](https://kalkuli-front-end.herokuapp.com/)   
 
-### [Homologação](https://kalkuli-front-end-hom.herokuapp.com/)  
+### [Homologação](https://kalkuli-front-end-hom.herokuapp.com/)    
+
+## Equipe
+
+| Nome              | Papel           | E-mail                          |
+|-------------------|-----------------|---------------------------------|
+| Mariana Pícolo    | Tech Lead     |     mariananpicolo@gmail.com    |
+| Clarissa Borges   | Product Manager |    clarissalimab08@gmail.com    |
+| Bernardo Henrique | DevOps          |    bernardohrl.unb@gmail.com    |
+| Felipe Hargreaves | Arquiteto       |      fhargreaves00@gmail.com    |
+| Ésio Gustavo      | Desenvolvedor   |     esio.gustavo@gmail.com      |
+| Saleh Nazih       | Desenvolvedor   |    saleh.nazih.dev@gmail.com    |
+| Lucas Dutra       | Desenvolvedor   |       ldutra98@gmail.com        |
+| Pedro Féo         | Desenvolvedor   |        pheofo@gmail.com         |
+| Youssef Muhamad   | Desenvolvedor   | emaildeyoussefmuhamad@gmail.com |
 
 ## Licença
 
